@@ -1,0 +1,301 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/salary-range/43760-50324>
+        a               gov:SalaryRange ;
+        rdfs:label      "£43760 - £50324" ;
+        gov:lowerBound  43760 ;
+        gov:upperBound  50324 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Adviser (Operational delivery) in Office for Fair Access reporting to post OF009 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/id/salary-range/61598-70838>
+        a               gov:SalaryRange ;
+        rdfs:label      "£61598 - £70838" ;
+        gov:lowerBound  61598 ;
+        gov:upperBound  70838 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/9.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/43760-50324> ;
+        skos:prefLabel     "9.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Specialist Adviser (Operational delivery) in Office for Fair Access reporting to post OF009 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/specialist-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/id/salary-range/23755-27318>
+        a               gov:SalaryRange ;
+        rdfs:label      "£23755 - £27318" ;
+        gov:lowerBound  23755 ;
+        gov:upperBound  27318 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:director@offa.org.uk> ;
+        foaf:name      "Les Ebdon" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> ;
+        foaf:phone     "0117 931 7171" .
+
+<http://reference.data.gov.uk/id/salary-range/33757-38821>
+        a               gov:SalaryRange ;
+        rdfs:label      "£33757 - £38821" ;
+        gov:lowerBound  33757 ;
+        gov:upperBound  38821 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/8.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/33757-38821> ;
+        skos:prefLabel     "8.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/11.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/61598-70838> ;
+        skos:prefLabel     "11.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband> .
+
+<http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Office for Fair Access"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        skos:prefLabel  "Office for Fair Access"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-for-fair-access> .
+
+<http://reference.data.gov.uk/id/department/bis>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Department for Business Innovation and Skills"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Business Innovation and Skills"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Manager (Operational delivery) in Office for Fair Access reporting to post OF009 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.3 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/7.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/27507-31633> ;
+        skos:prefLabel     "7.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband> .
+
+<mailto:director@offa.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "director@offa.org.uk" .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/11.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/11.0> ;
+        skos:prefLabel     "11.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Assistant Director (Policy) in Office for Fair Access reporting to post OF009 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Fair Access Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:salaryCostOfReports  "448863"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/6.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/23755-27318> ;
+        skos:prefLabel     "6.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/9.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/9.0> ;
+        skos:prefLabel     "9.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Les Ebdon as Director of Fair Access" ;
+        gov:fullTimeEquivalent  0.6 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/8.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/8.0> ;
+        skos:prefLabel     "8.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade> .
+
+<http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Director"@en ;
+        rdfs:label       "Director of Fair Access"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> , <http://reference.data.gov.uk/id/public-body/office-for-fair-access> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/75000-79999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "OF009" ;
+        skos:prefLabel   "Director of Fair Access"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        void:vocabulary       org: , <http://reference.data.gov.uk/def/central-government> , rdfs: .
+
+<http://reference.data.gov.uk/id/public-body/office-for-fair-access>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Office for Fair Access"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/bis> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Office for Fair Access"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/id/salary-range/27507-31633>
+        a               gov:SalaryRange ;
+        rdfs:label      "£27507 - £31633" ;
+        gov:lowerBound  27507 ;
+        gov:upperBound  31633 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/7.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/7.0> ;
+        skos:prefLabel     "7.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Adviser (Operational delivery) in Office for Fair Access reporting to post OF009 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-for-fair-access/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-for-fair-access/post/OF009> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-for-fair-access/unit/office-for-fair-access> .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/11.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/9.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/8.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/7.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/6.0> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/11.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/9.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/8.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/7.0> , <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/6.0> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/salary-range/75000-79999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£75000-£79999"@en ;
+        gov:lowerBound  75000 ;
+        gov:upperBound  79999 .
+
+<http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade/6.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-for-fair-access/payband/6.0> ;
+        skos:prefLabel     "6.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-for-fair-access/grade> .

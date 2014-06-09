@@ -1,0 +1,1370 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for  Pharmaceuticals and Feed Additives, Biologicals, Licensing Administration, the Co-Ordination Team and Information Technology. Reports to the Chief Executive."@en ;
+        rdfs:label       "Director of Authorisations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> , <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/75000-79999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Director of Authorisations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "SSO & PO1 General Assessment & Research Team - General Assessment (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team-general-assessment> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Post Authorisation Surveillance Unit - Inspections and Investigations (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-inspections-and-investigations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Financial Services (Finance) in Chief Executive and Financial Services reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/id/salary-range/115000-119999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£115000-£119999"@en ;
+        gov:lowerBound  115000 ;
+        gov:upperBound  119999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Pharmaceuticals and Feed Additives - Quality (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-quality> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Enforcement Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO General Assessment & Research Team - General Assessment (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team-general-assessment> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/so>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25000-30000> ;
+        skos:prefLabel     "SO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/vro>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/vro> ;
+        skos:prefLabel     "VRO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Post Authorisation Surveillance Unit - Residues Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-residues-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Core Services - Programme Strategy Management and Training and Liaison (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-programme-strategy-management-and-training-and-liaison> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Biologicals and Administration - Licensing Administration (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  18.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-licensing-administration> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/hso> ;
+        skos:prefLabel     "HSO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Post Authorisation Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Information Technology (Information Technology) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-technology> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Post Authorisation Surveillance Unit - Residues Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-residues-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:j.atkinson@vmd.defra.gsi.gov.uk> ;
+        foaf:name      "J Atkinson" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> ;
+        foaf:phone     "01932 338387" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Operations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:salaryCostOfReports  "2220000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/35000-45000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35000 - £45000" ;
+        gov:lowerBound  35000 ;
+        gov:upperBound  45000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "SO General Assessment & Research Team - General Assessment (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/so> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team-general-assessment> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/id/salary-range/75000-79999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£75000-£79999"@en ;
+        gov:lowerBound  75000 ;
+        gov:upperBound  79999 .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for Core Services, Quality and Communications, Feed Additives Research and Enforcement, Legislation and \"Post Authorisation Surveillance\" including the Suspected Adverse Reaction Surveillance Scheme, the Residues Surveillance Unit, the Animal Medicines Inspectorate and the Inspections Team. Reports to the Chief Executive."@en ;
+        rdfs:label       "Director of Operations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> , <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/65000-69999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Director of Operations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Post Authorisation Surveillance Unit - Inspections and Investigations (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-inspections-and-investigations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sso-po1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35000-45000> ;
+        skos:prefLabel     "SSO & PO1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Financial Services (Finance) in Chief Executive and Financial Services reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20000-25000> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "SSO & PO1 Pharmaceuticals and Feed Additives - Human & Environmental Safety (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-human-environmental-safety> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "J Atkinson as Director of Authorisations" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/so>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/so> ;
+        skos:prefLabel     "SO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "SSO & PO1 Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Enforcement Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 General Assessment & Research Team - General Assessment (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team-general-assessment> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Core Services - Programme Strategy Management and Training and Liaison (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-programme-strategy-management-and-training-and-liaison> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "VRO Biologicals and Administration - Biologicals Assessor Team (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/vro> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-biologicals-assessor-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Legislation Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legislation-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Core Services - Committee and Office Support (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-committee-and-office-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Information Technology (Information Technology) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-technology> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35000-45000> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Post Authorisation Surveillance Unit - Residues Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-residues-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/seo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sro-ii> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/so> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/vro> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/hso> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/ao> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/heo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/eo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sso-po1> ;
+        skos:prefLabel      "Department for Environment, Food and Rural Affairs Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/vro>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50000-55000> ;
+        skos:prefLabel     "VRO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:p.green@vmd.defra.gsi.gov.uk> ;
+        foaf:name      "P Green" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> ;
+        foaf:phone     "01932 338303" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive and Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:salaryCostOfReports  "320000"^^xsd:decimal .
+
+<mailto:p.borriello@vmd.defra.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "p.borriello@vmd.defra.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/department/defra>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Department for Environment, Food and Rural Affairs"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Environment, Food and Rural Affairs"@en .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Chief Executive reporting to the Chief Veterinary Officer, Defra. Also responsible for VMD  Financial Services."@en ;
+        rdfs:label       "Chief Executive and Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> , <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/115000-119999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Chief Executive and Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/xx> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/hso>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30000-35000> ;
+        skos:prefLabel     "HSO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "SRO II Post Authorisation Surveillance Unit - GMP Inspections (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sro-ii> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-gmp-inspections> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Financial Services (Finance) in Chief Executive and Financial Services reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO Pharmaceuticals and Feed Additives - Human & Environmental Safety (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-human-environmental-safety> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "P Green as Director of Operations" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "SO Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/so> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25000-30000> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Core Services - Quality Management, Communications and Design Services (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-quality-management-communications-and-design-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 General Assessment & Research Team (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Post Authorisation Surveillance Unit - AMR Control and Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-amr-control-and-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/central-government> , org: .
+
+<mailto:p.green@vmd.defra.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "p.green@vmd.defra.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Core Services - Programme Strategy Management and Training and Liaison (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-programme-strategy-management-and-training-and-liaison> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "SRO II Biologicals and Administration - Biologicals Assessor Team (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sro-ii> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-biologicals-assessor-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Legislation Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legislation-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Information Technology (Information Technology) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-technology> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Post Authorisation Surveillance Unit - Inspections and Investigations (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-inspections-and-investigations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Core Services - Committee and Office Support (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-committee-and-office-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:p.borriello@vmd.defra.gsi.gov.uk> ;
+        foaf:name      "P.Borriello" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> ;
+        foaf:phone     "01932 338301" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "SSO & PO1 Pharmaceuticals and Feed Additives - Quality (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-quality> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Biologicals and Administration - Biologicals Assessor Team (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-biologicals-assessor-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations Division"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        skos:prefLabel  "Operations Division"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/id/salary-range/25000-30000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25000 - £30000" ;
+        gov:lowerBound  25000 ;
+        gov:upperBound  30000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Post Authorisation Surveillance Unit - GMP Inspections (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-gmp-inspections> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Financial Services (Finance) in Chief Executive and Financial Services reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Pharmaceuticals and Feed Additives - Human & Environmental Safety (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-human-environmental-safety> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "P.Borriello as Chief Executive and Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Core Services - Quality Management, Communications and Design Services (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-quality-management-communications-and-design-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Biologicals and Administration - Licensing Administration (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-licensing-administration> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO Post Authorisation Surveillance Unit - AMR Control and Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-amr-control-and-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "VRO Pharmaceuticals and Feed Additives - Efficacy (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/vro> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-efficacy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50000-55000> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO Biologicals and Administration - Biologicals Assessor Team (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-biologicals-assessor-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/id/salary-range/30000-35000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30000 - £35000" ;
+        gov:lowerBound  30000 ;
+        gov:upperBound  35000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Legislation Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legislation-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sso-po1> ;
+        skos:prefLabel     "SSO & PO1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/20000-25000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20000 - £25000" ;
+        gov:lowerBound  20000 ;
+        gov:upperBound  25000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Information Technology (Information Technology) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-technology> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Post Authorisation Surveillance Unit - Inspections and Investigations (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-inspections-and-investigations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Core Services - Committee and Office Support (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-committee-and-office-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "SO Pharmaceuticals and Feed Additives - Quality (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/so> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-quality> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Biologicals and Administration (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sro-ii>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sro-ii> ;
+        skos:prefLabel     "SRO II"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30000-35000> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Financial Services (Finance) in Chief Executive and Financial Services reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Pharmaceuticals and Feed Additives - Efficacy (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-efficacy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Authorisations Division"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        skos:prefLabel  "Authorisations Division"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Core Services - Quality Management, Communications and Design Services (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-quality-management-communications-and-design-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Biologicals and Administration - Licensing Administration (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-licensing-administration> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Post Authorisation Surveillance Unit - AMR Control and Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-amr-control-and-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "SRO II Pharmaceuticals and Feed Additives - Efficacy (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sro-ii> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-efficacy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Chief Executive and Financial Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/1> ;
+        skos:prefLabel  "Chief Executive and Financial Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/55000-70000> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Legislation Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legislation-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/id/salary-range/55000-70000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55000 - £70000" ;
+        gov:lowerBound  55000 ;
+        gov:upperBound  70000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "SSO & PO1 General Assessment & Research Team - Research (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/general-assessment-research-team-research> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Core Services (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Post Authorisation Surveillance Unit - Inspections and Investigations (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-inspections-and-investigations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband/sro-ii>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50000-55000> ;
+        skos:prefLabel     "SRO II Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "HSO Pharmaceuticals and Feed Additives - Quality (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives-quality> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "VRO Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/vro> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Enforcement Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/id/salary-range/50000-55000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£50000 - £55000" ;
+        gov:lowerBound  50000 ;
+        gov:upperBound  55000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate> .
+
+<http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Veterinary Medicines Directorate"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/defra> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Veterinary Medicines Directorate"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> , <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> , <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/chief-executive-and-financial-services> .
+
+<http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/vro> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/heo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/so> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sro-ii> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/seo> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/sso-po1> , <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/hso> ;
+        skos:prefLabel      "Department for Environment, Food and Rural Affairs Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Post Authorisation Surveillance Unit - Pharmacovigilance (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-pharmacovigilance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Core Services - Quality Management, Communications and Design Services (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/core-services-quality-management-communications-and-design-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Biologicals and Administration - Licensing Administration (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/biologicals-and-administration-licensing-administration> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/id/salary-range/65000-69999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£65000-£69999"@en ;
+        gov:lowerBound  65000 ;
+        gov:upperBound  69999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Post Authorisation Surveillance Unit - AMR Control and Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-amr-control-and-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Pharmaceuticals and Feed Additives (Operational Delivery) in Authorisations Division reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pharmaceuticals-and-feed-additives> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/authorisations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Post Authorisation Surveillance Unit - Residues Surveillance Unit (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-authorisation-surveillance-unit-residues-surveillance-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Authorisations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/3> ;
+        organogram:salaryCostOfReports  "2905500"^^xsd:decimal .
+
+<mailto:j.atkinson@vmd.defra.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "j.atkinson@vmd.defra.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Legislation Team (Operational Delivery) in Operations Division reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/veterinary-medicines-directorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/veterinary-medicines-directorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legislation-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/veterinary-medicines-directorate/unit/operations-division> .

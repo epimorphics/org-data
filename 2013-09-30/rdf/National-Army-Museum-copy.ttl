@@ -1,0 +1,1103 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/activity-co-ordinator>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Activity Co-Ordinator Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/documentation-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19853-22345> ;
+        skos:prefLabel     "Documentation Assistant Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/facilities-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/facilities-officer> ;
+        skos:prefLabel     "Facilities Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/web-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/web-manager> ;
+        skos:prefLabel     "Web Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/visitor-services-supervisor>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/visitor-services-supervisor> ;
+        skos:prefLabel     "Visitor Services Supervisor"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Musem Specialist Function - Public Programes Head of Museum Specialist Function (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/head-of-musem-specialist-function-public-programes> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-museum-specialist-function> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:info@nam.ac.uk> ;
+        foaf:name      "Genevieve Adkins" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/mod> ;
+        foaf:phone     "2077300717"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/mod/grade/stores-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/stores-officer> ;
+        skos:prefLabel     "Stores Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Development Administrator Development Administrator (Other) in National Army Museum reporting to post P20611 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.66 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/development-administrator> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/development-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/ict-systems-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "ICT Systems Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/mod/grade/photographic-officer> , <http://reference.data.gov.uk/def/department/mod/grade/senior-photographic-officer> , <http://reference.data.gov.uk/def/department/mod/grade/on-line-content-officer> , <http://reference.data.gov.uk/def/department/mod/grade/stores-officer> , <http://reference.data.gov.uk/def/department/mod/grade/senior-personal-secretary> , <http://reference.data.gov.uk/def/department/mod/grade/senior-curatorial-officer> , <http://reference.data.gov.uk/def/department/mod/grade/hr-officer> , <http://reference.data.gov.uk/def/department/mod/grade/visitor-services-host> , <http://reference.data.gov.uk/def/department/mod/grade/activity-co-ordinator> , <http://reference.data.gov.uk/def/department/mod/grade/curatorial-officer> , <http://reference.data.gov.uk/def/department/mod/grade/records-officer> , <http://reference.data.gov.uk/def/department/mod/grade/senior-documentation-officer> , <http://reference.data.gov.uk/def/department/mod/grade/education-officer> , <http://reference.data.gov.uk/def/department/mod/grade/development-administrator> , <http://reference.data.gov.uk/def/department/mod/grade/head-of-security> , <http://reference.data.gov.uk/def/department/mod/grade/head-of-finance> , <http://reference.data.gov.uk/def/department/mod/grade/ict-systems-manager> , <http://reference.data.gov.uk/def/department/mod/grade/web-manager> , <http://reference.data.gov.uk/def/department/mod/grade/marketing-communications-officer> , <http://reference.data.gov.uk/def/department/mod/grade/security-officer> , <http://reference.data.gov.uk/def/department/mod/grade/facilities-officer> , <http://reference.data.gov.uk/def/department/mod/grade/conservator> , <http://reference.data.gov.uk/def/department/mod/grade/ict-systems-support> , <http://reference.data.gov.uk/def/department/mod/grade/head-of-musem-specialist-function-public-programes> , <http://reference.data.gov.uk/def/department/mod/grade/learning-outreach-officer> , <http://reference.data.gov.uk/def/department/mod/grade/senior-it-manager> , <http://reference.data.gov.uk/def/department/mod/grade/documentation-assistant> , <http://reference.data.gov.uk/def/department/mod/grade/finance-officer> , <http://reference.data.gov.uk/def/department/mod/grade/graphic-designers> , <http://reference.data.gov.uk/def/department/mod/grade/head-of-museum-specialist-function-collections> , <http://reference.data.gov.uk/def/department/mod/grade/visitor-services-supervisor> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "HR Officer HR Officer (Human Resources) in National Army Museum reporting to post P20376 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/hr-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20376> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Documentation Assistant Documentation Assistant (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/documentation-assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/documentation-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure5>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Genevieve Adkins as Assistant Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/mod/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/def/department/mod/grade/senior-curatorial-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/senior-curatorial-officer> ;
+        skos:prefLabel     "Senior Curatorial Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Facilities Officer Facilities Officer (Operational Delivery) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/facilities-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Conservator Conservator (Other) in National Army Museum reporting to post P20638 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/conservator> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/conservator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/conservator>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Conservator Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Curatorial Officer Senior Curatorial Officer (Other) in National Army Museum reporting to post P20638 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.32 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/senior-curatorial-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-curatorial-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Assistant Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/mod/post/P20376> ;
+        organogram:salaryCostOfReports  18141.5 .
+
+<http://reference.data.gov.uk/def/department/mod/payband/photographic-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Photographic Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/ict-systems-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/ict-systems-manager> ;
+        skos:prefLabel     "ICT Systems Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Museum Specialist Function-Collections Head of Museum Specialist Function (Other) in National Army Museum reporting to post P20638 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/head-of-museum-specialist-function-collections> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-museum-specialist-function> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:info@nam.ac.uk> ;
+        foaf:name      "David Bownes" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/mod> ;
+        foaf:phone     "2077300717"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/department/mod/post/P20474>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Strategic and day to day management of Museum Operations, Commercial Activities and Visitor Services"@en ;
+        rdfs:label       "Museum Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/mod/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/mod> , <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "P20474" ;
+        skos:prefLabel   "Museum Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/mod/post/P20611> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Security Officer Security Officer (Operational Delivery) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/security-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/documentation-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/documentation-assistant> ;
+        skos:prefLabel     "Documentation Assistant"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/on-line-content-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "On-Line Content Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Visitor Services Supervisor Visitor Services Supervisor (Operational Delivery) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/visitor-services-supervisor> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/visitor-services-supervisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/department/mod/post/P20638>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Assistant Director - Collections"@en ;
+        rdfs:label       "Assistant Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/mod/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/mod> , <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "P20638" ;
+        skos:prefLabel   "Assistant Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/mod/post/P20611> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/head-of-museum-specialist-function-collections>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/head-of-museum-specialist-function-collections> ;
+        skos:prefLabel     "Head of Museum Specialist Function-Collections"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Visitor Services Host Visitor Services Host (Operational Delivery) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/visitor-services-host> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/visitor-services-host> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/senior-documentation-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/senior-documentation-officer> ;
+        skos:prefLabel     "Senior Documentation Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "David Bownes as Assistant Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/mod/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/education-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Education Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/mod/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Curatorial Officer Curatorial Officer (Other) in National Army Museum reporting to post P20638 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.66 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/curatorial-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/curatorial-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/salary-range/30732-36696>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30732 - £36696" ;
+        gov:lowerBound  30732 ;
+        gov:upperBound  36696 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Photographic Officer Senior Photographic Officer (Other) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.66 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/senior-photographic-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-photographic-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Museum Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:salaryCostOfReports  "221536"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/mod/payband/senior-photographic-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Senior Photographic Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/education-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/education-officer> ;
+        skos:prefLabel     "Education Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/id/department/mod>
+        a                     gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label            "Ministry of Defence"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/mod> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel        "Ministry of Defence"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/department/mod/post/P20611>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "To provide creative and professional leadership to the NAM, with clearly defined objectives cascading through the Management Team to all levels of management, oversight and service to the public, in accordnce with Government legislation and best practice in the museums and galleries sector."@en ;
+        rdfs:label       "Director General"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/mod/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/mod> , <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "P20611" ;
+        skos:prefLabel   "Director General"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/mod/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/mod/post/P20376> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        foaf:mbox      <mailto:info@nam.ac.uk> ;
+        foaf:name      "Teresa Scott" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/mod> ;
+        foaf:phone     "2077300717"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/mod/grade/development-administrator>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/development-administrator> ;
+        skos:prefLabel     "Development Administrator"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/records-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Records Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/marketing-communications-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/marketing-communications-officer> ;
+        skos:prefLabel     "Marketing & Communications Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/learning-outreach-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Learning & Outreach Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<mailto:info@nam.ac.uk>
+        a           vcard:Email ;
+        rdfs:label  "info@nam.ac.uk" .
+
+<http://reference.data.gov.uk/def/department/mod/grade/senior-personal-secretary>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/senior-personal-secretary> ;
+        skos:prefLabel     "Senior Personal Secretary"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/hr-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/hr-officer> ;
+        skos:prefLabel     "HR Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Education Officer Education Officer (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.68 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/education-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/education-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/department/mod/unit/national-army-museum>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "National Army Museum"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/mod/post/P20668> , <http://reference.data.gov.uk/id/department/mod/post/P20638> , <http://reference.data.gov.uk/id/department/mod/post/P20376> , <http://reference.data.gov.uk/id/department/mod/post/P20474> , <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        skos:prefLabel  "National Army Museum"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/senior-curatorial-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Senior Curatorial Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Learning & Outreach Officer Learning & Outreach Officer (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/learning-outreach-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/learning-outreach-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Teresa Scott as Assistant Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/mod/post/P20376> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/mod/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/id/salary-range/24608-29383>
+        a               gov:SalaryRange ;
+        rdfs:label      "£24608 - £29383" ;
+        gov:lowerBound  24608 ;
+        gov:upperBound  29383 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/records-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/records-officer> ;
+        skos:prefLabel     "Records Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/department/mod/grade/on-line-content-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/on-line-content-officer> ;
+        skos:prefLabel     "On-Line Content Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/hr-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "HR Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "ICT Systems Support ICT Systems Support (Information Technology) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/ict-systems-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-systems-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior IT Manager Senior IT Manager (Information Technology) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/senior-it-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director General Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        organogram:salaryCostOfReports  219918.46 .
+
+<http://reference.data.gov.uk/def/department/mod/payband/finance-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Finance Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/web-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Web Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Web Manager Web Manager (Information Technology) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/web-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/web-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@nam.ac.uk> ;
+        foaf:name      "Mike O'Connor" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/mod> ;
+        foaf:phone     "2077300717"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/mod/payband/head-of-security>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Head of Security Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/finance-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/finance-officer> ;
+        skos:prefLabel     "Finance Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Documentation Officer Senior Documentation Officer (Other) in National Army Museum reporting to post P20638 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.55 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/senior-documentation-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-documentation-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/id/salary-range/37444-44711>
+        a               gov:SalaryRange ;
+        rdfs:label      "£37444 - £44711" ;
+        gov:lowerBound  37444 ;
+        gov:upperBound  44711 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/senior-photographic-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/senior-photographic-officer> ;
+        skos:prefLabel     "Senior Photographic Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Activity Co-Ordinator Activity Co-Ordinator (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/activity-co-ordinator> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/activity-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Mike O'Connor as Museum Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/mod/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/curatorial-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/curatorial-officer> ;
+        skos:prefLabel     "Curatorial Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/conservator>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/conservator> ;
+        skos:prefLabel     "Conservator"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Records Officer Records Officer (Other) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/records-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/records-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/stores-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Stores Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/head-of-musem-specialist-function-public-programes>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Head of Musem Specialist Function - Public Programes Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Finance Head of Finance (Finance) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/head-of-finance> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-finance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/ict-systems-support>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "ICT Systems Support Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/19853-22345>
+        a               gov:SalaryRange ;
+        rdfs:label      "£19853 - £22345" ;
+        gov:lowerBound  19853 ;
+        gov:upperBound  22345 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/senior-documentation-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Senior Documentation Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Stores Officer Stores Officer (Procurement) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/stores-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/stores-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/senior-it-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Senior IT Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/development-administrator>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19853-22345> ;
+        skos:prefLabel     "Development Administrator Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/marketing-communications-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Marketing & Communications Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/security-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19853-22345> ;
+        skos:prefLabel     "Security Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:info@nam.ac.uk> ;
+        foaf:name      "Janice Murray" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/mod> ;
+        foaf:phone     "2077300717"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/mod/grade/head-of-security>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/head-of-security> ;
+        skos:prefLabel     "Head of Security"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Photographic Officer Photographic Officer (Other) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/photographic-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/photographic-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/visitor-services-supervisor>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Visitor Services Supervisor Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/head-of-finance>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Head of Finance Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Graphic Designers Graphic Designers (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/graphic-designers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/graphic-designers> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/senior-it-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/senior-it-manager> ;
+        skos:prefLabel     "Senior IT Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Janice Murray as Director General" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/mod/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/mod> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "ICT Systems Manager ICT Systems Manager (Information Technology) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/ict-systems-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-systems-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/learning-outreach-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/learning-outreach-officer> ;
+        skos:prefLabel     "Learning & Outreach Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Assistant Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:salaryCostOfReports  261915.58 .
+
+<http://reference.data.gov.uk/def/department/mod/grade/photographic-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/photographic-officer> ;
+        skos:prefLabel     "Photographic Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/head-of-finance>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/head-of-finance> ;
+        skos:prefLabel     "Head of Finance"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/mod/payband/documentation-assistant> , <http://reference.data.gov.uk/def/department/mod/payband/ict-systems-support> , <http://reference.data.gov.uk/def/department/mod/payband/facilities-officer> , <http://reference.data.gov.uk/def/department/mod/payband/records-officer> , <http://reference.data.gov.uk/def/department/mod/payband/activity-co-ordinator> , <http://reference.data.gov.uk/def/department/mod/payband/head-of-musem-specialist-function-public-programes> , <http://reference.data.gov.uk/def/department/mod/payband/curatorial-officer> , <http://reference.data.gov.uk/def/department/mod/payband/senior-photographic-officer> , <http://reference.data.gov.uk/def/department/mod/payband/ict-systems-manager> , <http://reference.data.gov.uk/def/department/mod/payband/head-of-museum-specialist-function-collections> , <http://reference.data.gov.uk/def/department/mod/payband/head-of-finance> , <http://reference.data.gov.uk/def/department/mod/payband/conservator> , <http://reference.data.gov.uk/def/department/mod/payband/senior-personal-secretary> , <http://reference.data.gov.uk/def/department/mod/payband/learning-outreach-officer> , <http://reference.data.gov.uk/def/department/mod/payband/visitor-services-host> , <http://reference.data.gov.uk/def/department/mod/payband/on-line-content-officer> , <http://reference.data.gov.uk/def/department/mod/payband/photographic-officer> , <http://reference.data.gov.uk/def/department/mod/payband/hr-officer> , <http://reference.data.gov.uk/def/department/mod/payband/visitor-services-supervisor> , <http://reference.data.gov.uk/def/department/mod/payband/senior-documentation-officer> , <http://reference.data.gov.uk/def/department/mod/payband/development-administrator> , <http://reference.data.gov.uk/def/department/mod/payband/marketing-communications-officer> , <http://reference.data.gov.uk/def/department/mod/payband/finance-officer> , <http://reference.data.gov.uk/def/department/mod/payband/head-of-security> , <http://reference.data.gov.uk/def/department/mod/payband/senior-it-manager> , <http://reference.data.gov.uk/def/department/mod/payband/education-officer> , <http://reference.data.gov.uk/def/department/mod/payband/stores-officer> , <http://reference.data.gov.uk/def/department/mod/payband/security-officer> , <http://reference.data.gov.uk/def/department/mod/payband/web-manager> , <http://reference.data.gov.uk/def/department/mod/payband/graphic-designers> , <http://reference.data.gov.uk/def/department/mod/payband/senior-curatorial-officer> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/department/mod/grade/ict-systems-support>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/ict-systems-support> ;
+        skos:prefLabel     "ICT Systems Support"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/graphic-designers>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Graphic Designers Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Security Head of Security (Operational Delivery) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/head-of-security> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-security> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/curatorial-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Curatorial Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/visitor-services-host>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/visitor-services-host> ;
+        skos:prefLabel     "Visitor Services Host"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Finance Officer Finance Officer (Finance) in National Army Museum reporting to post P20474 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/finance-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20474> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/visitor-services-host>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19853-22345> ;
+        skos:prefLabel     "Visitor Services Host Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/id/department/mod/post/P20668>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Assistant Director - Public Programmes"@en ;
+        rdfs:label       "Assistant Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/mod/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> , <http://reference.data.gov.uk/id/department/mod> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "P20668" ;
+        skos:prefLabel   "Assistant Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/mod/post/P20611> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/head-of-museum-specialist-function-collections>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/37444-44711> ;
+        skos:prefLabel     "Head of Museum Specialist Function-Collections Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/id/department/mod/post/P20376>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Assistant Director - Human Resources"@en ;
+        rdfs:label       "Assistant Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/mod/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> , <http://reference.data.gov.uk/id/department/mod> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "P20376" ;
+        skos:prefLabel   "Assistant Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/mod/post/P20611> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/security-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/security-officer> ;
+        skos:prefLabel     "Security Officer"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/graphic-designers>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/graphic-designers> ;
+        skos:prefLabel     "Graphic Designers"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Marketing & Communications Officer Marketing & Communications Officer (Communications) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/marketing-communications-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Personal Secretary Senior Personal Secretary (Other) in National Army Museum reporting to post P20611 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/senior-personal-secretary> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-personal-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20611> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/payband/facilities-officer>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30732-36696> ;
+        skos:prefLabel     "Facilities Officer Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/head-of-musem-specialist-function-public-programes>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/head-of-musem-specialist-function-public-programes> ;
+        skos:prefLabel     "Head of Musem Specialist Function - Public Programes"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "On-Line Content Officer On-Line Content Officer (Other) in National Army Museum reporting to post P20668 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/mod/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/mod/grade/on-line-content-officer> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/on-line-content-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/mod/post/P20668> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/mod/unit/national-army-museum> .
+
+<http://reference.data.gov.uk/def/department/mod/grade/activity-co-ordinator>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/mod/payband/activity-co-ordinator> ;
+        skos:prefLabel     "Activity Co-Ordinator"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Assistant Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/mod/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/mod/post/P20638> ;
+        organogram:salaryCostOfReports  335420.35 .
+
+<http://reference.data.gov.uk/def/department/mod/payband/senior-personal-secretary>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24608-29383> ;
+        skos:prefLabel     "Senior Personal Secretary Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/mod/payband> .

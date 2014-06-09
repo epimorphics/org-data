@@ -1,0 +1,795 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Messenger (Operational Delivery) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/messenger> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Gethin Williams as Deputy Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/wo/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Legal Adviser (Policy) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Policy Team Leader (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:salaryCostOfReports  "550000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/wo/payband/band-e-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14144-22250> ;
+        skos:prefLabel     "Band E/F Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/payband> .
+
+<http://reference.data.gov.uk/def/department/wo/grade/band-e-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/wo/payband/band-e-f> ;
+        skos:prefLabel     "Band E/F"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Diary Manager (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/diary-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Policy Support Officer (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Private Secretary (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Finance (Finance) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-finance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/21096-39667>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21096 - £39667" ;
+        gov:lowerBound  21096 ;
+        gov:upperBound  39667 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/id/department/wo>
+        a                     gov:Department , gov:PublicBody , org:Organization ;
+        rdfs:label            "Wales Office"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/wo> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel        "Wales Office"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/department/wo/unit/director-s-office> , <http://reference.data.gov.uk/id/department/wo/unit/policy> , <http://reference.data.gov.uk/id/department/wo/unit/private-office> , <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/id/department/wo/post/164>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Policy"@en ;
+        rdfs:label       "Deputy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/wo/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/wo/unit/policy> , <http://reference.data.gov.uk/id/department/wo> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/55000-59999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    164 ;
+        skos:prefLabel   "Deputy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/wo/post/161> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Corporate Services Officer (Operational Delivery) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-services-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Glynne Jones as Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/wo/post/161> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/wo/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Executive Assistant (Policy) in Director's Office reporting to post 161 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/161> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/director-s-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economist (Economics) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000-£84999"@en ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:salaryCostOfReports  "700000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/29634-51709>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29634 - £51709" ;
+        gov:lowerBound  29634 ;
+        gov:upperBound  51709 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/id/salary-range/14144-22250>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14144 - £22250" ;
+        gov:lowerBound  14144 ;
+        gov:upperBound  22250 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Private Secretary (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Policy Officer (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/grade/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/wo/payband/band-d> ;
+        skos:prefLabel     "Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Assistant Information Officer (Communications) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-information-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Chief Accountant (Finance) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/chief-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/def/department/wo/payband/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/18688-30800> ;
+        skos:prefLabel     "Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:wales.office@walesoffice.gsi.gov.uk> ;
+        foaf:name      "Sian Oborne" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/wo> ;
+        foaf:phone     "020 7270 0534" .
+
+<http://reference.data.gov.uk/id/department/wo/post/163>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Policy"@en ;
+        rdfs:label       "Deputy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/wo/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/wo/unit/private-office> , <http://reference.data.gov.uk/id/department/wo> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/55000-59999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    163 ;
+        skos:prefLabel   "Deputy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/wo/post/161> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Corporate Services Manager (Operational Delivery) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-services-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Not In Post (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/def/department/wo/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/wo/grade/band-d> , <http://reference.data.gov.uk/def/department/wo/grade/band-a> , <http://reference.data.gov.uk/def/department/wo/grade/band-b> , <http://reference.data.gov.uk/def/department/wo/grade/band-c> , <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        skos:prefLabel      "Wales Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/department/wo/unit/director-s-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Director's Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/wo/post/161> ;
+        skos:prefLabel  "Director's Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/wo/post/161> ;
+        organogram:salaryCostOfReports  "450000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Constitution & Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        skos:prefLabel  "Constitution & Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/wo> .
+
+<http://reference.data.gov.uk/def/department/wo/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/wo/payband/band-d> , <http://reference.data.gov.uk/def/department/wo/payband/band-a> , <http://reference.data.gov.uk/def/department/wo/payband/band-b> , <http://reference.data.gov.uk/def/department/wo/payband/band-c> , <http://reference.data.gov.uk/def/department/wo/payband/band-e-f> ;
+        skos:prefLabel      "Wales Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Not In Post (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/grade/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/wo/payband/band-c> ;
+        skos:prefLabel     "Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/grade> .
+
+<http://reference.data.gov.uk/id/department/wo/unit/policy>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Policy"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        skos:prefLabel  "Policy"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior Information Officer (Communications) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-information-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Policy Officer (Policy) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Wales Office Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/department/wo/payband/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21096-39667> ;
+        skos:prefLabel     "Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:wales.office@walesoffice.gsi.gov.uk> ;
+        foaf:name      "Stephen Hillcoat" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/wo> ;
+        foaf:phone     "020 7270 0534" .
+
+<http://reference.data.gov.uk/id/department/wo/post/162>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Policy"@en ;
+        rdfs:label       "Deputy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/wo/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/wo> , <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/55000-59999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    162 ;
+        skos:prefLabel   "Deputy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/wo/post/161> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D HR Officer (Human Resources) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Correspondence Clerk (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-clerk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/id/salary-range/42034-78164>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42034 - £78164" ;
+        gov:lowerBound  42034 ;
+        gov:upperBound  78164 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<mailto:wales.office@walesoffice.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "wales.office@walesoffice.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Not In Post (Economics) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/grade/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/wo/payband/band-b> ;
+        skos:prefLabel     "Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Communications (Communications) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-communications> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Sian Oborne as Deputy Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/wo/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior Policy Adviser (Policy) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Not In Post (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/payband/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29634-51709> ;
+        skos:prefLabel     "Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:wales.office@walesoffice.gsi.gov.uk> ;
+        foaf:name      "Gethin Williams" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/wo> ;
+        foaf:phone     "020 7270 0534" .
+
+<http://reference.data.gov.uk/id/department/wo/post/161>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Policy"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/wo/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/wo/unit/director-s-office> , <http://reference.data.gov.uk/id/department/wo> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    161 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/wo/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Human Resources (Human Resources) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-human-resources> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Diary Assistant (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/diary-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Wales Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/id/salary-range/18688-30800>
+        a               gov:SalaryRange ;
+        rdfs:label      "£18688 - £30800" ;
+        gov:lowerBound  18688 ;
+        gov:upperBound  30800 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Apprentice (Finance) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/apprentice> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Policy Adviser (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/grade/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/wo/payband/band-a> ;
+        skos:prefLabel     "Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E/F Apprentice (Operational Delivery) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-e-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/apprentice> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Stephen Hillcoat as Deputy Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/wo/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Policy Team Leader (Policy) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior Policy Adviser (Policy) in Policy reporting to post 164 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/policy> .
+
+<http://reference.data.gov.uk/def/department/wo/payband/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42034-78164> ;
+        skos:prefLabel     "Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/wo/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/wo/post/164> ;
+        organogram:salaryCostOfReports  "450000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/department/wo/unit/private-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Private Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        skos:prefLabel  "Private Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/wo> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/wo/post/161> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:wales.office@walesoffice.gsi.gov.uk> ;
+        foaf:name      "Glynne Jones" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/wo> ;
+        foaf:phone     "020 7270 0534" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Correspondence Manager (Policy) in Private Office reporting to post 163 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/163> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/private-office> .
+
+<http://reference.data.gov.uk/id/salary-range/55000-59999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55000-£59999"@en ;
+        gov:lowerBound  55000 ;
+        gov:upperBound  59999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Wales Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/wo/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/wo/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/wo/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/central-government> , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Trainee Accountant (Finance) in Constitution & Corporate Services reporting to post 162 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/wo/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/wo/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/trainee-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/wo/post/162> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/wo/unit/constitution-corporate-services> .

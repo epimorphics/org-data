@@ -1,0 +1,1008 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Corporate Support (Other) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Operational Research) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/36000-42900> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Director Engagement" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Overall leadership of the National Fraud Authority"@en , "This post is being covered on temporary promotion"@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/85000-89999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "2NFA01" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Research) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA01> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:public.enquiries@homeoffice.gsi.gov.uk> ;
+        foaf:name      "Vacant" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> ;
+        foaf:phone     "n/a" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/28500-36500>
+        a               gov:SalaryRange ;
+        rdfs:label      "£28500 - £36500" ;
+        gov:lowerBound  28500 ;
+        gov:upperBound  36500 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA01>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "To lead on fraud in the Public Sector"@en ;
+        rdfs:label       "Director Interventions"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-fraud-authority> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1NFA01" ;
+        skos:prefLabel   "Director Interventions"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<mailto:public.enquiries@homeoffice.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "public.enquiries@homeoffice.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/58200-71900> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/85000-89999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£85000-£89999"@en ;
+        gov:lowerBound  85000 ;
+        gov:upperBound  89999 .
+
+<http://reference.data.gov.uk/id/salary-range/48700-59300>
+        a               gov:SalaryRange ;
+        rdfs:label      "£48700 - £59300" ;
+        gov:lowerBound  48700 ;
+        gov:upperBound  59300 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Corporate Support (Other) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Project Support Officer (Operational Research) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Communications) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Head of Human Resources (Human Resources) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-human-resources> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Director Knowledge" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/23200-29700>
+        a               gov:SalaryRange ;
+        rdfs:label      "£23200 - £29700" ;
+        gov:lowerBound  23200 ;
+        gov:upperBound  29700 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Research) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:public.enquiries@homeoffice.gsi.gov.uk> ;
+        foaf:name      "Stephen Harrison" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/seo> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/heo> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/eo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Engagement Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:salaryCostOfReports  "730000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> , <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Project Manager (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Programme Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Vacant as Director Interventions" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA01> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "National Fraud Authority"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA01> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        skos:prefLabel  "National Fraud Authority"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/28500-36500> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Operational Research) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Knowledge Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:salaryCostOfReports  "730000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/23200-29700> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Facilities Delivery Manager (Other) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-delivery-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Executive Assistant (Other) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Project Manager (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Programme Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Stephen Harrison as Chief Executive" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Operational Research) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Communications) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Programme Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Interventions Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA01> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/58200-71900>
+        a               gov:SalaryRange ;
+        rdfs:label      "£58200 - £71900" ;
+        gov:lowerBound  58200 ;
+        gov:upperBound  71900 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/36000-42900>
+        a               gov:SalaryRange ;
+        rdfs:label      "£36000 - £42900" ;
+        gov:lowerBound  36000 ;
+        gov:upperBound  42900 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Finance Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Project Manager (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:public.enquiries@homeoffice.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Programme Officer Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 2NFA01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-officer-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "To lead on raising awareness and action fraud"@en ;
+        rdfs:label       "Director Engagement"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1NFA03" ;
+        skos:prefLabel   "Director Engagement"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Communications) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Programme Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> ;
+        organogram:salaryCostOfReports  "730000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Project Manager (Communications) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        foaf:mbox      <mailto:public.enquiries@homeoffice.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in National Fraud Authority reporting to post 1NFA03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "To  lead on building and applying knowledge"@en ;
+        rdfs:label       "Director Knowledge"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> , <http://reference.data.gov.uk/id/public-body/national-fraud-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1NFA02" ;
+        skos:prefLabel   "Director Knowledge"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/2NFA01> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Project Manager (Programme and Project Management (PPM)) in National Fraud Authority reporting to post 1NFA02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-fraud-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-fraud-authority/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-fraud-authority/post/1NFA02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .
+
+<http://reference.data.gov.uk/id/department/ho>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Home Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Home Office"@en .
+
+<http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/48700-59300> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-fraud-authority/payband> .
+
+<http://reference.data.gov.uk/id/public-body/national-fraud-authority>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "National Fraud Authority"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/ho> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "National Fraud Authority"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/national-fraud-authority/unit/national-fraud-authority> .

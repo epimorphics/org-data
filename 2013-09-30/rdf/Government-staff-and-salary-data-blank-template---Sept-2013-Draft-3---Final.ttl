@@ -1,0 +1,2048 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/82>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Programme Support Officer (Programme and Project Management (PPM)) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "External and Parliamentary Relations Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:salaryCostOfReports  3705060.5 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Finance Support Officer (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior Communications Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/109>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Enviromental Planner (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Procurement Officer (Procurement) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/45010-76293>
+        a               gov:SalaryRange ;
+        rdfs:label      "£45010 - £76293" ;
+        gov:lowerBound  45010 ;
+        gov:upperBound  76293 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure6>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Beth West as Commercial Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/salary-range/165000-169999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£165000-£169999"@en ;
+        gov:lowerBound  165000 ;
+        gov:upperBound  169999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Douglas Oakervee" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/90>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Policy Support Officer (Other) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Finance Support Officer (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Web Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/web-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/117>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Enviromental Planner (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/senior-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/45010-76293> ;
+        skos:prefLabel     "Senior Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Community & Stakeholder Adviser (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "24"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/community-stakeholder-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/salary-range/180000-184999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£180000-£184999"@en ;
+        gov:lowerBound  180000 ;
+        gov:upperBound  184999 .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/adviser> ;
+        skos:prefLabel     "Adviser"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/120000-124999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£120000-£124999"@en ;
+        gov:lowerBound  120000 ;
+        gov:upperBound  124999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Acquisition Support Officer (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/manager> ;
+        skos:prefLabel     "Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/98>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Enviromental Planner (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Project Manager (Programme and Project Management (PPM)) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "CEO & Programme Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        skos:prefLabel  "CEO & Programme Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior HR Manager (Human Resources) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/head-of-function> ;
+        skos:prefLabel     "Head of Function"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        skos:prefLabel      "Department for Transport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Community & Stakeholder Adviser (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/community-stakeholder-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/104>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Engineer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Acquisition Manager (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Alison Munro as Chief Executive" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Andrew McNaughton" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/85>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Engineer (Science and Engineering) in Phase One reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Hybrid Bill Delivery Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:salaryCostOfReports  851897.5 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Consultation Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consultation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/112>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Engineer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Acquisition Manager (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/64090-116877>
+        a               gov:SalaryRange ;
+        rdfs:label      "£64090 - £116877" ;
+        gov:lowerBound  64090 ;
+        gov:upperBound  116877 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/93>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior Finance  Manager (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Communications Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Public Enquires Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/public-enquires-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Strategy Support Officer (Statisticians) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Programme Support Officer (Programme and Project Management (PPM)) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Phase Two Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:salaryCostOfReports  1137628.5 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Legal Support Officer (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Project Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/107>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Technical Support Officer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Finance Officer (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commercial"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        skos:prefLabel  "Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Kieran Rix as Finance & Corporate Services Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "xxx" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/88>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Communications Support Officer (Communications) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior IT Manager (Information Technology) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Public Enquires Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/public-enquires-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/115>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Technical Support Officer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Strategy Officer (Statisticians) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Project Manager (Programme and Project Management (PPM)) in CEO & Programme Office reporting to post HS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> .
+
+<http://reference.data.gov.uk/id/salary-range/17000-28245>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17000 - £28245" ;
+        gov:lowerBound  17000 ;
+        gov:upperBound  28245 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000-£84999"@en ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/96>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Communications Manager (Communications) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Quality Manager (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-quality-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager HR officer (Human Resources) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Administration Assistant (Other) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/102>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Programme Manager (Programme and Project Management (PPM)) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior Procurement Officer (Procurement) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "High Speed 2 Ltd"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dft> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "High Speed 2 Ltd"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/board> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/83>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Enviromental Planner (Science and Engineering) in Phase One reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Commercial Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:salaryCostOfReports  "3203572"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant IT Support Officer (Information Technology) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Transport Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Communications Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/110>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Project Manager (Programme and Project Management (PPM)) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/adviser>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25543-38914> ;
+        skos:prefLabel     "Adviser Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Phase One"@en ;
+        skos:prefLabel  "Phase One"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "External & Parliamentary Relations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        skos:prefLabel  "External & Parliamentary Relations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure7>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Douglas Oakervee as Chairman of the Board" ;
+        gov:fullTimeEquivalent  0.4 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure8> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Roger Hargreaves" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Finance & Corporate Services Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2239" ;
+        skos:prefLabel   "Finance & Corporate Services Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/91>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Project Manager (Programme and Project Management (PPM)) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35000-49952> ;
+        skos:prefLabel     "Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Finance Officer (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Community & Stakeholder Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/community-stakeholder-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/118>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Engineer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Consultation Adviser (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consultation-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/salary-range/35000-49952>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35000 - £49952" ;
+        gov:lowerBound  35000 ;
+        gov:upperBound  49952 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/department/dft>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Department for Transport"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Transport"@en .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/assistant> ;
+        skos:prefLabel     "Assistant"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Procurement Officer (Procurement) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/99>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Programme Support Officer (Programme and Project Management (PPM)) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        organogram:salaryCostOfReports  "1076265"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Administration Assistant (Other) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser IT Support Officer (Information Technology) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Hybrid Bill Delivery"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        skos:prefLabel  "Hybrid Bill Delivery"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Consultation Assistant (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consultation-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/adviser> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/assistant> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/manager> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/senior-manager> , <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/head-of-function> ;
+        skos:prefLabel      "Department for Transport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/105>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Enviromental Planner (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Acquisition Officer (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Transport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/senior-manager> ;
+        skos:prefLabel     "Senior Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Andrew McNaughton as Technical Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "xxx" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<mailto:HS2enquiries@hs2.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "HS2enquiries@hs2.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/86>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Enviromental Planner (Science and Engineering) in Phase One reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager IT Support Officer (Information Technology) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Press Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/press-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/113>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Enviromental Planner (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  10.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Not In Post (Other) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance & Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        skos:prefLabel  "Finance & Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/board>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Board"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198> ;
+        skos:prefLabel  "Board"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Project Manager (Programme and Project Management (PPM)) in CEO & Programme Office reporting to post HS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/94>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Project Support Officer (Programme and Project Management (PPM)) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Transport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Engineer (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Hybrid Bill Delivery Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2200" ;
+        skos:prefLabel   "Hybrid Bill Delivery Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser HR Support Officer (Human Resources) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Web Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/web-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Phase Two"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        skos:prefLabel  "Phase Two"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/100>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Engineer (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Acquisition Support Officer (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/81>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Programme Manager (Programme and Project Management (PPM)) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Finance & Corporate Services Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:salaryCostOfReports  "3178219"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Quality Support Officer (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Public Enquires Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  9.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/public-enquires-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/108>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Administration Assistant (Other) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Not In Post (Other) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure5>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "xxx as External and Parliamentary Relations Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Beth West" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/89>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Enviromental Planner (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17000-28245> ;
+        skos:prefLabel     "Assistant Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Finance Officer (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Technical Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/180000-184999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2003" ;
+        skos:prefLabel   "Technical Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Public Enquires Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/public-enquires-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/116>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Engineer (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Communications Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Commercial Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/165000-169999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2095" ;
+        skos:prefLabel   "Commercial Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Project Manager (Programme and Project Management (PPM)) in CEO & Programme Office reporting to post HS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/97>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Engineer (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Not In Post (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager HR officer (Human Resources) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Communications Support Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/103>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Enviromental Planner (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Strategy Manager (Statisticians) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "External and Parliamentary Relations Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/115000-119999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2111" ;
+        skos:prefLabel   "External and Parliamentary Relations Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Alison Munro" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/84>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Technical Support Officer (Science and Engineering) in Phase One reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Chairman of the Board Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior Legal Adviser (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Community & Stakeholder Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/community-stakeholder-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/111>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Senior Enviromental Planner (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Strategy Officer (Statisticians) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure8>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Roger Hargreaves as Hybrid Bill Delivery Director" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/92>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Enviromental Planner (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enviromental-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Finance  Manager (Finance) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Consultation Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consultation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Phase Two"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/85000-89999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2006" ;
+        skos:prefLabel   "Phase Two"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Press Officer (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/press-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/salary-range/25543-38914>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25543 - £38914" ;
+        gov:lowerBound  25543 ;
+        gov:upperBound  38914 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/119>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Technical Adviser (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-technical-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband/head-of-function>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/64090-116877> ;
+        skos:prefLabel     "Head of Function Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Procurement Support Officer (Procurement) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Technical"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        skos:prefLabel  "Technical"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Technical Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:salaryCostOfReports  2686539.5 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in Hybrid Bill Delivery reporting to post HS2200 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2200> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/hybrid-bill-delivery> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Legal Adviser (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Chairman"@en ;
+        rdfs:label       "Chairman of the Board"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/board> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2198" ;
+        skos:prefLabel   "Chairman of the Board"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Engineer (Science and Engineering) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/106>
+        a                              qb:Observation ;
+        rdfs:label                     "Adviser Technical Adviser (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/adviser> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "xxx as Phase Two" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> .
+
+<http://reference.data.gov.uk/id/salary-range/85000-89999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£85000-£89999"@en ;
+        gov:lowerBound  85000 ;
+        gov:upperBound  89999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:HS2enquiries@hs2.org.uk> ;
+        foaf:name      "Kieran Rix" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd> ;
+        foaf:phone     "020 7944 4908" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/87>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Engineer (Science and Engineering) in Phase One reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-one> .
+
+<http://reference.data.gov.uk/id/salary-range/115000-119999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£115000-£119999"@en ;
+        gov:lowerBound  115000 ;
+        gov:upperBound  119999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager IT Manager (Information Technology) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Project Manager (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Committee"@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd> , <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HS2001" ;
+        skos:prefLabel   "Chief Executive"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2198> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/114>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Technical Adviser (Science and Engineering) in Technical reporting to post HS2003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/technical> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Senior Procurement Officer (Procurement) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Personal Assistant (Other) in CEO & Programme Office reporting to post HS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/ceo-programme-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/95>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Engineer (Science and Engineering) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/science-engineering> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "Manager Quality Manager (Other) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant HR Support Officer (Human Resources) in Finance & Corporate Services reporting to post HS2239 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2239> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/finance-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Assistant Administration Assistant (Communications) in External & Parliamentary Relations reporting to post HS2111 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2111> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/external-parliamentary-relations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/101>
+        a                              qb:Observation ;
+        rdfs:label                     "Senior Manager Policy Adviser (Other) in Phase Two reporting to post HS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/senior-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/phase-two> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Head of Function Acquisition Manager (Property and asset management) in Commercial reporting to post HS2095 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/high-speed-2-ltd/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/high-speed-2-ltd/grade/head-of-function> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/acquisition-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/post/HS2095> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/high-speed-2-ltd/unit/commercial> .

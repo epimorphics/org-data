@@ -1,0 +1,738 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Licensing"@en ;
+        skos:prefLabel  "Licensing"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Operations Manager (Operational Delivery) in Investigation Management Unit reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/investigation-management-unit> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Intelligence"@en ;
+        skos:prefLabel  "Intelligence"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Senior IT Manager (Information Technology) in IT reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/it> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-1>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Enforcement and Investigations - Syndicate 1"@en ;
+        skos:prefLabel  "Enforcement and Investigations - Syndicate 1"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/finance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance"@en ;
+        skos:prefLabel  "Finance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Deputy Head of Compliance (UK) (Operational Delivery) in Compliance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-head-of-compliance-uk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/compliance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Language Intelligence Officer (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/language-intelligence-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Head of Compliance (UK) (Operational Delivery) in Compliance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-compliance-uk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/compliance> .
+
+<http://reference.data.gov.uk/id/salary-range/54234-64439>
+        a               gov:SalaryRange ;
+        rdfs:label      "£54234 - £64439" ;
+        gov:lowerBound  54234 ;
+        gov:upperBound  64439 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Appeals Officer (Other) in Licensing reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/appeals-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-1> ;
+        skos:prefLabel     "Grade 1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/compliance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Compliance"@en ;
+        skos:prefLabel  "Compliance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Director of Strategy (Other) in Strategy reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/director-of-strategy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Director of People and Licensing (Human Resources) in HR reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/director-of-people-and-licensing> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/hr> .
+
+<http://reference.data.gov.uk/id/salary-range/85000-89999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£85000-£89999"@en ;
+        gov:lowerBound  85000 ;
+        gov:upperBound  89999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Enforcement Officer (Operational Delivery) in Enforcement and Investigations - Syndicate 2 reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.75 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-2> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Finance Assistant (Finance) in Finance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/finance> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/hr>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HR"@en ;
+        skos:prefLabel  "HR"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:enquiries@gla.gsi.gov.uk> ;
+        foaf:name      "Paul Broadbent" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> ;
+        foaf:phone     "0115 9597077" .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/31794-41119> ;
+        skos:prefLabel     "Grade 4 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Intelligence Officer (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Business Change and Development Office (Other) in Business Change and Development reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.86 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-change-and-development-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/business-change-and-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Appeals Manager (Other) in Licensing reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/appeals-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Paul Broadbent as Chief Executive" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        void:vocabulary       rdfs: , org: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Corporate Services Assistant (Other) in Directorate reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.32 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-services-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/directorate> .
+
+<http://reference.data.gov.uk/id/department/defra>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Department for Environment, Food and Rural Affairs"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Environment, Food and Rural Affairs"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Senior Investigating Officer (UK) (Operational Delivery) in Enforcement and Investigations - Syndicate 2 reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-investigating-officer-uk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-2> .
+
+<http://reference.data.gov.uk/id/salary-range/26591-32230>
+        a               gov:SalaryRange ;
+        rdfs:label      "£26591 - £32230" ;
+        gov:lowerBound  26591 ;
+        gov:upperBound  32230 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Finance Assistant (Finance) in Finance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/finance> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/it>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "IT"@en ;
+        skos:prefLabel  "IT"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/business-change-and-development>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Business Change and Development"@en ;
+        skos:prefLabel  "Business Change and Development"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/26591-32230> ;
+        skos:prefLabel     "Grade 3 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Intelligence Analyst (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Head of Business Change and Development (UK) (Other) in Business Change and Development reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-business-change-and-development-uk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/business-change-and-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Licensing Assistant (Other) in Licensing reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Intelligence Team Manager (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-team-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Strategy"@en ;
+        skos:prefLabel  "Strategy"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 PA to the Chief Executive and Chairman (Other) in Directorate reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-to-the-chief-executive-and-chairman> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Enforcement Officer (Operational Delivery) in Enforcement and Investigations - Syndicate 1 reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Finance Manager (Finance) in Finance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/finance> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/directorate>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Directorate"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        skos:prefLabel  "Directorate"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21269-26855> ;
+        skos:prefLabel     "Grade 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Senior Intelligence Analyst (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-intelligence-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-4> ;
+        skos:prefLabel     "Grade 4"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Learning & Development/Communications Officer (Communications) in Strategy reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/learning-development-communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Licensing Officer (Other) in Licensing reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Investigation Management Officer (Operational Delivery) in Investigation Management Unit reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigation-management-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/investigation-management-unit> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Senior Investigating Officer (UK) (Operational Delivery) in Enforcement and Investigations - Syndicate 1 reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-investigating-officer-uk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Regional Field Intelligence Officer (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-field-intelligence-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<mailto:enquiries@gla.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "enquiries@gla.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15421-19873> ;
+        skos:prefLabel     "Grade 1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        skos:prefLabel      "Department for Environment, Food and Rural Affairs Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-3> ;
+        skos:prefLabel     "Grade 3"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Communications Assistant (Communications) in Strategy reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 4 Head of Licensing (Other) in Licensing reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-licensing> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Investigation Management Officer (Operational Delivery) in Investigation Management Unit reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigation-management-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/investigation-management-unit> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-2>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Enforcement and Investigations - Syndicate 2"@en ;
+        skos:prefLabel  "Enforcement and Investigations - Syndicate 2"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/21269-26855>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21269 - £26855" ;
+        gov:lowerBound  21269 ;
+        gov:upperBound  26855 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Salary cost of reports is taken as gross pay"@en , "To develop and provide advice to the Board on the strategic direction and to lead the Authority in the delivery of the strategic aims in order to best achieve the purpose set out in the Gangmasters (Licensing) Act 2004.  The Chief Executive is also responsible to the Chairman and Board for the day to day management and executive leadership and for the performance of the organisation.  In addition the Chief Executive is the formal GLA Accounting Officer with accountabilites to the DEFRA Accounting Officer."@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/directorate> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/85000-89999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "CHIEF" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Enforcement Officer (Operational Delivery) in Compliance reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  10.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/enforcement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/compliance> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/54234-64439> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/15421-19873>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15421 - £19873" ;
+        gov:lowerBound  15421 ;
+        gov:upperBound  19873 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-3> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-1> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-2> , <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-4> ;
+        skos:prefLabel      "Department for Environment, Food and Rural Affairs Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Intelligence Assistant (Other) in Intelligence reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Environment, Food and Rural Affairs Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/payband/grade-2> ;
+        skos:prefLabel     "Grade 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Communications & Information Officer (Communications) in Strategy reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-information-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/id/salary-range/31794-41119>
+        a               gov:SalaryRange ;
+        rdfs:label      "£31794 - £41119" ;
+        gov:lowerBound  31794 ;
+        gov:upperBound  41119 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/investigation-management-unit>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Investigation Management Unit"@en ;
+        skos:prefLabel  "Investigation Management Unit"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 HR Officer (Human Resources) in HR reporting to post CHIEF FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.95 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/gangmasters-licensing-authority/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/hr> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/gangmasters-licensing-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/post/CHIEF> ;
+        organogram:salaryCostOfReports  "2164002"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Gangmasters Licensing Authority"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/defra> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Gangmasters Licensing Authority"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/strategy> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/business-change-and-development> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-2> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/hr> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/it> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/directorate> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/licensing> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/investigation-management-unit> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/compliance> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/enforcement-and-investigations-syndicate-1> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/intelligence> , <http://reference.data.gov.uk/id/public-body/gangmasters-licensing-authority/unit/finance> .

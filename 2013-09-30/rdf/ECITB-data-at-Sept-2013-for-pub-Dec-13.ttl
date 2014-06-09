@@ -1,0 +1,872 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure5>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Tony as Director of Operations" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6109>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "incls HR, procurement, contracts, levy"@en , "Finance & Legal"@en ;
+        rdfs:label       "Director of Finance & Board Secretary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6109 ;
+        skos:prefLabel   "Director of Finance & Board Secretary"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Administrator (Operational Delivery) in Operations reporting to post 6119 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Marketing & Comms Administrator (Communications) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-comms-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        void:vocabulary       org: , <http://reference.data.gov.uk/def/central-government> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:andrew.collinson@ECITB.org.uk> ;
+        foaf:name      "Andrew" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402123" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Chariman Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> ;
+        organogram:salaryCostOfReports  "123000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Regional Account Manager (Operational Delivery) in Operations reporting to post 6119 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-account-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14136-29000> ;
+        skos:prefLabel     "Grade 1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/payband> .
+
+<mailto:nigel.spencer@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "nigel.spencer@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Secretary (Knowledge and Information Management (KIM)) in Executive reporting to post 6038 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Manager (Other) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure8> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:andy.brown@ecitb.org.uk> ;
+        foaf:name      "Andy" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402123" .
+
+<http://reference.data.gov.uk/id/salary-range/75000-79999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£75000-£79999"@en ;
+        gov:lowerBound  75000 ;
+        gov:upperBound  79999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "David as Chief Executive Officer" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Director RegionalOperations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        organogram:salaryCostOfReports  "1030000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6051>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Quality, assurance, marketing, research, design"@en , "Development & Quality"@en ;
+        rdfs:label       "Director of Development & Quality"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6051 ;
+        skos:prefLabel   "Director of Development & Quality"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/unit/executive>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Executive"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> , <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> , <http://reference.data.gov.uk/id/public-body/ecitb/post/6150> , <http://reference.data.gov.uk/id/public-body/ecitb/post/9999> ;
+        skos:prefLabel  "Executive"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Marketing & Comms Officer (Communications) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-comms-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<mailto:david.edwards@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "david.edwards@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/id/salary-range/90000-94999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£90000-£94999"@en ;
+        gov:lowerBound  90000 ;
+        gov:upperBound  94999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6150> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:avril.goodenough@ecitb.org.uk> ;
+        foaf:name      "Julian" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402123" .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000-£84999"@en ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Non-Executive Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6150> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<mailto:peter.hill@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "peter.hill@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 International Business Dev (Operational Delivery) in Commercial reporting to post 6097 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/international-business-dev> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> .
+
+<mailto:tony.featherstone@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "tony.featherstone@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 IT Support Officer (Information Technology) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/9999>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive"@en ;
+        rdfs:label       "Non-Executive Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/130000-134999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    9999 ;
+        skos:prefLabel   "Non-Executive Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6097>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Operations"@en , "incls programme management, commercial"@en ;
+        rdfs:label       "Director of Operations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6097 ;
+        skos:prefLabel   "Director of Operations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6150>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive"@en ;
+        rdfs:label       "Non-Executive Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/130000-134999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6150 ;
+        skos:prefLabel   "Non-Executive Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:nigel.spencer@ecitb.org.uk> ;
+        foaf:name      "Nigel" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402132" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> , <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> , <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Andrew as Chariman" ;
+        gov:fullTimeEquivalent  0.3 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Development & Quality Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:salaryCostOfReports  "736000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commercial"@en ;
+        skos:prefLabel  "Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Internal Auditor (Internal Audit) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/internal-auditor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/internal-audit> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/id/salary-range/120000-124999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£120000-£124999"@en ;
+        gov:lowerBound  120000 ;
+        gov:upperBound  124999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/9999> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:avril.goodenough@ecitb.org.uk> ;
+        foaf:name      "Shirley" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402123" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Non-Executive Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/9999> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Manager (Operational Delivery) in Commercial reporting to post 6097 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Senior Industry Analyst (Operational Research) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-industry-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure8>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Andy as Director RegionalOperations" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Accountant (Finance) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:peter.hill@ecitb.org.uk> ;
+        foaf:name      "Peter" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402124" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Julian as Non-Executive Director" ;
+        gov:fullTimeEquivalent  0.1 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6150> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Finance & Board Secretary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:salaryCostOfReports  "490000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/14136-29000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14136 - £29000" ;
+        gov:lowerBound  14136 ;
+        gov:upperBound  29000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/id/salary-range/35535-51160>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35535 - £51160" ;
+        gov:lowerBound  35535 ;
+        gov:upperBound  51160 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6119>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Operations"@en ;
+        rdfs:label       "Director RegionalOperations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/75000-79999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6119 ;
+        skos:prefLabel   "Director RegionalOperations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Project Manager (Operational Research) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.2 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Manager (Operational Delivery) in Commercial reporting to post 6097 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Head (Other) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-3> ;
+        skos:prefLabel     "Grade 3"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure7>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Nigel as Director of Development & Quality" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<mailto:andrew.collinson@ECITB.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "andrew.collinson@ECITB.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Senior Finance  Manager (Finance) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Administrator (Other) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:tony.featherstone@ecitb.org.uk> ;
+        foaf:name      "Tony" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402133" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Shirley as Non-Executive Director" ;
+        gov:fullTimeEquivalent  0.1 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/9999> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Operations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:salaryCostOfReports  "317000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/unit/operations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> , <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        skos:prefLabel  "Operations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 2 Account Manager (Operational Delivery) in Operations reporting to post 6119 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "13"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/account-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35535-51160> ;
+        skos:prefLabel     "Grade 3 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/payband> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1> , <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-3> , <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-2> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6140>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive"@en ;
+        rdfs:label       "Chariman"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/55000-59999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6140 ;
+        skos:prefLabel   "Chariman"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Senior International Business Dev (Operational Delivery) in Commercial reporting to post 6097 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-international-business-dev> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Administrator (Operational Delivery) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/id/salary-range/130000-134999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£130000-£134999"@en ;
+        gov:lowerBound  130000 ;
+        gov:upperBound  134999 .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-2> ;
+        skos:prefLabel     "Grade 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/grade> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance & Legal"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        skos:prefLabel  "Finance & Legal"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/ecitb> .
+
+<mailto:avril.goodenough@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "avril.goodenough@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure6>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Peter as Director of Finance & Board Secretary" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<http://reference.data.gov.uk/id/department/bis>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Department for Business Innovation and Skills"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Business Innovation and Skills"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 IT Manager (Information Technology) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Industry Analyst (Operational Research) in Development & Quality reporting to post 6051 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/industry-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/post/6038>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive"@en ;
+        rdfs:label       "Chief Executive Officer"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> , <http://reference.data.gov.uk/id/public-body/ecitb> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6038 ;
+        skos:prefLabel   "Chief Executive Officer"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/ecitb/post/6140> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:david.edwards@ecitb.org.uk> ;
+        foaf:name      "David" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> ;
+        foaf:phone     "01923 402121" .
+
+<http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Development & Quality"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/ecitb/post/6051> ;
+        skos:prefLabel  "Development & Quality"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/ecitb> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Officer Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/ecitb/post/6038> ;
+        organogram:salaryCostOfReports  "331000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Manager (Operational Delivery) in Operations reporting to post 6119 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6119> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/ecitb>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "ECITB"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/bis> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "ECITB"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/operations> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/executive> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> , <http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25000-40928> ;
+        skos:prefLabel     "Grade 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/55000-59999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55000-£59999"@en ;
+        gov:lowerBound  55000 ;
+        gov:upperBound  59999 .
+
+<http://reference.data.gov.uk/id/salary-range/25000-40928>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25000 - £40928" ;
+        gov:lowerBound  25000 ;
+        gov:upperBound  40928 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/ecitb> .
+
+<mailto:andy.brown@ecitb.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "andy.brown@ecitb.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 3 Business Development Manager (Operational Delivery) in Commercial reporting to post 6097 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6097> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 1 Finance Administrator (Finance) in Finance & Legal reporting to post 6109 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/ecitb/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/ecitb/post/6109> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal> .
+
+<http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1> ;
+        skos:prefLabel     "Grade 1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/ecitb/grade> .

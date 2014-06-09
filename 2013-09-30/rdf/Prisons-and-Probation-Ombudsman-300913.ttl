@@ -1,0 +1,654 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Head of Strategic Support (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-strategic-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Ombudsman Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:salaryCostOfReports  "214063"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-e> ;
+        skos:prefLabel     "Band E"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Family Liaison (Operational Delivery) in Fatal Incidents Investigation reporting to post 124 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/family-liaison> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/id/salary-range/100000-104999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£100000-£104999"@en ;
+        gov:lowerBound  100000 ;
+        gov:upperBound  104999 .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21096-36061> ;
+        skos:prefLabel     "Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Support Services (Operational Delivery) in Fatal Incidents Investigation reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/support-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Nigel Newcomen as Prisons and Probation Ombudsman" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-a> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-c> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-e> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-b> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-d> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-f> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/salary-range/29634-44964>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29634 - £44964" ;
+        gov:lowerBound  29634 ;
+        gov:upperBound  44964 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Assistant Finance Manager (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Ombudsman Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:salaryCostOfReports  "1628394"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/15935-22250>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15935 - £22250" ;
+        gov:lowerBound  15935 ;
+        gov:upperBound  22250 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-d> ;
+        skos:prefLabel     "Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Corporate Services (Operational Delivery) in Fatal Incidents Investigation reporting to post 124 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29634-44964> ;
+        skos:prefLabel     "Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Research & Communications Support Officer (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/research-communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:mail@ppo.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> ;
+        foaf:phone     "0207 035 2038" .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-a> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-b> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-d> , <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-f> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Ombudsman Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        organogram:salaryCostOfReports  "1241447"^^xsd:decimal .
+
+<mailto:mail@ppo.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "mail@ppo.gsi.gov.uk" .
+
+<mailto:Nigel.newcomen1@ppo.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Nigel.newcomen1@ppo.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Ombudsman is independent and as such is a public appointment."@en , "Responsible for investigating complaints and deaths in prison, immigration detention and probation"@en ;
+        rdfs:label       "Prisons and Probation Ombudsman"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/prison-and-probation-ombudsman> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/100000-104999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    100 ;
+        skos:prefLabel   "Prisons and Probation Ombudsman"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/xx> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-c> ;
+        skos:prefLabel     "Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Assistant Ombudsman (Operational Delivery) in Fatal Incidents Investigation reporting to post 124 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-ombudsman> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/id/salary-range/42034-67969>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42034 - £67969" ;
+        gov:lowerBound  42034 ;
+        gov:upperBound  67969 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42034-67969> ;
+        skos:prefLabel     "Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Information Manager (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:mail@ppo.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> ;
+        foaf:phone     "0207 035 2741" .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Fatal Incidents Investigations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        skos:prefLabel  "Fatal Incidents Investigations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Prisons and Probation Ombudsman Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Finance Manager (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for Learning Lessons and Strategic Support"@en , "Salary not disclosed, this post of Deputy Ombudsman is shown as SCS PB1 for illustrative purposes only."@en ;
+        rdfs:label       "Deputy Ombudsman"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    125 ;
+        skos:prefLabel   "Deputy Ombudsman"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> .
+
+<http://reference.data.gov.uk/id/salary-range/17513-28000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17513 - £28000" ;
+        gov:lowerBound  17513 ;
+        gov:upperBound  28000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13894-18700> ;
+        skos:prefLabel     "Band F Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band F Support Services (Operational Delivery) in Fatal Incidents Investigation reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/support-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Fatal Incidents Investigation"@en ;
+        skos:prefLabel  "Fatal Incidents Investigation"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-b> ;
+        skos:prefLabel     "Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Ombudsman" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Assessment Officer (Operational Delivery) in Complaints Investigation reporting to post 123 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assessment-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Researcher (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:mail@ppo.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> ;
+        foaf:phone     "020 7035 2046" .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/prison-and-probation-ombudsman>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Prison and Probation Ombudsman"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> ;
+        skos:prefLabel  "Prison and Probation Ombudsman"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Prison & Probation Ombudsman"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/justice> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Prison & Probation Ombudsman"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigations> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/prison-and-probation-ombudsman> .
+
+<http://reference.data.gov.uk/id/salary-range/13894-18700>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13894 - £18700" ;
+        gov:lowerBound  13894 ;
+        gov:upperBound  18700 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Investigator (Operational Delivery) in Fatal Incidents Investigation reporting to post 124 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "13"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for Investigating fatal incidents in Prisons, Immigration Removal Centres and Probation"@en , "Salary not disclosed"@en ;
+        rdfs:label       "Deputy Ombudsman"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigations> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    124 ;
+        skos:prefLabel   "Deputy Ombudsman"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15935-22250> ;
+        skos:prefLabel     "Band E Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/21096-36061>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21096 - £36061" ;
+        gov:lowerBound  21096 ;
+        gov:upperBound  36061 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band F Support Services (Operational Delivery) in Complaints Investigation reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/support-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-a> ;
+        skos:prefLabel     "Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Ombudsman" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Investigator (Operational Delivery) in Complaints Investigation reporting to post 123 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "32"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Head of Research and Analysis (Operational Delivery) in Learning Lessons and Strategic Support reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-research-and-analysis> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Nigel.newcomen1@ppo.gsi.gov.uk> ;
+        foaf:name      "Nigel Newcomen" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> ;
+        foaf:phone     "0207 035 2851" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-f> ;
+        skos:prefLabel     "Band F"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Investigator (Operational Delivery) in Fatal Incidents Investigation reporting to post 124 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "18"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/124> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for Complaint Investigations, Prison and Probation Ombudsman"@en , "Salary not disclosed"@en ;
+        rdfs:label       "Deputy Ombudsman"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> , <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    123 ;
+        skos:prefLabel   "Deputy Ombudsman"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/100> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/learning-lessons-and-strategic-support>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Learning Lessons and Strategic Support"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        skos:prefLabel  "Learning Lessons and Strategic Support"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Complaints Investigation"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        skos:prefLabel  "Complaints Investigation"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17513-28000> ;
+        skos:prefLabel     "Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Support Services (Operational Delivery) in Fatal Incidents Investigation reporting to post 125 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/support-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/125> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/fatal-incidents-investigation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Ombudsman" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Assistant Ombudsman (Operational Delivery) in Complaints Investigation reporting to post 123 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/prison-probation-ombudsman/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/prison-probation-ombudsman/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-ombudsman> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/post/123> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/prison-probation-ombudsman/unit/complaints-investigation> .
+
+<http://reference.data.gov.uk/id/department/justice>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Ministry of Justice"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Justice"@en .

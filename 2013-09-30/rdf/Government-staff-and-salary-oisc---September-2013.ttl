@@ -1,0 +1,521 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsibility in accordance with Immigration and Asylum Act 1999 for the oversight of the provision of immigration advice and services."@en ;
+        rdfs:label       "Deputy Immigration Services Commissioner"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/commissioners> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/70000-74999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/OF-6> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "oisc2" ;
+        skos:prefLabel   "Deputy Immigration Services Commissioner"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operations Support Officer (Operational Delivery) in Intelligence and investigations reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/intelligence-and-investigations> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/policy-publications-and-stakeholders>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Policy, publications and stakeholders"@en ;
+        skos:prefLabel  "Policy, publications and stakeholders"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20000-35000> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Researcher (Operational Delivery) in Casework reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "15"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior HR Manager (Operational Delivery) in HR and training reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/hr-and-training> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsibility in accordance with Immigration and Asylum Act 1999 for the oversight of the provision of immigration advice and services."@en ;
+        rdfs:label       "Immigration Services Commissioner"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/commissioners> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/110000-114999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "oisc1" ;
+        skos:prefLabel   "Immigration Services Commissioner"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/xx> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Casework reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> .
+
+<http://reference.data.gov.uk/id/salary-range/70000-74999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£70000-£74999"@en ;
+        gov:lowerBound  70000 ;
+        gov:upperBound  74999 .
+
+<http://reference.data.gov.uk/id/salary-range/110000-114999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£110000-£114999"@en ;
+        gov:lowerBound  110000 ;
+        gov:upperBound  114999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Researcher (Operational Delivery) in Intelligence and investigations reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  10.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/intelligence-and-investigations> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/40000-55000> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Operational Manager (Operational Delivery) in Operational Management reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/operational-management> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/finance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance"@en ;
+        skos:prefLabel  "Finance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO IT Support Officer (Operational Delivery) in IT reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/it> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Ian.Leigh@oisc.gov.uk> ;
+        foaf:name      "Ian Leigh" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> ;
+        foaf:phone     "020 7211 1515" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/intelligence-and-investigations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Intelligence and investigations"@en ;
+        skos:prefLabel  "Intelligence and investigations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Operational Manager (Operational Delivery) in Casework reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Ian Leigh as Deputy Immigration Services Commissioner" ;
+        gov:fullTimeEquivalent  0.8 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/15000-20000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15000 - £20000" ;
+        gov:lowerBound  15000 ;
+        gov:upperBound  20000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/office-support>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Office support"@en ;
+        skos:prefLabel  "Office support"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/seo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/heo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/eo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/ao> ;
+        skos:prefLabel      "Home Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/eo> , <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/ao> ;
+        skos:prefLabel      "Home Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Immigration Services Commissioner Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:salaryCostOfReports  "1928612"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Private Secretary (Operational Delivery) in Office support reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/office-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Suzanne.McCarthy@oisc.gov.uk> ;
+        foaf:name      "Suzanne McCarthy" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> ;
+        foaf:phone     "020 7211 1525" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior IT Manager (Operational Delivery) in IT reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/it> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/hr-and-training>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HR and training"@en ;
+        skos:prefLabel  "HR and training"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Suzanne McCarthy as Immigration Services Commissioner" ;
+        gov:fullTimeEquivalent  0.6 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/it>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "IT"@en ;
+        skos:prefLabel  "IT"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Legal Support Officer (Operational Delivery) in Casework reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30000-45000> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/40000-55000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£40000 - £55000" ;
+        gov:lowerBound  40000 ;
+        gov:upperBound  55000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/id/salary-range/30000-45000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30000 - £45000" ;
+        gov:lowerBound  30000 ;
+        gov:upperBound  45000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/id/salary-range/20000-35000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20000 - £35000" ;
+        gov:lowerBound  20000 ;
+        gov:upperBound  35000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15000-20000> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Immigration Services Commissioner Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1> ;
+        organogram:salaryCostOfReports  "180000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/commissioners>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commissioners"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc1> ;
+        skos:prefLabel  "Commissioners"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<mailto:Ian.Leigh@oisc.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Ian.Leigh@oisc.gov.uk" .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Casework"@en ;
+        skos:prefLabel  "Casework"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/central-government> , org: .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Office of the Immigration Services Commissioner"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/ho> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Office of the Immigration Services Commissioner"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/intelligence-and-investigations> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/commissioners> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/operational-management> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/hr-and-training> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/policy-publications-and-stakeholders> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/finance> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/office-support> , <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/it> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Communications Manager (Operational Delivery) in Policy, publications and stakeholders reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/policy-publications-and-stakeholders> .
+
+<http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/operational-management>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operational Management"@en ;
+        skos:prefLabel  "Operational Management"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Office Manager (Operational Delivery) in Office support reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/office-support> .
+
+<mailto:Suzanne.McCarthy@oisc.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Suzanne.McCarthy@oisc.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Executive Assistant (Operational Delivery) in Casework reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/casework> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade> .
+
+<http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/18000-25000> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/18000-25000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£18000 - £25000" ;
+        gov:lowerBound  18000 ;
+        gov:upperBound  25000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner> .
+
+<http://reference.data.gov.uk/id/department/ho>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Home Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Home Office"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Finance  Manager (Operational Delivery) in Finance reporting to post oisc2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/office-of-the-immigration-services-commissioner/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/office-of-the-immigration-services-commissioner/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/post/oisc2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/office-of-the-immigration-services-commissioner/unit/finance> .

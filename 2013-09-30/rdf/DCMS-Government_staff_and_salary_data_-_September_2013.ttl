@@ -1,0 +1,2213 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "C Policy Adviser (Policy) in Government Equalities Office reporting to post DCMS2005 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "B Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  44.69 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure7>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Gender Policy" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1007> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/d> ;
+        skos:prefLabel     "D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure24>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Sue Owen as Permanent Secretary" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person24> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1008> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure8> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1024>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Creative Economy, Internet and International"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person32> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1024" ;
+        skos:prefLabel   "Deputy Director, Head of Creative Economy, Internet and International"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1003>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Equality Framework"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1003" ;
+        skos:prefLabel   "Deputy Director, Head of Equality Framework"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person30>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1023> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure30> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/23663-26211> ;
+        skos:prefLabel     "C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Strategy and Governance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1004> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/34>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of HR Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1026> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/13>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Ministerial Support and Principal Private Secretary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1013> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "B HR Officer (Human Resources) in Human Resources reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.46 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Senior Management Team"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/dcms/post/DCMS1010> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1026> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1012> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1028> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1025> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1005> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1002> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1017> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1001> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1014> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1016> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1007> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1013> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1011> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1009> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1020> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1006> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1004> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1019> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1003> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1018> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1027> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1022> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1015> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1024> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1021> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1008> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS1023> ;
+        skos:prefLabel  "Senior Management Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/fast-stream>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/28366-29876> ;
+        skos:prefLabel     "Fast Stream Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2004>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Department's lead on Communications and Policy Profession. SRO for Broadband, Spectrum and Mobile Infrastructure programmes, and for BBC issues. Lead on Growth."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nDetails of junior staff from Broadband, Media, News & Communincations are shown here against their Director.  Additional junior staff from this Directorate are supplied from the Flexible Resourcing Pool."@en ;
+        rdfs:label       "Director, Broadband; Digital Economy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person25> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2004" ;
+        skos:prefLabel   "Director, Broadband; Digital Economy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure32>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Creative Economy, Internet and International" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1024> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person32> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure11>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Heritage" ;
+        gov:fullTimeEquivalent  0.73 ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1011> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person11> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<mailto:Permanent.Secretary@Culture.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Permanent.Secretary@Culture.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1011>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Heritage"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person11> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1011" ;
+        skos:prefLabel   "Deputy Director, Head of Heritage"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/id/salary-range/150000-154999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£150000-£154999"@en ;
+        gov:lowerBound  150000 ;
+        gov:upperBound  154999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person17>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1016> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure17> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/21>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Arts Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1019> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/46751-55686>
+        a               gov:SalaryRange ;
+        rdfs:label      "£46751 - £55686" ;
+        gov:lowerBound  46751 ;
+        gov:upperBound  55686 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "C Finance Officer (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, English Heritage Projects" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1002> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure19>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, BDUK, Urban Broadband" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1017> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person19> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1003> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/a-u>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/53494-66005> ;
+        skos:prefLabel     "A(U) Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1019>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Arts"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person21> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1019" ;
+        skos:prefLabel   "Deputy Director, Head of Arts"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Broadband, Media, News & Communications"@en ;
+        skos:prefLabel  "Broadband, Media, News & Communications"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/id/department/dcms>
+        a                     gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label            "Department for Culture, Media and Sport"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dcms> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel        "Department for Culture, Media and Sport"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> , <http://reference.data.gov.uk/id/department/dcms/unit/human-resources> , <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms/unit/public-appointments> , <http://reference.data.gov.uk/id/department/dcms/unit/government-art-collection> , <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> , <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person25>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure25> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "Jon Zeff" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/29>
+        a                               qb:Observation ;
+        rdfs:label                      "Director (Maternity Leave) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2007> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "A(U) Senior Policy Adviser (Policy) in Broadband, Media, News & Communications reporting to post DCMS2004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a-u> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Fast Stream Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/fast-stream> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure27>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director (Maternity Leave)" ;
+        gov:fullTimeEquivalent  0.8 ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1022> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person27> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1027>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for the financial management and performance of the Department and its NDPBs"@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Finance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person35> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1027" ;
+        skos:prefLabel   "Deputy Director, Head of Finance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1006>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Media"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1006" ;
+        skos:prefLabel   "Deputy Director, Head of Media"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/government-art-collection>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Government Art Collection"@en ;
+        skos:prefLabel  "Government Art Collection"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person33>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1025> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure33> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person12>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1012> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure12> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Gender Policy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1007> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/37>
+        a                               qb:Observation ;
+        rdfs:label                      "Flexible Resourcing Pool Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:salaryCostOfReports  "5754913"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/16>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Ceremonial and Appointments Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1015> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "B Policy Adviser (Policy) in Public Appointments reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/public-appointments> .
+
+<http://reference.data.gov.uk/id/salary-range/30745-37131>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30745 - £37131" ;
+        gov:lowerBound  30745 ;
+        gov:upperBound  37131 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2007>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Maternity Leave"@en , "Maternity leave"@en ;
+        rdfs:label       "Director (Maternity Leave)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person29> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2007" ;
+        skos:prefLabel   "Director (Maternity Leave)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure35>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Finance" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1027> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person35> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure14>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Chief Economist and Head of Lottery" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1014> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person14> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1014>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for delivery of analysis to support key policy areas.  Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Chief Economist and Head of Lottery"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person14> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1014" ;
+        skos:prefLabel   "Deputy Director, Chief Economist and Head of Lottery"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person20>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1018> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure20> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS4001>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Sue Owen started in post as the Permanent Secretary on 1st October 2013 and is shown here.  On 30 September, Claire Pillman was acting as the Department's Accounting Officer."@en , "Accounting Officer for DCMS policy and expenditure.  Chair of the Executive Board."@en ;
+        rdfs:label       "Permanent Secretary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person24> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/150000-154999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS4> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS4001" ;
+        skos:prefLabel   "Permanent Secretary"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/24>
+        a                               qb:Observation ;
+        rdfs:label                      "Permanent Secretary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> ;
+        organogram:salaryCostOfReports  "643851"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "A(U) Senior Policy Adviser (Policy) in Government Equalities Office reporting to post DCMS2005 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a-u> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  54.44 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure5>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of External Gender Policy Engagement" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1005> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/b> ;
+        skos:prefLabel     "B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure22>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Sport" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1020> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person22> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1006> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1022>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Maternity Leave"@en , "Maternity leave"@en ;
+        rdfs:label       "Deputy Director (Maternity Leave)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person27> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1022" ;
+        skos:prefLabel   "Deputy Director (Maternity Leave)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1001>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Change, Gambling and Licensing"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1001" ;
+        skos:prefLabel   "Deputy Director, Head of Change, Gambling and Licensing"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/id/salary-range/20234-21023>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20234 - £21023" ;
+        gov:lowerBound  20234 ;
+        gov:upperBound  21023 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person28>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure28> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "Rachel Clark" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/46751-55686> ;
+        skos:prefLabel     "A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, English Heritage Projects Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1002> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/32>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Creative Economy, Internet and International Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1024> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/11>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Heritage Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1011> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/90000-94999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£90000-£94999"@en ;
+        gov:lowerBound  90000 ;
+        gov:upperBound  94999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "C Policy Adviser (Policy) in Government Art Collection reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.14 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-art-collection> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2002>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Department’s lead on Sport.  Responsible for overseeing the delivery of DCMS’s Olympic and Paralympic legacy commitments."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from this Directorate are supplied from the Flexible Resourcing Pool."@en ;
+        rdfs:label       "Director, Sport & Olympic Legacy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person18> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2002" ;
+        skos:prefLabel   "Director, Sport & Olympic Legacy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure30>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Chief Executive Officer, BDUK" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1023> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person30> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/human-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Human Resources"@en ;
+        skos:prefLabel  "Human Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1009>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for the Department's programme to support increased coverage of superfast broadband to 90% of UK premises."@en ;
+        rdfs:label       "Deputy Director, BDUK, Rural Broadband Lead"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person9> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1009" ;
+        skos:prefLabel   "Deputy Director, BDUK, Rural Broadband Lead"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person36>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1028> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure36> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person15>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure15> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "Clare Pillman" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/19>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, BDUK, Urban Broadband Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1017> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/53494-66005>
+        a               gov:SalaryRange ;
+        rdfs:label      "£53494 - £66005" ;
+        gov:lowerBound  53494 ;
+        gov:upperBound  66005 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "A(U) Senior Finance  Manager (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a-u> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/public-appointments>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Public Appointments"@en ;
+        skos:prefLabel  "Public Appointments"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure17>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Project - Leveson" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1016> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person17> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1017>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the Department's programmes for supporting digital infrstructure capabilities in UK cities."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, BDUK, Urban Broadband"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person19> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1017" ;
+        skos:prefLabel   "Deputy Director, BDUK, Urban Broadband"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person23>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure23> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "Helen MacNamara" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/27>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director (Maternity Leave) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1022> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "D Policy Adviser (Policy) in Government Equalities Office reporting to post DCMS2005 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "C Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  28.83 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure8>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of LGBT" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1008> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , org: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure25>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Jon Zeff as Director, Broadband; Digital Economy" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person25> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person9>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1009> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure9> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1025>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Telecommunications Policy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person33> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1025" ;
+        skos:prefLabel   "Deputy Director, Head of Telecommunications Policy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1004>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the operation of the Department's flexible resourcing structure and the management of resource against the Department's priorities."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Strategy and Governance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1004" ;
+        skos:prefLabel   "Deputy Director, Head of Strategy and Governance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person31>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure31> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "Samantha Foley" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20234-21023> ;
+        skos:prefLabel     "D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2999>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Note, this is not an actual post.  For the purpose of this exercise, this represents the Department's flexible resourcing pool of junior staff.  This provides resource for policy areas and other Department functions."@en , "Junior staff allocated to Flexible Resourcing Pool are shown here.  Note, this is not an actual post.  An FTE of 0.01 is required for the organogram building software."@en ;
+        rdfs:label       "Flexible Resourcing Pool"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person37> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2999" ;
+        skos:prefLabel   "Flexible Resourcing Pool"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person10>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1010> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure10> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of External Gender Policy Engagement Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1005> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/35>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Finance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1027> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/14>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Chief Economist and Head of Lottery Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1014> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "C HR Officer (Human Resources) in Human Resources reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2005>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Department's lead on Equalities, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nDetails of junior staff from the Government Equalities Office are shown here against their Director.  Additional junior staff from this  Directorate are supplied from the Flexible Resourcing Pool."@en ;
+        rdfs:label       "Director, Government Equalities Office"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person28> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2005" ;
+        skos:prefLabel   "Director, Government Equalities Office"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure33>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Telecommunications Policy" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1025> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person33> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure12>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Government Art Collection" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1012> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person12> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1012>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Curator of the Government Art Collection"@en ;
+        rdfs:label       "Deputy Director, Head of Government Art Collection"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person12> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1012" ;
+        skos:prefLabel   "Deputy Director, Head of Government Art Collection"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person18>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2002> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure18> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Directors.mailbox@culture.gsi.gov.uk> ;
+        foaf:name      "David Brooker" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/22>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Sport Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1020> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "D Finance Support Officer (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Equality Framework" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1003> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure20>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Tourism" ;
+        gov:fullTimeEquivalent  0.81 ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1018> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person20> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1004> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1020>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Sport"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person22> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1020" ;
+        skos:prefLabel   "Deputy Director, Head of Sport"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2002> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person26>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1021> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure26> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/salary-range/28366-29876>
+        a               gov:SalaryRange ;
+        rdfs:label      "£28366 - £29876" ;
+        gov:lowerBound  28366 ;
+        gov:upperBound  29876 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/30>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Officer, BDUK Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1023> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "B Policy Adviser (Policy) in Broadband, Media, News & Communications reporting to post DCMS2004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  18.99 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior Policy Adviser (Policy) in Government Art Collection reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-art-collection> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure28>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Rachel Clark as Director, Government Equalities Office" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person28> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1028>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for providing media handling and communications advice to ministers and the department."@en ;
+        rdfs:label       "Deputy Director, Head of News and Communications"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person36> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1028" ;
+        skos:prefLabel   "Deputy Director, Head of News and Communications"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1007>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Gender Policy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1007" ;
+        skos:prefLabel   "Deputy Director, Head of Gender Policy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance & Commercial, E&A, Working Environment"@en ;
+        skos:prefLabel  "Finance & Commercial, E&A, Working Environment"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person34>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1026> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure34> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person13>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1013> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure13> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of LGBT Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1008> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/17>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Project - Leveson Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1016> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "C Policy Adviser (Policy) in Public Appointments reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/public-appointments> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "D Policy Adviser (Policy) in Broadband, Media, News & Communications reporting to post DCMS2004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure36>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of News and Communications" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1028> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person36> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure15>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Clare Pillman as Director, Culture" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person15> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1015>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of Ceremonial and Appointments"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person16> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1015" ;
+        skos:prefLabel   "Deputy Director, Head of Ceremonial and Appointments"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<mailto:Directors.mailbox@culture.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Directors.mailbox@culture.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person21>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1019> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure21> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/25>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Broadband; Digital Economy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:salaryCostOfReports  2317850.62 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "B Policy Adviser (Policy) in Government Equalities Office reporting to post DCMS2005 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  41.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "A(U) Senior Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a-u> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure6>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Media" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1006> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/c> ;
+        skos:prefLabel     "C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure23>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Helen MacNamara as Director, Media Policy; Strategy; Change" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person23> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1007> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1023>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for the regulatory framework to encourage business to invest in providing superfast broadband."@en ;
+        rdfs:label       "Chief Executive Officer, BDUK"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person30> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1023" ;
+        skos:prefLabel   "Chief Executive Officer, BDUK"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1002>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, English Heritage Projects"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1002" ;
+        skos:prefLabel   "Deputy Director, English Heritage Projects"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person29>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2007> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure29> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "Rita French" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/def/department/dcms/payband/b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30745-37131> ;
+        skos:prefLabel     "B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Equality Framework Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1003> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/33>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Telecommunications Policy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1025> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/executive-board>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Executive Board"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2007> , <http://reference.data.gov.uk/id/department/dcms/post/DCMS2002> ;
+        skos:prefLabel  "Executive Board"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/12>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Government Art Collection Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1012> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior HR Manager (Human Resources) in Human Resources reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2003>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Chair of the Delivery and Resourcing Committee.  SRO for future of Communications regulation and implementation of Leveson recommendations (including the Department's relationship with OFCOM). Department's lead on Strategy."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from this Directorate are supplied from the Flexible Resourcing Pool."@en ;
+        rdfs:label       "Director, Media Policy; Strategy; Change"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person23> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2003" ;
+        skos:prefLabel   "Director, Media Policy; Strategy; Change"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure31>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Samantha Foley as Director, Finance & Commercial; Lottery & Gambling; EAU" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person31> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure10>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Finance Special Projects" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1010> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person10> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1010>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for the financial management and production of the Department's annual report and accounts."@en ;
+        rdfs:label       "Deputy Director, Head of Finance Special Projects"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person10> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1010" ;
+        skos:prefLabel   "Deputy Director, Head of Finance Special Projects"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person37>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure37> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "Flexible Resourcing Pool" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person16>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1015> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure16> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/20>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Tourism Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1018> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "B Finance Officer (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Change, Gambling and Licensing" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure18>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "David Brooker as Director, Sport & Olympic Legacy" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2002> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person18> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1002> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1018>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Tourism"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person20> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1018" ;
+        skos:prefLabel   "Deputy Director, Head of Tourism"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person24>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure24> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Permanent.Secretary@Culture.gsi.gov.uk> ;
+        foaf:name      "Sue Owen" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/28>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Government Equalities Office Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:salaryCostOfReports  4163233.2 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior Policy Adviser (Policy) in Broadband, Media, News & Communications reporting to post DCMS2004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  23.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "D Policy Adviser (Policy) in Flexible Resourcing Pool reporting to post DCMS2999 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  30.89 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure9>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, BDUK, Rural Broadband Lead" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1009> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person9> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure26>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director (Maternity Leave)" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1021> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person26> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<mailto:Enquiries@Culture.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Enquiries@Culture.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Government Equalities Office"@en ;
+        skos:prefLabel  "Government Equalities Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1026>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "HR lead with responsibility for Our People Strategy, organisational development, HR policies and operations"@en ;
+        rdfs:label       "Deputy Director, Head of HR"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person34> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1026" ;
+        skos:prefLabel   "Deputy Director, Head of HR"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1005>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en , "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en ;
+        rdfs:label       "Deputy Director, Head of External Gender Policy Engagement"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1005" ;
+        skos:prefLabel   "Deputy Director, Head of External Gender Policy Engagement"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person32>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1024> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure32> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person11>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1011> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure11> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Media Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1006> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/36>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of News and Communications Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1028> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/15>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Culture Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:salaryCostOfReports  "1159414"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/dcms/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/dcms/grade/a> , <http://reference.data.gov.uk/def/department/dcms/grade/a-u> , <http://reference.data.gov.uk/def/department/dcms/grade/b> , <http://reference.data.gov.uk/def/department/dcms/grade/c> , <http://reference.data.gov.uk/def/department/dcms/grade/d> , <http://reference.data.gov.uk/def/department/dcms/grade/fast-stream> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/department/dcms/unit/flexible-resourcing-pool>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Flexible Resourcing Pool"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        skos:prefLabel  "Flexible Resourcing Pool"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "D HR Support Officer (Human Resources) in Human Resources reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/human-resources> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/a-u>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/a-u> ;
+        skos:prefLabel     "A(U)"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2006>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Department's lead on Finance, and Chair of the Investment Committee. Director level lead on Lottery and Gambling and Evidence and Analysis. Lead on Transparency."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nDetails of junior staff from Finance & Commercial, E&A, Working Environment are shown here against their Director.  Additional junior staff from this Directorate are supplied from the Flexible Resourcing Pool."@en ;
+        rdfs:label       "Director, Finance & Commercial; Lottery & Gambling; EAU"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person31> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2006" ;
+        skos:prefLabel   "Director, Finance & Commercial; Lottery & Gambling; EAU"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure34>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of HR" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1026> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person34> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure13>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Ministerial Support and Principal Private Secretary" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1013> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person13> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1013>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for the overall management and successful running of the Ministers' private offices."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Ministerial Support and Principal Private Secretary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person13> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1013" ;
+        skos:prefLabel   "Deputy Director, Head of Ministerial Support and Principal Private Secretary"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person19>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1017> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure19> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/23>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Media Policy; Strategy; Change Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> ;
+        organogram:salaryCostOfReports  "250726"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/95000-99999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£95000-£99999"@en ;
+        gov:lowerBound  95000 ;
+        gov:upperBound  99999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior Policy Adviser (Policy) in Government Equalities Office reporting to post DCMS2005 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  26.32 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-equalities-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Fast Stream Finance Officer (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/fast-stream> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/id/salary-range/23663-26211>
+        a               gov:SalaryRange ;
+        rdfs:label      "£23663 - £26211" ;
+        gov:lowerBound  23663 ;
+        gov:upperBound  26211 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/a> ;
+        skos:prefLabel     "A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Strategy and Governance" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1004> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/def/department/dcms/grade/fast-stream>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/dcms/payband/fast-stream> ;
+        skos:prefLabel     "Fast Stream"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/dcms/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure21>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Arts" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1019> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person21> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1005> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1021>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Maternity Leave"@en , "Maternity leave"@en ;
+        rdfs:label       "Deputy Director (Maternity Leave)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person26> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1021" ;
+        skos:prefLabel   "Deputy Director (Maternity Leave)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person27>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1022> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure27> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/def/department/dcms/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/dcms/payband/a> , <http://reference.data.gov.uk/def/department/dcms/payband/a-u> , <http://reference.data.gov.uk/def/department/dcms/payband/b> , <http://reference.data.gov.uk/def/department/dcms/payband/c> , <http://reference.data.gov.uk/def/department/dcms/payband/d> , <http://reference.data.gov.uk/def/department/dcms/payband/fast-stream> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Change, Gambling and Licensing Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1001> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/31>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Finance & Commercial; Lottery & Gambling; EAU Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:salaryCostOfReports  "984167"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/10>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, Head of Finance Special Projects Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1010> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "C Policy Adviser (Policy) in Broadband, Media, News & Communications reporting to post DCMS2004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.58 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/broadband-media-news-communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "B Policy Adviser (Policy) in Government Art Collection reporting to post DCMS2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/government-art-collection> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS2001>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nDetails of junior staff from Human Resources, Public Appointments and Government Art Collection are shown here against their Director.  Additional junior staff from this Directorate are supplied from the Flexible Resourcing Pool."@en , "Responsibility for Arts, Heritage, Museums and Galleries, Cultural Property, Tourism and Libraries.  SRO for Philanthropy programme, English Heritage New Model and World War One Commemorations. Lead on relations with ALBs and appointments. Lead on devolution and local government. Chair of Corporate Committee. Lead on People issues."@en ;
+        rdfs:label       "Director, Culture"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person15> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/executive-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS2001" ;
+        skos:prefLabel   "Director, Culture"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS4001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure29>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Rita French as Director (Maternity Leave)" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2007> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person29> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1008>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of LGBT"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms> , <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1008" ;
+        skos:prefLabel   "Deputy Director, Head of LGBT"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2005> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person35>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1027> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure35> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person14>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1014> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure14> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/9>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director, BDUK, Rural Broadband Lead Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1009> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/18>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Sport & Olympic Legacy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS2002> ;
+        organogram:salaryCostOfReports  "61368"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "A Senior Finance  Manager (Finance) in Finance & Commercial, E&A, Working Environment reporting to post DCMS2006 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/dcms/grade/a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/dcms/post/DCMS2006> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/dcms/unit/finance-commercial-e-a-working-environment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure37>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Flexible Resourcing Pool as Flexible Resourcing Pool" ;
+        gov:fullTimeEquivalent  0.01 ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS2999> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person37> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure16>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "N/D as Deputy Director, Head of Ceremonial and Appointments" ;
+        gov:fullTimeEquivalent  0.83 ;
+        gov:post                <http://reference.data.gov.uk/id/department/dcms/post/DCMS1015> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person16> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/dcms> .
+
+<http://reference.data.gov.uk/id/department/dcms/post/DCMS1016>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for a key policy area, taking the lead directly with Ministers on strategy and development in that area and for relevant elements of the Departmental Business Plan."@en , "DCMS operates a matrix organisation structure with staff reporting to a Development Manager and an Activity Manager.  Deputy Directors are shown reporting to their Director level Development Manager.\nJunior staff from the Flexible Resourcing Pool are accounted for in the Flexible Resourcing Pool Director level entry.  Non-flexible junior staff are shown reporting to the appropriate Director."@en ;
+        rdfs:label       "Deputy Director, Head of Project - Leveson"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/dcms/person17> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/dcms/unit/senior-management-team> , <http://reference.data.gov.uk/id/department/dcms> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DCMS1016" ;
+        skos:prefLabel   "Deputy Director, Head of Project - Leveson"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/dcms/post/DCMS2003> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/person22>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/dcms/post/DCMS1020> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/dcms/tenure22> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:Enquiries@Culture.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/dcms> ;
+        foaf:phone     "020 7211 6000" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports/26>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director (Maternity Leave) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/dcms/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/dcms/post/DCMS1021> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .

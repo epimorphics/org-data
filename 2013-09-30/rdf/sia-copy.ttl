@@ -1,0 +1,1433 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Human Resources (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-human-resources> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Intelligence Development Officer (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-development-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Operations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:salaryCostOfReports  "2201092"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Communication and Stakeholder Officer (Communications) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communication-and-stakeholder-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/id/public-body/sia/unit/operations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        skos:prefLabel  "Operations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Digital Media Support Officer (Communications) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/digital-media-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure3>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Stephen McCormick as Director of Operations" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/sia/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Senior Manager Stakeholder Management (Communications) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-manager-stakeholder-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Supplier and Contract Management (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-supplier-and-contract-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Information Security Manager (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/sia/post/SIA002>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for partnerships, internventions, intelligence and stakeholder management as part of the regulatory function of the SIA"@en ;
+        rdfs:label       "Director of Partnerships & Interventions"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/sia/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/sia> , <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "SIA002" ;
+        skos:prefLabel   "Director of Partnerships & Interventions"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> .
+
+<http://reference.data.gov.uk/id/salary-range/55974-66738>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55974 - £66738" ;
+        gov:lowerBound  55974 ;
+        gov:upperBound  66738 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Licensing Team Leader (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Bill.Butler@sia.gsi.gov.uk> ;
+        foaf:name      "Bill Butler" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/sia> ;
+        foaf:phone     "0207 025 4106" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Infrastructure Support Assistant (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/infrastructure-support-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Senior Manager Partnerships & Interventions (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-manager-partnerships-interventions> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<mailto:Dave.Humphries@sia.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Dave.Humphries@sia.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Supplier Relationship and Operational Change Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/supplier-relationship-and-operational-change-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Financial Controller (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-controller> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Publicity Manager (Communications) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/publicity-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Human Resources- Transition (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-human-resources-transition> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/sia>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "SIA"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/ho> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "SIA"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> , <http://reference.data.gov.uk/id/public-body/sia/unit/operations> , <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> , <http://reference.data.gov.uk/id/public-body/sia/unit/chief-executive> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "C Deputy Director Partnerships & Interventions (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-partnerships-interventions> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Partnerships & Interventions Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:salaryCostOfReports  "2109823"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "EO HR and OD Assistant (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-and-od-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Licensing Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-licensing-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/48053-57441>
+        a               gov:SalaryRange ;
+        rdfs:label      "£48053 - £57441" ;
+        gov:lowerBound  48053 ;
+        gov:upperBound  57441 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Investigator (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "30"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/investigator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure2>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Dave Humphries as Director of Partnerships & Interventions" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/sia/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of HR (Operations) (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-hr-operations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "C Deputy Director Change Implementation (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-change-implementation> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/sia/post/SIA001>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Holds Chief Executive responsibility for the function of the SIA."@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/sia/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/sia> , <http://reference.data.gov.uk/id/public-body/sia/unit/chief-executive> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "SIA001" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Head of Investigation (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-investigation> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Commercial Support and Change Programme Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/commercial-support-and-change-programme-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Head of Private Office (Operational Delivery) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Policy Advisor (Policy) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Customer Data Analyst (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/customer-data-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/sia/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        void:vocabulary       rdfs: , org: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Partnerships & Interventions"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        skos:prefLabel  "Partnerships & Interventions"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "AO C & I Administration Officer (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/c-i-administration-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Financial Accountant (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/26403-39272> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/34324-53134>
+        a               gov:SalaryRange ;
+        rdfs:label      "£34324 - £53134" ;
+        gov:lowerBound  34324 ;
+        gov:upperBound  53134 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "C Deputy Director Policy & Legal (Policy) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-policy-legal> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Intelligence Officer (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> ;
+        organogram:salaryCostOfReports  "275700"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/26403-39272>
+        a               gov:SalaryRange ;
+        rdfs:label      "£26403 - £39272" ;
+        gov:lowerBound  26403 ;
+        gov:upperBound  39272 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Quality Assurance Manager (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-assurance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Quality Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/120000-124999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£120000-£124999"@en ;
+        gov:lowerBound  120000 ;
+        gov:upperBound  124999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure1>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Bill Butler as Chief Executive" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/sia/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Policy Development Officer (Policy) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-development-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Project Manager Organisation Transformation (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager-organisation-transformation> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Divisional Head of Investigation (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/divisional-head-of-investigation> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Accreditation Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accreditation-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "C Deputy Director Finance & Business Planning (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-finance-business-planning> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Business Development Application Officer (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-development-application-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO HR Learning and Development Manager (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-learning-and-development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/sia/grade/ao> , <http://reference.data.gov.uk/def/public-body/sia/grade/g7> , <http://reference.data.gov.uk/def/public-body/sia/grade/seo> , <http://reference.data.gov.uk/def/public-body/sia/grade/eo> , <http://reference.data.gov.uk/def/public-body/sia/grade/g6> , <http://reference.data.gov.uk/def/public-body/sia/grade/c> , <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/salary-range/21650-26281>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21650 - £26281" ;
+        gov:lowerBound  21650 ;
+        gov:upperBound  26281 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Business Analyst Modeller (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-analyst-modeller> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Marketing Manager (Communications) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Licensing Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  15.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/g7> ;
+        skos:prefLabel     "G7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Intelligence Analyst (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Development Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/development-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Quality Assurance Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-assurance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/17743-21317>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17743 - £21317" ;
+        gov:lowerBound  17743 ;
+        gov:upperBound  21317 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Intelligence Manager (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/intelligence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Dianne.Tranmer@sia.gsi.gov.uk> ;
+        foaf:name      "Dianne Tranmer" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/sia> ;
+        foaf:phone     "0207 025 4148" .
+
+<http://reference.data.gov.uk/id/salary-range/53000-79000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£53000 - £79000" ;
+        gov:lowerBound  53000 ;
+        gov:upperBound  79000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17743-21317> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Customer Services Transition (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-customer-services-transition> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Data transfer Manager (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/data-transfer-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/sia/payband/eo> , <http://reference.data.gov.uk/def/public-body/sia/payband/g7> , <http://reference.data.gov.uk/def/public-body/sia/payband/seo> , <http://reference.data.gov.uk/def/public-body/sia/payband/c> , <http://reference.data.gov.uk/def/public-body/sia/payband/ao> , <http://reference.data.gov.uk/def/public-body/sia/payband/g6> , <http://reference.data.gov.uk/def/public-body/sia/payband/heo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/82>
+        a                              qb:Observation ;
+        rdfs:label                     "C Deputy Director Human Resources (Temporary) (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-human-resources-temporary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Quality Assurance Co-ordinator (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-assurance-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Assistant Director Intelligence (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-director-intelligence> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Web Content Editor (Communications) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/web-content-editor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Development Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<mailto:Stephen.Mccormick@sia.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Stephen.Mccormick@sia.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Licencing Processing Transition (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-licencing-processing-transition> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/53000-79000> ;
+        skos:prefLabel     "C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Audit and Compliance Manager (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/audit-and-compliance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Internal Communications Manager  (Communications) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/internal-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Customer Service Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/customer-service-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/g6> ;
+        skos:prefLabel     "G6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "EO ICT Support Analyst (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-support-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/48053-57441> ;
+        skos:prefLabel     "G7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Policy Advisor (Policy) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Operations Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/sia/post/SIA004>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the policy, legal, HR, finance and business planning and staffing changes that flow from our change programme"@en ;
+        rdfs:label       "Director of Corporate Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/sia/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> , <http://reference.data.gov.uk/id/public-body/sia> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "SIA004" ;
+        skos:prefLabel   "Director of Corporate Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Insight Manager (Communications) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/insight-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Approval Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/approval-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Stephen.Mccormick@sia.gsi.gov.uk> ;
+        foaf:name      "Stephen McCormick" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/sia> ;
+        foaf:phone     "0207 025 4224" .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21650-26281> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of Quality & Standards (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-quality-standards> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO ICT Manager (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/81>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Transition HR & OD Manager (Operations) (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/transition-hr-od-manager-operations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Licensing Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Junior Accountant (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Strategic Intelligence Analyst  (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategic-intelligence-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Human Resources General Manager (Operations) (Human Resources) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-general-manager-operations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Marketing Administrator (Communications) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<mailto:Dianne.Tranmer@sia.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Dianne.Tranmer@sia.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Corporate Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:salaryCostOfReports  "1098439"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Facilities Manager (Property and asset management) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<mailto:Bill.Butler@sia.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Bill.Butler@sia.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/public-body/sia/unit/chief-executive>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Chief Executive"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> ;
+        skos:prefLabel  "Chief Executive"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Finance Assistant (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Correspondence Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Executive Support Officer (Operational Delivery) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/55974-66738> ;
+        skos:prefLabel     "G6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure4>
+        a                       org:Membership , gov:Tenure ;
+        rdfs:label              "Dianne Tranmer as Director of Corporate Services" ;
+        gov:fullTimeEquivalent  "1"^^xsd:decimal ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/sia/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Programme Office Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        skos:prefLabel  "Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/sia> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO MSR Business Change Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/msr-business-change-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/sia/post/SIA003>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the change implementation, licensing, ICT, Quality & standards and supplier management & procurement functions within the SIA"@en ;
+        rdfs:label       "Director of Operations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/sia/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/sia/unit/operations> , <http://reference.data.gov.uk/id/public-body/sia> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "SIA003" ;
+        skos:prefLabel   "Director of Operations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/sia/post/SIA001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Infrastructure Support Manager (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/infrastructure-support-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/sia/grade/c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/sia/payband/c> ;
+        skos:prefLabel     "C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Customer Service Team Leader (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/customer-service-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/sia/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Dave.Humphries@sia.gsi.gov.uk> ;
+        foaf:name      "Dave Humphries" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/sia> ;
+        foaf:phone     "0207 025 4175" .
+
+<http://reference.data.gov.uk/def/public-body/sia/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/34324-53134> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/sia/payband> .
+
+<http://reference.data.gov.uk/id/department/ho>
+        a               gov:PublicBody , gov:Department , org:Organization ;
+        rdfs:label      "Home Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Home Office"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Head of ICT Solutions (Information Technology) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-ict-solutions> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Project Support Officer (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Salary Cost of Reports at 2013-09-30 Dataset " ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/sia/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Licensing Customer Service Manager (Operational Delivery) in Operations reporting to post SIA003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/licensing-customer-service-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Performance and Quality Manager (Finance) in Corporate Services reporting to post SIA004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/performance-and-quality-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Intelligence Manager (Operational Delivery) in Partnerships & Interventions reporting to post SIA002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/sia/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/sia/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-intelligence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/sia/post/SIA002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/sia/unit/partnerships-interventions> .

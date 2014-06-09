@@ -1,0 +1,15 @@
+Data and scripts for creating a boostrap database
+
+## Rebuild
+
+Start fuseki in one shell:
+
+    mkdir build; cd build
+    rm -rf ORG-DB; mkdir ORG-DB
+    fuseki-server --loc=ORG-DB --update  --mgtPort=3131 /ds
+
+In another shell run the build script
+
+    ./build.sh
+
+If desired do a dump of the constructed TDB image (`org-backup`) and then use `tdbloader` to do a clean reload of that dump.
