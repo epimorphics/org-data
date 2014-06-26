@@ -1,0 +1,992 @@
+@prefix opmv:  <http://purl.org/net/opmv/ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix payband: <http://reference.data.gov.uk/def/civil-service-payband/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix copmv: <http://purl.org/net/opmv/types/common#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prof:  <http://reference.data.gov.uk/def/civil-service-profession/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sdmxa: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix grade: <http://reference.data.gov.uk/def/civil-service-grade/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmxc: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix postStatus: <http://reference.data.gov.uk/def/civil-service-post-status/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body>
+        rdfs:label  "Public Body" .
+
+<http://reference.data.gov.uk/id/department>
+        rdfs:label  "Government Departments" .
+
+<http://reference.data.gov.uk/def/civil-service-job/judicial-hr>
+        skos:prefLabel  "Judicial HR" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay6>
+        a                  qb:Observation ;
+        rdfs:label         "Amanda Jeffery as Deputy Director: Judicial Private Offices Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure6> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts31>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications and Core Support (Information Technology) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:information-technology ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-c>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29465-36061> ;
+        skos:prefLabel     "Band C Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Joanne Peel as Head of HR for the Judiciary" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person4> ;
+        foaf:page               <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial HR (Human Resources) in JUDICIAL HR reporting to post JO03 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "11.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          prof:human-resources ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+grade:SCS1  rdfs:label  "SCS1" .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e> ;
+        skos:prefLabel      "Judicial Office for England and Wales Junior Civil Service Grades" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts29>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial College (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "15.2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-a> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-b> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-c> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-d> , <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-e> ;
+        skos:prefLabel      "Judicial Office for England and Wales Junior Civil Service Grades" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Judicial Office for England and Wales Salary Cost of Reports on 31/03/2014 Dataset" ;
+        qb:structure          organogram:salary-costs-of-reports ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports1> ;
+        void:vocabulary       <http://purl.org/linked-data/cube> , organogram: , <http://www.w3.org/2000/01/rdf-schema> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports5>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director of Judicial College Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "Responsible for judicial support" ;
+        rdfs:label             "Chief Executive - Judicial Office" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person2> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        grade:grade            grade:SCS2 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "JO01" ;
+        foaf:page              <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Judicial Office for England and Wales Junior Post FTEs at 31/03/2014 Dataset" ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts1> ;
+        void:vocabulary       <http://purl.org/linked-data/cube> , organogram: , <http://www.w3.org/2000/01/rdf-schema> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts23>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial College (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "6.7"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications and Core Support (Communications) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1.9"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:communications ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts36>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Private Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "7.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://reference.data.gov.uk/def/civil-service-job/judicial-college>
+        skos:prefLabel  "Judicial College" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person3>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure3> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:generalenquires@justice.gsi.gov.uk> ;
+        foaf:name        "Judy Anckorn" ;
+        foaf:page        <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> ;
+        foaf:phone       <tel:+44.> .
+
+<http://reference.data.gov.uk/id/day/2014-03-31>
+        rdfs:label  "2014-03-31" .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Judicial HR" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> ;
+        foaf:page    <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay5>
+        a                  qb:Observation ;
+        rdfs:label         "Sheridan Greenland as Executive Director of Judicial College Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure5> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts30>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications and Core Support (Finance) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:finance ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-b>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35188-44964> ;
+        skos:prefLabel     "Band B Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Judy Anckorn as Deputy Director - Head of the Judicial Conduct Investigations Office and Communications for the Judiciary" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person3> ;
+        foaf:page               <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000 - £84999" ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial HR (Human Resources) in JUDICIAL HR reporting to post JO03 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "11.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          prof:human-resources ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts28>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications and Core Support (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports4>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of HR for the Judiciary Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-e> ;
+        skos:prefLabel     "Band E" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office>
+        skos:prefLabel  "Judicial Conduct Investigation Office" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts22>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications and Core Support (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts35>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Private Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person2>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure2> ;
+        prof:profession  prof:policy ;
+        foaf:mbox        <mailto:generalenquires@justice.gsi.gov.uk> ;
+        foaf:name        "Jillian Kay" ;
+        foaf:page        <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> ;
+        foaf:phone       <tel:+44.> .
+
+prof:finance  skos:prefLabel  "Finance" .
+
+<http://reference.data.gov.uk/id/salary-range/50534-67969>
+        a               gov:SalaryRange ;
+        rdfs:label      "£50534 - £67969" ;
+        gov:lowerBound  50534 ;
+        gov:upperBound  67969 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Ministry of Justice Total Pay on 31/03/2014 Dataset" ;
+        qb:structure          organogram:total-pay ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay1> ;
+        void:vocabulary       <http://purl.org/linked-data/cube> , <http://www.w3.org/2000/01/rdf-schema> , organogram: .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-a>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50534-67969> ;
+        skos:prefLabel     "Band A Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay4>
+        a                  qb:Observation ;
+        rdfs:label         "Joanne Peel as Head of HR for the Judiciary Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure4> .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Support to the Lord Chief Justice and senior judiciary in their 'our of court' leadership roles and responsibilities; Secretary to the Hillsborough Inquests" ;
+        rdfs:label             "Deputy Director: Judicial Private Offices" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person6> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "JO05" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        foaf:page              <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Jillian Kay as Chief Executive - Judicial Office" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person2> ;
+        foaf:page               <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts42>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Hillsborough Inquests Secretariat (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hillsborough-inquests-secretariat> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial HR (Human Resources) in JUDICIAL HR reporting to post JO03 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "6.5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          prof:human-resources ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts27>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications and Core Support (Information Technology) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:information-technology ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports3>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director - Head of the Judicial Conduct Investigations Office and Communications for the Judiciary Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-d> ;
+        skos:prefLabel     "Band D" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications and Core Support (Communications) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:communications ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Judicial Office" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> ;
+        foaf:page    <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support>
+        skos:prefLabel  "Communications and Core Support" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications and Core Support (Information Technology) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:information-technology ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Judicial Office for England and Wales" ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/justice> ;
+        dgu:uriSet            <http://reference.data.gov.uk/id/public-body> ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> ;
+        foaf:page             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts34>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Private Office (Law) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:law ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<mailto:Hannah.Whitefield@justice.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Hannah.Whitefield@justice.gsi.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO01 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial College (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "8.7"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+prof:human-resources  skos:prefLabel  "Human Resources" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay3>
+        a                  qb:Observation ;
+        rdfs:label         "Judy Anckorn as Deputy Director - Head of the Judicial Conduct Investigations Office and Communications for the Judiciary Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure3> .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "The College provides training for the judiciary in Courts and Tribunals including judges, members, magistrates and legal advisers. Corporate responsibility across Judicial Office for finance, ICT and International teams" ;
+        rdfs:label             "Executive Director of Judicial College" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person5> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "JO04" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        foaf:page              <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts41>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Hillsborough Inquests Secretariat (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hillsborough-inquests-secretariat> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial HR (Human Resources) in JUDICIAL HR reporting to post JO03 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          prof:human-resources ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts26>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications and Core Support (Finance) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:finance ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports2>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive - Judicial Office Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-c> ;
+        skos:prefLabel     "Band C" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts39>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Private Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person6>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure6> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:generalenquires@justice.gsi.gov.uk> ;
+        foaf:name        "Amanda Jeffery" ;
+        foaf:page        <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> ;
+        foaf:phone       <tel:+44.> .
+
+<http://reference.data.gov.uk/id/salary-range/29465-36061>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29465 - £36061" ;
+        gov:lowerBound  29465 ;
+        gov:upperBound  36061 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications and Core Support (Finance) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:finance ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+prof:information-technology
+        skos:prefLabel  "Information Technology" .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-e>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19135-22250> ;
+        skos:prefLabel     "Band E Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts33>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial College (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "17.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications and Core Support (Operational Delivery) in JUDICIAL OFFICE reporting to post JO01 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Amanda Jeffery as Deputy Director: Judicial Private Offices" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person6> ;
+        foaf:page               <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial College (Law) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3.1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:law ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/id/salary-range/24007-28000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£24007 - £28000" ;
+        gov:lowerBound  24007 ;
+        gov:upperBound  28000 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay2>
+        a                  qb:Observation ;
+        rdfs:label         "Jillian Kay as Chief Executive - Judicial Office Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure2> .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Responsible for judicial support" ;
+        rdfs:label             "Head of HR for the Judiciary" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person4> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "JO03" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        foaf:page              <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return>
+        a                     void:Dataset , opmv:Artifact ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "Hannah.Whitefield@justice.gsi.gov.uk" ;
+                                foaf:mbox   <mailto:Hannah.Whitefield@justice.gsi.gov.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return>
+                              ] ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "Hannah.Whitefield@justice.gsi.gov.uk" ;
+                                foaf:mbox   <mailto:Hannah.Whitefield@justice.gsi.gov.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return>
+                              ] ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Judicial Office for England and Wales Organogram at 31/03/2014 Dataset" ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person2> , <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure2> , <http://reference.data.gov.uk/id/department/co> ;
+        void:subset           <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> , <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#totalPay> , <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        void:vocabulary       gov: , <http://www.w3.org/2000/01/rdf-schema> , <http://www.w3.org/2004/02/skos/core> , foaf: , <http://www.w3.org/ns/org> .
+
+<http://reference.data.gov.uk/def/civil-service-job/private-office>
+        skos:prefLabel  "Private Office" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts40>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Hillsborough Inquests Secretariat (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hillsborough-inquests-secretariat> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts25>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial College (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<tel:+44.>  a       vcard:Tel ;
+        rdfs:label  "0" ;
+        foaf:page   <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications and Core Support (Communications) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3.9"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:communications ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-b> ;
+        skos:prefLabel     "Band B" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts38>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Private Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12.8"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person5>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure5> ;
+        prof:profession  prof:law ;
+        foaf:mbox        <mailto:generalenquires@justice.gsi.gov.uk> ;
+        foaf:name        "Sheridan Greenland" ;
+        foaf:page        <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> ;
+        foaf:phone       <tel:+44.> .
+
+prof:communications  skos:prefLabel  "Communications" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts32>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications and Core Support (Operational Delivery) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-d>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24007-28000> ;
+        skos:prefLabel     "Band D Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Sheridan Greenland as Executive Director of Judicial College" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person5> ;
+        foaf:page               <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://reference.data.gov.uk/id/salary-range/35188-44964>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35188 - £44964" ;
+        gov:lowerBound  35188 ;
+        gov:upperBound  44964 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://reference.data.gov.uk/id/salary-range/19135-22250>
+        a               gov:SalaryRange ;
+        rdfs:label      "£19135 - £22250" ;
+        gov:lowerBound  19135 ;
+        gov:upperBound  22250 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial HR (Human Resources) in JUDICIAL HR reporting to post JO03 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          prof:human-resources ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+grade:SCS2  rdfs:label  "SCS2" .
+
+<http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "Responsible for Supporting the Judiciary" ;
+        rdfs:label             "Deputy Director - Head of the Judicial Conduct Investigations Office and Communications for the Judiciary" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person3> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> , <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "JO02" ;
+        skos:note              "Currently TRA to SCS1" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO01> ;
+        foaf:page              <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports6>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director: Judicial Private Offices Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:salaryCostOfReports  0 .
+
+prof:policy  skos:prefLabel  "Policy" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications and Core Support (Communications) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:communications ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+prof:law  skos:prefLabel  "Law" .
+
+prof:operational-delivery
+        skos:prefLabel  "Operational Delivery" .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts24>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications and Core Support (Finance) in JUDICIAL HR reporting to post JO04 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-and-core-support> ;
+        organogram:profession          prof:finance ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO04> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial Conduct Investigation Office (Operational Delivery) in JUDICIAL HR reporting to post JO02 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigation-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-hr> .
+
+<mailto:generalenquires@justice.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "generalenquires@justice.gsi.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> .
+
+<http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-a>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/payband/band-a> ;
+        skos:prefLabel     "Band A" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts37>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Private Office (Operational Delivery) in JUDICIAL OFFICE reporting to post JO05 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judicial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/unit/judicial-office> .
+
+<http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#person4>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/judicial-office-for-england-and-wales/post/JO03> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return#tenure4> ;
+        prof:profession  prof:human-resources ;
+        foaf:mbox        <mailto:generalenquires@justice.gsi.gov.uk> ;
+        foaf:name        "Joanne Peel" ;
+        foaf:page        <http://organogram.data.gov.uk/data/justice/2014-03-31/JO-March-14-Final-Return> ;
+        foaf:phone       <tel:+44.> .
+
+<http://reference.data.gov.uk/def/civil-service-job/hillsborough-inquests-secretariat>
+        skos:prefLabel  "Hillsborough Inquests Secretariat" .

@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>hazel.lee@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:hazel.lee@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:title>VisitBritain Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:title>VisitBritain Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:title>VisitBritain Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdfs:label>VisitBritain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:prefLabel>VisitBritain Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:prefLabel>VisitBritain Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts2">
+    <rdfs:label>Green Executive (Operational Delivery) in CHIEF EXECUTIVES OFFICE reporting to post 1287 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <rdfs:label>Chief Executives Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/executive">
+    <skos:prefLabel>Executive</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green">
+    <skos:prefLabel>Green</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/19013-35708"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green">
+    <skos:prefLabel>Green Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19013</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35708</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <rdfs:label>£19013 - £35708</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19013-35708">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts3">
+    <rdfs:label>Purple Manager (Operational Delivery) in CHIEF EXECUTIVES OFFICE reporting to post 1287 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/manager">
+    <skos:prefLabel>Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple">
+    <skos:prefLabel>Purple</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/29793-58598"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple">
+    <skos:prefLabel>Purple Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29793</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58598</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <rdfs:label>£29793 - £58598</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29793-58598">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/secretary-to-the-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts4">
+    <rdfs:label>Blue Secretary to the Board (Operational Delivery) in CHIEF EXECUTIVES OFFICE reporting to post 1287 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/secretary-to-the-board">
+    <skos:prefLabel>Secretary to the Board</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue">
+    <skos:prefLabel>Blue</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/51789-109754"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue">
+    <skos:prefLabel>Blue Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51789</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109754</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <rdfs:label>£51789 - £109754</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51789-109754">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts5">
+    <rdfs:label>Orange Assistant (Operational Delivery) in BUSINESS SERVICES reporting to post 1291 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <rdfs:label>Business Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/assistant">
+    <skos:prefLabel>Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange">
+    <skos:prefLabel>Orange</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade/orange">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/14455-23311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange">
+    <skos:prefLabel>Orange Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband/orange">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14455</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23311</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <rdfs:label>£14455 - £23311</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14455-23311">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts6">
+    <rdfs:label>Green Executive (Operational Delivery) in BUSINESS SERVICES reporting to post 1291 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts7">
+    <rdfs:label>Purple Manager (Operational Delivery) in BUSINESS SERVICES reporting to post 1291 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts8">
+    <rdfs:label>Blue Head of Department (Operational Delivery) in BUSINESS SERVICES reporting to post 1291 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-department">
+    <skos:prefLabel>Head of Department</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts9">
+    <rdfs:label>Green Executive (Operational Delivery) in OVERSEAS NETWORK reporting to post 2212 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <rdfs:label>Overseas Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts10">
+    <rdfs:label>Purple Manager (Operational Delivery) in OVERSEAS NETWORK reporting to post 2212 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts11">
+    <rdfs:label>Blue Head of Department (Operational Delivery) in OVERSEAS NETWORK reporting to post 2212 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts12">
+    <rdfs:label>Green Executive (Operational Delivery) in BRITAIN MARKETING reporting to post 1403 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <rdfs:label>Britain Marketing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts13">
+    <rdfs:label>Purple Manager (Operational Delivery) in BRITAIN MARKETING reporting to post 1403 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts14">
+    <rdfs:label>Blue Head of Department (operational Delivery) in BRITAIN MARKETING reporting to post 1403 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts15">
+    <rdfs:label>Green Executive (Operational Delivery) in STRATEGY &amp; COMMUNICATIONS reporting to post 1348 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <rdfs:label>Strategy &amp; Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/green"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts16">
+    <rdfs:label>Purple Manager (Operational Delivery) in STRATEGY &amp; COMMUNICATIONS reporting to post 1348 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/purple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/grade/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts17">
+    <rdfs:label>Blue Head of Department (Operational Delivery) in STRATEGY &amp; COMMUNICATIONS reporting to post 1348 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/visitbritain/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/visitbritain/payband/blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>hazel.lee@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:hazel.lee@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <dct:title>VisitBritain Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:hazel.lee@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:hazel.lee@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:hazel.lee@visitbritain.org">
+    <rdfs:label>hazel.lee@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <dct:title>VisitBritain Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <dct:title>VisitBritain Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/dcms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <rdfs:label>VisitBritain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/145000-149999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdfs:comment>Chief Executive of VisitBritain, accountable to the Board of VisitBritain. Accounting Officer to the Department of Culture, Media and Sport for VisitBritain and VisitEngland. Responsible for providing vision, leadership and strategic direction to VisitBritain and to key stakeholders and the tourism industry as a whole.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <rdfs:label>VisitBritain CEO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <skos:notation>1287</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <foaf:mbox rdf:resource="mailto:sandie.dawe@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <foaf:name>Sandie Dawe</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2">
+    <foaf:phone rdf:resource="tel:+44.207.578.1020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:sandie.dawe@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:sandie.dawe@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:sandie.dawe@visitbritain.org">
+    <rdfs:label>sandie.dawe@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1020">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1020">
+    <rdfs:label>020 7578 1020</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1020">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <rdfs:label>Chief Executives Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/chief-executives-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">488838</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <rdfs:label>VisitBritain CEO Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <rdfs:label>Sandie Dawe as VisitBritain CEO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <rdfs:label>£145000 - £149999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/145000-149999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay2">
+    <rdfs:label>Sandie Dawe as VisitBritain CEO Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/105000-109999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdfs:comment>Director of Business Services, reporting to CEO VisitBritain.Responsible for Technology, Finance, Facility Management, HR and National Tourism Operating Platform departments. Providing a shared service between VisitBritain/VisitEngland.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <rdfs:label>Director Business Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <skos:notation>1291</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <foaf:mbox rdf:resource="mailto:david.parkhill@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <foaf:name>David Parkhill</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3">
+    <foaf:phone rdf:resource="tel:+44.207.578.1066"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.parkhill@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.parkhill@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.parkhill@visitbritain.org">
+    <rdfs:label>david.parkhill@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1066">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1066">
+    <rdfs:label>020 7578 1066</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1066">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <rdfs:label>Business Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/business-services">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267634</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <rdfs:label>Director Business Services Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <rdfs:label>David Parkhill as Director Business Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <rdfs:label>£105000 - £109999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay3">
+    <rdfs:label>David Parkhill as Director Business Services Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/90000-94999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdfs:comment>Director of Overseas Network, reporting to CEO VisitBritain. Responsible for the network of 35 Overseas offices which together provide support for the National Brands of Britain, England, London, Scotland and Wales.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <rdfs:label>Director - Overseas Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <skos:notation>2212</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <foaf:mbox rdf:resource="mailto:Keith.Beecham@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <foaf:name>Keith Beecham</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4">
+    <foaf:phone rdf:resource="tel:+44.207.578.1023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Keith.Beecham@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Keith.Beecham@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Keith.Beecham@visitbritain.org">
+    <rdfs:label>Keith.Beecham@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1023">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1023">
+    <rdfs:label>020 7578 1023</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1023">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <rdfs:label>Overseas Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/overseas-network">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152457</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <rdfs:label>Director - Overseas Network Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/2212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <rdfs:label>Keith Beecham as Director - Overseas Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdfs:label>£90000 - £94999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay4">
+    <rdfs:label>Keith Beecham as Director - Overseas Network Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/100000-104999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdfs:comment>Director of Britain Marketing, reporting to CEO VisitBritain. Responsible for leading, directing and managing the Britain Marketing team in delivering and embedding the marketing strategy -working in partnership with Overseas Network, Distribution Services team and Strategic Partners.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <rdfs:label>Director - Britain Marketing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <skos:notation>1403</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <foaf:mbox rdf:resource="mailto:Laurence.Bresh@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <foaf:name>Laurence Bresh</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5">
+    <foaf:phone rdf:resource="tel:+44.207.578.1120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Laurence.Bresh@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Laurence.Bresh@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Laurence.Bresh@visitbritain.org">
+    <rdfs:label>Laurence.Bresh@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1120">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1120">
+    <rdfs:label>020 7578 1120</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1120">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <rdfs:label>Britain Marketing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/britain-marketing">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287493</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <rdfs:label>Director - Britain Marketing Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <rdfs:label>Laurence Bresh as Director - Britain Marketing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <rdfs:label>£100000 - £104999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay5">
+    <rdfs:label>Laurence Bresh as Director - Britain Marketing Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdfs:comment>Director of Strategy &amp; Communications, reporting to CEO VisitBritain. Responsible for reinforcing VisitBritain's position as a national tourism agency and lead body by developing strategy and policy which help to build the value of tourism to Britain and by managing VisitBritain's reputation and communication with stakeholders and the media.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <rdfs:label>Director Strategy &amp; Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <skos:notation>1348</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <foaf:mbox rdf:resource="mailto:Patricia.Yates@visitbritain.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <foaf:name>Patricia Yates</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6">
+    <foaf:phone rdf:resource="tel:+44.207.578.1140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Patricia.Yates@visitbritain.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Patricia.Yates@visitbritain.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Patricia.Yates@visitbritain.org">
+    <rdfs:label>Patricia.Yates@visitbritain.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1140">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1140">
+    <rdfs:label>020 7578 1140</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.578.1140">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <rdfs:label>Strategy &amp; Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/visitbritain/unit/strategy-communications">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196138</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <rdfs:label>Director Strategy &amp; Communications Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/visitbritain/post/1348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <rdfs:label>Patricia Yates as Director Strategy &amp; Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay6">
+    <rdfs:label>Patricia Yates as Director Strategy &amp; Communications Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/visitbritain/2012-03-31/VisitBritain-130712-staff-data-HL#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

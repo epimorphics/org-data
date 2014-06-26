@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>alma.maddison@ltgdc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:alma.maddison@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:title>LTGDC Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:title>LTGDC Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:title>LTGDC Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdfs:label>LTGDC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:prefLabel>LTGDC Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:prefLabel>LTGDC Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.20</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts2">
+    <rdfs:label>Manager Operational Manager (Planning) in PLANNING DEVELOPMENT reporting to post LTGDC4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development">
+    <rdfs:label>Planning Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/planning">
+    <skos:prefLabel>Planning</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operational-manager">
+    <skos:prefLabel>Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager">
+    <skos:prefLabel>Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/30000-59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager">
+    <skos:prefLabel>Manager Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <rdfs:label>£30000 - £59999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-59999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts3">
+    <rdfs:label>Officer Executive Assistant (Planning) in PLANNING DEVELOPMENT reporting to post LTGDC4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/executive-assistant">
+    <skos:prefLabel>Executive Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer">
+    <skos:prefLabel>Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/20000-29999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer">
+    <skos:prefLabel>Officer Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <rdfs:label>£20000 - £29999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-29999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts4">
+    <rdfs:label>Senior Manager Senior Operational Manager (Programme and Project Management (PPM)) in PLANNING DEVELOPMENT reporting to post LTGDC4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager">
+    <skos:prefLabel>Senior Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager">
+    <skos:prefLabel>Senior Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/60000-82900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager">
+    <skos:prefLabel>Senior Manager Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82900</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <rdfs:label>£60000 - £82900</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-82900">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/planning-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts5">
+    <rdfs:label>Manager Project Manager (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post LTGDC3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development">
+    <rdfs:label>Regeneration and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/project-manager">
+    <skos:prefLabel>Project Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts6">
+    <rdfs:label>Senior Manager Senior Operational Manager (Operational Delivery) in REGENERATION AND DEVELOPMENT reporting to post LTGDC3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts7">
+    <rdfs:label>Manager Operational Manager (Operational Delivery) in OPERATIONS AND FINANCE reporting to post LTGDC7 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance">
+    <rdfs:label>Operations and Finance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts8">
+    <rdfs:label>Officer Operations Support Officer (Operational Delivery) in OPERATIONS AND FINANCE reporting to post LTGDC7 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer">
+    <skos:prefLabel>Operations Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/operations-and-finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/grade/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts9">
+    <rdfs:label>Officer Operations Support Officer (Operational Delivery) in REGENERATION AND DEVELOPMENT reporting to post LTGDC3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ltgdc/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ltgdc/payband/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>alma.maddison@ltgdc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:alma.maddison@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <dct:title>LTGDC Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alma.maddison@ltgdc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alma.maddison@ltgdc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alma.maddison@ltgdc.org.uk">
+    <rdfs:label>alma.maddison@ltgdc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <dct:title>LTGDC Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <dct:title>LTGDC Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/dclg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <rdfs:label>LTGDC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/130000-134999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdfs:comment>Chief Executive</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <skos:notation>LTGDC1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <foaf:name>Peter Andrews</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@ltgdc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@ltgdc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@ltgdc.org.uk">
+    <rdfs:label>info@ltgdc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.20775174730">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.20775174730">
+    <rdfs:label>20775174730</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.20775174730">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <rdfs:label>Executive Team</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449870</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <rdfs:label>Peter Andrews as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <rdfs:label>£130000 - £134999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay2">
+    <rdfs:label>Peter Andrews as Chief Executive Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/115000-119999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdfs:comment>Director of Development</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <rdfs:label>Director of Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <skos:notation>LTGDC3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <foaf:name>Steve Oakes</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541031</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <rdfs:label>Director of Development Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <rdfs:label>Steve Oakes as Director of Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdfs:label>£115000 - £119999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay3">
+    <rdfs:label>Steve Oakes as Director of Development Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/105000-109999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdfs:comment>Director of Planning</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <rdfs:label>Director of Planning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <skos:notation>LTGDC4</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <foaf:name>John Allen</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/planning">
+    <skos:prefLabel>Planning</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399532</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <rdfs:label>Director of Planning Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <rdfs:label>John Allen as Director of Planning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <rdfs:label>£105000 - £109999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/105000-109999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay4">
+    <rdfs:label>John Allen as Director of Planning Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdfs:comment>Head of Economic Development</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <rdfs:label>Head of Economic Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <skos:notation>LTGDC6</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/economics">
+    <skos:prefLabel>Economics</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <rdfs:label>Head of Economic Development Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <rdfs:label>N/D as Head of Economic Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay5">
+    <rdfs:label>N/D as Head of Economic Development Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdfs:comment>Director of Finance</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <rdfs:label>Director of Finance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <skos:notation>LTGDC7</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220700</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <rdfs:label>Director of Finance Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <rdfs:label>N/D as Director of Finance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay6">
+    <rdfs:label>N/D as Director of Finance Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/60000-64999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <skos:note>LTGDC does not operate a payscale or grade system. It appoints at specific salary levels</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdfs:comment>Head of Communications</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <rdfs:label>Head of Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <skos:notation>LTGDC8</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <foaf:mbox rdf:resource="mailto:info@ltgdc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7">
+    <foaf:phone rdf:resource="tel:+44.20775174730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ltgdc/unit/executive-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <rdfs:label>Head of Communications Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#salaryCostOfReports7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ltgdc/post/LTGDC8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <rdfs:label>N/D as Head of Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <rdfs:label>£60000 - £64999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/60000-64999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay7">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay7">
+    <rdfs:label>N/D as Head of Communications Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ltgdc/2012-03-31/310312-LTGDC-Organogram-Final#totalPay7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>jeff.kirkman708@mod.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:jeff.kirkman708@mod.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:title>Royal Air Force Museum Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:title>Royal Air Force Museum Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:title>Royal Air Force Museum Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2013-03-31">
+    <rdfs:label>2013-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdfs:label>Royal Air Force Museum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:prefLabel>Royal Air Force Museum Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:prefLabel>Royal Air Force Museum Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-management"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts2">
+    <rdfs:label>Rank 1 Senior Management (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <rdfs:label>Royal Air Force Museum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-management">
+    <skos:prefLabel>Senior Management</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1">
+    <skos:prefLabel>Rank 1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/51341-53949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1">
+    <skos:prefLabel>Rank 1 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51341</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53949</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <rdfs:label>£51341 - £53949</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51341-53949">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-management"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts3">
+    <rdfs:label>Rank 1 Senior Management (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-specialistpolicy-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts4">
+    <rdfs:label>Rank 2 Senior Specialist/Policy Adviser (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-specialistpolicy-adviser">
+    <skos:prefLabel>Senior Specialist/Policy Adviser</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2">
+    <skos:prefLabel>Rank 2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/39706-53500"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2">
+    <skos:prefLabel>Rank 2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39706</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53500</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <rdfs:label>£39706 - £53500</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/39706-53500">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.80</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-specialistpolicy-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts5">
+    <rdfs:label>Rank 2 Senior Specialist/Policy Adviser (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts6">
+    <rdfs:label>Rank 3 Senior Manager (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-manager">
+    <skos:prefLabel>Senior Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3">
+    <skos:prefLabel>Rank 3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/34717-44000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3">
+    <skos:prefLabel>Rank 3 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34717</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <rdfs:label>£34717 - £44000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34717-44000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-curator-keeper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts7">
+    <rdfs:label>Rank 3 Senior Curator &amp; Keeper (Policy) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-curator-keeper">
+    <skos:prefLabel>Senior Curator &amp; Keeper</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/not-in-post"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts8">
+    <rdfs:label>Rank 3 Not In Post (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/not-in-post">
+    <skos:prefLabel>Not In Post</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-it-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts9">
+    <rdfs:label>Rank 3 Senior IT Manager (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-it-manager">
+    <skos:prefLabel>Senior IT Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts10">
+    <rdfs:label>Rank 4 Manager (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-research">
+    <skos:prefLabel>Operational Research</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/manager">
+    <skos:prefLabel>Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4">
+    <skos:prefLabel>Rank 4</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/28021-36510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4">
+    <skos:prefLabel>Rank 4 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28021</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36510</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <rdfs:label>£28021 - £36510</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28021-36510">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/curatorsenior-academic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts11">
+    <rdfs:label>Rank 4 Curator/Senior Academic (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/curatorsenior-academic">
+    <skos:prefLabel>Curator/Senior Academic</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts12">
+    <rdfs:label>Rank 4 Manager (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/not-in-post"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts13">
+    <rdfs:label>Rank 4 Not In Post (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/collections-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts14">
+    <rdfs:label>Rank 5 Collections Officer (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/collections-officer">
+    <skos:prefLabel>Collections Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5">
+    <skos:prefLabel>Rank 5</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/13644-31875"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5">
+    <skos:prefLabel>Rank 5 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13644</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31875</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <rdfs:label>£13644 - £31875</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/13644-31875">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/curator-midcareer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts15">
+    <rdfs:label>Rank 5 Curator - Mid-career (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/curator-midcareer">
+    <skos:prefLabel>Curator - Mid-career</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/not-in-post"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts16">
+    <rdfs:label>Rank 5 Not In Post (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-technician"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts17">
+    <rdfs:label>Rank 5 Senior Technician (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-technician">
+    <skos:prefLabel>Senior Technician</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/office-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts18">
+    <rdfs:label>Rank 5 Office Manager (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/office-manager">
+    <skos:prefLabel>Office Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-technical-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts19">
+    <rdfs:label>Rank 5 Senior Technical Adviser (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-technical-adviser">
+    <skos:prefLabel>Senior Technical Adviser</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.16</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/collections-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts20">
+    <rdfs:label>Rank 6 Collections Support Officer (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/collections-support-officer">
+    <skos:prefLabel>Collections Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6">
+    <skos:prefLabel>Rank 6</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/10260-27144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6">
+    <skos:prefLabel>Rank 6 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10260</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27144</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <rdfs:label>£10260 - £27144</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/10260-27144">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/finance-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts21">
+    <rdfs:label>Rank 6 Finance Officer (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/finance-officer">
+    <skos:prefLabel>Finance Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.20</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts22">
+    <rdfs:label>Rank 6 Operations Support Officer (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer">
+    <skos:prefLabel>Operations Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.29</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts23">
+    <rdfs:label>Rank 6 Operations Support Officer (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts24">
+    <rdfs:label>Rank 7 Administrator (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/administrator">
+    <skos:prefLabel>Administrator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7">
+    <skos:prefLabel>Rank 7</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/11820-23503"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7">
+    <skos:prefLabel>Rank 7 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11820</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23503</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <rdfs:label>£11820 - £23503</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/11820-23503">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/collections-support-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts25">
+    <rdfs:label>Rank 7 Collections Support Assistant (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/collections-support-assistant">
+    <skos:prefLabel>Collections Support Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts26">
+    <rdfs:label>Rank 7 Administrator (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/finance-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts27">
+    <rdfs:label>Rank 7 Finance Support Officer (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/finance-support-officer">
+    <skos:prefLabel>Finance Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/not-in-post"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts28">
+    <rdfs:label>Rank 7 Not In Post (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.20</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/collections-delivery-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts29">
+    <rdfs:label>Rank 8 Collections Delivery Assistant (Operational Research) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/collections-delivery-assistant">
+    <skos:prefLabel>Collections Delivery Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8">
+    <skos:prefLabel>Rank 8</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/3453-19552"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8">
+    <skos:prefLabel>Rank 8 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3453</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19552</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <rdfs:label>£3453 - £19552</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/3453-19552">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59.80</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-delivery-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts30">
+    <rdfs:label>Rank 8 Operations Delivery Assistant (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM212 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-delivery-assistant">
+    <skos:prefLabel>Operations Delivery Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/rank-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts31">
+    <rdfs:label>Apprentice Apprentice (Operational Delivery) in ROYAL AIR FORCE MUSEUM reporting to post RAFM414 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/apprentice">
+    <skos:prefLabel>Apprentice</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice">
+    <skos:prefLabel>Apprentice</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade/apprentice">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/12875-15968"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice">
+    <skos:prefLabel>Apprentice Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband/apprentice">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/royal-air-force-museum/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12875</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15968</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <rdfs:label>£12875 - £15968</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/12875-15968">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>jeff.kirkman708@mod.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:jeff.kirkman708@mod.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <dct:title>Royal Air Force Museum Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:jeff.kirkman708@mod.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:jeff.kirkman708@mod.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:jeff.kirkman708@mod.uk">
+    <rdfs:label>jeff.kirkman708@mod.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <dct:title>Royal Air Force Museum Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <dct:title>Royal Air Force Museum Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/mod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <rdfs:label>Royal Air Force Museum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <skos:note>SCS1 equivalent</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdfs:comment>Policy</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <rdfs:label>Director General</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <skos:notation>RAFM414</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <foaf:mbox rdf:resource="mailto:directors@rafmuseum.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2">
+    <foaf:phone rdf:resource="tel:+44.208.205.2266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:directors@rafmuseum.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:directors@rafmuseum.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:directors@rafmuseum.org">
+    <rdfs:label>directors@rafmuseum.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.208.205.2266">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.208.205.2266">
+    <rdfs:label>0208 205 2266</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.208.205.2266">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <rdfs:label>Royal Air Force Museum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2061045</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <rdfs:label>Director General Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <rdfs:label>N/D as Director General</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay2">
+    <rdfs:label>N/D as Director General Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <skos:note>SCS1 equivalent</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdfs:comment>Policy</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <rdfs:label>Director Corporate Services Division</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <skos:notation>RAFM212</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <foaf:mbox rdf:resource="mailto:directors@rafmuseum.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3">
+    <foaf:phone rdf:resource="tel:+44.208.205.2266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/unit/royal-air-force-museum">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169838</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <rdfs:label>Director Corporate Services Division Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/royal-air-force-museum/post/RAFM212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <rdfs:label>N/D as Director Corporate Services Division</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay3">
+    <rdfs:label>N/D as Director Corporate Services Division Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/mod/2013-03-31/RAF-Museum-Organogram-31032013#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

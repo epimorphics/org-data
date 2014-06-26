@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>angela.ensten@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:angela.ensten@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:title>ECITB Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:title>ECITB Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:title>ECITB Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2013-03-31">
+    <rdfs:label>2013-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdfs:label>ECITB</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade">
+    <skos:prefLabel>ECITB Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband">
+    <skos:prefLabel>ECITB Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts2">
+    <rdfs:label>Grade 1 Secretary (Knowledge and Information Management (KIM)) in EXECUTIVE reporting to post 6038 FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <rdfs:label>Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim">
+    <skos:prefLabel>Knowledge and Information Management (KIM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/secretary">
+    <skos:prefLabel>Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1">
+    <skos:prefLabel>Grade 1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/grade/grade-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/14136-29000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1">
+    <skos:prefLabel>Grade 1 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/ecitb/payband/grade-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/ecitb/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14136</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <rdfs:label>£14136 - £29000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/14136-29000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>angela.ensten@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:angela.ensten@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <dct:title>ECITB Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:angela.ensten@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:angela.ensten@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:angela.ensten@ecitb.org.uk">
+    <rdfs:label>angela.ensten@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <dct:title>ECITB Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <dct:title>ECITB Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/bis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <rdfs:label>ECITB</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/130000-134999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdfs:comment>Executive</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <rdfs:label>Non-Executive Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <skos:notation>6209</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6209">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <foaf:mbox rdf:resource="mailto:david.edwards@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <foaf:name>Shirley</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2">
+    <foaf:phone rdf:resource="tel:+44.192.340.2123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.edwards@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.edwards@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:david.edwards@ecitb.org.uk">
+    <rdfs:label>david.edwards@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2123">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2123">
+    <rdfs:label>01923 402123</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2123">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <rdfs:label>Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <rdfs:label>Non-Executive Director Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.10</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <rdfs:label>Shirley as Non-Executive Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <rdfs:label>£130000 - £134999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/130000-134999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay2">
+    <rdfs:label>Shirley as Non-Executive Director Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/130000-134999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdfs:comment>Executive</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <rdfs:label>Non-Executive Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <skos:notation>6150</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6150">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <foaf:mbox rdf:resource="mailto:david.edwards@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <foaf:name>Julian</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3">
+    <foaf:phone rdf:resource="tel:+44.192.340.2123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <rdfs:label>Non-Executive Director Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.10</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <rdfs:label>Julian as Non-Executive Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay3">
+    <rdfs:label>Julian as Non-Executive Director Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/75000-79999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdfs:comment>Executive</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <rdfs:label>Chariman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <skos:notation>6140</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6140">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <foaf:mbox rdf:resource="mailto:andrew.collinson@ECITB.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <foaf:name>Andrew</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4">
+    <foaf:phone rdf:resource="tel:+44.192.340.2123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andrew.collinson@ECITB.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andrew.collinson@ECITB.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andrew.collinson@ECITB.org.uk">
+    <rdfs:label>andrew.collinson@ECITB.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS3">
+    <rdfs:label>SCS3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142632</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <rdfs:label>Chariman Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <rdfs:label>Andrew as Chariman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <rdfs:label>£75000 - £79999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay4">
+    <rdfs:label>Andrew as Chariman Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/120000-124999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdfs:comment>Executive</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <rdfs:label>Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <skos:notation>6038</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6038">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <foaf:mbox rdf:resource="mailto:david.edwards@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <foaf:name>David</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5">
+    <foaf:phone rdf:resource="tel:+44.192.340.2121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2121">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2121">
+    <rdfs:label>01923 402121</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2121">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">330558</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <rdfs:label>Chief Executive Officer Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <rdfs:label>David as Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdfs:label>£120000 - £124999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay5">
+    <rdfs:label>David as Chief Executive Officer Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/90000-94999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <skos:note>incls commercial</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdfs:comment>Commercial</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <rdfs:label>Director International Operations &amp; Commercial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <skos:notation>6097</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6097">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <foaf:mbox rdf:resource="mailto:tony.featherstone@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <foaf:name>Tony</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6">
+    <foaf:phone rdf:resource="tel:+44.192.340.2133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:tony.featherstone@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:tony.featherstone@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:tony.featherstone@ecitb.org.uk">
+    <rdfs:label>tony.featherstone@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2133">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2133">
+    <rdfs:label>01923 402133</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2133">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial">
+    <rdfs:label>Commercial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/commercial">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104140</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <rdfs:label>Director International Operations &amp; Commercial Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <rdfs:label>Tony as Director International Operations &amp; Commercial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdfs:label>£90000 - £94999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay6">
+    <rdfs:label>Tony as Director International Operations &amp; Commercial Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <skos:note>incls HR, procurement, contracts, levy</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdfs:comment>Finance &amp; Legal</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <rdfs:label>Director of Finance &amp; Board Secretary</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <skos:notation>6109</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6109">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <foaf:mbox rdf:resource="mailto:peter.hill@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <foaf:name>Peter</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7">
+    <foaf:phone rdf:resource="tel:+44.192.340.2124"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.hill@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.hill@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.hill@ecitb.org.uk">
+    <rdfs:label>peter.hill@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2124">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2124">
+    <rdfs:label>01923 402124</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2124">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal">
+    <rdfs:label>Finance &amp; Legal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/finance-legal">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230861</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <rdfs:label>Director of Finance &amp; Board Secretary Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <rdfs:label>Peter as Director of Finance &amp; Board Secretary</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay7">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay7">
+    <rdfs:label>Peter as Director of Finance &amp; Board Secretary Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdfs:comment>Development &amp; Quality</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <rdfs:label>Director of Development &amp; Quality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <skos:notation>6051</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6051">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/other"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <foaf:mbox rdf:resource="mailto:nigel.spencer@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <foaf:name>Nigel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8">
+    <foaf:phone rdf:resource="tel:+44.192.340.2132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:nigel.spencer@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:nigel.spencer@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:nigel.spencer@ecitb.org.uk">
+    <rdfs:label>nigel.spencer@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/other">
+    <skos:prefLabel>Other</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2132">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2132">
+    <rdfs:label>01923 402132</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.192.340.2132">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality">
+    <rdfs:label>Development &amp; Quality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/development-quality">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324474</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <rdfs:label>Director of Development &amp; Quality Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <rdfs:label>Nigel as Director of Development &amp; Quality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay8">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay8">
+    <rdfs:label>Nigel as Director of Development &amp; Quality Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/75000-79999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdfs:comment>Operations</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <rdfs:label>Director of Regional Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <skos:notation>6119</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/post/6119">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <foaf:mbox rdf:resource="mailto:andy.brown@ecitb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <foaf:name>Andy</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9">
+    <foaf:phone rdf:resource="tel:+44.157.275.9463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.brown@ecitb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.brown@ecitb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.brown@ecitb.org.uk">
+    <rdfs:label>andy.brown@ecitb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.157.275.9463">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.157.275.9463">
+    <rdfs:label>01572 759463</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.157.275.9463">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations">
+    <rdfs:label>Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/ecitb/unit/operations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">349937</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <rdfs:label>Director of Regional Operations Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#salaryCostOfReports9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/ecitb/post/6119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#person9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <rdfs:label>Andy as Director of Regional Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay9">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#tenure9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay9">
+    <rdfs:label>Andy as Director of Regional Operations Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ecitb/2013-03-31/ECITB-organogram-data-as-at-1-April-2013-compatible-with-website#totalPay9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>james.matthews@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:james.matthews@justice.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:title>Legal Services Board Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:title>Legal Services Board Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:title>Legal Services Board Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdfs:label>Legal Services Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:prefLabel>Legal Services Board Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:prefLabel>Legal Services Board Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/administrative-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts2">
+    <rdfs:label>Support/Admin Administrative Assistant (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <rdfs:label>Legal Services Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/administrative-assistant">
+    <skos:prefLabel>Administrative Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin">
+    <skos:prefLabel>Support/Admin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/23300-30000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin">
+    <skos:prefLabel>Support/Admin Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23300</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <rdfs:label>£23300 - £30000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23300-30000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/corporate-governance-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts3">
+    <rdfs:label>Project Manager Corporate Governance Manager (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/corporate-governance-manager">
+    <skos:prefLabel>Corporate Governance Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager">
+    <skos:prefLabel>Project Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/45500-65000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager">
+    <skos:prefLabel>Project Manager Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45500</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <rdfs:label>£45500 - £65000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/45500-65000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/business-planning-associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts4">
+    <rdfs:label>Associate Business Planning Associate (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/business-planning-associate">
+    <skos:prefLabel>Business Planning Associate</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate">
+    <skos:prefLabel>Associate</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/32000-41000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate">
+    <skos:prefLabel>Associate Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <rdfs:label>£32000 - £41000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/32000-41000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/consumer-panel-associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts5">
+    <rdfs:label>Associate Consumer Panel Associate (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/consumer-panel-associate">
+    <skos:prefLabel>Consumer Panel Associate</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/consumer-panel-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts6">
+    <rdfs:label>Project Manager Consumer Panel Manager (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/consumer-panel-manager">
+    <skos:prefLabel>Consumer Panel Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/corporate-affairs-associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts7">
+    <rdfs:label>Associate Corporate Affairs Associate (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/corporate-affairs-associate">
+    <skos:prefLabel>Corporate Affairs Associate</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/legal-director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts8">
+    <rdfs:label>SMT/Head of Legal Director (Law) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/law">
+    <skos:prefLabel>Law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/legal-director">
+    <skos:prefLabel>Legal Director</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of">
+    <skos:prefLabel>SMT/Head of</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/62000-100000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of">
+    <skos:prefLabel>SMT/Head of Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <rdfs:label>£62000 - £100000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-100000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/legal-advisor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts9">
+    <rdfs:label>SMT/Head of Legal Advisor (Law) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/legal-advisor">
+    <skos:prefLabel>Legal Advisor</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/communications-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts10">
+    <rdfs:label>Project Manager Communications Manager (Communications) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/communications-manager">
+    <skos:prefLabel>Communications Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/office-services-coordinator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts11">
+    <rdfs:label>Support/Admin Office Services Co-Ordinator (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/office-services-coordinator">
+    <skos:prefLabel>Office Services Co-Ordinator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/personal-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts12">
+    <rdfs:label>Support/Admin Personal Assistant (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBCEO FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/personal-assistant">
+    <skos:prefLabel>Personal Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/supportadmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/regulatory-associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts13">
+    <rdfs:label>Associate Regulatory Associate (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBSD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/regulatory-associate">
+    <skos:prefLabel>Regulatory Associate</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/regulatory-project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts14">
+    <rdfs:label>Project Manager Regulatory Project Manager (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBSD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/regulatory-project-manager">
+    <skos:prefLabel>Regulatory Project Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-development-and-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts15">
+    <rdfs:label>SMT/Head of Head of Development and Research (Programme and Project Management (PPM)) in LEGAL SERVICES BOARD reporting to post LSBSD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-development-and-research">
+    <skos:prefLabel>Head of Development and Research</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/legal-services-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smthead-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>james.matthews@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:james.matthews@justice.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <dct:title>Legal Services Board Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:james.matthews@justice.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:james.matthews@justice.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:james.matthews@justice.gsi.gov.uk">
+    <rdfs:label>james.matthews@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <dct:title>Legal Services Board Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <dct:title>Legal Services Board Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/justice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <rdfs:label>Legal Services Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/160000-164999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <skos:note>LSB employees are not civil servants and do not have a final salary pension.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdfs:comment>LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The CEO is a Board member and is Accounting Officer and is responsible for ensuring that: the Board has the advice and evidence to make strategic decisions; those decisions are executed expeditiously and effectively; and the Boards statutory obligations are met in full.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <skos:notation>LSBCEO</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <foaf:mbox rdf:resource="mailto:chris.kenny@legalservicesboard.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <foaf:name>Chris Kenny</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2">
+    <foaf:phone rdf:resource="tel:+44.207.271.0050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.kenny@legalservicesboard.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.kenny@legalservicesboard.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.kenny@legalservicesboard.org.uk">
+    <rdfs:label>chris.kenny@legalservicesboard.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS3">
+    <rdfs:label>SCS3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0050">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0050">
+    <rdfs:label>020 7271 0050</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0050">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <rdfs:label>Legal Services Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <rdfs:label>Chris Kenny as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <rdfs:label>£160000 - £164999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/160000-164999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay2">
+    <rdfs:label>Chris Kenny as Chief Executive Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/110000-114999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <skos:note>LSB employees are not civil servants and do not have a final salary pension.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdfs:comment>LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Strategy Director is a member of the Executive Management Team and is responsible for advising the Board (inc. CEO) on immediate and long term strategy for opening the legal services market and modernising regulation of legal services and for overseeing and ensuring delivery of the overall LSB programme of work including prioritisation against emerging issues</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <rdfs:label>Strategy Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <skos:notation>LSBSD</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <foaf:mbox rdf:resource="mailto:crispin.passmore@legalservicesboard.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <foaf:name>Crispin Passmore</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3">
+    <foaf:phone rdf:resource="tel:+44.207.271.0086"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:crispin.passmore@legalservicesboard.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:crispin.passmore@legalservicesboard.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:crispin.passmore@legalservicesboard.org.uk">
+    <rdfs:label>crispin.passmore@legalservicesboard.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0086">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0086">
+    <rdfs:label>020 7271 0086</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0086">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285250</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <rdfs:label>Strategy Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <rdfs:label>Crispin Passmore as Strategy Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdfs:label>£110000 - £114999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay3">
+    <rdfs:label>Crispin Passmore as Strategy Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/90000-94999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <skos:note>LSB employees are not civil servants and do not have a final salary pension.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdfs:comment>LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Corporate Director is a member of the Executive Management Team and is accountable for all non-regulatory business. This includes responsibility for: the Boards external relationships including with its sponsor Department; internal governance processes and policies; Business Planning and strategic coordination; organisation development; and day-to-day operational management of other Board support services.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <rdfs:label>Corporate Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <skos:notation>LSBCD</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <foaf:mbox rdf:resource="mailto:julie.myers@legalservicesboard.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <foaf:name>Julie Myers</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4">
+    <foaf:phone rdf:resource="tel:+44.207.271.0059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:julie.myers@legalservicesboard.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:julie.myers@legalservicesboard.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:julie.myers@legalservicesboard.org.uk">
+    <rdfs:label>julie.myers@legalservicesboard.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0059">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0059">
+    <rdfs:label>020 7271 0059</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0059">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">583050</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <rdfs:label>Corporate Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <rdfs:label>Julie Myers as Corporate Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <rdfs:label>£90000 - £94999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/90000-94999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay4">
+    <rdfs:label>Julie Myers as Corporate Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <skos:note>LSB employees are not civil servants and do not have a final salary pension.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdfs:comment>LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Director of Regulatory Practice is responsible for developing the licensing regime for introduction of alternative business structures and the framework for performance management of legal services regulators.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <rdfs:label>Director of Regulatory Practice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <skos:notation>LSBDRP</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <foaf:mbox rdf:resource="mailto:fran.gillon@legalservicesboard.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5">
+    <foaf:phone rdf:resource="tel:+44.207.271.0087"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:fran.gillon@legalservicesboard.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:fran.gillon@legalservicesboard.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:fran.gillon@legalservicesboard.org.uk">
+    <rdfs:label>fran.gillon@legalservicesboard.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0087">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0087">
+    <rdfs:label>020 7271 0087</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0087">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <rdfs:label>Director of Regulatory Practice Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <rdfs:label>N/D as Director of Regulatory Practice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay5">
+    <rdfs:label>N/D as Director of Regulatory Practice Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <skos:note>LSB employees are not civil servants and do not have a final salary pension.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdfs:comment>LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Director of Finance and Services is responsible for managing the organisations finances and for the LSB's day-to-day operations including: supporting the CEO in all his Accounting Officer responsibilities; responsibility for the effective and efficient running of its finance system and all other infrastructure services.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <rdfs:label>Director of Finance and Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <skos:notation>LSBDFS</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <foaf:mbox rdf:resource="mailto:edwin.josephs@legalservicesboard.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6">
+    <foaf:phone rdf:resource="tel:+44.207.271.0084"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:edwin.josephs@legalservicesboard.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:edwin.josephs@legalservicesboard.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:edwin.josephs@legalservicesboard.org.uk">
+    <rdfs:label>edwin.josephs@legalservicesboard.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0084">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0084">
+    <rdfs:label>020 7271 0084</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.0084">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <rdfs:label>Director of Finance and Services Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <rdfs:label>N/D as Director of Finance and Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay6">
+    <rdfs:label>N/D as Director of Finance and Services Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2012-03-31/LSB#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

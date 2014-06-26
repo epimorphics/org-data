@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>rob.skeggs@hblb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:rob.skeggs@hblb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:title>Horserace Betting Levy Board Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:title>Horserace Betting Levy Board Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:title>Horserace Betting Levy Board Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdfs:label>Horserace Betting Levy Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:prefLabel>Horserace Betting Levy Board Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:prefLabel>Horserace Betting Levy Board Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts2">
+    <rdfs:label>Administrative staff Senior Executive Assistant (Policy) in CHIEF EXECUTIVE reporting to post 1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-executive-assistant">
+    <skos:prefLabel>Senior Executive Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff">
+    <skos:prefLabel>Administrative staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff">
+    <skos:prefLabel>Administrative staff Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/administrative-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts3">
+    <rdfs:label>Administrative staff Administrative Secretary (Policy) in CHIEF EXECUTIVE reporting to post 1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/administrative-secretary">
+    <skos:prefLabel>Administrative Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/administrative-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/veterinary-science-education-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts4">
+    <rdfs:label>Operations staff Veterinary Science &amp; Education Manager (Operational Delivery) in OPERATIONS reporting to post 2 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <rdfs:label>Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/veterinary-science-education-manager">
+    <skos:prefLabel>Veterinary Science &amp; Education Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff">
+    <skos:prefLabel>Operations staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff">
+    <skos:prefLabel>Operations staff Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts5">
+    <rdfs:label>Operations staff Operations Executive (Operational Delivery) in OPERATIONS reporting to post 2 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-executive">
+    <skos:prefLabel>Operations Executive</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/operations-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/it-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts6">
+    <rdfs:label>IT staff IT Manager (Information Technology) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <rdfs:label>Finance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/information-technology">
+    <skos:prefLabel>Information Technology</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/it-manager">
+    <skos:prefLabel>IT Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff">
+    <skos:prefLabel>IT staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff">
+    <skos:prefLabel>IT staff Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/it-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts7">
+    <rdfs:label>IT staff IT Support Officer (Information Technology) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/it-support-officer">
+    <skos:prefLabel>IT Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/it-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/finance-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts8">
+    <rdfs:label>Finance staff Finance Manager (Finance) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/finance-manager">
+    <skos:prefLabel>Finance Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff">
+    <skos:prefLabel>Finance staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff">
+    <skos:prefLabel>Finance staff Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.50</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/pensions-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts9">
+    <rdfs:label>Finance staff Pensions Manager (Finance) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/pensions-manager">
+    <skos:prefLabel>Pensions Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/levy-collection-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts10">
+    <rdfs:label>Finance staff Levy Collection Officer (Finance) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/levy-collection-officer">
+    <skos:prefLabel>Levy Collection Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/racecourse-finance-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts11">
+    <rdfs:label>Finance staff Racecourse Finance Officer (Finance) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/racecourse-finance-officer">
+    <skos:prefLabel>Racecourse Finance Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/grade/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/accounts-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts12">
+    <rdfs:label>Finance staff Accounts Assistant (Finance) in FINANCE reporting to post 3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/accounts-assistant">
+    <skos:prefLabel>Accounts Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/horserace-betting-levy-board/payband/finance-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>rob.skeggs@hblb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:rob.skeggs@hblb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <dct:title>Horserace Betting Levy Board Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:rob.skeggs@hblb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:rob.skeggs@hblb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:rob.skeggs@hblb.org.uk">
+    <rdfs:label>rob.skeggs@hblb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <dct:title>Horserace Betting Levy Board Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <dct:title>Horserace Betting Levy Board Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/dcms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <rdfs:label>Horserace Betting Levy Board</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/230000-234999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <skos:note>(1) HBLB employees are not civil servants and HBLB receives no central Government grant-in-aid and no National Lottery funding (2) The combined salary cost of reporting posts has been rounded to the nearest 100,000 pounds.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdfs:comment>Chief Executive of the Horserace Betting Levy Board (HBLB), a statutory body established by the Betting Levy Act 1961 and now operating in accordance with the provisions of the Betting, Gaming and Lotteries Act 1963 (as amended). Unlike some other non-departmental public bodies, HBLB receives no central Government grant-in-aid and no National Lottery funding and its employees are not civil servants. Its role is to assess and collect monetary contributions from bookmakers and the Tote successor company via a levy, which it then distributes for the improvement of horseracing and breeds of horses and for the advancement of veterinary science and education.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <skos:notation>1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <foaf:mbox rdf:resource="mailto:enquiries@hblb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <foaf:name>Douglas Erskine-Crum</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2">
+    <foaf:phone rdf:resource="tel:+44.207.802.3880"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:enquiries@hblb.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:enquiries@hblb.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:enquiries@hblb.org.uk">
+    <rdfs:label>enquiries@hblb.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS4">
+    <rdfs:label>SCS4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.802.3880">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.802.3880">
+    <rdfs:label>020 7802 3880</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.802.3880">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/chief-executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <rdfs:label>Douglas Erskine-Crum as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <rdfs:label>£230000 - £234999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/230000-234999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay2">
+    <rdfs:label>Douglas Erskine-Crum as Chief Executive Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/115000-119999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <skos:note>(1) HBLB employees are not civil servants and HBLB receives no central Government grant-in-aid and no National Lottery funding (2) The combined salary cost of reporting posts has been rounded to the nearest 100,000 pounds.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdfs:comment>Operations Director of the Horserace Betting Levy Board (HBLB), a statutory body established by the Betting Levy Act 1961 and now operating in accordance with the provisions of the Betting, Gaming and Lotteries Act 1963 (as amended). Unlike some other non-departmental public bodies, the HBLB receives no central Government grant-in-aid and no National Lottery funding and its employees are not civil servants. Its role is to assess and collect monetary contributions from bookmakers and the Tote successor company via a levy, which it then distributes for the improvement of horseracing and breeds of horses and for the advancement of veterinary science and education.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <rdfs:label>Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <skos:notation>2</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <foaf:mbox rdf:resource="mailto:enquiries@hblb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <foaf:name>Alan Delmonte</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3">
+    <foaf:phone rdf:resource="tel:+44.207.802.3880"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <rdfs:label>Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/operations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <rdfs:label>Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <rdfs:label>Alan Delmonte as Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdfs:label>£115000 - £119999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay3">
+    <rdfs:label>Alan Delmonte as Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/125000-129999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <skos:note>(1) HBLB employees are not civil servants and HBLB receives no central Government grant-in-aid and no National Lottery funding (2) The combined salary cost of reporting posts has been rounded to the nearest 100,000 pounds.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdfs:comment>Finance Director of the Horserace Betting Levy Board (HBLB), a statutory body established by the Betting Levy Act 1961 and now operating in accordance with the provisions of the Betting, Gaming and Lotteries Act 1963 (as amended). Unlike some other non-departmental public bodies, the HBLB receives no central Government grant-in-aid and no National Lottery funding and its employees are not civil servants. Its role is to assess and collect monetary contributions from bookmakers and the Tote successor company via a levy, which it then distributes for the improvement of horseracing and breeds of horses and for the advancement of veterinary science and education.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <rdfs:label>Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <skos:notation>3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <foaf:mbox rdf:resource="mailto:enquiries@hblb.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <foaf:name>Robert Skeggs</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4">
+    <foaf:phone rdf:resource="tel:+44.207.802.3880"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <rdfs:label>Finance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/unit/finance">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <rdfs:label>Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/horserace-betting-levy-board/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <rdfs:label>Robert Skeggs as Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <rdfs:label>£125000 - £129999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay4">
+    <rdfs:label>Robert Skeggs as Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hblb/2012-03-31/310312-HBLB-FINAL-v2#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

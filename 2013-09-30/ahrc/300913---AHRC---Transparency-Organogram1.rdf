@@ -1,0 +1,2205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>v.tullett@ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:v.tullett@ahrc.ac.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:title>Arts and Humanities Research Council Organogram at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:title>Arts and Humanities Research Council Junior Post FTEs at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:title>Arts and Humanities Research Council Salary Cost of Reports on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2013-09-30">
+    <rdfs:label>2013-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdfs:label>Arts and Humanities Research Council</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:prefLabel>Arts and Humanities Research Council Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:prefLabel>Arts and Humanities Research Council Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.70</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/associate-director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts2">
+    <rdfs:label>RC-G Associate Director (Operational Delivery) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes">
+    <rdfs:label>Programmes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/associate-director">
+    <skos:prefLabel>Associate Director</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg">
+    <skos:prefLabel>RC-G</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/54565-69721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg">
+    <skos:prefLabel>RC-G Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54565</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69721</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <rdfs:label>£54565 - £69721</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/54565-69721">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts3">
+    <rdfs:label>RC-F Senior Manager (Operational Delivery) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-manager">
+    <skos:prefLabel>Senior Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf">
+    <skos:prefLabel>RC-F</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/42769-54649"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf">
+    <skos:prefLabel>RC-F Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42769</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54649</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <rdfs:label>£42769 - £54649</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42769-54649">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.74</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts4">
+    <rdfs:label>RC-E Manager (Operational Delivery) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/manager">
+    <skos:prefLabel>Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce">
+    <skos:prefLabel>RC-E</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/35282-43164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce">
+    <skos:prefLabel>RC-E Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35282</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43164</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <rdfs:label>£35282 - £43164</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35282-43164">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.22</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts5">
+    <rdfs:label>RC-D Manager (Operational Delivery) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd">
+    <skos:prefLabel>RC-D</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/27792-34002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd">
+    <skos:prefLabel>RC-D Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27792</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34002</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <rdfs:label>£27792 - £34002</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/27792-34002">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.13</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/officercoordinator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts6">
+    <rdfs:label>RC-C Officer/Coordinator (Operational Delivery) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/officercoordinator">
+    <skos:prefLabel>Officer/Coordinator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc">
+    <skos:prefLabel>RC-C</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/22504-26958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc">
+    <skos:prefLabel>RC-C Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22504</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26958</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <rdfs:label>£22504 - £26958</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/22504-26958">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.74</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/admin-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts7">
+    <rdfs:label>RC-B Admin Assistant (Knowledge and Information Management (KIM)) in PROGRAMMES reporting to post 5861 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim">
+    <skos:prefLabel>Knowledge and Information Management (KIM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/admin-assistant">
+    <skos:prefLabel>Admin Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb">
+    <skos:prefLabel>RC-B</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcb">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/17493-20956"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb">
+    <skos:prefLabel>RC-B Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcb">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17493</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20956</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <rdfs:label>£17493 - £20956</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17493-20956">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/programmes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/associate-director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts8">
+    <rdfs:label>RC-G Associate Director (Communications) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources">
+    <rdfs:label>Resources</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts9">
+    <rdfs:label>RC-E Manager (Communications) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.81</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts10">
+    <rdfs:label>RC-D Manager (Communications) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.73</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/communications-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts11">
+    <rdfs:label>RC-C Communications Support Officer (Communications) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/communications-support-officer">
+    <skos:prefLabel>Communications Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/human-resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts12">
+    <rdfs:label>RC-F Head of Department (Human Resources) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/human-resources">
+    <skos:prefLabel>Human Resources</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-department">
+    <skos:prefLabel>Head of Department</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.61</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/human-resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts13">
+    <rdfs:label>RC-D Manager (Human Resources) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/hr-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/human-resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts14">
+    <rdfs:label>RC-C HR Support Officer (Human Resources) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/hr-support-officer">
+    <skos:prefLabel>HR Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/associate-director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts15">
+    <rdfs:label>RC-G Associate Director (Finance) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts16">
+    <rdfs:label>RC-D Manager (Finance) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts17">
+    <rdfs:label>RC-E Manager (Finance) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/finance-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts18">
+    <rdfs:label>RC-C Finance Support Officer (Finance) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/finance-support-officer">
+    <skos:prefLabel>Finance Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts19">
+    <rdfs:label>RC-F Head of Department (Information Technology) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/information-technology">
+    <skos:prefLabel>Information Technology</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts20">
+    <rdfs:label>RC-E Manager (Operational Delivery) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts21">
+    <rdfs:label>RC-C Assistant (Operational Delivery) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/assistant">
+    <skos:prefLabel>Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts22">
+    <rdfs:label>RC-D Manager (Operational Delivery) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts23">
+    <rdfs:label>RC-F Head of Department (Knowledge and Information Management (KIM)) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts24">
+    <rdfs:label>RC-E Manager (Knowledge and Information Management (KIM)) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.81</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/grade/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts25">
+    <rdfs:label>RC-D Manager (Knowledge and Information Management (KIM)) in RESOURCES reporting to post 7670 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/arts-and-humanities-research-council/payband/rcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>v.tullett@ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:v.tullett@ahrc.ac.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <dct:title>Arts and Humanities Research Council Organogram at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:v.tullett@ahrc.ac.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:v.tullett@ahrc.ac.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:v.tullett@ahrc.ac.uk">
+    <rdfs:label>v.tullett@ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <dct:title>Arts and Humanities Research Council Junior Post FTEs at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <dct:title>Arts and Humanities Research Council Salary Cost of Reports on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/bis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <rdfs:label>Arts and Humanities Research Council</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/135000-139999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdfs:comment>AHRCChief Executive, Chief Accounting Officer,and the Chair of the Research Council UK (RCUK) Executive Group</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <skos:notation>5802</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <foaf:mbox rdf:resource="mailto:r.rylance @ahrc.ac.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <foaf:name>Rick Rylance</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2">
+    <foaf:phone rdf:resource="tel:+44.179.341.6005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:r.rylance @ahrc.ac.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:r.rylance @ahrc.ac.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:r.rylance @ahrc.ac.uk">
+    <rdfs:label>r.rylance @ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6005">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6005">
+    <rdfs:label>01793 416005</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6005">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <rdfs:label>Senior Management Team</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">942144</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <rdfs:label>Rick Rylance as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <rdfs:label>£135000 - £139999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/135000-139999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay2">
+    <rdfs:label>Rick Rylance as Chief Executive Total Pay on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <skos:note>Team too small to detail. Salary costs included under 5802</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdfs:comment>Responsibility for the Programmes Directorate. This remit includes all schemes, themes, research and postgraduate areas together with activities in International, Knowledge Exchange and Partnerships, Public Policy, Peer Review and Research Career Development and Training.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <rdfs:label>Director of Programmes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <skos:notation>5861</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <foaf:mbox rdf:resource="mailto:m.llewellyn@ahrc.ac.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <foaf:name>Mark Llewellyn</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3">
+    <foaf:phone rdf:resource="tel:+44.179.341.6011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:m.llewellyn@ahrc.ac.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:m.llewellyn@ahrc.ac.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:m.llewellyn@ahrc.ac.uk">
+    <rdfs:label>m.llewellyn@ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6011">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6011">
+    <rdfs:label>01793 416011</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6011">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports3">
+    <rdfs:label>Director of Programmes Salary Cost of Reports on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <rdfs:label>Mark Llewellyn as Director of Programmes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay3">
+    <rdfs:label>Mark Llewellyn as Director of Programmes Total Pay on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <skos:note>Team too small to detail. Salary costs included under 5802</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdfs:comment>Responsibility for the AHRC's infrastructure and finances.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <rdfs:label>Director of Resources</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <skos:notation>7670</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/5802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <foaf:mbox rdf:resource="mailto:g.raikes@ahrc.ac.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <foaf:name>Graham Raikes</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4">
+    <foaf:phone rdf:resource="tel:+44.179.341.6009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:g.raikes@ahrc.ac.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:g.raikes@ahrc.ac.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:g.raikes@ahrc.ac.uk">
+    <rdfs:label>g.raikes@ahrc.ac.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6009">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6009">
+    <rdfs:label>01793 416009</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.179.341.6009">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports4">
+    <rdfs:label>Director of Resources Salary Cost of Reports on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/arts-and-humanities-research-council/post/7670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <rdfs:label>Graham Raikes as Director of Resources</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay4">
+    <rdfs:label>Graham Raikes as Director of Resources Total Pay on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/ahrc/2013-09-30/300913---AHRC---Transparency-Organogram1#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>andy.herlihy@tsol.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:andy.herlihy@tsol.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:title>Attorney General's Office Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:title>Attorney General's Office Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:title>Attorney General's Office Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdfs:label>Attorney General's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:prefLabel>Attorney General's Office Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:prefLabel>Attorney General's Office Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts2">
+    <rdfs:label>AO Operations Support Officer (Operational Delivery) in HEAD OF ATTORNEY GENERAL'S OFFICE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <rdfs:label>Head of Attorney General's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer">
+    <skos:prefLabel>Operations Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/ao">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/ao">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/ao">
+    <skos:prefLabel>AO</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/ao">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/ao">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/20030-21541"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/ao">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/ao">
+    <skos:prefLabel>AO Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/ao">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20030</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21541</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <rdfs:label>£20030 - £21541</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20030-21541">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts3">
+    <rdfs:label>G6 Senior Legal Adviser (Law) in CIVIL LAW reporting to post AGO6 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <rdfs:label>Civil Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/law">
+    <skos:prefLabel>Law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser">
+    <skos:prefLabel>Senior Legal Adviser</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g6">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g6">
+    <skos:prefLabel>G6</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/58600-68881"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g6">
+    <skos:prefLabel>G6 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58600</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68881</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <rdfs:label>£58600 - £68881</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/58600-68881">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.42</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts4">
+    <rdfs:label>G6 Senior Legal Adviser (Law) in CRIMINAL LAW reporting to post AGO3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <rdfs:label>Criminal Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/legal-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts5">
+    <rdfs:label>G7 Legal Adviser (Law) in CRIMINAL LAW reporting to post AGO3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/legal-adviser">
+    <skos:prefLabel>Legal Adviser</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g7">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g7">
+    <skos:prefLabel>G7</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/g7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g7">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/46620-54802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g7">
+    <skos:prefLabel>G7 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/g7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46620</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54802</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <rdfs:label>£46620 - £54802</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46620-54802">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/legal-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts6">
+    <rdfs:label>EO Legal Support Officer (Law) in CRIMINAL LAW reporting to post AGO3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/legal-support-officer">
+    <skos:prefLabel>Legal Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/eo">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/eo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/eo">
+    <skos:prefLabel>EO</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/eo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/eo">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/23890-26874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/eo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/eo">
+    <skos:prefLabel>EO Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/eo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23890</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26874</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <rdfs:label>£23890 - £26874</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23890-26874">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/legal-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts7">
+    <rdfs:label>AO Legal Support Officer (Law) in CRIMINAL LAW reporting to post AGO3 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts8">
+    <rdfs:label>G6 Senior Operational Manager (Operational Delivery) in FINANCE AND STRATEGY reporting to post AGO4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <rdfs:label>Finance and Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager">
+    <skos:prefLabel>Senior Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts9">
+    <rdfs:label>G7 Operational Manager (Operational Delivery) in FINANCE AND STRATEGY reporting to post AGO4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operational-manager">
+    <skos:prefLabel>Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts10">
+    <rdfs:label>SEO Operational Manager (Operational Delivery) in FINANCE AND STRATEGY reporting to post AGO4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/seo">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/seo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/seo">
+    <skos:prefLabel>SEO</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/seo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/seo">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/34470-38784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/seo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/seo">
+    <skos:prefLabel>SEO Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/seo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34470</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38784</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <rdfs:label>£34470 - £38784</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/34470-38784">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts11">
+    <rdfs:label>HEO Operational Manager (Operational Delivery) in FINANCE AND STRATEGY reporting to post AGO4 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/heo">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/heo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/heo">
+    <skos:prefLabel>HEO</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade/heo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/heo">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/28180-31714"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/heo">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/heo">
+    <skos:prefLabel>HEO Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband/heo">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28180</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31714</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <rdfs:label>£28180 - £31714</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/28180-31714">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/principal-private-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts12">
+    <rdfs:label>G6 Principal Private Secretary (Operational Delivery) in PRIVATE OFFICE &amp; PARLIAMENTARY CORRESPONDENCE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence">
+    <rdfs:label>Private Office &amp; Parliamentary Correspondence</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/principal-private-secretary">
+    <skos:prefLabel>Principal Private Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/private-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts13">
+    <rdfs:label>SEO Private Secretary (Operational Delivery) in PRIVATE OFFICE &amp; PARLIAMENTARY CORRESPONDENCE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/private-secretary">
+    <skos:prefLabel>Private Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/private-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts14">
+    <rdfs:label>HEO Private Secretary (Operational Delivery) in PRIVATE OFFICE &amp; PARLIAMENTARY CORRESPONDENCE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/heo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts15">
+    <rdfs:label>EO Operational Manager (Operational Delivery) in PRIVATE OFFICE &amp; PARLIAMENTARY CORRESPONDENCE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts16">
+    <rdfs:label>AO Operations Support Officer (Operational Delivery) in PRIVATE OFFICE &amp; PARLIAMENTARY CORRESPONDENCE reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-parliamentary-correspondence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts17">
+    <rdfs:label>G7 Operational Manager (Operational Delivery) in BUSINESS SUPPORT TEAM reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team">
+    <rdfs:label>Business Support Team</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/g7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts18">
+    <rdfs:label>SEO Operational Manager (Operational Delivery) in BUSINESS SUPPORT TEAM reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/seo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts19">
+    <rdfs:label>EO Operational Manager (Operational Delivery) in BUSINESS SUPPORT TEAM reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/eo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.67</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/grade/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts20">
+    <rdfs:label>AO Operations Support Officer (Operational Delivery) in BUSINESS SUPPORT TEAM reporting to post AGO1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/department/attorney-general/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/department/attorney-general/payband/ao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>andy.herlihy@tsol.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:andy.herlihy@tsol.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <dct:title>Attorney General's Office Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.herlihy@tsol.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.herlihy@tsol.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.herlihy@tsol.gsi.gov.uk">
+    <rdfs:label>andy.herlihy@tsol.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <dct:title>Attorney General's Office Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <dct:title>Attorney General's Office Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <rdfs:label>Attorney General's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/120000-124999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdfs:comment>Director General</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <rdfs:label>Director General</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <skos:notation>AGO1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <foaf:mbox rdf:resource="mailto:Peter.Fish@attorneygeneral.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <foaf:name>Peter Fish</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2">
+    <foaf:phone rdf:resource="tel:+44.207.271.2401"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Peter.Fish@attorneygeneral.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Peter.Fish@attorneygeneral.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Peter.Fish@attorneygeneral.gsi.gov.uk">
+    <rdfs:label>Peter.Fish@attorneygeneral.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/law">
+    <skos:prefLabel>Law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS3">
+    <rdfs:label>SCS3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2401">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2401">
+    <rdfs:label>02072712401</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2401">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <rdfs:label>Head of Attorney General's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578584</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <rdfs:label>Director General Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <rdfs:label>Peter Fish as Director General</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdfs:label>£120000 - £124999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay2">
+    <rdfs:label>Peter Fish as Director General Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdfs:comment>Depury Head AGO - Director Criminal Law &amp; Superintendence</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <rdfs:label>Depury Head AGO - Director Criminal Law &amp; Superintendence</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <skos:notation>AGO2</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <foaf:mbox rdf:resource="mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <foaf:name>Kevin McGinty</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3">
+    <foaf:phone rdf:resource="tel:+44.207.271.2412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk">
+    <rdfs:label>kevin.mcginty@attorneygeneral.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2412">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2412">
+    <rdfs:label>2072712412</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2412">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <rdfs:label>Criminal Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227847</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <rdfs:label>Depury Head AGO - Director Criminal Law &amp; Superintendence Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <rdfs:label>Kevin McGinty as Depury Head AGO - Director Criminal Law &amp; Superintendence</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay3">
+    <rdfs:label>Kevin McGinty as Depury Head AGO - Director Criminal Law &amp; Superintendence Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdfs:comment>Deputy Director - Criminal Law</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <rdfs:label>Deputy Director - Criminal Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <skos:notation>AGO3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <foaf:mbox rdf:resource="mailto:N/D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4">
+    <foaf:phone rdf:resource="tel:+44.207.271.2492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/D">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/D">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/D">
+    <rdfs:label>N/D</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2492">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2492">
+    <rdfs:label>2072712492</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2492">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433445</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <rdfs:label>Deputy Director - Criminal Law Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <rdfs:label>N/D as Deputy Director - Criminal Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdfs:label>£0 - £0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay4">
+    <rdfs:label>N/D as Deputy Director - Criminal Law Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdfs:comment>Deputy Director - Finance &amp; Strategy</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <rdfs:label>Deputy Director - Finance &amp; Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <skos:notation>AGO4</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <foaf:mbox rdf:resource="mailto:N/D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5">
+    <foaf:phone rdf:resource="tel:+44.207.271.2492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1A">
+    <rdfs:label>SCS1A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <rdfs:label>Finance and Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/finance-and-strategy">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245001</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <rdfs:label>Deputy Director - Finance &amp; Strategy Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <rdfs:label>N/D as Deputy Director - Finance &amp; Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay5">
+    <rdfs:label>N/D as Deputy Director - Finance &amp; Strategy Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdfs:comment>Deputy Director - International Law</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <rdfs:label>Deputy Director - International Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <skos:notation>AGO5</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <foaf:mbox rdf:resource="mailto:N/D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6">
+    <foaf:phone rdf:resource="tel:+44.207.271.2492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law">
+    <rdfs:label>International Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/international-law">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <rdfs:label>Deputy Director - International Law Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <rdfs:label>N/D as Deputy Director - International Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay6">
+    <rdfs:label>N/D as Deputy Director - International Law Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdfs:comment>Deputy Director - Civil Law &amp; Northern Ireland</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <rdfs:label>Deputy Director - Civil Law &amp; Northern Ireland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <skos:notation>AGO6</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <foaf:mbox rdf:resource="mailto:N/D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7">
+    <foaf:phone rdf:resource="tel:+44.207.271.2492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <rdfs:label>Civil Law</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/department/attorney-general"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department/attorney-general/unit/civil-law">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254185</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <rdfs:label>Deputy Director - Civil Law &amp; Northern Ireland Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#salaryCostOfReports7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.80</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/department/attorney-general/post/AGO6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <rdfs:label>N/D as Deputy Director - Civil Law &amp; Northern Ireland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay7">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay7">
+    <rdfs:label>N/D as Deputy Director - Civil Law &amp; Northern Ireland Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/tsol/2012-03-31/AGO_staff_data_march_2012#totalPay7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

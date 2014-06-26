@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>melanie.long@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:melanie.long@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:title>Consumer Focus Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:title>Consumer Focus Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:title>Consumer Focus Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdfs:label>Consumer Focus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:prefLabel>Consumer Focus Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:prefLabel>Consumer Focus Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts2">
+    <rdfs:label>2 Operational Manager (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus">
+    <rdfs:label>Consumer Focus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operational-manager">
+    <skos:prefLabel>Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2">
+    <skos:prefLabel>2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/62000-78540"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2">
+    <skos:prefLabel>2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78540</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <rdfs:label>£62000 - £78540</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/62000-78540">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/programme-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts3">
+    <rdfs:label>3 Programme Manager (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/programme-manager">
+    <skos:prefLabel>Programme Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3">
+    <skos:prefLabel>3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/52000-65000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3">
+    <skos:prefLabel>3 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <rdfs:label>£52000 - £65000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/52000-65000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.40</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts4">
+    <rdfs:label>4 Senior Operational Manager (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager">
+    <skos:prefLabel>Senior Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4">
+    <skos:prefLabel>4</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/44000-51000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4">
+    <skos:prefLabel>4 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <rdfs:label>£44000 - £51000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/44000-51000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54.17</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts5">
+    <rdfs:label>5 Operational Manager (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5">
+    <skos:prefLabel>5</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/33000-42000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5">
+    <skos:prefLabel>5 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <rdfs:label>£33000 - £42000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33000-42000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.67</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts6">
+    <rdfs:label>6 Analyst (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/analyst">
+    <skos:prefLabel>Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6">
+    <skos:prefLabel>6</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/24000-30000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6">
+    <skos:prefLabel>6 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <rdfs:label>£24000 - £30000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24000-30000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts7">
+    <rdfs:label>7 Executive Assistant (Policy) in CONSUMER FOCUS reporting to post CE1 FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/executive-assistant">
+    <skos:prefLabel>Executive Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7">
+    <skos:prefLabel>7</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/grade/7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/17000-22000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7">
+    <skos:prefLabel>7 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/consumer-focus/payband/7">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/consumer-focus/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <rdfs:label>£17000 - £22000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17000-22000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>melanie.long@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:melanie.long@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <dct:title>Consumer Focus Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:melanie.long@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:melanie.long@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:melanie.long@consumerfocus.org.uk">
+    <rdfs:label>melanie.long@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <dct:title>Consumer Focus Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <dct:title>Consumer Focus Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/bis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <rdfs:label>Consumer Focus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/110000-114999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdfs:comment>CEO of organisation heading the Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <rdfs:label>Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <skos:notation>CE1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <foaf:mbox rdf:resource="mailto:mike.oconnor@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <foaf:name>Michael O'Connor</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2">
+    <foaf:phone rdf:resource="tel:+44.207.799.7914"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mike.oconnor@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mike.oconnor@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mike.oconnor@consumerfocus.org.uk">
+    <rdfs:label>mike.oconnor@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7914">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7914">
+    <rdfs:label>020 7799 7914</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7914">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <rdfs:label>Senior Management Team</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">610301</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Officer Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <rdfs:label>Michael O'Connor as Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdfs:label>£110000 - £114999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay2">
+    <rdfs:label>Michael O'Connor as Chief Executive Officer Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/eliminated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <skos:note>Position eliminated September 2011</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdfs:comment>Senior leadership role promoting better outcomes for consumers across the UK. Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <rdfs:label>Deputy CEO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <skos:notation>V1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <foaf:mbox rdf:resource="mailto:N/A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <foaf:name>Eliminated</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3">
+    <foaf:phone rdf:resource="tel:+44.NA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/A">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/A">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:N/A">
+    <rdfs:label>N/A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.NA">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.NA">
+    <rdfs:label>N/A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.NA">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <rdfs:label>Deputy CEO Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/V1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <rdfs:label>Eliminated as Deputy CEO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdfs:label>£0 - £0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay3">
+    <rdfs:label>Eliminated as Deputy CEO Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/75000-79999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdfs:comment>Controls business operations. Enables the organisation to have the systems, support and infrastructure to achieve excellence. Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <rdfs:label>Finance and Operations Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <skos:notation>CS1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <foaf:mbox rdf:resource="mailto:graham.clark@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <foaf:name>Graham Clark</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4">
+    <foaf:phone rdf:resource="tel:+44.207.799.7923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:graham.clark@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:graham.clark@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:graham.clark@consumerfocus.org.uk">
+    <rdfs:label>graham.clark@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7923">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7923">
+    <rdfs:label>020 7799 7923</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7923">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">606933</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <rdfs:label>Finance and Operations Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <rdfs:label>Graham Clark as Finance and Operations Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <rdfs:label>£75000 - £79999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/75000-79999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay4">
+    <rdfs:label>Graham Clark as Finance and Operations Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/70000-74999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdfs:comment>Leads Consumer Focus Wales (CFW), supporting and working closely with its Board. Senior Management Team.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <rdfs:label>Senior Director, Consumer Focus Wales</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <skos:notation>WA1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <foaf:mbox rdf:resource="mailto:maria.battle@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <foaf:name>Maria Battle</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5">
+    <foaf:phone rdf:resource="tel:+44.292.078.7117"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:maria.battle@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:maria.battle@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:maria.battle@consumerfocus.org.uk">
+    <rdfs:label>maria.battle@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.292.078.7117">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.292.078.7117">
+    <rdfs:label>029 2078 7117</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.292.078.7117">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539133</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <rdfs:label>Senior Director, Consumer Focus Wales Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/WA1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <rdfs:label>Maria Battle as Senior Director, Consumer Focus Wales</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <rdfs:label>£70000 - £74999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay5">
+    <rdfs:label>Maria Battle as Senior Director, Consumer Focus Wales Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/70000-74999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdfs:comment>Leads Consumer Focus Scotland (CFS), supporting and working closely with its Board. Senior Management Team.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <rdfs:label>Senior Director, Consumer Focus Scotland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <skos:notation>SC1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <foaf:mbox rdf:resource="mailto:marieke.dwarshuis@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <foaf:name>Marieke Dwarshuis</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6">
+    <foaf:phone rdf:resource="tel:+44.141.226.6452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:marieke.dwarshuis@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:marieke.dwarshuis@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:marieke.dwarshuis@consumerfocus.org.uk">
+    <rdfs:label>marieke.dwarshuis@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.141.226.6452">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.141.226.6452">
+    <rdfs:label>0141 226 6452</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.141.226.6452">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1616259</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <rdfs:label>Senior Director, Consumer Focus Scotland Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/SC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <rdfs:label>Marieke Dwarshuis as Senior Director, Consumer Focus Scotland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay6">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay6">
+    <rdfs:label>Marieke Dwarshuis as Senior Director, Consumer Focus Scotland Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/eliminated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <skos:note>Position eliminated September 2011</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdfs:comment>Lead on how we position ourselves with stakeholders and maximising impact. Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <rdfs:label>Interim Director of Reputation &amp; Impact</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <skos:notation>TH1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <foaf:mbox rdf:resource="mailto:N/A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <foaf:name>Eliminated</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7">
+    <foaf:phone rdf:resource="tel:+44.NA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <rdfs:label>Interim Director of Reputation &amp; Impact Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TH1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <rdfs:label>Eliminated as Interim Director of Reputation &amp; Impact</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay7">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay7">
+    <rdfs:label>Eliminated as Interim Director of Reputation &amp; Impact Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/eliminated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <skos:note>Position eliminated March 2012</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdfs:comment>Leads NSMC and developing strategic approach. Senior Management Team.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <rdfs:label>Director of NSMC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <skos:notation>NSM1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <foaf:mbox rdf:resource="mailto:N/A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <foaf:name>Eliminated</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8">
+    <foaf:phone rdf:resource="tel:+44.NA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <rdfs:label>Director of NSMC Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/NSM1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <rdfs:label>Eliminated as Director of NSMC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay8">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay8">
+    <rdfs:label>Eliminated as Director of NSMC Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/75000-79999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <skos:note>Position merged Deputy CEO and Interim Director of Reputation &amp; Impact</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdfs:comment>Leadership role promoting better outcomes for consumers across the UK and how we position ourselves with stakeholders and maximising impact. Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <rdfs:label>Director of Policy and External Affairs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <skos:notation>TV1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <foaf:mbox rdf:resource="mailto:adam.scorer@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <foaf:name>Adam Scorer</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9">
+    <foaf:phone rdf:resource="tel:+44.207.799.7927"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:adam.scorer@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:adam.scorer@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:adam.scorer@consumerfocus.org.uk">
+    <rdfs:label>adam.scorer@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7927">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7927">
+    <rdfs:label>020 7799 7927</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7927">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2179873</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <rdfs:label>Director of Policy and External Affairs Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TV1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <rdfs:label>Adam Scorer as Director of Policy and External Affairs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay9">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay9">
+    <rdfs:label>Adam Scorer as Director of Policy and External Affairs Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/70000-74999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <skos:note>Team is too small to detail the salary cost of reports. Reported under CE1</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdfs:comment>Leadership role constructing and managing a project plan for the closure of Consumer Focus and the transfer of function to other organisations. Senior Management Team</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <rdfs:label>Transition Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <skos:notation>TCE10</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/CE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <foaf:mbox rdf:resource="mailto:stephen.dunmore@consumerfocus.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <foaf:name>Stephen Dunmore</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10">
+    <foaf:phone rdf:resource="tel:+44.207.799.7915"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stephen.dunmore@consumerfocus.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stephen.dunmore@consumerfocus.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stephen.dunmore@consumerfocus.org.uk">
+    <rdfs:label>stephen.dunmore@consumerfocus.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7915">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7915">
+    <rdfs:label>020 7799 7915</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.799.7915">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/consumer-focus/unit/senior-management-team">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports10">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports10">
+    <rdfs:label>Transition Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#salaryCostOfReports10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/consumer-focus/post/TCE10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#person10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <rdfs:label>Stephen Dunmore as Transition Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay10">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#tenure10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay10">
+    <rdfs:label>Stephen Dunmore as Transition Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/consumerfocus/2012-03-31/310312-Consumer-Focus-government-staff-and-salary-data#totalPay10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>audreyminton@lease-advice.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:audreyminton@lease-advice.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:title>Leasehold Advisory Service Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:title>Leasehold Advisory Service Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:title>Leasehold Advisory Service Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-09-30">
+    <rdfs:label>2012-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdfs:label>Leasehold Advisory Service</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade">
+    <skos:prefLabel>Leasehold Advisory Service Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <skos:prefLabel>Leasehold Advisory Service Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts2">
+    <rdfs:label>Staff Staff (Operational Delivery) in LEASE reporting to post CEO FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <rdfs:label>LEASE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/staff">
+    <skos:prefLabel>Staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff">
+    <skos:prefLabel>Staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/35000-45000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff">
+    <skos:prefLabel>Staff Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/staff">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <rdfs:label>£35000 - £45000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35000-45000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.40</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/back-office-support"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts3">
+    <rdfs:label>Administrator Back Office Support (Operational Delivery) in LEASE reporting to post CEO FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/back-office-support">
+    <skos:prefLabel>Back Office Support</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator">
+    <skos:prefLabel>Administrator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade/administrator">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/20000-35000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator">
+    <skos:prefLabel>Administrator Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband/administrator">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/leasehold-advisory-service/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <rdfs:label>£20000 - £35000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-35000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>audreyminton@lease-advice.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:audreyminton@lease-advice.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <dct:title>Leasehold Advisory Service Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:audreyminton@lease-advice.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:audreyminton@lease-advice.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:audreyminton@lease-advice.org">
+    <rdfs:label>audreyminton@lease-advice.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <dct:title>Leasehold Advisory Service Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <dct:title>Leasehold Advisory Service Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <gov:parentDepartment rdf:resource="file:///cygdrive/c/temp/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <rdfs:label>Leasehold Advisory Service</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/70000-74999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdfs:comment>Strategic running of organisation</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <skos:notation>CEO</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <foaf:mbox rdf:resource="mailto:dataquery@lease-advice.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <foaf:name>Anthony Essien</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2">
+    <foaf:phone rdf:resource="tel:+44.207.383.9800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dataquery@lease-advice.org">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dataquery@lease-advice.org">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dataquery@lease-advice.org">
+    <rdfs:label>dataquery@lease-advice.org</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/law">
+    <skos:prefLabel>Law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.383.9800">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.383.9800">
+    <rdfs:label>020 7383 9800</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.383.9800">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <rdfs:label>LEASE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/unit/lease">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">890000</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/leasehold-advisory-service/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <rdfs:label>Anthony Essien as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <rdfs:label>£70000 - £74999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-74999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay2">
+    <rdfs:label>Anthony Essien as Chief Executive Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/lease-advice/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

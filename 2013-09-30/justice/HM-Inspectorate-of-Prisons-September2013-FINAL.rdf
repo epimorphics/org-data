@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>stewart.marquis@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:stewart.marquis@justice.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:title>HM Inspectorate of Prisons Organogram at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:title>HM Inspectorate of Prisons Junior Post FTEs at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:title>HM Inspectorate of Prisons Salary Cost of Reports on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2013-09-30">
+    <rdfs:label>2013-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdfs:label>HM Inspectorate of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:prefLabel>HM Inspectorate of Prisons Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:prefLabel>HM Inspectorate of Prisons Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/inspection-team-leader"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts2">
+    <rdfs:label>Band A Inspection Team Leader (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <rdfs:label>HM Inspectorate of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/inspection-team-leader">
+    <skos:prefLabel>Inspection Team Leader</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a">
+    <skos:prefLabel>Band A</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/42034-67969"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a">
+    <skos:prefLabel>Band A Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42034</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67969</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <rdfs:label>£42034 - £67969</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42034-67969">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-healthcare-inspection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts3">
+    <rdfs:label>Band A Head of Healthcare Inspection (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-healthcare-inspection">
+    <skos:prefLabel>Head of Healthcare Inspection</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-research-develoment-and-thematics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts4">
+    <rdfs:label>Band A Head of Research, Develoment and Thematics (Operational Research) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-research">
+    <skos:prefLabel>Operational Research</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-research-develoment-and-thematics">
+    <skos:prefLabel>Head of Research, Develoment and Thematics</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-finance-hr-and-inspection-support"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/human-resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts5">
+    <rdfs:label>Band A Head of Finance, HR and Inspection Support (Human Resources) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/human-resources">
+    <skos:prefLabel>Human Resources</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-finance-hr-and-inspection-support">
+    <skos:prefLabel>Head of Finance, HR and Inspection Support</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/press-media-relations-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts6">
+    <rdfs:label>Band A Press &amp; Media Relations Manager (Communications) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/press-media-relations-manager">
+    <skos:prefLabel>Press &amp; Media Relations Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/inspector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts7">
+    <rdfs:label>Band A Inspector (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/inspector">
+    <skos:prefLabel>Inspector</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts8">
+    <rdfs:label>Band B Senior Analyst (Operational Research) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-analyst">
+    <skos:prefLabel>Senior Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b">
+    <skos:prefLabel>Band B</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/29634-44964"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b">
+    <skos:prefLabel>Band B Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29634</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44964</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <rdfs:label>£29634 - £44964</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29634-44964">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-policy-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts9">
+    <rdfs:label>Band B Senior Policy Officer (Policy) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-policy-officer">
+    <skos:prefLabel>Senior Policy Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/publications-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts10">
+    <rdfs:label>Band B Publications Manager (Communications) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/publications-manager">
+    <skos:prefLabel>Publications Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/inspection-support-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts11">
+    <rdfs:label>Band C Inspection Support Manager (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/inspection-support-manager">
+    <skos:prefLabel>Inspection Support Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c">
+    <skos:prefLabel>Band C</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/21096-36061"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c">
+    <skos:prefLabel>Band C Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21096</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36061</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <rdfs:label>£21096 - £36061</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/21096-36061">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts12">
+    <rdfs:label>Band C Analyst (Operational Research) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/analyst">
+    <skos:prefLabel>Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/publicationseditiorial-staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts13">
+    <rdfs:label>Band C Publications/Editiorial Staff (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/publicationseditiorial-staff">
+    <skos:prefLabel>Publications/Editiorial Staff</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-personal-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts14">
+    <rdfs:label>Band D Senior Personal Secretary (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-personal-secretary">
+    <skos:prefLabel>Senior Personal Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d">
+    <skos:prefLabel>Band D</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/17513-28000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d">
+    <skos:prefLabel>Band D Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17513</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <rdfs:label>£17513 - £28000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/17513-28000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/personal-secretary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts15">
+    <rdfs:label>Band E Personal Secretary (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/personal-secretary">
+    <skos:prefLabel>Personal Secretary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e">
+    <skos:prefLabel>Band E</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/15935-22250"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e">
+    <skos:prefLabel>Band E Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15935</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22250</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <rdfs:label>£15935 - £22250</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15935-22250">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/publications-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts16">
+    <rdfs:label>Band E Publications Assistant (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/publications-assistant">
+    <skos:prefLabel>Publications Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/programme-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts17">
+    <rdfs:label>Band E Programme Support Officer (Operational Delivery) in HM INSPECTORATE OF PRISONS reporting to post 89 FTE at 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/programme-support-officer">
+    <skos:prefLabel>Programme Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>stewart.marquis@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:stewart.marquis@justice.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <dct:title>HM Inspectorate of Prisons Organogram at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stewart.marquis@justice.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stewart.marquis@justice.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:stewart.marquis@justice.gsi.gov.uk">
+    <rdfs:label>stewart.marquis@justice.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <dct:title>HM Inspectorate of Prisons Junior Post FTEs at 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <dct:title>HM Inspectorate of Prisons Salary Cost of Reports on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/justice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <rdfs:label>HM Inspectorate of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/115000-119999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <skos:note>The Inspectorate is independent and as such the Chief Inspector is a public appointment.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdfs:comment>Responsible for independent inspection of places of detention; reporting on conditions and treatment; and promoting positive outcomes for those detained and the public</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <rdfs:label>HM Chief Inspector of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <skos:notation>89</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <foaf:mbox rdf:resource="mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <foaf:name>Nick Hardwick</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2">
+    <foaf:phone rdf:resource="tel:+44.207.035.2100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk">
+    <rdfs:label>Nick.Hardwick@hmiprisons.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.035.2100">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.035.2100">
+    <rdfs:label>020 7035 2100</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.035.2100">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <rdfs:label>HM Inspectorate of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2992290</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <rdfs:label>HM Chief Inspector of Prisons Salary Cost of Reports on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <rdfs:label>Nick Hardwick as HM Chief Inspector of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <rdfs:label>£115000 - £119999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/115000-119999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay2">
+    <rdfs:label>Nick Hardwick as HM Chief Inspector of Prisons Total Pay on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdfs:comment>Responsible for independent inspection of places of detention; reporting on conditions and treatment; and promoting positive outcomes for those detained and the public</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <rdfs:label>Deputy Chief Inspector of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <skos:notation>90</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <foaf:mbox rdf:resource="mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3">
+    <foaf:phone rdf:resource="tel:+44.ND"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk">
+    <rdfs:label>HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.ND">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.ND">
+    <rdfs:label>N/D</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.ND">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <rdfs:label>Deputy Chief Inspector of Prisons Salary Cost of Reports on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <rdfs:label>N/D as Deputy Chief Inspector of Prisons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay3">
+    <rdfs:label>N/D as Deputy Chief Inspector of Prisons Total Pay on 30/09/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/justice/2013-09-30/HM-Inspectorate-of-Prisons-September2013-FINAL#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

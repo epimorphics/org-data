@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>info@natlotcomm.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:info@natlotcomm.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:title>National Lottery Commission Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:title>National Lottery Commission Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:title>National Lottery Commission Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-03-31">
+    <rdfs:label>2012-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdfs:label>National Lottery Commission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:prefLabel>National Lottery Commission Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:prefLabel>National Lottery Commission Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts2">
+    <rdfs:label>NLHL Operational Manager (Operational Delivery) in LICENSING reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing">
+    <rdfs:label>Licensing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operational-manager">
+    <skos:prefLabel>Operational Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl">
+    <skos:prefLabel>NLHL</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlhl">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/50000-55000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl">
+    <skos:prefLabel>NLHL Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlhl">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <rdfs:label>£50000 - £55000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-55000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts3">
+    <rdfs:label>NLLM Operations Support Officer (Operational Delivery) in LICENSING reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer">
+    <skos:prefLabel>Operations Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm">
+    <skos:prefLabel>NLLM</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nllm">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/20000-25000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm">
+    <skos:prefLabel>NLLM Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nllm">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <rdfs:label>£20000 - £25000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/20000-25000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts4">
+    <rdfs:label>NLB1 Operations Support Officer (Operational Delivery) in LICENSING reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1">
+    <skos:prefLabel>NLB1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/30000-35000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1">
+    <skos:prefLabel>NLB1 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <rdfs:label>£30000 - £35000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-35000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/licensing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operational-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts5">
+    <rdfs:label>NLC2 Operational Manager (Operational Delivery) in COMPLIANCE reporting to post NLCEO FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance">
+    <rdfs:label>Compliance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2">
+    <skos:prefLabel>NLC2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlc2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/50000-55000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2">
+    <skos:prefLabel>NLC2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlc2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts6">
+    <rdfs:label>NLB1 Operations Support Officer (Operational Delivery) in COMPLIANCE reporting to post NLCEO FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/operations-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts7">
+    <rdfs:label>NLCA Operations Support Officer (Operational Delivery) in COMPLIANCE reporting to post NLCEO FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca">
+    <skos:prefLabel>NLCA</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlca">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/25000-30000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca">
+    <skos:prefLabel>NLCA Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlca">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <rdfs:label>£25000 - £30000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/compliance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts8">
+    <rdfs:label>NLB2 Analyst (Policy) in POLICY reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy">
+    <rdfs:label>Policy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/analyst">
+    <skos:prefLabel>Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2">
+    <skos:prefLabel>NLB2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/40000-50000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2">
+    <skos:prefLabel>NLB2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <rdfs:label>£40000 - £50000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-50000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/policy-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts9">
+    <rdfs:label>NLCPM Policy Adviser (Policy) in POLICY reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/policy-adviser">
+    <skos:prefLabel>Policy Adviser</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm">
+    <skos:prefLabel>NLCPM</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlcpm">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/30000-35000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm">
+    <skos:prefLabel>NLCPM Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlcpm">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/policy-adviser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts10">
+    <rdfs:label>NLB2 Policy Adviser (Policy) in POLICY reporting to post NLD FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nlb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/other"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts11">
+    <rdfs:label>NLA3 Executive Assistant (Other) in EXECUTIVE reporting to post NLCEO FTE at 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <rdfs:label>Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/other">
+    <skos:prefLabel>Other</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/executive-assistant">
+    <skos:prefLabel>Executive Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3">
+    <skos:prefLabel>NLA3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade/nla3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/20000-25000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3">
+    <skos:prefLabel>NLA3 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband/nla3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/national-lottery-commission/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>info@natlotcomm.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:info@natlotcomm.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <dct:title>National Lottery Commission Organogram at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <rdfs:label>info@natlotcomm.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <dct:title>National Lottery Commission Junior Post FTEs at 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <dct:title>National Lottery Commission Salary Cost of Reports on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/dcms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <rdfs:label>National Lottery Commission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdfs:comment>Responsible for the delivery of NLC operations</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <rdfs:label>NL Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <skos:notation>NLD</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <foaf:mbox rdf:resource="mailto:info@natlotcomm.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <foaf:name>Ben Haden</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2">
+    <foaf:phone rdf:resource="tel:+44.121.230.6750"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@natlotcomm.gov.uk">
+    <rdfs:label>info@natlotcomm.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.121.230.6750">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.121.230.6750">
+    <rdfs:label>0121 230 6750</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.121.230.6750">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <rdfs:label>Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279499</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <rdfs:label>NL Director Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <rdfs:label>Ben Haden as NL Director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay2">
+    <rdfs:label>Ben Haden as NL Director Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/110000-114999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdfs:comment>Responsible for the development and effective delivery of the strategy agreed by the NLC Board</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <rdfs:label>NL Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <skos:notation>NLCEO</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <foaf:mbox rdf:resource="mailto:info@natlotcomm.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <foaf:name>Mark Harris</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3">
+    <foaf:phone rdf:resource="tel:+44.121.230.6750"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/national-lottery-commission/unit/executive">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363775</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <rdfs:label>NL Chief Executive Officer Salary Cost of Reports on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/national-lottery-commission/post/NLCEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <rdfs:label>Mark Harris as NL Chief Executive Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <rdfs:label>£110000 - £114999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/110000-114999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay3">
+    <rdfs:label>Mark Harris as NL Chief Executive Officer Total Pay on 31/03/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/natlotcomm/2012-03-31/NLC-government-staff-and-salary-data-blank-template---March-2012-FINAL#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

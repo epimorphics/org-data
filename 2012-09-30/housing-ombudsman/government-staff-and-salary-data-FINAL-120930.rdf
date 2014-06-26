@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>mstagg@housing-ombudsman.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:mstagg@housing-ombudsman.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:title>Independent Housing Ombudsman Limited Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:title>Independent Housing Ombudsman Limited Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:title>Independent Housing Ombudsman Limited Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-09-30">
+    <rdfs:label>2012-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdfs:label>Independent Housing Ombudsman Limited</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:prefLabel>Independent Housing Ombudsman Limited Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:prefLabel>Independent Housing Ombudsman Limited Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts2">
+    <rdfs:label>C Head of Service (Operational Delivery) in LEARNING AND DEVELOPMENT reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development">
+    <rdfs:label>Learning and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-service">
+    <skos:prefLabel>Head of Service</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c">
+    <skos:prefLabel>C</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/51414-64242"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c">
+    <skos:prefLabel>C Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51414</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64242</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <rdfs:label>£51414 - £64242</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/51414-64242">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts3">
+    <rdfs:label>D Head of Service (Operational Delivery) in SERVICE USER RELATIONS reporting to post IHOL2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations">
+    <rdfs:label>Service User Relations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d">
+    <skos:prefLabel>D</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/42862-55690"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d">
+    <skos:prefLabel>D Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42862</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55690</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <rdfs:label>£42862 - £55690</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/42862-55690">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/service-user-relations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/dispute-resolution-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts4">
+    <rdfs:label>D Dispute Resolution Manager (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution">
+    <rdfs:label>Dispute Resolution</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/dispute-resolution-manager">
+    <skos:prefLabel>Dispute Resolution Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/dispute-resolution-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts5">
+    <rdfs:label>C2 Dispute Resolution Manager (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2">
+    <skos:prefLabel>C2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/46535-57460"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2">
+    <skos:prefLabel>C2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46535</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57460</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <rdfs:label>£46535 - £57460</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/46535-57460">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.80</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/adjudicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts6">
+    <rdfs:label>E Adjudicator (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/adjudicator">
+    <skos:prefLabel>Adjudicator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e">
+    <skos:prefLabel>E</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/35532-48360"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e">
+    <skos:prefLabel>E Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35532</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48360</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <rdfs:label>£35532 - £48360</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/35532-48360">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/corporate-services-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts7">
+    <rdfs:label>D Corporate Services Manager (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services">
+    <rdfs:label>Corporate Services</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/corporate-services-manager">
+    <skos:prefLabel>Corporate Services Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/performance-business-data-analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts8">
+    <rdfs:label>D Performance &amp; Business Data Analyst (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/performance-business-data-analyst">
+    <skos:prefLabel>Performance &amp; Business Data Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.70</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/investigator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts9">
+    <rdfs:label>F Investigator (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/investigator">
+    <skos:prefLabel>Investigator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f">
+    <skos:prefLabel>F</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/f">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/29423-41640"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f">
+    <skos:prefLabel>F Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/f">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29423</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41640</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <rdfs:label>£29423 - £41640</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/29423-41640">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/investigator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts10">
+    <rdfs:label>C old Investigator (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old">
+    <skos:prefLabel>C old</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c-old">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/33652-45321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old">
+    <skos:prefLabel>C old Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c-old">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33652</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45321</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <rdfs:label>£33652 - £45321</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/33652-45321">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-finance-corporate-services-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts11">
+    <rdfs:label>E Senior Finance &amp; Corporate Services Officer (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-finance-corporate-services-officer">
+    <skos:prefLabel>Senior Finance &amp; Corporate Services Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-corporate-services-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts12">
+    <rdfs:label>D old Senior Corporate Services Officer (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-corporate-services-officer">
+    <skos:prefLabel>Senior Corporate Services Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old">
+    <skos:prefLabel>D old</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/d-old">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/26942-36278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old">
+    <skos:prefLabel>D old Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/d-old">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26942</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36278</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <rdfs:label>£26942 - £36278</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/26942-36278">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/corporate-services-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts13">
+    <rdfs:label>G Corporate Services Officer (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/corporate-services-officer">
+    <skos:prefLabel>Corporate Services Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g">
+    <skos:prefLabel>G</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/g">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/23315-36143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g">
+    <skos:prefLabel>G Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/g">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23315</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36143</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <rdfs:label>£23315 - £36143</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/23315-36143">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/dispute-resolution-support"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts14">
+    <rdfs:label>H Dispute Resolution Support (Operational Delivery) in DISPUTE RESOLUTION reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/dispute-resolution-support">
+    <skos:prefLabel>Dispute Resolution Support</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h">
+    <skos:prefLabel>H</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/16900-26369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h">
+    <skos:prefLabel>H Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16900</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26369</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <rdfs:label>£16900 - £26369</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16900-26369">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/dispute-resolution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/procurement-project-support-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts15">
+    <rdfs:label>E Procurement &amp; Project Support Manager (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/procurement-project-support-manager">
+    <skos:prefLabel>Procurement &amp; Project Support Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/learning-organisational-development-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts16">
+    <rdfs:label>E Learning &amp; Organisational Development Manager (Operational Delivery) in LEARNING AND DEVELOPMENT reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/learning-organisational-development-manager">
+    <skos:prefLabel>Learning &amp; Organisational Development Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts17">
+    <rdfs:label>C Head of Service (Operational Delivery) in CORPORATE SERVICES reporting to post IHOL1 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/corporate-services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/grade/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/hr-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts18">
+    <rdfs:label>H HR Support Officer (Operational Delivery) in LEARNING AND DEVELOPMENT reporting to post IHOL3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/hr-support-officer">
+    <skos:prefLabel>HR Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/independent-housing-ombudsman-limited/payband/h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/learning-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>mstagg@housing-ombudsman.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:mstagg@housing-ombudsman.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <dct:title>Independent Housing Ombudsman Limited Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mstagg@housing-ombudsman.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mstagg@housing-ombudsman.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:mstagg@housing-ombudsman.org.uk">
+    <rdfs:label>mstagg@housing-ombudsman.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <dct:title>Independent Housing Ombudsman Limited Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <dct:title>Independent Housing Ombudsman Limited Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <gov:parentDepartment rdf:resource="file:///cygdrive/c/temp/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <rdfs:label>Independent Housing Ombudsman Limited</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/125000-129999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdfs:comment>Statutory appointed Ombudsman and accounting officer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <rdfs:label>Ombudsman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <skos:notation>IHOL1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <foaf:mbox rdf:resource="mailto:info@housing-ombudsman.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <foaf:name>Mike Biles</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2">
+    <foaf:phone rdf:resource="tel:+44.207.421.3800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@housing-ombudsman.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@housing-ombudsman.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:info@housing-ombudsman.org.uk">
+    <rdfs:label>info@housing-ombudsman.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.421.3800">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.421.3800">
+    <rdfs:label>020 7421 3800</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.421.3800">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <rdfs:label>Housing Ombudsman Service</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242391</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <rdfs:label>Ombudsman Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <rdfs:label>Mike Biles as Ombudsman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <rdfs:label>£125000 - £129999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/125000-129999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay2">
+    <rdfs:label>Mike Biles as Ombudsman Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <skos:note>Small Reporting Team - Salary Costs reported under post IHOL3</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdfs:comment>Deputises for the Ombudsman and leads function responsible for service user and stakeholder awareness, understanding and outreach activities.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <rdfs:label>Deputy Ombudsman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <skos:notation>IHOL2</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <foaf:mbox rdf:resource="mailto:info@housing-ombudsman.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <foaf:name>Rafael Runco</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3">
+    <foaf:phone rdf:resource="tel:+44.207.421.3800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports3">
+    <rdfs:label>Deputy Ombudsman Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <rdfs:label>Rafael Runco as Deputy Ombudsman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay3">
+    <rdfs:label>Rafael Runco as Deputy Ombudsman Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdfs:comment>Leads core function responsible for casework including investigations.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <rdfs:label>Director of Casework</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <skos:notation>IHOL3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <foaf:mbox rdf:resource="mailto:info@housing-ombudsman.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <foaf:name>Helen Megarry</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4">
+    <foaf:phone rdf:resource="tel:+44.207.421.3800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/unit/housing-ombudsman-service">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1031903</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <rdfs:label>Director of Casework Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/independent-housing-ombudsman-limited/post/IHOL3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <rdfs:label>Helen Megarry as Director of Casework</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay4">
+    <rdfs:label>Helen Megarry as Director of Casework Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/housing-ombudsman/2012-09-30/government-staff-and-salary-data-FINAL-120930#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

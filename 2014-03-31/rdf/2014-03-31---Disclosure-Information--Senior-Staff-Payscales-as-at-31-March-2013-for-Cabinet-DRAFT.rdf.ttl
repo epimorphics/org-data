@@ -1,0 +1,741 @@
+@prefix opmv:  <http://purl.org/net/opmv/ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix payband: <http://reference.data.gov.uk/def/civil-service-payband/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix copmv: <http://purl.org/net/opmv/types/common#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prof:  <http://reference.data.gov.uk/def/civil-service-profession/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sdmxa: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix grade: <http://reference.data.gov.uk/def/civil-service-grade/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmxc: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix postStatus: <http://reference.data.gov.uk/def/civil-service-post-status/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body>
+        rdfs:label  "Public Body" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT>
+        a                     opmv:Artifact , void:Dataset ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "stacey.kennedy@hfea.gov.uk" ;
+                                foaf:mbox   <mailto:stacey.kennedy@hfea.gov.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT>
+                              ] ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "stacey.kennedy@hfea.gov.uk" ;
+                                foaf:mbox   <mailto:stacey.kennedy@hfea.gov.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT>
+                              ] ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Human Fertilisation and Embryology Authority Organogram at 31/03/2014 Dataset" ;
+        void:exampleResource  <http://reference.data.gov.uk/id/department/co> , <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person2> , <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure2> ;
+        void:subset           <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> , <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> , <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        void:vocabulary       <http://www.w3.org/ns/org> , gov: , <http://www.w3.org/2004/02/skos/core> , foaf: , <http://www.w3.org/2000/01/rdf-schema> .
+
+<mailto:peter.thompson@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "peter.thompson@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/department>
+        rdfs:label  "Government Departments" .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Director of Strategy function" ;
+        rdfs:label             "Interim Director of Strategy" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person6> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "STRAT-D-1" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+grade:SCS1  rdfs:label  "SCS1" .
+
+<mailto:juliet.tizzard@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "juliet.tizzard@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Operations Support Officer (Operational Delivery) in BUSINESS PLANNING, FINANCE, FACILITIES AND IT reporting to post FAFIT-D-13 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay5>
+        a                  qb:Observation ;
+        rdfs:label         "Nick Jones as Director of Compliance and Information Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure5> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Mark Bennett as Director of Finance and Facilities" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person4> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports6>
+        a                               qb:Observation ;
+        rdfs:label                      "Interim Director of Strategy Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        organogram:salaryCostOfReports  394032 .
+
+<mailto:stacey.kennedy@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "stacey.kennedy@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person2>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure2> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:sally.cheshire@hfea.gov.uk> ;
+        foaf:name        "Sally Cheshire" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8210> .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-3>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/27440-50730> ;
+        skos:prefLabel     "Band 3 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/95000-99999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£95000 - £99999" ;
+        gov:lowerBound  95000 ;
+        gov:upperBound  99999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/day/2014-03-31>
+        rdfs:label  "2014-03-31" .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "The Chief Executive Officer of the organisation, reporting to the Chair" ;
+        rdfs:label             "Chief Executive" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person3> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/135000-139999> ;
+        grade:grade            grade:SCS3 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "CEO-0-1" ;
+        skos:note              "1 Junior Staff on Parental Leave" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0> ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<tel:+44.207.291.8270>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8270" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/salary-range/90000-94999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£90000 - £94999" ;
+        gov:lowerBound  90000 ;
+        gov:upperBound  94999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000 - £84999" ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Operations Support Officer (Operational Delivery) in STRATEGY reporting to post STRAT-D-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "4.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy> .
+
+<tel:+44.207.291.8214>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8214" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<mailto:mark.bennett@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "mark.bennett@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Human Fertilisation and Embryology Authority Salary Cost of Reports on 31/03/2014 Dataset" ;
+        qb:structure          organogram:salary-costs-of-reports ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports1> ;
+        void:vocabulary       <http://www.w3.org/2000/01/rdf-schema> , organogram: , <http://purl.org/linked-data/cube> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3 Operational Manager (Operational Delivery) in BUSINESS PLANNING, FINANCE, FACILITIES AND IT reporting to post FAFIT-D-13 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person7>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-14> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure7> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:sue.gallone@hfea.gov.uk> ;
+        foaf:name        "Sue Gallone" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8270> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay4>
+        a                  qb:Observation ;
+        rdfs:label         "Mark Bennett as Director of Finance and Facilities Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure4> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Peter Thompson as Chief Executive" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person3> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<mailto:sue.gallone@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "sue.gallone@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Compliance and Information Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        organogram:salaryCostOfReports  889680 .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-2>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19680-37280> ;
+        skos:prefLabel     "Band 2 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband> .
+
+<http://reference.data.gov.uk/def/civil-service-job/operations-support-officer>
+        skos:prefLabel  "Operations Support Officer" .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-4> , <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-3> , <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-2> ;
+        skos:prefLabel      "Human Fertilisation and Embryology Authority Junior Civil Service Grades" .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Business Planning, Finance, Facilities and IT" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-14> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        foaf:page    <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Compliance and Information" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        foaf:page    <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-14>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Director of Finance and Resiurces information" ;
+        rdfs:label             "Director of Finance and Resources" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person7> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/45000-49999> ;
+        grade:grade            grade:SCS2 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "FAFIT-D-14" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<tel:+44.207.291.8200>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8200" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Strategy" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        foaf:page    <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3 Operational Manager (Operational Delivery) in STRATEGY reporting to post STRAT-D-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/def/civil-service-job/operational-manager>
+        skos:prefLabel  "Operational Manager" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Senior Operational Manager (Operational Delivery) in BUSINESS PLANNING, FINANCE, FACILITIES AND IT reporting to post FAFIT-D-13 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2.2"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person6>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure6> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:juliet.tizzard@hfea.gov.uk> ;
+        foaf:name        "Juliet Tizzard" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8200> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay3>
+        a                  qb:Observation ;
+        rdfs:label         "Peter Thompson as Chief Executive Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure3> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Sally Cheshire as Interim Chair" ;
+        gov:fullTimeEquivalent  0.60 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person2> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Finance and Facilities Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        organogram:salaryCostOfReports  612892 .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Non-executive Chair of the Authority , reporting to the Secretary of State" ;
+        rdfs:label             "Interim Chair" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person2> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/55000-59999> ;
+        grade:grade            grade:SCS3 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "CHR-0-0" ;
+        skos:note              "Non-Executive Chair of the Authority" ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager>
+        skos:prefLabel  "Senior Operational Manager" .
+
+<http://reference.data.gov.uk/id/salary-range/135000-139999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£135000 - £139999" ;
+        gov:lowerBound  135000 ;
+        gov:upperBound  139999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Director of Business Planning, Finance, Facilities and IT functions" ;
+        rdfs:label             "Director of Finance and Facilities" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person4> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        grade:grade            grade:SCS2 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "FAFIT-D-13" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-4> ;
+        skos:prefLabel     "Band 4" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade> .
+
+<tel:+44.207.291.8240>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8240" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Sue Gallone as Director of Finance and Resources" ;
+        gov:fullTimeEquivalent  0.50 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-14> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person7> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Senior Operational Manager (Operational Delivery) in STRATEGY reporting to post STRAT-D-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy> .
+
+<http://reference.data.gov.uk/id/salary-range/19680-37280>
+        a               gov:SalaryRange ;
+        rdfs:label      "£19680 - £37280" ;
+        gov:lowerBound  19680 ;
+        gov:upperBound  37280 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Operations Support Officer (Operational Delivery) in CHIEF EXECUTIVE reporting to post CEO-0-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3.86"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person5>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure5> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:nick.jones@hfea.gov.uk> ;
+        foaf:name        "Nick Jones" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8240> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay2>
+        a                  qb:Observation ;
+        rdfs:label         "Sally Cheshire as Interim Chair Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure2> .
+
+<tel:+44.207.291.8944>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8944" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports3>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        organogram:salaryCostOfReports  326013 .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4> , <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3> , <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2> ;
+        skos:prefLabel      "Human Fertilisation and Embryology Authority Junior Civil Service Grades" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Human Fertilisation and Embryology Authority Junior Post FTEs at 31/03/2014 Dataset" ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts1> ;
+        void:vocabulary       organogram: , <http://www.w3.org/2000/01/rdf-schema> , <http://purl.org/linked-data/cube> .
+
+grade:SCS3  rdfs:label  "SCS3" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3 Operational Manager (Operational Delivery) in COMPLIANCE AND INFORMATION reporting to post COMP-D-37 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "17"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay7>
+        a                  qb:Observation ;
+        rdfs:label         "Sue Gallone as Director of Finance and Resources Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure7> .
+
+<mailto:nick.jones@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "nick.jones@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-3> ;
+        skos:prefLabel     "Band 3" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Juliet Tizzard as Interim Director of Strategy" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/STRAT-D-1> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person6> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Operations Support Officer (Operational Delivery) in COMPLIANCE AND INFORMATION reporting to post COMP-D-37 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "6.75"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3 Operational Manager (Operational Delivery) in CHIEF EXECUTIVE reporting to post CEO-0-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person4>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-13> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure4> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:mark.bennett@hfea.gov.uk> ;
+        foaf:name        "Mark Bennett" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8944> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports2>
+        a                               qb:Observation ;
+        rdfs:label                      "Interim Chair Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "Director of Compliance and Information function" ;
+        rdfs:label             "Director of Compliance and Information" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person5> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        grade:grade            grade:SCS2 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "COMP-D-37" ;
+        skos:note              "1 Junior Staff on Parental Leave" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/salary-range/27440-50730>
+        a               gov:SalaryRange ;
+        rdfs:label      "£27440 - £50730" ;
+        gov:lowerBound  27440 ;
+        gov:upperBound  50730 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<mailto:sally.cheshire@hfea.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "sally.cheshire@hfea.gov.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+grade:SCS2  rdfs:label  "SCS2" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Senior Operational Manager (Operational Delivery) in COMPLIANCE AND INFORMATION reporting to post COMP-D-37 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay6>
+        a                  qb:Observation ;
+        rdfs:label         "Juliet Tizzard as Interim Director of Strategy Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure6> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Human Fertilisation and Embryology Authority" ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dh> ;
+        dgu:uriSet            <http://reference.data.gov.uk/id/public-body> ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/business-planning-finance-facilities-and-it> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/strategy> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/compliance-and-information> ;
+        foaf:page             <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-2>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-2> ;
+        skos:prefLabel     "Band 2" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Nick Jones as Director of Compliance and Information" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/COMP-D-37> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person5> ;
+        foaf:page               <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports7>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Finance and Resources Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/FAFIT-D-14> ;
+        organogram:salaryCostOfReports  0 .
+
+<tel:+44.207.291.8210>
+        a           vcard:Tel ;
+        rdfs:label  "020 7291 8210" ;
+        foaf:page   <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/salary-range/55000-59999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55000 - £59999" ;
+        gov:lowerBound  55000 ;
+        gov:upperBound  59999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Chief Executive" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CHR-0-0> , <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority> ;
+        foaf:page    <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/id/salary-range/45000-49999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£45000 - £49999" ;
+        gov:lowerBound  45000 ;
+        gov:upperBound  49999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .
+
+<http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband/band-4>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42970-71440> ;
+        skos:prefLabel     "Band 4 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/payband> .
+
+prof:operational-delivery
+        skos:prefLabel  "Operational Delivery" .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Senior Operational Manager (Operational Delivery) in CHIEF EXECUTIVE reporting to post CEO-0-1 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/human-fertilisation-and-embryology-authority/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/unit/chief-executive> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#person3>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/human-fertilisation-and-embryology-authority/post/CEO-0-1> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#tenure3> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:peter.thompson@hfea.gov.uk> ;
+        foaf:name        "Peter Thompson" ;
+        foaf:page        <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> ;
+        foaf:phone       <tel:+44.207.291.8214> .
+
+<http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Ministry of Justice Total Pay on 31/03/2014 Dataset" ;
+        qb:structure          organogram:total-pay ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT#totalPay1> ;
+        void:vocabulary       <http://purl.org/linked-data/cube> , <http://www.w3.org/2000/01/rdf-schema> , organogram: .
+
+<http://reference.data.gov.uk/id/salary-range/42970-71440>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42970 - £71440" ;
+        gov:lowerBound  42970 ;
+        gov:upperBound  71440 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/hfea/2014-03-31/2014-03-31---Disclosure-Information--Senior-Staff-Payscales-as-at-31-March-2013-for-Cabinet-~-DRAFT> .

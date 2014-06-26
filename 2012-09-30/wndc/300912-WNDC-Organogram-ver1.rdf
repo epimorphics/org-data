@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>andy.johnson@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:andy.johnson@wndc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:title>West Northamptonshire Development Corporation Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:title>West Northamptonshire Development Corporation Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:title>West Northamptonshire Development Corporation Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-09-30">
+    <rdfs:label>2012-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdfs:label>West Northamptonshire Development Corporation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:prefLabel>West Northamptonshire Development Corporation Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:prefLabel>West Northamptonshire Development Corporation Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts2">
+    <rdfs:label>4 Head of Finance (Finance) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <rdfs:label>Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/finance">
+    <skos:prefLabel>Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-finance">
+    <skos:prefLabel>Head of Finance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4">
+    <skos:prefLabel>4</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/50000-80000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4">
+    <skos:prefLabel>4 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <rdfs:label>£50000 - £80000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/50000-80000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-communications-marketing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts3">
+    <rdfs:label>4 Head of Communications &amp; Marketing (Communications) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-communications-marketing">
+    <skos:prefLabel>Head of Communications &amp; Marketing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/information-and-records-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts4">
+    <rdfs:label>3 Information and Records Manager (Knowledge and Information Management (KIM)) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/knowledge-and-information-management-kim">
+    <skos:prefLabel>Knowledge and Information Management (KIM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/information-and-records-manager">
+    <skos:prefLabel>Information and Records Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3">
+    <skos:prefLabel>3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/40000-65000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3">
+    <skos:prefLabel>3 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <rdfs:label>£40000 - £65000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/40000-65000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/policy-and-governance-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts5">
+    <rdfs:label>2 Policy and Governance Officer (Policy) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/policy">
+    <skos:prefLabel>Policy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/policy-and-governance-officer">
+    <skos:prefLabel>Policy and Governance Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2">
+    <skos:prefLabel>2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/25000-45000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2">
+    <skos:prefLabel>2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <rdfs:label>£25000 - £45000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-45000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/information-and-it-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts6">
+    <rdfs:label>2 Information and IT Officer (Information Technology) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/information-technology">
+    <skos:prefLabel>Information Technology</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/information-and-it-officer">
+    <skos:prefLabel>Information and IT Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/financial-accountant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts7">
+    <rdfs:label>2 Financial Accountant (Finance) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/financial-accountant">
+    <skos:prefLabel>Financial Accountant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/business-analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts8">
+    <rdfs:label>2 Business Analyst (Programme and Project Management (PPM)) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/business-analyst">
+    <skos:prefLabel>Business Analyst</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/financial-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts9">
+    <rdfs:label>1 Financial Assistant (Finance) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/financial-assistant">
+    <skos:prefLabel>Financial Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1">
+    <skos:prefLabel>1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/15000-30000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1">
+    <skos:prefLabel>1 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <rdfs:label>£15000 - £30000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/15000-30000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/payroll-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts10">
+    <rdfs:label>1 Payroll Officer (Finance) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/payroll-officer">
+    <skos:prefLabel>Payroll Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts11">
+    <rdfs:label>1 Executive Assistant (Operational Delivery) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/executive-assistant">
+    <skos:prefLabel>Executive Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts12">
+    <rdfs:label>2 Executive Assistant (Operational Delivery) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/receptionist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts13">
+    <rdfs:label>1 Receptionist (Planning) in OPERATIONS reporting to post 2 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/planning">
+    <skos:prefLabel>Planning</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/receptionist">
+    <skos:prefLabel>Receptionist</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-planning-and-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts14">
+    <rdfs:label>4 Head of Planning and Delivery (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <rdfs:label>Regeneration and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-planning-and-delivery">
+    <skos:prefLabel>Head of Planning and Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-regeneration-executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts15">
+    <rdfs:label>3 Senior Regeneration Executive (Planning) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-regeneration-executive">
+    <skos:prefLabel>Senior Regeneration Executive</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/urban-designer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts16">
+    <rdfs:label>3 Urban Designer (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/urban-designer">
+    <skos:prefLabel>Urban Designer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/regeneration-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts17">
+    <rdfs:label>3 Regeneration Manager (Operational Delivery) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/regeneration-manager">
+    <skos:prefLabel>Regeneration Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.70</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/commercial-development-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts18">
+    <rdfs:label>3 Commercial Development Manager (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/commercial-development-manager">
+    <skos:prefLabel>Commercial Development Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/project-manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/finance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts19">
+    <rdfs:label>3 Project Manager (Finance) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/project-manager">
+    <skos:prefLabel>Project Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.86</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/management-accountant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts20">
+    <rdfs:label>2 Management Accountant (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/management-accountant">
+    <skos:prefLabel>Management Accountant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/regeneration-development-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts21">
+    <rdfs:label>2 Regeneration &amp; Development Officer (Programme and Project Management (PPM)) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/regeneration-development-officer">
+    <skos:prefLabel>Regeneration &amp; Development Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/project-coordinator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts22">
+    <rdfs:label>2 Project Co-ordinator (Operational Delivery) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/project-coordinator">
+    <skos:prefLabel>Project Co-ordinator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/grade/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/executive-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts23">
+    <rdfs:label>1 Executive Assistant (Operational Delivery) in REGENERATION AND DEVELOPMENT reporting to post 3 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/west-northamptonshire-development-corporation/payband/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>andy.johnson@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:andy.johnson@wndc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <dct:title>West Northamptonshire Development Corporation Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.johnson@wndc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.johnson@wndc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:andy.johnson@wndc.org.uk">
+    <rdfs:label>andy.johnson@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <dct:title>West Northamptonshire Development Corporation Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <dct:title>West Northamptonshire Development Corporation Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <gov:parentDepartment rdf:resource="file:///cygdrive/c/temp/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <rdfs:label>West Northamptonshire Development Corporation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/120000-124999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdfs:comment>The Chief Executive is responsible for the executive leadership of the Corporation and for delivering the organisations remit working with local authorities and other partners to deliver sustainable regeneration and growth for West Northamptonshire including jobs, homes and investment.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <skos:notation>1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <foaf:mbox rdf:resource="mailto:peter.mawson@wndc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <foaf:name>Peter Mawson</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2">
+    <foaf:phone rdf:resource="tel:+44.160.458.6600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.mawson@wndc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.mawson@wndc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:peter.mawson@wndc.org.uk">
+    <rdfs:label>peter.mawson@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS3">
+    <rdfs:label>SCS3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.160.458.6600">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.160.458.6600">
+    <rdfs:label>01604 586600</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.160.458.6600">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office">
+    <rdfs:label>Chief Executive's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/chief-executives-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207900</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <rdfs:label>Peter Mawson as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <rdfs:label>£120000 - £124999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/120000-124999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay2">
+    <rdfs:label>Peter Mawson as Chief Executive Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/120000-124999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdfs:comment>The Chief Operating Officer is responsible for the organisations internal business processes, systems and internal controls, and external relationships and image with key stakeholders and acts as an ambassador, supporting and deputising for the Chief Executive.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <rdfs:label>Chief Operating Officer &amp; Deputy Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <skos:notation>2</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <foaf:mbox rdf:resource="mailto:roger.mendonca@wndc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <foaf:name>Roger Mendonca</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3">
+    <foaf:phone rdf:resource="tel:+44.160.458.6600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:roger.mendonca@wndc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:roger.mendonca@wndc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:roger.mendonca@wndc.org.uk">
+    <rdfs:label>roger.mendonca@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <rdfs:label>Operations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/operations">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">390798</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <rdfs:label>Chief Operating Officer &amp; Deputy Chief Executive Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <rdfs:label>Roger Mendonca as Chief Operating Officer &amp; Deputy Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay3">
+    <rdfs:label>Roger Mendonca as Chief Operating Officer &amp; Deputy Chief Executive Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/80000-84999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdfs:comment>The Director is responsible for the development, co-ordination and effective delivery of a programme of regeneration projects from concept through to implementation for West Northamptonshire.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <rdfs:label>Director of Regeneration and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <skos:notation>3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <foaf:mbox rdf:resource="mailto:chris.garden@wndc.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <foaf:name>Chris Garden</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4">
+    <foaf:phone rdf:resource="tel:+44.160.458.6600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.garden@wndc.org.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.garden@wndc.org.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:chris.garden@wndc.org.uk">
+    <rdfs:label>chris.garden@wndc.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/programme-and-project-management-ppm">
+    <skos:prefLabel>Programme and Project Management (PPM)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <rdfs:label>Regeneration and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/unit/regeneration-and-development">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">492533</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <rdfs:label>Director of Regeneration and Development Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/west-northamptonshire-development-corporation/post/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <rdfs:label>Chris Garden as Director of Regeneration and Development</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <rdfs:label>£80000 - £84999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/80000-84999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay4">
+    <rdfs:label>Chris Garden as Director of Regeneration and Development Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/wndc/2012-09-30/300912-WNDC-Organogram-ver1#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

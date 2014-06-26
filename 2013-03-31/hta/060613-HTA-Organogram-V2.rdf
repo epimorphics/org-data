@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>dawn.pike@hta.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:dawn.pike@hta.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:title>Human Tissue Authority Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:title>Human Tissue Authority Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:title>Human Tissue Authority Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2013-03-31">
+    <rdfs:label>2013-03-31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdfs:label>Human Tissue Authority</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:prefLabel>Human Tissue Authority Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:prefLabel>Human Tissue Authority Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts2">
+    <rdfs:label>Band 1 Assistant (Operational Delivery) in CHIEF EXECUTIVE'S OFFICE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <rdfs:label>Chief Executive's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/assistant">
+    <skos:prefLabel>Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1">
+    <skos:prefLabel>Band 1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/19000-26450"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1">
+    <skos:prefLabel>Band 1 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-1">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26450</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <rdfs:label>£19000 - £26450</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/19000-26450">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-assistant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts3">
+    <rdfs:label>Band 2 Senior Assistant (Operational Delivery) in CHIEF EXECUTIVE'S OFFICE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-assistant">
+    <skos:prefLabel>Senior Assistant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2">
+    <skos:prefLabel>Band 2</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/25000-30600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2">
+    <skos:prefLabel>Band 2 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-2">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30600</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <rdfs:label>£25000 - £30600</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/25000-30600">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts4">
+    <rdfs:label>Band 3 Officer (Operational Delivery) in CHIEF EXECUTIVE'S OFFICE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/officer">
+    <skos:prefLabel>Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3">
+    <skos:prefLabel>Band 3</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/30000-33911"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3">
+    <skos:prefLabel>Band 3 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33911</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <rdfs:label>£30000 - £33911</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/30000-33911">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts5">
+    <rdfs:label>Band 4 Manager (Operational Delivery) in CHIEF EXECUTIVE'S OFFICE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/manager">
+    <skos:prefLabel>Manager</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4">
+    <skos:prefLabel>Band 4</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/37000-48716"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4">
+    <skos:prefLabel>Band 4 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48716</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <rdfs:label>£37000 - £48716</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/37000-48716">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts6">
+    <rdfs:label>Band 4 Manager (Operational Delivery) in RESOURCES DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate">
+    <rdfs:label>Resources Directorate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts7">
+    <rdfs:label>Band 5 Head of Team (Operational Delivery) in RESOURCES DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/head-of-team">
+    <skos:prefLabel>Head of Team</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5">
+    <skos:prefLabel>Band 5</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/53000-56999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5">
+    <skos:prefLabel>Band 5 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <rdfs:label>£53000 - £56999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/53000-56999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts8">
+    <rdfs:label>Band 3 Officer (Communications) in COMMUNICATIONS DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate">
+    <rdfs:label>Communications Directorate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/communications">
+    <skos:prefLabel>Communications</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts9">
+    <rdfs:label>Band 5 Head of Team (Communications) in COMMUNICATIONS DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts10">
+    <rdfs:label>Band 3 Officer (Operational Delivery) in STRATEGY &amp; QUALITY DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate">
+    <rdfs:label>Strategy &amp; Quality Directorate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts11">
+    <rdfs:label>Band 4 Manager (Operational Delivery) in STRATEGY &amp; QUALITY DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts12">
+    <rdfs:label>Band 5 Head of Team (Operational Delivery) in STRATEGY &amp; QUALITY DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts13">
+    <rdfs:label>Band 3 Officer (Operational Delivery) in REGULATION DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate">
+    <rdfs:label>Regulation Directorate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.4</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/manager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts14">
+    <rdfs:label>Band 4 Manager (Operational Delivery) in REGULATION DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/head-of-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts15">
+    <rdfs:label>Band 5 Head of Team (Operational Delivery) in REGULATION DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts16">
+    <rdfs:label>Band 6 Director (Operational Delivery) in RESOURCES DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/director">
+    <skos:prefLabel>Director</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6">
+    <skos:prefLabel>Band 6</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/70000-85000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6">
+    <skos:prefLabel>Band 6 Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <rdfs:label>£70000 - £85000</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/70000-85000">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/resources-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.60</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/communications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts17">
+    <rdfs:label>Band 6 Director (Communications) in COMMUNICATIONS DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/communications-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts18">
+    <rdfs:label>Band 6 Director (Operational Delivery) in STRATEGY &amp; QUALITY DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/strategy-quality-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/grade/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/director"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts19">
+    <rdfs:label>Band 6 Director (Operational Delivery) in REGULATION DIRECTORATE reporting to post CEO FTE at 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/human-tissue-authority/payband/band-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/regulation-directorate"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>dawn.pike@hta.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:dawn.pike@hta.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <dct:title>Human Tissue Authority Organogram at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dawn.pike@hta.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dawn.pike@hta.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:dawn.pike@hta.gov.uk">
+    <rdfs:label>dawn.pike@hta.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <dct:title>Human Tissue Authority Junior Post FTEs at 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <dct:title>Human Tissue Authority Salary Cost of Reports on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 31/03/2013 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <gov:parentDepartment rdf:resource="http://reference.data.gov.uk/id/department/dh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <rdfs:label>Human Tissue Authority</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/100000-104999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdfs:comment>Responsible for the Management and leadership of HTA and acts as a link to the HTA Board of Members.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <rdfs:label>Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <skos:notation>CEO</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <foaf:mbox rdf:resource="mailto:alan.clamp@hta.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <foaf:name>Alan Clamp</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2">
+    <foaf:phone rdf:resource="tel:+44.207.269.1907"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alan.clamp@hta.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alan.clamp@hta.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:alan.clamp@hta.gov.uk">
+    <rdfs:label>alan.clamp@hta.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/operational-delivery">
+    <skos:prefLabel>Operational Delivery</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.269.1907">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.269.1907">
+    <rdfs:label>0207 269 1907</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.269.1907">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <rdfs:label>Chief Executive's Office</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/human-tissue-authority/unit/chief-executives-office">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245172</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <rdfs:label>Chief Executive Salary Cost of Reports on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/human-tissue-authority/post/CEO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <rdfs:label>Alan Clamp as Chief Executive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <rdfs:label>£100000 - £104999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/100000-104999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2013-03-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay2">
+    <rdfs:label>Alan Clamp as Chief Executive Total Pay on 31/03/2013</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/hta/2013-03-31/060613-HTA-Organogram-V2#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

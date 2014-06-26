@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:copmv="http://purl.org/net/opmv/types/common#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dgu="http://reference.data.gov.uk/def/reference/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gov="http://reference.data.gov.uk/def/central-government/" xmlns:grade="http://reference.data.gov.uk/def/civil-service-grade/" xmlns:opmv="http://purl.org/net/opmv/ns#" xmlns:org="http://www.w3.org/ns/org#" xmlns:organogram="http://reference.data.gov.uk/def/organogram/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:payband="http://reference.data.gov.uk/def/civil-service-payband/" xmlns:postStatus="http://reference.data.gov.uk/def/civil-service-post-status/" xmlns:prof="http://reference.data.gov.uk/def/civil-service-profession/" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#" xmlns:sdmxc="http://purl.org/linked-data/sdmx/2009/code#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdfs:label>Mark.Dembowicz@obr.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox rdf:resource="mailto:Mark.Dembowicz@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:contributor rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:title>Office for Budget Responsibility Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:title>Office for Budget Responsibility Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:title>Office for Budget Responsibility Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/day/2012-09-30">
+    <rdfs:label>2012-09-30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdfs:label>Office for Budget Responsibility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <skos:prefLabel>Office for Budget Responsibility Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:prefLabel>Office for Budget Responsibility Junior Civil Service Grades</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/policy-advisor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts2">
+    <rdfs:label>Range D Policy Advisor (Economics) in OFFICE FOR BUDGET RESPONSIBILITY TEAM reporting to post 20085 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team">
+    <rdfs:label>Office for Budget Responsibility Team</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/economics">
+    <skos:prefLabel>Economics</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/policy-advisor">
+    <skos:prefLabel>Policy Advisor</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d">
+    <skos:prefLabel>Range D</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/24335-38255"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d">
+    <skos:prefLabel>Range D Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-d">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24335</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38255</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <rdfs:label>£24335 - £38255</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/24335-38255">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/senior-policy-advisor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts3">
+    <rdfs:label>Range E Senior Policy Advisor (Economics) in OFFICE FOR BUDGET RESPONSIBILITY TEAM reporting to post 20085 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/senior-policy-advisor">
+    <skos:prefLabel>Senior Policy Advisor</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e">
+    <skos:prefLabel>Range E</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/41138-57801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e">
+    <skos:prefLabel>Range E Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-e">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41138</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57801</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <rdfs:label>£41138 - £57801</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/41138-57801">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.00</organogram:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:grade rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:job rdf:resource="http://reference.data.gov.uk/def/civil-service-job/policy-support-officer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:reportingTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <organogram:unit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts4">
+    <rdfs:label>Range B Policy Support Officer (Economics) in OFFICE FOR BUDGET RESPONSIBILITY TEAM reporting to post 20085 FTE at 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-job/policy-support-officer">
+    <skos:prefLabel>Policy Support Officer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b">
+    <payband:payBand rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b">
+    <skos:prefLabel>Range B</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade/range-b">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband">
+    <skos:hasTopConcept rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/16224-21663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/civil-service-payband/PayBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b">
+    <skos:prefLabel>Range B Payband</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband/range-b">
+    <skos:topConceptOf rdf:resource="http://reference.data.gov.uk/def/public-body/office-for-budget-responsibility/payband"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16224</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21663</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <rdfs:label>£16224 - £21663</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/16224-21663">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <org:hasUnit rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility-team"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdfs:label>Mark.Dembowicz@obr.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:mbox rdf:resource="mailto:Mark.Dembowicz@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:contributor rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <dct:title>Office for Budget Responsibility Organogram at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:exampleResource rdf:resource="http://reference.data.gov.uk/id/department/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:subset rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/central-government/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://www.w3.org/ns/org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <rdf:type rdf:resource="http://purl.org/net/opmv/ns#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Mark.Dembowicz@obr.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Mark.Dembowicz@obr.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:Mark.Dembowicz@obr.gsi.gov.uk">
+    <rdfs:label>Mark.Dembowicz@obr.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <dct:title>Office for Budget Responsibility Junior Post FTEs at 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/junior-posts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#juniorPosts">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <dct:title>Office for Budget Responsibility Salary Cost of Reports on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/salary-costs-of-reports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:source rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.xls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:temporal rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <dct:title>Ministry of Justice Total Pay on 30/09/2012 Dataset</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <qb:structure rdf:resource="http://reference.data.gov.uk/def/organogram/total-pay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:exampleResource rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://purl.org/linked-data/cube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://reference.data.gov.uk/def/organogram/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/department">
+    <rdfs:label>Government Departments</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body">
+    <rdfs:label>Public Body</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/public-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <gov:parentDepartment rdf:resource="file:///cygdrive/c/temp/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/PublicBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <rdfs:label>Office for Budget Responsibility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/0-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdfs:comment>Responsible for the Office for Budget Responsibility</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <rdfs:label>Deputy Director, Office for Budget Responsiblity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <skos:notation>20085</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <foaf:mbox rdf:resource="mailto:obrenquiries@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <foaf:name>N/D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2">
+    <foaf:phone rdf:resource="tel:+44.207.271.2442"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:obrenquiries@obr.gsi.gov.uk">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:obrenquiries@obr.gsi.gov.uk">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:obrenquiries@obr.gsi.gov.uk">
+    <rdfs:label>obrenquiries@obr.gsi.gov.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-profession/economics">
+    <skos:prefLabel>Economics</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1">
+    <rdfs:label>SCS1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2442">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Tel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2442">
+    <rdfs:label>020 72712442</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="tel:+44.207.271.2442">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <rdfs:label>Office for Budget Responsibility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <org:unitOf rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">648602</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <rdfs:label>Deputy Director, Office for Budget Responsiblity Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/20085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <rdfs:label>N/D as Deputy Director, Office for Budget Responsiblity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <rdfs:label>£0 - £0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/0-0">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay2">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay2">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay2">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay2">
+    <rdfs:label>N/D as Deputy Director, Office for Budget Responsiblity Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/140000-144999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <skos:note>Office Holder</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdfs:comment>Responsible to make sure OBR carries out all duties as set out in the Act.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <rdfs:label>Chairman Office of Budget Responsibilty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <skos:notation>OBR1</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <foaf:mbox rdf:resource="mailto:obrenquiries@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <foaf:name>Robert,Chote</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3">
+    <foaf:phone rdf:resource="tel:+44.207.271.2442"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS2">
+    <rdfs:label>SCS2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <rdfs:label>Chairman Office of Budget Responsibilty Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <rdfs:label>Robert,Chote as Chairman Office of Budget Responsibilty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <rdfs:label>£140000 - £144999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/140000-144999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay3">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay3">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay3">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay3">
+    <rdfs:label>Robert,Chote as Chairman Office of Budget Responsibilty Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay3">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/65000-69999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <skos:note>Office Holder 3 days a week</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdfs:comment>Responsible for the production of Fiscal and Economic Forcasts</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <rdfs:label>Member, Budget Responsibility Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <skos:notation>OBR2</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <foaf:mbox rdf:resource="mailto:obrenquiries@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <foaf:name>Graham Parker</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4">
+    <foaf:phone rdf:resource="tel:+44.207.271.2442"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/def/civil-service-grade/SCS1A">
+    <rdfs:label>SCS1A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <rdfs:label>Member, Budget Responsibility Committee Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.60</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <rdfs:label>Graham Parker as Member, Budget Responsibility Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <gov:lowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65000</gov:lowerBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <gov:upperBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69999</gov:upperBound>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <dgu:uriSet rdf:resource="http://reference.data.gov.uk/id/salary-range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SalaryRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <rdfs:label>£65000 - £69999</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/salary-range/65000-69999">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay4">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay4">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay4">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay4">
+    <rdfs:label>Graham Parker as Member, Budget Responsibility Committee Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <gov:heldBy rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <gov:postIn rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <gov:salaryRange rdf:resource="http://reference.data.gov.uk/id/salary-range/65000-69999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <grade:grade rdf:resource="http://reference.data.gov.uk/def/civil-service-grade/SCS1A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <postStatus:postStatus rdf:resource="http://reference.data.gov.uk/def/civil-service-post-status/current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/CivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/SeniorCivilServicePost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <skos:note>Office Holder 3 days a week</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdfs:comment>Responsible for the production of Fiscal and Economic Forcasts</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <rdfs:label>Member, Budget Responsibility Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <skos:notation>OBR3</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <org:reportsTo rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <gov:holdsPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <gov:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <prof:profession rdf:resource="http://reference.data.gov.uk/def/civil-service-profession/economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <foaf:mbox rdf:resource="mailto:obrenquiries@obr.gsi.gov.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <foaf:name>Stephen Nickell</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5">
+    <foaf:phone rdf:resource="tel:+44.207.271.2442"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/unit/office-for-budget-responsibility">
+    <gov:hasPost rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <organogram:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <organogram:salaryCostOfReports rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</organogram:salaryCostOfReports>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <rdfs:label>Member, Budget Responsibility Committee Salary Cost of Reports on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#salaryCostOfReports5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <gov:fullTimeEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.60</gov:fullTimeEquivalent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <gov:post rdf:resource="http://reference.data.gov.uk/id/public-body/office-for-budget-responsibility/post/OBR3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <gov:postholder rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#person5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <rdf:type rdf:resource="http://reference.data.gov.uk/def/central-government/Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <rdfs:label>Stephen Nickell as Member, Budget Responsibility Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5">
+    <foaf:page rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay5">
+    <qb:dataSet rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay5">
+    <organogram:date rdf:resource="http://reference.data.gov.uk/id/day/2012-09-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay5">
+    <organogram:tenure rdf:resource="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#tenure5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay5">
+    <rdfs:label>Stephen Nickell as Member, Budget Responsibility Committee Total Pay on 30/09/2012</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://organogram.data.gov.uk/data/obr/2012-09-30/OBR--staff-and-salary-data---September-2012-V3-Upload#totalPay5">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+  </rdf:Description>
+</rdf:RDF>

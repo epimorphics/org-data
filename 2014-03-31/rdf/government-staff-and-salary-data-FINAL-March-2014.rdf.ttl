@@ -1,0 +1,1002 @@
+@prefix opmv:  <http://purl.org/net/opmv/ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix payband: <http://reference.data.gov.uk/def/civil-service-payband/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix copmv: <http://purl.org/net/opmv/types/common#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prof:  <http://reference.data.gov.uk/def/civil-service-profession/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sdmxa: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix grade: <http://reference.data.gov.uk/def/civil-service-grade/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmxc: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix postStatus: <http://reference.data.gov.uk/def/civil-service-post-status/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports4>
+        a                               qb:Observation ;
+        rdfs:label                      "Operations Director Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/id/public-body>
+        rdfs:label  "Public Body" .
+
+<http://reference.data.gov.uk/def/civil-service-job/operational-researcher>
+        skos:prefLabel  "Operational Researcher" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts17>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3 Technical Adviser (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12.62"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-adviser> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser>
+        skos:prefLabel  "Senior Policy Adviser" .
+
+<http://reference.data.gov.uk/id/department>
+        rdfs:label  "Government Departments" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts6>
+        a                              qb:Observation ;
+        rdfs:label                     "PB6 Scientist (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "15.57"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/unit/corporate>
+        a            org:OrganizationalUnit ;
+        rdfs:label   "Corporate" ;
+        gov:hasPost  <http://reference.data.gov.uk/id/public-body/cefas/post/1> , <http://reference.data.gov.uk/id/public-body/cefas/post/2> , <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        org:unitOf   <http://reference.data.gov.uk/id/public-body/cefas> ;
+        foaf:page    <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/salary-range/25226-29889>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25226 - £29889" ;
+        gov:lowerBound  25226 ;
+        gov:upperBound  29889 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts11>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4 Executive Assistant (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "9.16"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb4>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb4> ;
+        skos:prefLabel     "PB4" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+grade:SCS1  rdfs:label  "SCS1" .
+
+<http://reference.data.gov.uk/id/salary-range/64226-70000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£64226 - £70000" ;
+        gov:lowerBound  64226 ;
+        gov:upperBound  70000 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts24>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3 Operations Support Officer (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "7.41"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://reference.data.gov.uk/def/civil-service-job/technical-adviser>
+        skos:prefLabel  "Technical Adviser" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay2>
+        a                  qb:Observation ;
+        rdfs:label         "Mike Waldock as Acting Chief Executive Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure2> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts37>
+        a                              qb:Observation ;
+        rdfs:label                     "FT Senior Operational Manager (Operational Delivery) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> , <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        skos:prefLabel      "CEFAS Junior Civil Service Grades" .
+
+<http://reference.data.gov.uk/id/salary-range/41651-51905>
+        a               gov:SalaryRange ;
+        rdfs:label      "£41651 - £51905" ;
+        gov:lowerBound  41651 ;
+        gov:upperBound  51905 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb4>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20581-24532> ;
+        skos:prefLabel     "PB4 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts31>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3 Project Support Officer (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "16.75"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports3>
+        a                               qb:Observation ;
+        rdfs:label                      "Finance Director Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts16>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2 Operations Support Officer (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://reference.data.gov.uk/id/day/2014-03-31>
+        rdfs:label  "2014-03-31" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "CEFAS Salary Cost of Reports on 31/03/2014 Dataset" ;
+        qb:structure          organogram:salary-costs-of-reports ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports1> ;
+        void:vocabulary       <http://www.w3.org/2000/01/rdf-schema> , organogram: , <http://purl.org/linked-data/cube> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts5>
+        a                              qb:Observation ;
+        rdfs:label                     "PB5 Scientist (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "24"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts29>
+        a                              qb:Observation ;
+        rdfs:label                     "PB8 Scientist (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2.46"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person4>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure4> ;
+        prof:profession  prof:operational-delivery ;
+        foaf:mbox        <mailto:reg.eayrs@cefas.co.uk> ;
+        foaf:name        "Reg Eayrs" ;
+        foaf:page        <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> ;
+        foaf:phone       <tel:+44.130.520.6669> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts10>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3 Operations Support Officer (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "8.32"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000 - £84999" ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/salary-range/52351-62294>
+        a               gov:SalaryRange ;
+        rdfs:label      "£52351 - £62294" ;
+        gov:lowerBound  52351 ;
+        gov:upperBound  62294 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/salary-range/70000-74999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£70000 - £74999" ;
+        gov:lowerBound  70000 ;
+        gov:upperBound  74999 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb3>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb3> ;
+        skos:prefLabel     "PB3" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://reference.data.gov.uk/id/public-body/cefas>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "CEFAS" ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/defra> ;
+        dgu:uriSet            <http://reference.data.gov.uk/id/public-body> ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> , <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> , <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> , <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> , <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> ;
+        foaf:page             <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/civil-service-job/project-support-officer>
+        skos:prefLabel  "Project Support Officer" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts23>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2 Operations Support Officer (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts36>
+        a                              qb:Observation ;
+        rdfs:label                     "PB8 Senior Project Manager (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "3.8"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries>
+        a           org:OrganizationalUnit ;
+        rdfs:label  "Fisheries" ;
+        org:unitOf  <http://reference.data.gov.uk/id/public-body/cefas> ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/ft>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/64226-70000> ;
+        skos:prefLabel     "FT Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management>
+        a           org:OrganizationalUnit ;
+        rdfs:label  "Monitoring & Programme Management" ;
+        org:unitOf  <http://reference.data.gov.uk/id/public-body/cefas> ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/civil-service-job/operations-support-officer>
+        skos:prefLabel  "Operations Support Officer" .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb3>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/16645-19389> ;
+        skos:prefLabel     "PB3 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts30>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2 Operations Support Officer (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "8.85"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+prof:finance  skos:prefLabel  "Finance" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports2>
+        a                               qb:Observation ;
+        rdfs:label                      "Acting Chief Executive Salary Cost of Reports on 31/03/2014" ;
+        qb:dataSet                      <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/cefas/post/1> ;
+        organogram:salaryCostOfReports  0 .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb8>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb8> ;
+        skos:prefLabel     "PB8" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts15>
+        a                              qb:Observation ;
+        rdfs:label                     "PB8 Senior Operational Manager (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts4>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4 Scientist (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "49.69"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts28>
+        a                              qb:Observation ;
+        rdfs:label                     "PB7 Scientist (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "11.33"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<tel:+44.130.520.6669>
+        a           vcard:Tel ;
+        rdfs:label  "01305206669" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<tel:+44.150.252.4570>
+        a           vcard:Tel ;
+        rdfs:label  "01502524570" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person3>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure3> ;
+        prof:profession  prof:finance ;
+        foaf:mbox        <mailto:tim.green@cefas.co.uk> ;
+        foaf:name        "Tim Green" ;
+        foaf:page        <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> ;
+        foaf:phone       <tel:+44.150.252.4217> .
+
+<http://reference.data.gov.uk/id/salary-range/20581-24532>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20581 - £24532" ;
+        gov:lowerBound  20581 ;
+        gov:upperBound  24532 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb2>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb2> ;
+        skos:prefLabel     "PB2" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts22>
+        a                              qb:Observation ;
+        rdfs:label                     "PB8 Scientist (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "5.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb8>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/52351-62294> ;
+        skos:prefLabel     "PB8 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts35>
+        a                              qb:Observation ;
+        rdfs:label                     "PB7 Senior Operational Researcher (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://reference.data.gov.uk/id/salary-range/16645-19389>
+        a               gov:SalaryRange ;
+        rdfs:label      "£16645 - £19389" ;
+        gov:lowerBound  16645 ;
+        gov:upperBound  19389 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts9>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2 Operations Support Officer (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "0.81"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb2>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13927-16086> ;
+        skos:prefLabel     "PB2 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/cefas/payband/pb5> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb4> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb8> , <http://reference.data.gov.uk/def/public-body/cefas/payband/ft> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb6> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb3> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb7> , <http://reference.data.gov.uk/def/public-body/cefas/payband/pb2> ;
+        skos:prefLabel      "CEFAS Junior Civil Service Grades" .
+
+<http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager>
+        skos:prefLabel  "Senior Operational Manager" .
+
+<http://reference.data.gov.uk/def/civil-service-job/senior-project-manager>
+        skos:prefLabel  "Senior Project Manager" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014>
+        a                     opmv:Artifact , void:Dataset ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "sarah.carter@cefas.co.uk" ;
+                                foaf:mbox   <mailto:sarah.carter@cefas.co.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014>
+                              ] ;
+        dct:contributor       [ a           foaf:Person ;
+                                rdfs:label  "sarah.carter@cefas.co.uk" ;
+                                foaf:mbox   <mailto:sarah.carter@cefas.co.uk> ;
+                                foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014>
+                              ] ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "CEFAS Organogram at 31/03/2014 Dataset" ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person2> , <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure2> , <http://reference.data.gov.uk/id/department/co> ;
+        void:subset           <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#salaryCostOfReports> , <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> , <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay> ;
+        void:vocabulary       gov: , foaf: , <http://www.w3.org/2000/01/rdf-schema> , <http://www.w3.org/ns/org> , <http://www.w3.org/2004/02/skos/core> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb7>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb7> ;
+        skos:prefLabel     "PB7" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts14>
+        a                              qb:Observation ;
+        rdfs:label                     "PB7 Senior Operational Manager (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "4.81"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Reg Eayrs as Operations Director" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person4> ;
+        foaf:page               <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<mailto:tim.green@cefas.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "tim.green@cefas.co.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts3>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3 Executive Assistant (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "19.6"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts27>
+        a                              qb:Observation ;
+        rdfs:label                     "PB6 Scientist (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "18.04"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://reference.data.gov.uk/id/salary-range/13927-16086>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13927 - £16086" ;
+        gov:lowerBound  13927 ;
+        gov:upperBound  16086 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person2>
+        a                foaf:Person ;
+        gov:holdsPost    <http://reference.data.gov.uk/id/public-body/cefas/post/1> ;
+        gov:tenure       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure2> ;
+        prof:profession  prof:science-and-engineering ;
+        foaf:mbox        <mailto:mike.waldock@cefas.co.uk> ;
+        foaf:name        "Mike Waldock" ;
+        foaf:page        <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> ;
+        foaf:phone       <tel:+44.150.252.4570> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene>
+        a           org:OrganizationalUnit ;
+        rdfs:label  "Aquatic Health & Hygiene" ;
+        org:unitOf  <http://reference.data.gov.uk/id/public-body/cefas> ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/post/3>
+        a                      gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment           "Operations Director" ;
+        rdfs:label             "Operations Director" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person4> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/cefas> , <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/70000-74999> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "3" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/cefas/post/1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/civil-service-job/business-manager>
+        skos:prefLabel  "Business Manager" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts21>
+        a                              qb:Observation ;
+        rdfs:label                     "PB7 Senior Operational Researcher (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "19.09"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://reference.data.gov.uk/def/civil-service-job/executive-assistant>
+        skos:prefLabel  "Executive Assistant" .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb7>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/41651-51905> ;
+        skos:prefLabel     "PB7 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://reference.data.gov.uk/def/civil-service-job/scientist>
+        skos:prefLabel  "Scientist" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts34>
+        a                              qb:Observation ;
+        rdfs:label                     "PB6 Senior Policy Adviser (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "21.87"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts19>
+        a                              qb:Observation ;
+        rdfs:label                     "PB5 Scientist (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "39.5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts8>
+        a                              qb:Observation ;
+        rdfs:label                     "PB8 Senior Project Manager (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb8> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<mailto:mike.waldock@cefas.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "mike.waldock@cefas.co.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts41>
+        a                              qb:Observation ;
+        rdfs:label                     "FT Senior Operational Manager (Operational Delivery) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb6>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb6> ;
+        skos:prefLabel     "PB6" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts13>
+        a                              qb:Observation ;
+        rdfs:label                     "PB6 Senior Operational Manager (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "11.59"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Tim Green as Finance Director" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person3> ;
+        foaf:page               <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts2>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2 Operations Support Officer (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts26>
+        a                              qb:Observation ;
+        rdfs:label                     "PB5 Scientist (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "21.5"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay4>
+        a                  qb:Observation ;
+        rdfs:label         "Reg Eayrs as Operations Director Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure4> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts39>
+        a                              qb:Observation ;
+        rdfs:label                     "FT Senior Operational Manager (Operational Delivery) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/post/2>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Finance Director" ;
+        rdfs:label             "Finance Director" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person3> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> , <http://reference.data.gov.uk/id/public-body/cefas> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/70000-74999> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "2" ;
+        org:reportsTo          <http://reference.data.gov.uk/id/public-body/cefas/post/1> ;
+        foaf:page              <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+prof:science-and-engineering
+        skos:prefLabel  "Science and Engineering" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts20>
+        a                              qb:Observation ;
+        rdfs:label                     "PB6 Scientist (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "43.33"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "CEFAS Junior Post FTEs at 31/03/2014 Dataset" ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts1> ;
+        void:vocabulary       organogram: , <http://purl.org/linked-data/cube> , <http://www.w3.org/2000/01/rdf-schema> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb6>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32021-38485> ;
+        skos:prefLabel     "PB6 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts33>
+        a                              qb:Observation ;
+        rdfs:label                     "PB5 Project Support Officer (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "24.96"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts18>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4 Operational Researcher (Science and Engineering) in ENVIRONMENT & ECOSYSTEMS reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "20.1"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts7>
+        a                              qb:Observation ;
+        rdfs:label                     "PB7 Senior Operational Researcher (Science and Engineering) in AQUATIC HEALTH & HYGIENE reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "13"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/aquatic-health-hygiene> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts40>
+        a                              qb:Observation ;
+        rdfs:label                     "FT Senior Operational Manager (Operational Delivery) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "1.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/pb5>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/pb5> ;
+        skos:prefLabel     "PB5" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts12>
+        a                              qb:Observation ;
+        rdfs:label                     "PB5 Business Manager (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "5.62"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Mike Waldock as Acting Chief Executive" ;
+        gov:fullTimeEquivalent  1.00 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/cefas/post/1> ;
+        gov:postholder          <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person2> ;
+        foaf:page               <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher>
+        skos:prefLabel  "Senior Operational Researcher" .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts25>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4 Scientist (Science and Engineering) in FISHERIES reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "30.7"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/scientist> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/fisheries> .
+
+<http://reference.data.gov.uk/def/public-body/cefas/grade/ft>
+        a                  grade:Grade ;
+        payband:payBand    <http://reference.data.gov.uk/def/public-body/cefas/payband/ft> ;
+        skos:prefLabel     "FT" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/grade> .
+
+<mailto:sarah.carter@cefas.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "sarah.carter@cefas.co.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay3>
+        a                  qb:Observation ;
+        rdfs:label         "Tim Green as Finance Director Total Pay on 31/03/2014" ;
+        qb:dataSet         <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay> ;
+        organogram:date    <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:tenure  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#tenure3> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts38>
+        a                              qb:Observation ;
+        rdfs:label                     "FT Senior Operational Manager (Operational Delivery) in CORPORATE reporting to post 2 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "2.00"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/ft> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          prof:operational-delivery ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/post/1>
+        a                      gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment           "Science Director" ;
+        rdfs:label             "Acting Chief Executive" ;
+        gov:heldBy             <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#person2> ;
+        gov:postIn             <http://reference.data.gov.uk/id/public-body/cefas/unit/corporate> , <http://reference.data.gov.uk/id/public-body/cefas> ;
+        gov:salaryRange        <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        grade:grade            grade:SCS1 ;
+        postStatus:postStatus  postStatus:current ;
+        skos:notation          "1" ;
+        foaf:page              <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/salary-range/32021-38485>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32021 - £38485" ;
+        gov:lowerBound  32021 ;
+        gov:upperBound  38485 ;
+        dgu:uriSet      <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+prof:operational-delivery
+        skos:prefLabel  "Operational Delivery" .
+
+<mailto:reg.eayrs@cefas.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "reg.eayrs@cefas.co.uk" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://reference.data.gov.uk/id/public-body/cefas/unit/environment-ecosystems>
+        a           org:OrganizationalUnit ;
+        rdfs:label  "Environment & Ecosystems" ;
+        org:unitOf  <http://reference.data.gov.uk/id/public-body/cefas> ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:source            <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014.xls> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        dct:title             "Ministry of Justice Total Pay on 31/03/2014 Dataset" ;
+        qb:structure          organogram:total-pay ;
+        void:exampleResource  <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#totalPay1> ;
+        void:vocabulary       <http://purl.org/linked-data/cube> , <http://www.w3.org/2000/01/rdf-schema> , organogram: .
+
+<http://reference.data.gov.uk/def/public-body/cefas/payband/pb5>
+        a                  payband:PayBand ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25226-29889> ;
+        skos:prefLabel     "PB5 Payband" ;
+        skos:topConceptOf  <http://reference.data.gov.uk/def/public-body/cefas/payband> .
+
+<http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts32>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4 Project Support Officer (Science and Engineering) in MONITORING & PROGRAMME MANAGEMENT reporting to post 3 FTE at 31/03/2014" ;
+        qb:dataSet                     <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014#juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2014-03-31> ;
+        organogram:fullTimeEquivalent  "21.41"^^xsd:double ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/cefas/grade/pb4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          prof:science-and-engineering ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/cefas/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/cefas/unit/monitoring-programme-management> .
+
+<tel:+44.150.252.4217>
+        a           vcard:Tel ;
+        rdfs:label  "01502524217" ;
+        foaf:page   <http://organogram.data.gov.uk/data/cefas/2014-03-31/government-staff-and-salary-data-FINAL-March-2014> .
