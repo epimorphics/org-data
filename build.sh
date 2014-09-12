@@ -12,10 +12,19 @@ readonly DEFAULT=2013-09-30
 
 function put {
     local period="$1"
-    local filebase="${period}/merge-${period}.nt"
-    echo " * s-put $SERVICE/data $GRAPH_BASE/$period $i/merge-$period.nt.gz"
+    local filebase="${period}/merge-${period}-vocab.nt"
+    echo " * s-put $SERVICE/data $GRAPH_BASE/$period $filebase"
     gunzip "${filebase}.gz"
     s-put $SERVICE/data $GRAPH_BASE/$period $filebase
+    gzip "${filebase}"
+}
+
+function putdefault {
+    local period="$1"
+    local filebase="${period}/merge-${period}-vocab.nt"
+    echo " * s-put $SERVICE/data default $filebase"
+    gunzip "${filebase}.gz"
+    s-put $SERVICE/data default $filebase
     gzip "${filebase}"
 }
 
@@ -45,7 +54,7 @@ do
 done
 
 echo "** Loading default graph"
-put $DEFAULT
+putdefault $DEFAULT
 
 echo "** Loading vocabularies"
 putall $PERM_GRAPH vocabs
