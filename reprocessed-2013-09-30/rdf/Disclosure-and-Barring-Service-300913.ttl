@@ -1,0 +1,1899 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/salary-range/55470-68325>
+        a               gov:SalaryRange ;
+        rdfs:label      "£55470 - £68325" ;
+        gov:lowerBound  55470 ;
+        gov:upperBound  68325 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/91>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Facilities and Procurement Manager (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-and-procurement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Transition Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/transition-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Procurement Officer (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Policy Advisor (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/43534-57841>
+        a               gov:SalaryRange ;
+        rdfs:label      "£43534 - £57841" ;
+        gov:lowerBound  43534 ;
+        gov:upperBound  57841 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/salary-range/53330-70856>
+        a               gov:SalaryRange ;
+        rdfs:label      "£53330 - £70856" ;
+        gov:lowerBound  53330 ;
+        gov:upperBound  70856 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations Barring"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        skos:prefLabel  "Operations Barring"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25423-32108> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/99>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Learning and Development Manager (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/learning-and-development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "DCEx & Director for Corporate Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:salaryCostOfReports  "4302650"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 3 People and Development Officer (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/people-and-development-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Accomodation Support Officer (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accomodation-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Head of Operational Unit (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.51 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-operational-unit> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Chief Executive is responsible for the day to day management, executive leadership, and performance of the Disclosure and Barring Service (DBS). The CEO is also the Accounting Officer (AO) for the service. The AO is responsible for maintaining a sound system of internal control that supports the achievement of the department’s policies, aims and objectives, while safeguarding the public funds and assets for which she is personally responsible."@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/disclosure-and-barring-service> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DBS1" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Secretariat Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretariat-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-7> ;
+        skos:prefLabel     "Level 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/15306-18750>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15306 - £18750" ;
+        gov:lowerBound  15306 ;
+        gov:upperBound  18750 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/salary-range/120000-124999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£120000-£124999"@en ;
+        gov:lowerBound  120000 ;
+        gov:upperBound  124999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/100>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 People Manager (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/people-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/86>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Press Officer (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/press-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/25197-29681>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25197 - £29681" ;
+        gov:lowerBound  25197 ;
+        gov:upperBound  29681 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/45033-55470> ;
+        skos:prefLabel     "Level 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Secretariat Manager (Other) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretariat-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<mailto:customerservices@dbs.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "customerservices@dbs.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Manager (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  106.83 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/94>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Security Manager (Knowledge and Information Management (KIM)) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 1 Mailroom Assistant (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/mailroom-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/sps>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/sps> ;
+        skos:prefLabel     "SPS"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Security Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Procurement Manager (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-2> ;
+        skos:prefLabel     "Level 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Correspondence Manager (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/43534-57841> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/81>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Finance Officer (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13685-14743> ;
+        skos:prefLabel     "Level 1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Communications Support Officer (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Research Officer (Policy) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/research-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director for Operations (Barring)" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for the effective delivery and overall management of all aspects of business change programmes and functions to support the delivery of the organisations key business priorities. With primary focus on the transition to a new private sector partner that operates an administration infrastructure and call centre for our disclosure service, and the delivery and development of complex new ICT to reduce cost and increase the efficiency of the services provided by DBS."@en ;
+        rdfs:label       "Director for Change"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DBS4" ;
+        skos:prefLabel   "Director for Change"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "SPS Secretariat Support (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/sps> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretariat-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:customerservices@dbs.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> ;
+        foaf:phone     "8709090811"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Finance Support Officer (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.98 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/department/ho>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "home Office"@en , "Home Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "home Office"@en , "Home Office"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/103>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 7 Vacant Post (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/vacant-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/89>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Assistant Legal Advisor (Law) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.21 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-legal-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Business Analyst Change (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-analyst-change> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Operational Manager (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  188.35 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32766-38936> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/97>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> ;
+        organogram:salaryCostOfReports  "490974"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 Administration Assistant (Information Technology) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Accommodation Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accommodation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Caseworker Decision Maker (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  103.53 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/caseworker-decision-maker> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-5> ;
+        skos:prefLabel     "Level 5"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Programme Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Correspondence Support Officer (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo-acct>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo-acct> ;
+        skos:prefLabel     "SEO Acct"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        skos:prefLabel  "Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/84>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 People Consultant (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/people-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25197-29681> ;
+        skos:prefLabel     "Level 4 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Policy Advisor (Policy) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director for Operations (Disclosure)" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Security Support Officer (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.68 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Human Resources Officer (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.62 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/sps> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/eo> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo-acct> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/heo> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-2> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-7> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/ao> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-4> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-6> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-1> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-3> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-5> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/15882-17366>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15882 - £17366" ;
+        gov:lowerBound  15882 ;
+        gov:upperBound  17366 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/92>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Assistant IT Manager (Information Technology) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Business Transformation Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-transformation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo-acct>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/36266-43534> ;
+        skos:prefLabel     "SEO Acct Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Programme Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Policy Advisor (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/21395-24913>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21395 - £24913" ;
+        gov:lowerBound  21395 ;
+        gov:upperBound  24913 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director for Change Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:salaryCostOfReports  "1623156"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 3 Internal Communications Officer (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/internal-communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Communications Manager (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.33 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 Administration Assistant (Other) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Operations (barring) is responsible for ensuring that the Disclosure and Barring Service (DBS) delivers a fair and efficient end-to-end barring service for its users and other stakeholders, which include referred and barred people, employers, professional bodies, police and devolved administrations. This involves effectively managing all aspects of service delivery and maintaining robust relationships with key stakeholders."@en ;
+        rdfs:label       "Director for Operations (Barring)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DBS2" ;
+        skos:prefLabel   "Director for Operations (Barring)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Secretariat Support (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretariat-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:customerservices@dbs.gsi.gov.uk> ;
+        foaf:name      "Adriènne Kelbie" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> ;
+        foaf:phone     "8709090811"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/101>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Communications Manager (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/87>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Post No Longer Required (Planning) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-no-longer-required> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/55470-68325> ;
+        skos:prefLabel     "Level 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 Project Adminstration Assistant (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-adminstration-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Human Resources Manager (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.46 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-human-resources-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Manager (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  38.33 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations Disclosure"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        skos:prefLabel  "Operations Disclosure"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/36266-43534>
+        a               gov:SalaryRange ;
+        rdfs:label      "£36266 - £43534" ;
+        gov:lowerBound  36266 ;
+        gov:upperBound  43534 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/95>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Performance Manager (Knowledge and Information Management (KIM)) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/performance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 People and Development Support Assistant (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/people-and-development-support-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 Casework Administrator (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  49.11 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/casework-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-3> ;
+        skos:prefLabel     "Level 3"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Programme Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  9.51 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-7> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo-acct> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/sps> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-1> , <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Correspondence Manager (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/82>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Post No Longer Required (Property and asset management) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-no-longer-required> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Contractor (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/contractor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15882-17366> ;
+        skos:prefLabel     "Level 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Policy Officer (Policy) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as DCEx & Director for Corporate Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Security Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.68 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Operations (Disclosure) is responsible for ensuring that the Disclosure and Barring Service (DBS) delivers an effective end-to-end disclosure service for its customers and stakeholders, which include the police, registered bodies and applicants. This involves effectively managing all aspects of service delivery required in the production of criminal records checks."@en ;
+        rdfs:label       "Director for Operations (Disclosure)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DBS5" ;
+        skos:prefLabel   "Director for Operations (Disclosure)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:customerservices@dbs.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> ;
+        foaf:phone     "8709090811"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Human Resources Officer (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15306-18750> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/90>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Risk Assurance and Business Continuity Manager (Internal Audit) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/risk-assurance-and-business-continuity-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/internal-audit> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Project Planner (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-planner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Policy Advisor (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Policy Advisor (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/45033-55470>
+        a               gov:SalaryRange ;
+        rdfs:label      "£45033 - £55470" ;
+        gov:lowerBound  45033 ;
+        gov:upperBound  55470 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/98>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Legal Advisor (Law) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director for Operations (Barring) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:salaryCostOfReports  "6423602"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 3 Computer Operator (Information Technology) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/computer-operator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/sps>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21395-24913> ;
+        skos:prefLabel     "SPS Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Accommodation Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accommodation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Casework Team Manager (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "20"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/casework-team-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Project Support Officer (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.89 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-6> ;
+        skos:prefLabel     "Level 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/85>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Learning and Development Consultant (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/learning-and-development-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-5>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32455-38230> ;
+        skos:prefLabel     "Level 5 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Policy and Stakeholder Manager (Policy) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-and-stakeholder-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Communications Manager (Communications) in Change Directorate reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Human Resources Support Officer (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Change Directorate"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        skos:prefLabel  "Change Directorate"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/93>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 5 Post No Longer Required (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-no-longer-required> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Disclosure and Barring Service"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/ho> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Disclosure and Barring Service"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 Senior Transition Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-transition-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/id/salary-range/20154-23741>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20154 - £23741" ;
+        gov:lowerBound  20154 ;
+        gov:upperBound  23741 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Programme Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Procurement Manager (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-1> ;
+        skos:prefLabel     "Level 1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/53330-70856> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 IT Support Officer (Information Technology) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director for Operations (Disclosure) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:salaryCostOfReports  "9699708"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Communications Manager (Communications) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.87 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 3 Personal Assistant (Other) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.93 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Adriènne Kelbie as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the effective delivery of all corporate service functions, eg Finance, Corporate Planning, Human Resources, Business Integrity, Legal, Commercial and Communications which support delivery of all DBS services. Key responsibilities include deputising, with full delegations, for the Chief Executive and effective management of financial resources at both Directorate and Corporate levels."@en ;
+        rdfs:label       "DCEx & Director for Corporate Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> , <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "DBS3" ;
+        skos:prefLabel   "DCEx & Director for Corporate Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "SPS Secretariat Support (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/sps> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/secretariat-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20336-24913> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:customerservices@dbs.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> ;
+        foaf:phone     "8709090811"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Acct Finance Manager (Finance) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo-acct> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/disclosure-and-barring-service>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Disclosure and Barring Service"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS1> ;
+        skos:prefLabel  "Disclosure and Barring Service"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/salary-range/32455-38230>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32455 - £38230" ;
+        gov:lowerBound  32455 ;
+        gov:upperBound  38230 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/102>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 7 Post No Longer Required (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-no-longer-required> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/88>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Post No Longer Required (Knowledge and Information Management (KIM)) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/post-no-longer-required> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Business Analyst (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Operational Manager (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.43 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Operational Manager (Operational Delivery) in Operations Disclosure reporting to post DBS5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  9.86 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-disclosure> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/96>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 6 IT Manager (Information Technology) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 2 Procurement Administrator (Procurement) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Accommodation Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/accommodation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 3 Casework Officer (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  21.22 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/casework-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Programme Manager (Programme and Project Management (PPM)) in Change Directorate reporting to post DBS4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/change-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-4> ;
+        skos:prefLabel     "Level 4"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Correspondence Manager (Policy) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/correspondence-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/20336-24913>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20336 - £24913" ;
+        gov:lowerBound  20336 ;
+        gov:upperBound  24913 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/83>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Legal Support Officer (Law) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "Level 4 Partnership Engagement Lead (Operational Delivery) in Operations Barring reporting to post DBS2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/level-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/partnership-engagement-lead> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/operations-barring> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Contractor (Programme and Project Management (PPM)) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/contractor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband/level-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20154-23741> ;
+        skos:prefLabel     "Level 3 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Security Manager (Operational Delivery) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/25423-32108>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25423 - £32108" ;
+        gov:lowerBound  25423 ;
+        gov:upperBound  32108 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director for Change" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Human Resources Officer (Human Resources) in Corporate Services reporting to post DBS3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.71 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/disclosure-and-barring-service/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/disclosure-and-barring-service/post/DBS5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:customerservices@dbs.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> ;
+        foaf:phone     "8709090811"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/32766-38936>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32766 - £38936" ;
+        gov:lowerBound  32766 ;
+        gov:upperBound  38936 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .
+
+<http://reference.data.gov.uk/id/salary-range/13685-14743>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13685 - £14743" ;
+        gov:lowerBound  13685 ;
+        gov:upperBound  14743 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/disclosure-and-barring-service> .

@@ -1,0 +1,1678 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Internal Auditor (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/internal-auditor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance and Corporate Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        skos:prefLabel  "Finance and Corporate Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Policy) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.42 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/id/salary-range/50936-61824>
+        a               gov:SalaryRange ;
+        rdfs:label      "£50936 - £61824" ;
+        gov:lowerBound  50936 ;
+        gov:upperBound  61824 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "12.0 Associate Director (Policy) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/associate-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Knowledge Information Management Support (Knowledge and Information Management (KIM)) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Steve Egan as Deputy Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Corporate Service Team (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Assistant Analyst (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<mailto:h.fry@hefce.ac.uk>
+        a           vcard:Email ;
+        rdfs:label  "h.fry@hefce.ac.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/86>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Policy (Policy) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-policy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "10.0 Other Senior Adviser (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Policy (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-policy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/13625-16537>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13625 - £16537" ;
+        gov:lowerBound  13625 ;
+        gov:upperBound  16537 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:s.egan@hefce.ac.uk> ;
+        foaf:name      "Steve Egan" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> ;
+        foaf:phone     "0117 931 7408" .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HEFCE"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        skos:prefLabel  "HEFCE"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/94>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Policy) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Adminstrator (Operational Delivery) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.42 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Analyst (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 IT support Officer (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<mailto:a.langlands@hefce.ac.uk>
+        a           vcard:Email ;
+        rdfs:label  "a.langlands@hefce.ac.uk" .
+
+<http://reference.data.gov.uk/id/salary-range/230000-234999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£230000-£234999"@en ;
+        gov:lowerBound  230000 ;
+        gov:upperBound  234999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Finance Officer (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/10.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50936-61824> ;
+        skos:prefLabel     "10.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/81>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Adminstrator (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Comms Support Officer (Communications) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/comms-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 Office Assistant/receptionist (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.38 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-assistant-receptionist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Alan Langlands as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Corporate Service Team (Internal Audit) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/internal-audit> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Corporate Services Support Manager (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-services-support-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/11.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/61598-70838> ;
+        skos:prefLabel     "11.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:salaryCostOfReports  "4915620"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/125000-129999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£125000-£129999"@en ;
+        gov:lowerBound  125000 ;
+        gov:upperBound  129999 .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Chief Executive"@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/230000-234999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS4> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    90334 ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<mailto:d.sweeeney@hefce.ac.uk>
+        a           vcard:Email ;
+        rdfs:label  "d.sweeeney@hefce.ac.uk" .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/12.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/77959-85792> ;
+        skos:prefLabel     "12.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Education and Participation"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/100000-104999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    90284 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/89>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Policy Adviser (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "12.0 Regional/project consultant (Finance) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.93 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-project-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/id/salary-range/61598-70838>
+        a               gov:SalaryRange ;
+        rdfs:label      "£61598 - £70838" ;
+        gov:lowerBound  61598 ;
+        gov:upperBound  70838 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "10.0 Other Senior Adviser (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 HR Support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Education and Participation"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        skos:prefLabel  "Education and Participation"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:a.langlands@hefce.ac.uk> ;
+        foaf:name      "Alan Langlands" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> ;
+        foaf:phone     "0117 931 7300/7341" .
+
+<http://reference.data.gov.uk/id/salary-range/77959-85792>
+        a               gov:SalaryRange ;
+        rdfs:label      "£77959 - £85792" ;
+        gov:lowerBound  77959 ;
+        gov:upperBound  85792 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Personal Assistant (Operational Delivery) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13625-16537> ;
+        skos:prefLabel     "2.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Research, Innovation and Skills"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/115000-119999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    90250 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.96 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 IT support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Finance Support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.54 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Analyst (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  16.35 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15399-18691> ;
+        skos:prefLabel     "3.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17427-21138> ;
+        skos:prefLabel     "4.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/31984-38821>
+        a               gov:SalaryRange ;
+        rdfs:label      "£31984 - £38821" ;
+        gov:lowerBound  31984 ;
+        gov:upperBound  38821 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/84>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Adminstrator (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  10.22 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Office Manager (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "12.0 Head of Group (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-group> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19546-23725> ;
+        skos:prefLabel     "5.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:salaryCostOfReports  "2095905"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Research, Innovation and Skills"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        skos:prefLabel  "Research, Innovation and Skills"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/6.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/22507-27318> ;
+        skos:prefLabel     "6.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/92>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Policy) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.28 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/7.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/26062-31633> ;
+        skos:prefLabel     "7.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 IT Manager (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports> ;
+        void:vocabulary       org: , <http://reference.data.gov.uk/def/central-government> , rdfs: .
+
+<http://reference.data.gov.uk/id/salary-range/100000-104999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£100000-£104999"@en ;
+        gov:lowerBound  100000 ;
+        gov:upperBound  104999 .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/8.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/31984-38821> ;
+        skos:prefLabel     "8.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Policy) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.58 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/9.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/41461-50324> ;
+        skos:prefLabel     "9.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Communications Officer (Communications) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.53 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Knowledge Information Management Support (Knowledge and Information Management (KIM)) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "David Sweeney as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Assurance Advisor (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assurance-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "10.0 Head of Corporate Service Team (Human Resources) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/17427-21138>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17427 - £21138" ;
+        gov:lowerBound  17427 ;
+        gov:upperBound  21138 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/id/department/bis>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Business Innovation and Skills"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Business Innovation and Skills"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/87>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Other Senior Adviser (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Other Senior Adviser (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 HR Manager (Human Resources) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:d.sweeeney@hefce.ac.uk> ;
+        foaf:name      "David Sweeney" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> ;
+        foaf:phone     "0117 931 7304" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Executive Assistant (Operational Delivery) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Assurance Advisor (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-assurance-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<mailto:s.egan@hefce.ac.uk>
+        a           vcard:Email ;
+        rdfs:label  "s.egan@hefce.ac.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 IT support Officer (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Finance Officer (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Adminstrator (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.14 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/22507-27318>
+        a               gov:SalaryRange ;
+        rdfs:label      "£22507 - £27318" ;
+        gov:lowerBound  22507 ;
+        gov:upperBound  27318 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/82>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Adminstrator (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Corporate Service Team (Communications) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Office Assistant/receptionist (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-assistant-receptionist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "10.0 Head of Corporate Service Team (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Executive Assistant (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:salaryCostOfReports  "841275"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/90>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Regional/project consultant (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-project-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/id/salary-range/15399-18691>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15399 - £18691" ;
+        gov:lowerBound  15399 ;
+        gov:upperBound  18691 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Personal Assistant (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.54 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 HR Support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/2.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/3.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Policy Adviser (Policy) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Adminstrator (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/id/salary-range/26062-31633>
+        a               gov:SalaryRange ;
+        rdfs:label      "£26062 - £31633" ;
+        gov:lowerBound  26062 ;
+        gov:upperBound  31633 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Knowledge Information Management Support (Knowledge and Information Management (KIM)) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Finance Support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Analyst (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.26 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Higher Education Funding Council for England"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/bis> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Higher Education Funding Council for England"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/9.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/4.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/10.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/8.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/11.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/12.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/7.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/2.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/6.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/3.0> , <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/5.0> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/85>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Executive Assistant (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.72 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Other Senior Adviser (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "12.0 Head of Group (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-group> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/93>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Policy) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Policy) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.46 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.21 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 IT support Officer (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Policy) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.15 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "7.0 Comms Support Officer (Communications) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/comms-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Knowledge Information Manager (Knowledge and Information Management (KIM)) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Heather Fry as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Corporate Service Team (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "10.0 Assurance Consultant (Finance) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assurance-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/2.0> ;
+        skos:prefLabel     "2.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/3.0> ;
+        skos:prefLabel     "3.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/88>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Personal Assistant (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Other Senior Adviser (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/other-senior-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 HR Manager (Human Resources) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.76 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/4.0> ;
+        skos:prefLabel     "4.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/10.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/10.0> ;
+        skos:prefLabel     "10.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/5.0> ;
+        skos:prefLabel     "5.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:h.fry@hefce.ac.uk> ;
+        foaf:name      "Heather Fry" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> ;
+        foaf:phone     "0117 931 7280" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/11.0> ;
+        skos:prefLabel     "11.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Policy (Policy) in Education and Participation reporting to post 90284 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-policy> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/education-and-participation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "9.0 Senior Policy Adviser (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/6.0> ;
+        skos:prefLabel     "6.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 IT support Officer (Information Technology) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.31 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/12.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/12.0> ;
+        skos:prefLabel     "12.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/115000-119999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£115000-£119999"@en ;
+        gov:lowerBound  115000 ;
+        gov:upperBound  119999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Finance Support Officer (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.45 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Adminstrator (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.43 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/19546-23725>
+        a               gov:SalaryRange ;
+        rdfs:label      "£19546 - £23725" ;
+        gov:lowerBound  19546 ;
+        gov:upperBound  23725 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/7.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/7.0> ;
+        skos:prefLabel     "7.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Finance and Corporate Resources"@en ;
+        rdfs:label       "Deputy Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england> , <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/125000-129999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    90115 ;
+        skos:prefLabel   "Deputy Chief Executive"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/83>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Adminstrator (Operational Delivery) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/adminstrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Personal Assistant (Operational Delivery) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/8.0> ;
+        skos:prefLabel     "8.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Office Assistant/receptionist (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-assistant-receptionist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Head of Corporate Service Team (Policy) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-service-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90284> ;
+        organogram:salaryCostOfReports  "1051910"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/41461-50324>
+        a               gov:SalaryRange ;
+        rdfs:label      "£41461 - £50324" ;
+        gov:lowerBound  41461 ;
+        gov:upperBound  50324 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england> .
+
+<http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/9.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/payband/9.0> ;
+        skos:prefLabel     "9.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/91>
+        a                              qb:Observation ;
+        rdfs:label                     "6.0 Policy Adviser (Policy) in Research, Innovation and Skills reporting to post 90250 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/6.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90250> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/research-innovation-and-skills> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "11.0 Regional/project consultant (Policy) in HEFCE reporting to post 90334 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/11.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-project-consultant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90334> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/hefce> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "8.0 Policy Adviser (Operational Delivery) in Finance and Corporate Resources reporting to post 90115 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/higher-education-funding-council-for-england/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.86 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/higher-education-funding-council-for-england/grade/8.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/post/90115> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/higher-education-funding-council-for-england/unit/finance-and-corporate-resources> .

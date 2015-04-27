@@ -1,0 +1,946 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Grant Recovery Officer (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.35 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/grant-recovery-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Regional Manager (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.72 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Head of Customer Service (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-customer-service> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/id/salary-range/21375-26702>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21375 - £26702" ;
+        gov:lowerBound  21375 ;
+        gov:upperBound  26702 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21375-26702> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Quality Assurance Manager (Planning) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/quality-assurance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Social Work Team Support Officer (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/social-work-team-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Financial Controller (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-controller> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Work and Pensions Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Administrative Assistant (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrative-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Compliance Manager (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/compliance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/95000-99999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£95000-£99999"@en ;
+        gov:lowerBound  95000 ;
+        gov:upperBound  99999 .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Finance Officer (Finance) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:HR@ilf.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> ;
+        foaf:phone     "0115 945 0975" .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/48171-58387> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Payment Security Manager (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/payment-security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Head of Information and Governance (Knowledge and Information Management (KIM)) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-information-and-governance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Facilities Management Officer (Property and asset management) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-management-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Finance and Resources Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "EO IT User Support Manager (Information Technology) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-user-support-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "AO IT User Support Officer (Information Technology) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.3 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-user-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Senior Payment Security Manager (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-payment-security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Principal Social Work Manager (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/principal-social-work-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Resource Directorate Secretary (Other) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.88 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/resource-directorate-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO HR Business Partner (Human Resources) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-business-partner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/33868-36693>
+        a               gov:SalaryRange ;
+        rdfs:label      "£33868 - £36693" ;
+        gov:lowerBound  33868 ;
+        gov:upperBound  36693 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/33868-36693> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/aa>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14500-16494> ;
+        skos:prefLabel     "AA Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Facilities Officer (Property and asset management) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:James.Sanderson@ilf.org.uk> ;
+        foaf:name      "James Sanderson" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> ;
+        foaf:phone     1159450825 .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Management Accountant (Finance) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/management-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Strategy & Social Work Director (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-social-work-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Corporate Affairs Manager (Other) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-affairs-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Compliance Officer (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/compliance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "James Sanderson as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Corporate Affairs Officer (Other) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-affairs-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/aa> ;
+        skos:prefLabel     "AA"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Senior LA Engagement Manager (Communications) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.74 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-la-engagement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Principal Programme Manager (Planning) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/principal-programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Learning & Development Officer (Human Resources) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.57 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/learning-development-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance and Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        skos:prefLabel  "Finance and Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Head of Service Delivery (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.97 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-service-delivery> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/14500-16494>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14500 - £16494" ;
+        gov:lowerBound  14500 ;
+        gov:upperBound  16494 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "EO LA Engagement Manager (Communications) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.86 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/la-engagement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Work and Pensions Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Software Development Manager (Information Technology) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/software-development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Complaints & Decision Review Manager (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.86 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/complaints-decision-review-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Caseworker (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  38.26 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/caseworker> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<mailto:HR@ilf.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "HR@ilf.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Communications Officer (Communications) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Head of Corporate Affairs (Other) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-corporate-affairs> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "AO LA Engagement Officer (Communications) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.62 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/la-engagement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Head of HR (Human Resources) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.92 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Finance and Resources Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:salaryCostOfReports  1633550.96 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Policy Development Manager (Policy) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.41 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-development-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/aa> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/ao> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/eo> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/heo> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/seo> ;
+        skos:prefLabel      "Department for Work and Pensions Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/salary-range/17242-20918>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17242 - £20918" ;
+        gov:lowerBound  17242 ;
+        gov:upperBound  20918 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Human Resources, Payroll, Learning and Development, Finance and Analysis, Fraud, Compliance, Grant Recovery, Procurement, Facilities Management, Client Service Delivery."@en , "earns less than £150K"@en ;
+        rdfs:label       "Finance and Resources Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> , <http://reference.data.gov.uk/id/public-body/independent-living-fund> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Finance and Resources Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> .
+
+<http://reference.data.gov.uk/id/public-body/independent-living-fund>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Independent Living Fund"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dwp> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Independent Living Fund"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> , <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "EO L & D Business Partner (Human Resources) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/l-d-business-partner> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/27965-32758> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Social Work Team Support Manager (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/social-work-team-support-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Communications Manager (Communications) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.91 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/id/salary-range/27965-32758>
+        a               gov:SalaryRange ;
+        rdfs:label      "£27965 - £32758" ;
+        gov:lowerBound  27965 ;
+        gov:upperBound  32758 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Switchboard Operator (Other) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/switchboard-operator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Finance Manager (Finance) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.66 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/48171-58387>
+        a               gov:SalaryRange ;
+        rdfs:label      "£48171 - £58387" ;
+        gov:lowerBound  48171 ;
+        gov:upperBound  58387 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Social Work Assistant (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/social-work-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Chief Executive's Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        skos:prefLabel  "Chief Executive's Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/independent-living-fund> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Senior Social Work Manager (Operational Delivery) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-social-work-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Human Resources & Payroll Officer (Human Resources) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/human-resources-payroll-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Head of Operations (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-operations> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:salaryCostOfReports  868042.88 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Head of IT (Information Technology) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-it> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/ao> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/heo> , <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/seo> ;
+        skos:prefLabel      "Department for Work and Pensions Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Social Work, Customer Service, Strategy, Policy, Communications, Corporate Affairs, Information Technology, Performance & Development, Records Management, Governance"@en , "earns less than £150K"@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/independent-living-fund> , <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/def/public-body/independent-living-fund/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17242-20918> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/independent-living-fund/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Financial Analyst (Finance) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Work and Pensions Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/salaryCostOfReports> ;
+        void:vocabulary       rdfs: , org: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Records Manager (Knowledge and Information Management (KIM)) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/records-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Business Analyst (Knowledge and Information Management (KIM)) in Chief Executive's Office reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Regional Administrative Assistant (Operational Delivery) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regional-administrative-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .
+
+<mailto:James.Sanderson@ilf.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "James.Sanderson@ilf.org.uk" .
+
+<http://reference.data.gov.uk/id/department/dwp>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Work and Pensions"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Work and Pensions"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Facilities Manager (Property and asset management) in Finance and Resources reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/independent-living-fund/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.68 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/independent-living-fund/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/independent-living-fund/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/independent-living-fund/unit/finance-and-resources> .

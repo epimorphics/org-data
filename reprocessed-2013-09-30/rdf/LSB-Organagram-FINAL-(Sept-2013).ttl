@@ -1,0 +1,601 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Support/Admin Office Services Co-Ordinator (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/support-admin> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-services-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , org: , rdfs: .
+
+<http://reference.data.gov.uk/id/salary-range/62000-100000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£62000 - £100000" ;
+        gov:lowerBound  62000 ;
+        gov:upperBound  100000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Project Manager Corporate Governance Manager (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-governance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Julie Myers as Corporate Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smt-head-of> ;
+        skos:prefLabel     "SMT/Head of"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "SMT/Head of Head of Statutory Decisions (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBSD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-statutory-decisions> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Corporate Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:salaryCostOfReports  "583050"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/23300-30000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£23300 - £30000" ;
+        gov:lowerBound  23300 ;
+        gov:upperBound  30000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "SMT/Head of Legal Director (Law) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:crispin.passmore@legalservicesboard.org.uk> ;
+        foaf:name      "Crispin Passmore" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> ;
+        foaf:phone     "020 7271 0086" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Support/Admin Administrative Assistant (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/support-admin> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrative-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Crispin Passmore as Strategy Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/salary-range/90000-94999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£90000-£94999"@en ;
+        gov:lowerBound  90000 ;
+        gov:upperBound  94999 .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/support-admin> , <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager> , <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate> , <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/grade/support-admin>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/support-admin> ;
+        skos:prefLabel     "Support/Admin"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/110000-114999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£110000-£114999"@en ;
+        gov:lowerBound  110000 ;
+        gov:upperBound  114999 .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "LSB employees are not civil servants and do not have a final salary pension."@en , "LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Strategy Director is a member of the Executive Management Team and is responsible for advising the Board (inc. CEO) on immediate and long term strategy for opening the legal services market and modernising regulation of legal services and for overseeing and ensuring delivery of the overall LSB programme of work including prioritisation against emerging issues"@en ;
+        rdfs:label       "Strategy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/legal-services-board> , <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/110000-114999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "LSBSD" ;
+        skos:prefLabel   "Strategy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "SMT/Head of Head of Development and Research (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBSD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-development-and-research> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Strategy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        organogram:salaryCostOfReports  "285250"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Associate Corporate Affairs Associate (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/corporate-affairs-associate> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:chris.kenny@legalservicesboard.org.uk> ;
+        foaf:name      "Chris Kenny" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> ;
+        foaf:phone     "020 7271 0050" .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/45500-65000> ;
+        skos:prefLabel     "Project Manager Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/payband> .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32000-41000> ;
+        skos:prefLabel     "Associate Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Chris Kenny as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Director of Finance and Services is responsible for managing the organisation’s finances and for the LSB's day-to-day operations including: supporting the CEO in all his Accounting Officer responsibilities; responsibility for the effective and efficient running of its finance system and all other infrastructure services."@en , "LSB employees are not civil servants and do not have a final salary pension."@en ;
+        rdfs:label       "Director of Finance and Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> , <http://reference.data.gov.uk/id/public-body/legal-services-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "LSBDFS" ;
+        skos:prefLabel   "Director of Finance and Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/id/salary-range/32000-41000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32000 - £41000" ;
+        gov:lowerBound  32000 ;
+        gov:upperBound  41000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Legal Services Board"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/justice> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Legal Services Board"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager> ;
+        skos:prefLabel     "Project Manager"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Project Manager Regulatory Project Manager (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBSD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regulatory-project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/id/salary-range/45500-65000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£45500 - £65000" ;
+        gov:lowerBound  45500 ;
+        gov:upperBound  65000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Director of Regulatory Practice is responsible for developing the licensing regime for introduction of alternative business structures and the framework for performance management of legal services regulators."@en , "LSB employees are not civil servants and do not have a final salary pension."@en ;
+        rdfs:label       "Director of Regulatory Practice"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> , <http://reference.data.gov.uk/id/public-body/legal-services-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "LSBDRP" ;
+        skos:prefLabel   "Director of Regulatory Practice"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> .
+
+<http://reference.data.gov.uk/id/salary-range/160000-164999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£160000-£164999"@en ;
+        gov:lowerBound  160000 ;
+        gov:upperBound  164999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Project Manager Consumer Panel Manager (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consumer-panel-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The Corporate Director is a member of the Executive Management Team and is accountable for all non-regulatory business. This includes responsibility for: the Board’s external relationships including with its sponsor Department; internal governance processes and policies; Business Planning and strategic coordination; organisation development; and day-to-day operational management of other Board support services."@en , "LSB employees are not civil servants and do not have a final salary pension."@en ;
+        rdfs:label       "Corporate Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/legal-services-board> , <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "LSBCD" ;
+        skos:prefLabel   "Corporate Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "LSB staff are not civil servants and the LSB does not use the SCS grading structure. An SCS grade has been shown for technical reasons only. The CEO is a Board member and is Accounting Officer and is responsible for ensuring that: the Board has the advice and evidence to make strategic decisions; those decisions are executed expeditiously and effectively; and the Board’s statutory obligations are met in full."@en , "LSB employees are not civil servants and do not have a final salary pension."@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/legal-services-board> , <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/160000-164999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "LSBCEO" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/payband/support-admin>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/23300-30000> ;
+        skos:prefLabel     "Support/Admin Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:edwin.josephs@legalservicesboard.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> ;
+        foaf:phone     "020 7271 0084" .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate> ;
+        skos:prefLabel     "Associate"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Associate Regulatory Associate (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBSD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/regulatory-associate> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smt-head-of>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/62000-100000> ;
+        skos:prefLabel     "SMT/Head of Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/legal-services-board/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Associate Consumer Panel Associate (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/consumer-panel-associate> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Finance and Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<mailto:edwin.josephs@legalservicesboard.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "edwin.josephs@legalservicesboard.org.uk" .
+
+<http://reference.data.gov.uk/def/public-body/legal-services-board/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/support-admin> , <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/project-manager> , <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/associate> , <http://reference.data.gov.uk/def/public-body/legal-services-board/payband/smt-head-of> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Paybands"@en .
+
+<mailto:fran.gillon@legalservicesboard.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "fran.gillon@legalservicesboard.org.uk" .
+
+<mailto:julie.myers@legalservicesboard.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "julie.myers@legalservicesboard.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Finance and Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Project Manager Communications Manager (Communications) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/project-manager> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<mailto:crispin.passmore@legalservicesboard.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "crispin.passmore@legalservicesboard.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:fran.gillon@legalservicesboard.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> ;
+        foaf:phone     "020 7271 0087" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Support/Admin Personal Assistant (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCEO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/support-admin> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Associate Business Planning Associate (Programme and Project Management (PPM)) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/associate> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-planning-associate> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Regulatory Practice" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> .
+
+<http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Legal Services Board"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDFS> , <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP> , <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> , <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBSD> , <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCEO> ;
+        skos:prefLabel  "Legal Services Board"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/legal-services-board> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Regulatory Practice Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBDRP> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "SMT/Head of Legal Advisor (Law) in Legal Services Board reporting to post LSBCD FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/legal-services-board/grade/smt-head-of> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-advisor> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/legal-services-board/unit/legal-services-board> .
+
+<mailto:chris.kenny@legalservicesboard.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "chris.kenny@legalservicesboard.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/legal-services-board/post/LSBCD> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:julie.myers@legalservicesboard.org.uk> ;
+        foaf:name      "Julie Myers" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/legal-services-board> ;
+        foaf:phone     "020 7271 0059" .
+
+<http://reference.data.gov.uk/id/department/justice>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Ministry of Justice"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Justice"@en .

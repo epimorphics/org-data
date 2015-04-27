@@ -1,0 +1,1667 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Programme Manager (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        skos:prefLabel  "Finance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Policy Support Officer (Planning) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/86>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Other) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Executive Assistant (Finance) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Researcher (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Sandra Botterell as Director, Commercial" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/94>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Property and asset management) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.3 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  22.73 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<mailto:msarna@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "msarna@rmg.co.uk" .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Leads the Finance Division as well ast IT provision"@en ;
+        rdfs:label       "Director, Finance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6 ;
+        skos:prefLabel   "Director, Finance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "MST IT Manager (Information Technology) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/id/department/dcms>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Culture, Media and Sport"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Culture, Media and Sport"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/81>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  31.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:sbotterell@rmg.co.uk> ;
+        foaf:name      "Sandra Botterell" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Programme Manager (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/id/salary-range/30300-62000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30300 - £62000" ;
+        gov:lowerBound  30300 ;
+        gov:upperBound  62000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Knowledge Information Management Support Officer (Knowledge and Information Management (KIM)) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Office Manager (Operational Delivery) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/89>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Operations and HR Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:salaryCostOfReports  1987924.34 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Leads and manages the Royal Museums Greenwich"@en ;
+        rdfs:label       "Director, Royal Museums Greenwich"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Director, Royal Museums Greenwich"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Finance Support Officer (Finance) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Mike Sarna as Director, Programming and Exhibitions" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Leads the Commercial and Income generating activity for the Museum"@en ;
+        rdfs:label       "Director, Commercial"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    9 ;
+        skos:prefLabel   "Director, Commercial"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior HR Manager (Human Resources) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Programme Support Officer (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<mailto:mlincoln@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "mlincoln@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/84>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:msarna@rmg.co.uk> ;
+        foaf:name      "Mike Sarna" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Support Officer (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.39 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Dr Margarette Lincoln as Deputy Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Communications Manager (Communications) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/92>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Manager (Programme and Project Management (PPM)) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Finance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:salaryCostOfReports  585459.17 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Knowledge Information Management Manager (Knowledge and Information Management (KIM)) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Royal Museums Greenwich"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dcms> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Royal Museums Greenwich"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/adma>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13191-26273> ;
+        skos:prefLabel     "ADMA Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Communications Support Officer (Communications) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "MST HR Officer (Human Resources) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        foaf:mbox      <mailto:mlincoln@rmg.co.uk> ;
+        foaf:name      "Dr Margarette Lincoln" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<mailto:aganguli@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "aganguli@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "17"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Knowledge and Information Management (KIM)) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Policy Adviser (Planning) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<mailto:sbotterell@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "sbotterell@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/87>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.55 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Royal Museums Greenwich Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:salaryCostOfReports  993859.96 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations and Human Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        skos:prefLabel  "Operations and Human Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Finance  Manager (Finance) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  9.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Richard Doughty as Director, Cutty Sark" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Programming and Exhibitions"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        skos:prefLabel  "Programming and Exhibitions"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/95>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/smss>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30300-62000> ;
+        skos:prefLabel     "SMSS Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Project Manager (Information Technology) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Collections and Curatorial"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        skos:prefLabel  "Collections and Curatorial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Finance Support Officer (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Other) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.39 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/82>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  79.32 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  29.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:rdoughty@rmg.co.uk> ;
+        foaf:name      "Richard Doughty" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Programme Support Officer (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Executive Assistant (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/90>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Property and asset management) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Commercial Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:salaryCostOfReports  3544865.95 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.93 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Leads Research and Curatorial Division as well as Deputy Director for the Museum"@en ;
+        rdfs:label       "Deputy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Deputy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Knowledge Information Management Support Officer (Knowledge and Information Management (KIM)) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/adma> ;
+        skos:prefLabel     "ADMA"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Information Manager (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-information-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commercial"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        skos:prefLabel  "Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Other) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Tax Officer (Human Resources) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.63 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-tax-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/13191-26273>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13191 - £26273" ;
+        gov:lowerBound  13191 ;
+        gov:upperBound  26273 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Support Officer (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Support Officer (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Executive Assistant (Operational Delivery) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/85>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Office Manager (Other) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior IT Manager (Information Technology) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/smss> ;
+        skos:prefLabel     "SMSS"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade> .
+
+<mailto:rdoughty@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "rdoughty@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Researcher (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Andy Bodle as Director, Operations and HR" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Communications Manager (Communications) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/93>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Technical Support Officer (Programme and Project Management (PPM)) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Programming and Exhibitions Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:salaryCostOfReports  1903982.01 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Leads and manages the Operational delivery of The Cutty Sark, tea clipper as a historic site"@en ;
+        rdfs:label       "Director, Cutty Sark"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    5 ;
+        skos:prefLabel   "Director, Cutty Sark"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "MST IT Support Officer (Information Technology) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Project Manager (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Directorate"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        skos:prefLabel  "Directorate"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Communications Manager (Communications) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        foaf:mbox      <mailto:anbodle@rmg.co.uk> ;
+        foaf:name      "Andy Bodle" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Manager (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Knowledge Information Management Manager (Knowledge and Information Management (KIM)) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/id/salary-range/16274-42036>
+        a               gov:SalaryRange ;
+        rdfs:label      "£16274 - £42036" ;
+        gov:lowerBound  16274 ;
+        gov:upperBound  42036 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Policy Adviser (Programme and Project Management (PPM)) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/88>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  16.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:salaryCostOfReports  3119723.01 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Operational Delivery) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  31.28 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Finance Officer (Finance) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<mailto:anbodle@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "anbodle@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Anupam Ganguli as Director, Finance" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Cutty Sark"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        skos:prefLabel  "Cutty Sark"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/96>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Operational Delivery) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Researcher (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Leads on the exhibitions planning and Learning activity at the Museum"@en ;
+        rdfs:label       "Director, Programming and Exhibitions"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    8 ;
+        skos:prefLabel   "Director, Programming and Exhibitions"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Programme Officer Manager (Programme and Project Management (PPM)) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-officer-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Researcher (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.78 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/83>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Operations Support Officer (Property and asset management) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operational Manager (Property and asset management) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/mst>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/16274-42036> ;
+        skos:prefLabel     "MST Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:aganguli@rmg.co.uk> ;
+        foaf:name      "Anupam Ganguli" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Programme Manager (Operational Delivery) in Programming and Exhibitions reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/programming-and-exhibitions> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Operational Research) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "19"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Dr Kevin Fewster as Director, Royal Museums Greenwich" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> , <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> , <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA Communications Support Officer (Communications) in Directorate reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/91>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Communications Manager (Communications) in Cutty Sark reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/cutty-sark> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Researcher (Operational Research) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director, Cutty Sark Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/5> ;
+        organogram:salaryCostOfReports  904643.7 .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/mst> ;
+        skos:prefLabel     "MST"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade> .
+
+<http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Leads the upkeep and maintenance of the Historical Site. Leads the HR and Security departments"@en ;
+        rdfs:label       "Director, Operations and HR"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich> , <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Director, Operations and HR"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> .
+
+<mailto:kfewster@rmg.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "kfewster@rmg.co.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Knowledge Information Management Support Officer (Knowledge and Information Management (KIM)) in Finance reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "SMSS Senior Operational Manager (Operational Delivery) in Collections and Curatorial reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/smss> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/collections-and-curatorial> .
+
+<http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/mst> , <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/smss> , <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/payband/adma> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "MST Operations Support Officer (Other) in Commercial reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.73 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/mst> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:kfewster@rmg.co.uk> ;
+        foaf:name      "Dr Kevin Fewster" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich> ;
+        foaf:phone     "2088584422"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "ADMA HR Support Officer (Human Resources) in Operations and Human Resources reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/royal-museums-greenwich/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.59 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/royal-museums-greenwich/grade/adma> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/royal-museums-greenwich/unit/operations-and-human-resources> .

@@ -1,0 +1,485 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior Analyst (Operational Research) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/salary-range/115000-119999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£115000-£119999"@en ;
+        gov:lowerBound  115000 ;
+        gov:upperBound  119999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Nick Hardwick as HM Chief Inspector of Prisons" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports> ;
+        void:vocabulary       rdfs: , org: , <http://reference.data.gov.uk/def/central-government> .
+
+<mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Nick.Hardwick@hmiprisons.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inspection Team Leader (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inspection-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HM Inspectorate of Prisons"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90> , <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        skos:prefLabel  "HM Inspectorate of Prisons"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Senior Personal Secretary (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-personal-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b> ;
+        skos:prefLabel     "Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/29634-44964>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29634 - £44964" ;
+        gov:lowerBound  29634 ;
+        gov:upperBound  44964 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inspector (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "32"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inspector> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/salary-range/15935-22250>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15935 - £22250" ;
+        gov:lowerBound  15935 ;
+        gov:upperBound  22250 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15935-22250> ;
+        skos:prefLabel     "Band E Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d> , <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Publications/Editiorial Staff (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/publications-editiorial-staff> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a> ;
+        skos:prefLabel     "Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Press & Media Relations Manager (Communications) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/press-media-relations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17513-28000> ;
+        skos:prefLabel     "Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/42034-67969>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42034 - £67969" ;
+        gov:lowerBound  42034 ;
+        gov:upperBound  67969 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Analyst (Operational Research) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/analyst> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "The Inspectorate is independent and as such the Chief Inspector is a public appointment."@en , "Responsible for independent inspection of places of detention; reporting on conditions and treatment; and promoting positive outcomes for those detained and the public"@en ;
+        rdfs:label       "HM Chief Inspector of Prisons"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons> , <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/115000-119999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    89 ;
+        skos:prefLabel   "HM Chief Inspector of Prisons"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:HMIPrisons.Enquiries@hmiprisons.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> ;
+        foaf:phone     "N/D" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Finance, HR and Inspection Support (Human Resources) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-finance-hr-and-inspection-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/salary-range/17513-28000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17513 - £28000" ;
+        gov:lowerBound  17513 ;
+        gov:upperBound  28000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Chief Inspector of Prisons Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21096-36061> ;
+        skos:prefLabel     "Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Programme Support Officer (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-e> ;
+        skos:prefLabel     "Band E"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade> .
+
+<http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for independent inspection of places of detention; reporting on conditions and treatment; and promoting positive outcomes for those detained and the public"@en ;
+        rdfs:label       "Deputy Chief Inspector of Prisons"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons> , <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    90 ;
+        skos:prefLabel   "Deputy Chief Inspector of Prisons"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Publications Manager (Communications) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/publications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Inspection Support Manager (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inspection-support-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Nick.Hardwick@hmiprisons.gsi.gov.uk> ;
+        foaf:name      "Nick Hardwick" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> ;
+        foaf:phone     "020 7035 2100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Research, Develoment and Thematics (Operational Research) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-research-develoment-and-thematics> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/salary-range/21096-36061>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21096 - £36061" ;
+        gov:lowerBound  21096 ;
+        gov:upperBound  36061 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "HM Chief Inspector of Prisons Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:salaryCostOfReports  "2992290"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29634-44964> ;
+        skos:prefLabel     "Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Publications Assistant (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/publications-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-d> ;
+        skos:prefLabel     "Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior Policy Officer (Policy) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Chief Inspector of Prisons" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/90> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "HM Inspectorate of Prisons"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/justice> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "HM Inspectorate of Prisons"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Healthcare Inspection (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-healthcare-inspection> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42034-67969> ;
+        skos:prefLabel     "Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Personal Secretary (Operational Delivery) in HM Inspectorate of Prisons reporting to post 89 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-inspectorate-of-prisons/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/post/89> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-inspectorate-of-prisons/unit/hm-inspectorate-of-prisons> .
+
+<http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/payband/band-c> ;
+        skos:prefLabel     "Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-inspectorate-of-prisons/grade> .
+
+<http://reference.data.gov.uk/id/department/justice>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Ministry of Justice"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Justice"@en .

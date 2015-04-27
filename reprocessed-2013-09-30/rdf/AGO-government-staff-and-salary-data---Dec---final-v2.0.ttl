@@ -1,0 +1,680 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/post/AGO5>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Provide management for the International Law"@en ;
+        rdfs:label       "Deputy Director - International Law"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/attorney-general/unit/international-law> , <http://reference.data.gov.uk/id/department/attorney-general> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "AGO5" ;
+        skos:prefLabel   "Deputy Director - International Law"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> .
+
+<mailto:N/D>  a     vcard:Email ;
+        rdfs:label  "N/D" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk> ;
+        foaf:name      "Kevin McGinty" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> ;
+        foaf:phone     "2072712418"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/47557-57018> ;
+        skos:prefLabel     "G7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Kevin McGinty as Deputy Legal Secretary" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/id/department/attorney-general>
+        a                     gov:Department , gov:PublicBody , org:Organization ;
+        rdfs:label            "Attorney General's Office"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/attorney-general> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel        "Attorney General's Office"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> , <http://reference.data.gov.uk/id/department/attorney-general/unit/international-law> , <http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office> , <http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team> , <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> , <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/g7> ;
+        skos:prefLabel     "G7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35163-40351> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Public & Civil Law Team reporting to post AGO3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/international-law>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "International Law"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/attorney-general/post/AGO5> ;
+        skos:prefLabel  "International Law"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24370-27959> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Legal Secretary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:salaryCostOfReports  "213607"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Operations Support Officer (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Criminal Law & Policy Team"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> , <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        skos:prefLabel  "Criminal Law & Policy Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/post/AGO4>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Provide management for the Criminal Law & Policy Team"@en ;
+        rdfs:label       "Deputy Director - Criminal Law"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/attorney-general> , <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "AGO4" ;
+        skos:prefLabel   "Deputy Director - Criminal Law"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:Rowena.Collins-Rice@attorneygeneral.gsi.gov.uk> ;
+        foaf:name      "Rowena Collins-Rice" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> ;
+        foaf:phone     "2072102412"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Senior Legal Adviser (Law) in Criminal Law & Policy Team reporting to post AGO4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000-£84999"@en ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/59778-71666> ;
+        skos:prefLabel     "G6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Rowena Collins-Rice as Director General and Legal Secretary" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/g6> ;
+        skos:prefLabel     "G6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Operations Support Officer (Operational Delivery) in Business Support Team reporting to post AGO2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/attorney-general/payband/ao> , <http://reference.data.gov.uk/def/department/attorney-general/payband/eo> , <http://reference.data.gov.uk/def/department/attorney-general/payband/g7> , <http://reference.data.gov.uk/def/department/attorney-general/payband/heo> , <http://reference.data.gov.uk/def/department/attorney-general/payband/seo> , <http://reference.data.gov.uk/def/department/attorney-general/payband/g6> ;
+        skos:prefLabel      "Attorney General's Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director General and Legal Secretary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:salaryCostOfReports  "731150"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/21210-22440>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21210 - £22440" ;
+        gov:lowerBound  21210 ;
+        gov:upperBound  22440 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operations Support Officer (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/id/salary-range/35163-40351>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35163 - £40351" ;
+        gov:lowerBound  35163 ;
+        gov:upperBound  40351 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/post/AGO3>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Provide management for the Public & Civil Law Team"@en ;
+        rdfs:label       "Deputy Director - Civil Law"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/attorney-general> , <http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "AGO3" ;
+        skos:prefLabel   "Deputy Director - Civil Law"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Head of Attorney General's Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        skos:prefLabel  "Head of Attorney General's Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operations Support Officer (Operational Delivery) in Criminal Law & Policy Team reporting to post AGO4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> .
+
+<mailto:Rowena.Collins-Rice@attorneygeneral.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Rowena.Collins-Rice@attorneygeneral.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operations Support Officer (Operational Delivery) in Business Support Team reporting to post AGO2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/28747-32997> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/attorney-general/post/AGO5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:N/D> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> ;
+        foaf:phone     "2072712492"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Operational Manager (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/post/AGO2>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Deputy Legal Secretary for the Attorney General's Office"@en ;
+        rdfs:label       "Deputy Legal Secretary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> , <http://reference.data.gov.uk/id/department/attorney-general> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "AGO2" ;
+        skos:prefLabel   "Deputy Legal Secretary"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> .
+
+<http://reference.data.gov.uk/id/salary-range/59778-71666>
+        a               gov:SalaryRange ;
+        rdfs:label      "£59778 - £71666" ;
+        gov:lowerBound  59778 ;
+        gov:upperBound  71666 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Director - International Law" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/department/attorney-general/post/AGO5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/id/salary-range/47557-57018>
+        a               gov:SalaryRange ;
+        rdfs:label      "£47557 - £57018" ;
+        gov:lowerBound  47557 ;
+        gov:upperBound  57018 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operational Manager (Operational Delivery) in Criminal Law & Policy Team reporting to post AGO4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/criminal-law-policy-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director - International Law Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/attorney-general/post/AGO5> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Operational Manager (Operational Delivery) in Business Support Team reporting to post AGO2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/id/salary-range/24370-27959>
+        a               gov:SalaryRange ;
+        rdfs:label      "£24370 - £27959" ;
+        gov:lowerBound  24370 ;
+        gov:upperBound  27959 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Public & Civil Law Team"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        skos:prefLabel  "Public & Civil Law Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:N/D> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> ;
+        foaf:phone     "2072712492"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Operational Manager (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/post/AGO1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Director General and Legal Secretary for the Attorney General's Office"@en ;
+        rdfs:label       "Director General and Legal Secretary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/department/attorney-general/unit/head-of-attorney-generals-office> , <http://reference.data.gov.uk/id/department/attorney-general> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/130000-134999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "AGO1" ;
+        skos:prefLabel   "Director General and Legal Secretary"@en .
+
+<http://reference.data.gov.uk/id/salary-range/28747-32997>
+        a               gov:SalaryRange ;
+        rdfs:label      "£28747 - £32997" ;
+        gov:lowerBound  28747 ;
+        gov:upperBound  32997 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/department/attorney-general/grade/ao> , <http://reference.data.gov.uk/def/department/attorney-general/grade/eo> , <http://reference.data.gov.uk/def/department/attorney-general/grade/g7> , <http://reference.data.gov.uk/def/department/attorney-general/grade/heo> , <http://reference.data.gov.uk/def/department/attorney-general/grade/seo> , <http://reference.data.gov.uk/def/department/attorney-general/grade/g6> ;
+        skos:prefLabel      "Attorney General's Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Director - Criminal Law" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Senior Legal Adviser (Law) in Public & Civil Law Team reporting to post AGO3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director - Criminal Law Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/attorney-general/post/AGO4> ;
+        organogram:salaryCostOfReports  "623872"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/130000-134999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£130000-£134999"@en ;
+        gov:lowerBound  130000 ;
+        gov:upperBound  134999 .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Business Support Team"@en ;
+        skos:prefLabel  "Business Support Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operations Support Officer (Operational Delivery) in Business Support Team reporting to post AGO2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .
+
+<http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Private Office, Press Office, Parliamentary and Correspondence"@en ;
+        skos:prefLabel  "Private Office, Press Office, Parliamentary and Correspondence"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/department/attorney-general> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:N/D> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> ;
+        foaf:phone     "2072712492"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operations Support Officer (Operational Delivery) in Private Office, Press Office, Parliamentary and Correspondence reporting to post AGO1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/private-office-press-office-parliamentary-and-correspondence> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Director - Civil Law" ;
+        gov:fullTimeEquivalent  0.8 ;
+        gov:post                <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general> .
+
+<mailto:kevin.mcginty@attorneygeneral.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "kevin.mcginty@attorneygeneral.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Legal Support Officer (Law) in Public & Civil Law Team reporting to post AGO3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/public-civil-law-team> .
+
+<http://reference.data.gov.uk/def/department/attorney-general/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21210-22440> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director - Civil Law Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/department/attorney-general/post/AGO3> ;
+        organogram:salaryCostOfReports  "335860"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/department/attorney-general/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/department/attorney-general/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/department/attorney-general/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Business Support Team reporting to post AGO2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/attorney-general/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.67 ;
+        organogram:grade               <http://reference.data.gov.uk/def/department/attorney-general/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/department/attorney-general/post/AGO2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/department/attorney-general/unit/business-support-team> .

@@ -1,0 +1,927 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb2-band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29400-42400> ;
+        skos:prefLabel     "PB2/Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/nurse>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29400-42400> ;
+        skos:prefLabel     "Nurse Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3/Band D HR Officer (Human Resources) in Human Resources reporting to post HRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "17"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Keith Norris as Strategy Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb4-band-e-and-equiv> ;
+        skos:prefLabel     "PB4/Band E and equiv"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb3-band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20900-28200> ;
+        skos:prefLabel     "PB3/Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Adult Apprentices Phase 1 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "22"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "David Morgan" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb4-band-e-and-equiv>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15700-20800> ;
+        skos:prefLabel     "PB4/Band E and equiv Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Apprentice Phase 2 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/20900-28200>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20900 - £28200" ;
+        gov:lowerBound  20900 ;
+        gov:upperBound  28200 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/id/salary-range/155000-159999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£155000-£159999"@en ;
+        gov:lowerBound  155000 ;
+        gov:upperBound  159999 .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        skos:prefLabel  "Operations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/id/salary-range/13400-13400>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13400 - £13400" ;
+        gov:lowerBound  13400 ;
+        gov:upperBound  13400 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive of the DSG Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> ;
+        organogram:salaryCostOfReports  "304749"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4/Band E and equiv Finance Support Officer (Finance) in Finance reporting to post FINDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4/Band E and equiv Procurement Support Officer (Procurement) in Commercial reporting to post COMDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "32"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb1-band-b> ;
+        skos:prefLabel     "PB1/Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17000-17000> ;
+        skos:prefLabel     "Apprentice Phase 3 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/17000-17000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17000 - £17000" ;
+        gov:lowerBound  17000 ;
+        gov:upperBound  17000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2/Band C Operational Researcher (Operational Research) in Strategy reporting to post STRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Chief Executive"@en , "Responsible to MOD Ministers + Parliament for providing corporate governance and leadership in delivering the strategic aims + objectives of the business"@en ;
+        rdfs:label       "Chief Executive of the DSG"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/defence-support-group> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/155000-159999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "CE" ;
+        skos:prefLabel   "Chief Executive of the DSG"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2/Band C HR Officer (Human Resources) in Human Resources reporting to post HRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb2-band-c> ;
+        skos:prefLabel     "PB2/Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Geraint Spearing as Chief Operating Officer" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb3-band-d> ;
+        skos:prefLabel     "PB3/Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "Steve Hall" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Strategy Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        organogram:salaryCostOfReports  "237900"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Apprentice Phase 1 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-1> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-3> ;
+        skos:prefLabel     "Adult Apprentices Phase 3"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Human Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        skos:prefLabel  "Human Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible to the Chief Executive for DSG strategic direction + strategic business development. Provides the DSG lead on Ministerial matters."@en , "Salary included in Junior Staff"@en ;
+        rdfs:label       "Strategy Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "STRDIR" ;
+        skos:prefLabel   "Strategy Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/defence-support-group>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Defence Support Group"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> ;
+        skos:prefLabel  "Defence Support Group"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3/Band D Finance Officer (Finance) in Finance reporting to post FINDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3/Band D Procurement Officer (Procurement) in Commercial reporting to post COMDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "16"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/id/salary-range/18600-18600>
+        a               gov:SalaryRange ;
+        rdfs:label      "£18600 - £18600" ;
+        gov:lowerBound  18600 ;
+        gov:upperBound  18600 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "PB1/Band B Senior Operational Researcher (Operational Research) in Strategy reporting to post STRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14200-14200> ;
+        skos:prefLabel     "Apprentice Phase 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-2> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb1-band-b> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb3-band-d> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-1> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-3> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-2> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/nurse> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-1> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb2-band-c> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-3> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb4-band-e-and-equiv> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "PB1/Band B Senior HR Manager (Human Resources) in Human Resources reporting to post HRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/29400-42400>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29400 - £42400" ;
+        gov:lowerBound  29400 ;
+        gov:upperBound  42400 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/id/department/mod>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Ministry of Defence"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Defence"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "David Morgan as Commercial Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "Jane Williams" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Operating Officer Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:salaryCostOfReports  "52985123"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4/Band E and equiv Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "571"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Strategy"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        skos:prefLabel  "Strategy"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-2> ;
+        skos:prefLabel     "Adult Apprentices Phase 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        void:vocabulary       org: , <http://reference.data.gov.uk/def/central-government> , rdfs: .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/18600-18600> ;
+        skos:prefLabel     "Adult Apprentices Phase 3 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2/Band C Finance Officer (Finance) in Finance reporting to post FINDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "16"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2/Band C Procurement Officer (Procurement) in Commercial reporting to post COMDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "46"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/14200-14200>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14200 - £14200" ;
+        gov:lowerBound  14200 ;
+        gov:upperBound  14200 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/id/salary-range/15700-20800>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15700 - £20800" ;
+        gov:lowerBound  15700 ;
+        gov:upperBound  20800 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Nurse Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/nurse> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13400-13400> ;
+        skos:prefLabel     "Apprentice Phase 1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Steve Hall as Finance Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "Archie Hughes" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Commercial Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        organogram:salaryCostOfReports  "2901831"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible to the Chief Executive for business streams + Determining the Operational Excellence Strategy of DSG. Also responsible for quality,environment, safety, health, information, services + facilities"@en ;
+        rdfs:label       "Chief Operating Officer"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "COO" ;
+        skos:prefLabel   "Chief Operating Officer"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3/Band D Operational Manager (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1463"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-3>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-3> ;
+        skos:prefLabel     "Apprentice Phase 3"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible to the Chief Executive for HR strategy + the full HR function as well as internal communications, parliamentary business + security policy"@en ;
+        rdfs:label       "HR Director of the DSG"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HRDIR" ;
+        skos:prefLabel   "HR Director of the DSG"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-1> ;
+        skos:prefLabel     "Adult Apprentices Phase 1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Defence Support Group (DSG)"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/mod> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Defence Support Group (DSG)"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/defence-support-group> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/18000-18000> ;
+        skos:prefLabel     "Adult Apprentices Phase 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "PB1/Band B Senior Finance  Manager (Finance) in Finance reporting to post FINDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/nurse>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/nurse> ;
+        skos:prefLabel     "Nurse"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        skos:prefLabel  "Finance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<mailto:info@dsg.mod.uk>
+        a           vcard:Email ;
+        rdfs:label  "info@dsg.mod.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Adult Apprentices Phase 3 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible to the Chief Executive for all DSG's customer + supply chain activities across the various DSG business interests"@en ;
+        rdfs:label       "Commercial Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "COMDIR" ;
+        skos:prefLabel   "Commercial Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "Keith Norris" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible to the Chief Executive for financial strategy, propriety + governance + delivery of high quality management information to the business"@en ;
+        rdfs:label       "Finance Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/finance> , <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FINDIR" ;
+        skos:prefLabel   "Finance Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Jane Williams as HR Director of the DSG" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-3> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/nurse> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-1> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-2> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-1> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-3> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv> , <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-2> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Finance Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/FINDIR> ;
+        organogram:salaryCostOfReports  "1315000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commercial"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        skos:prefLabel  "Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "PB2/Band C Operational Manager (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "158"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb2-band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-2> ;
+        skos:prefLabel     "Apprentice Phase 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/18000-18000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£18000 - £18000" ;
+        gov:lowerBound  18000 ;
+        gov:upperBound  18000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/adult-apprentices-phase-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17300-17300> ;
+        skos:prefLabel     "Adult Apprentices Phase 1 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "PB4/Band E and equiv HR Support Officer (Human Resources) in Human Resources reporting to post HRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "14"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb4-band-e-and-equiv> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/48500-69500>
+        a               gov:SalaryRange ;
+        rdfs:label      "£48500 - £69500" ;
+        gov:lowerBound  48500 ;
+        gov:upperBound  69500 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Adult Apprentices Phase 2 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "18"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/adult-apprentices-phase-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@dsg.mod.uk> ;
+        foaf:name      "Geraint Spearing" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> ;
+        foaf:phone     "T:01264383295" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Archie Hughes as Chief Executive of the DSG" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/CE> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Apprentice Phase 3 Operations Support Officer (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-3> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/17300-17300>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17300 - £17300" ;
+        gov:lowerBound  17300 ;
+        gov:upperBound  17300 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "HR Director of the DSG Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/HRDIR> ;
+        organogram:salaryCostOfReports  "1116100"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/pb1-band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/48500-69500> ;
+        skos:prefLabel     "PB1/Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "PB1/Band B Senior Procurement Officer (Procurement) in Commercial reporting to post COMDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COMDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "PB1/Band B Senior Operational Manager (Operational Delivery) in Operations reporting to post COO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "15"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb1-band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/COO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/apprentice-phase-1>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/payband/apprentice-phase-1> ;
+        skos:prefLabel     "Apprentice Phase 1"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "PB3/Band D Operational Researcher (Operational Research) in Strategy reporting to post STRDIR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/defence-support-group-dsg/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/defence-support-group-dsg/grade/pb3-band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/post/STRDIR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/defence-support-group-dsg/unit/strategy> .

@@ -1,0 +1,935 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications, Coroners, and Core Support (Operational Delivery) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-e> ;
+        skos:prefLabel     "Band E"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial HR (Human Resources) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  10.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Judicial Conduct"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        skos:prefLabel  "Judicial Conduct"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Private Office (Operational Delivery) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  11.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial Conduct Investigations Office (Operational Delivery) in Judicial Conduct reporting to post JO2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "7"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigations-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications, Coroners, and Core Support (Communications) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure5> ;
+        foaf:mbox      <mailto:general.queries@justice.gsi.gov.uk> ;
+        foaf:name      "J kay" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> ;
+        foaf:phone     "2070731604"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  15.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications, Coroners, and Core Support (Communications) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15935-22250> ;
+        skos:prefLabel     "Band E Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "J kay as Chief Executive - Judicial Office" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications, Coroners, and Core Support (Finance) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial Conduct Investigations Office (Operational Delivery) in Judicial Conduct reporting to post JO2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigations-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications, Coroners, and Core Support (Operational Delivery) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-a> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-b> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-c> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-d> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-e> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-f> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/salary-range/29634-44964>
+        a               gov:SalaryRange ;
+        rdfs:label      "£29634 - £44964" ;
+        gov:lowerBound  29634 ;
+        gov:upperBound  44964 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-d> ;
+        skos:prefLabel     "Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive - Judicial Office Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial HR (Human Resources) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  12.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/id/salary-range/15935-22250>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15935 - £22250" ;
+        gov:lowerBound  15935 ;
+        gov:upperBound  22250 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Private Office (Operational Delivery) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial Conduct Investigations Office (Operational Delivery) in Judicial Conduct reporting to post JO2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigations-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Private Office Judicial Support"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        skos:prefLabel  "Private Office Judicial Support"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/id/salary-range/80000-84999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£80000-£84999"@en ;
+        gov:lowerBound  80000 ;
+        gov:upperBound  84999 .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e> , <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-f> ;
+        skos:prefLabel      "Ministry of Justice Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure4> ;
+        foaf:mbox      <mailto:general.queries@justice.gsi.gov.uk> ;
+        foaf:name      "S Greenland" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> ;
+        foaf:phone     "2070731604"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Human Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        skos:prefLabel  "Human Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  15.2 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications, Coroners, and Core Support (Information Technology) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17513-28000> ;
+        skos:prefLabel     "Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "S Greenland as Executive Director of Judicial Collage" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications, Coroners, and Core Support (Finance) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications, Coroners, and Core Support (Operational Delivery) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Communications"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        skos:prefLabel  "Communications"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-c> ;
+        skos:prefLabel     "Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The College provides training for the judiciary in Courts and Tribunals including judges, members, magistrates and legal advisers"@en ;
+        rdfs:label       "Executive Director of Judicial Collage"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JO1004" ;
+        skos:prefLabel   "Executive Director of Judicial Collage"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director of Judicial Collage Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial HR (Human Resources) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  7.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Private Office (Operational Delivery) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial Conduct Investigations Office (Operational Delivery) in Judicial Conduct reporting to post JO2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigations-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure3> ;
+        foaf:mbox      <mailto:general.queries@justice.gsi.gov.uk> ;
+        foaf:name      "J Peel" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> ;
+        foaf:phone     "2070731604"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  13.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Communications, Coroners, and Core Support (Information Technology) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/id/salary-range/42034-67969>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42034 - £67969" ;
+        gov:lowerBound  42034 ;
+        gov:upperBound  67969 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<mailto:general.queries@justice.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "general.queries@justice.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21096-36061> ;
+        skos:prefLabel     "Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "J Peel as Head of HR for the Judiciary" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications, Coroners, and Core Support (Finance) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications, Coroners, and Core Support (Operational Delivery) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-b> ;
+        skos:prefLabel     "Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for Supporting the Judiciary"@en ;
+        rdfs:label       "Head of HR for the Judiciary"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JO1003" ;
+        skos:prefLabel   "Head of HR for the Judiciary"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of HR for the Judiciary Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial HR (Human Resources) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Private Office (Operational Delivery) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial Conduct Investigations Office (Operational Delivery) in Judicial Conduct reporting to post JO2001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-conduct-investigations-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> .
+
+<http://reference.data.gov.uk/id/salary-range/17513-28000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17513 - £28000" ;
+        gov:lowerBound  17513 ;
+        gov:upperBound  28000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure2> ;
+        foaf:mbox      <mailto:general.queries@justice.gsi.gov.uk> ;
+        foaf:name      "J Gordon" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> ;
+        foaf:phone     "2070731604"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications, Coroners, and Core Support (Information Technology) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/29634-44964> ;
+        skos:prefLabel     "Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Judicial HR (Operational Delivery) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "J Gordon as Deputy Director: Communications, Coroners, and Core Support" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Private Office (Law) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-a> ;
+        skos:prefLabel     "Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for oversight of media handling, internal and external communications, support to the Chief Coroner, international policy, visits and events and delivery of financial management and other central services"@en ;
+        rdfs:label       "Deputy Director: Communications, Coroners, and Core Support"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JO1002" ;
+        skos:prefLabel   "Deputy Director: Communications, Coroners, and Core Support"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director: Communications, Coroners, and Core Support Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications, Coroners, and Core Support (Law) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/id/salary-range/13894-18700>
+        a               gov:SalaryRange ;
+        rdfs:label      "£13894 - £18700" ;
+        gov:lowerBound  13894 ;
+        gov:upperBound  18700 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Judicial College (Law) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.1 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Law"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        skos:prefLabel  "Law"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/id/salary-range/21096-36061>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21096 - £36061" ;
+        gov:lowerBound  21096 ;
+        gov:upperBound  36061 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Responsible for judicial support"@en ;
+        rdfs:label       "Chief Executive - Judicial Office"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/80000-84999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JO2001" ;
+        skos:prefLabel   "Chief Executive - Judicial Office"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure1> ;
+        foaf:mbox      <mailto:general.queries@justice.gsi.gov.uk> ;
+        foaf:name      "A Jeffrey" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> ;
+        foaf:phone     "2070731604"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/central-government> , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Communications, Coroners, and Core Support (Information Technology) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42034-67969> ;
+        skos:prefLabel     "Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-f> ;
+        skos:prefLabel     "Band F"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Judicial HR (Human Resources) in Human Resources reporting to post JO1003 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1003> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "A Jeffrey as Deputy Director Judicial Private Offices" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Private Office (Operational Delivery) in Private Office Judicial Support reporting to post JO1001 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/private-office> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for judicial support"@en ;
+        rdfs:label       "Deputy Director Judicial Private Offices"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JO1001" ;
+        skos:prefLabel   "Deputy Director Judicial Private Offices"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO2001> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director Judicial Private Offices Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1001> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Communications, Coroners, and Core Support (Communications) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Justice Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Band F Judicial College (Operational Delivery) in Law reporting to post JO1004 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-f> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/judicial-college> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1004> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> .
+
+<http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Judcial Office for England and Wales"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/justice> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Judcial Office for England and Wales"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/judicial-conduct> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/human-resources> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/law> , <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/private-office-judicial-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Communications, Coroners, and Core Support (Communications) in Communications reporting to post JO1002 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/judcial-office-for-england-and-wales/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-coroners-and-core-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/post/JO1002> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/judcial-office-for-england-and-wales/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband/band-f>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/13894-18700> ;
+        skos:prefLabel     "Band F Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/judcial-office-for-england-and-wales/payband> .
+
+<http://reference.data.gov.uk/id/department/justice>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Ministry of Justice"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Justice"@en .

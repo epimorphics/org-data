@@ -1,0 +1,2408 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person39>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/39> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure39> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Senior Policy Adviser (Other) in Village and Commercial reporting to post 49 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person18>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/18> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure18> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/47>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of Legal Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        organogram:salaryCostOfReports  "471307"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/26>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/26> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure41>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/41> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person41> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/34>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person34> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    34 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<mailto:jim.woolhouse@london2012.com>
+        a           vcard:Email ;
+        rdfs:label  "jim.woolhouse@london2012.com" .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/13>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person13> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    13 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure20>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/20> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person20> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/6> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person47>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure47> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Pieter De Waal" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6407" .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Not Disclosed"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/33> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/3> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/27> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/10> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/18> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/36> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/6> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/1> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/8> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/31> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/19> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/41> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/13> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/43> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/39> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/25> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/20> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/22> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/28> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/37> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/7> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/9> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/32> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/34> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/4> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/11> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/21> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/23> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/29> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/14> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/2> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/26> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/44> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/35> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/5> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/30> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/40> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/12> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/42> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/38> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/24> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/15> ;
+        skos:prefLabel  "Not Disclosed"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person26>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/26> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure26> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/1> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/34>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/34> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure49>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Mike Cornelius as Director of Village and Commercial" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person49> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/42>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person42> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    42 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/13>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/13> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/21>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person21> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    21 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure28>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/28> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person28> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person34>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/34> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure34> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support HR Support Officer (Human Resources) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person13>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/13> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure13> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/6> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure6> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/9>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/9> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Legal Adviser (Law) in Village and Commercial reporting to post 47 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/42>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/42> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Salaries of staff at SCS1 or equivalent are not disclosed. Direct Reports less than 5"@en , "Responsible for developing and maintaining appropriate programme governance structures and providing assurance that they operate effectively. Provides oversight and challenge of all programme performance monitoring, providing assurance of the integrity of reporting and programme management systems. Provides oversight and challenge of risk management at project and programme level. Provides management information on programme performance."@en ;
+        rdfs:label       "Head of Programme Assurance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person50> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    50 ;
+        skos:prefLabel   "Head of Programme Assurance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure36>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/36> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person36> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/21>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/21> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/5>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    5 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/29>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person29> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    29 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/id/department/dcms>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Culture, Media and Sport"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Culture, Media and Sport"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure15>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/15> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person15> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person42>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/42> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure42> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support Programme Support Officer (Programme and Project Management (PPM)) in Finance and Corporate Services reporting to post 50 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person21>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/21> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure21> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-3.managers> ;
+        skos:prefLabel     "Band 3.Managers"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/50>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of Programme Assurance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50> ;
+        organogram:salaryCostOfReports  "38500"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/29>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/29> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure44>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/44> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person44> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/37>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person37> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    37 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure23>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/23> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person23> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/16>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Salaries of staff at SCS1 or equivalent are not disclosed. Post now reports to COO"@en , "Reporting to COO, managing land acquisitions, transfers and other property transactions pre/post Olympics, with particular responsibility for the commercial aspects of the development, management and delivery of the Olympic Village and the Stratford City Retail Centre"@en ;
+        rdfs:label       "Project Sponsor - Property"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person16> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    16 ;
+        skos:prefLabel   "Project Sponsor - Property"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure9>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/9> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person9> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person50>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure50> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Gordon Alexander" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6530" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person29>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/29> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure29> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/32793-54654>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32793 - £54654" ;
+        gov:lowerBound  32793 ;
+        gov:upperBound  54654 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure1> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Olympic Delivery Authority"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dcms> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Olympic Delivery Authority"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/4> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/37>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/37> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/45>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Reporting to the COO, monitors and assures overall delivery of the  programme financial obligations."@en , "Salaries of staff at SCS1 or equivalent are not disclosed."@en ;
+        rdfs:label       "Senior Finance and Programme Manager"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person45> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    45 ;
+        skos:prefLabel   "Senior Finance and Programme Manager"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/16>
+        a                               qb:Observation ;
+        rdfs:label                      "Project Sponsor - Property Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/16> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure31>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/31> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person31> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/24>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person24> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    24 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure10>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  0.8 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/10> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person10> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-1.administrative-support> , <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-3.managers> , <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-2.professionals> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person37>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/37> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure37> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2.Professionals Office Manager (Operational Delivery) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-2.professionals> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person16>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/16> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure16> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/property-asset-management> ;
+        foaf:mbox      <mailto:jim.woolhouse@london2012.com> ;
+        foaf:name      "Jim Woolhouse" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6048" .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-1.administrative-support>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21862-43723> ;
+        skos:prefLabel     "Band 1.Administrative Support Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person9>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/9> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure9> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Senior Communications Manager (Communications) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/45>
+        a                               qb:Observation ;
+        rdfs:label                      "Senior Finance and Programme Manager Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/45> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/24>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/24> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/8>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    8 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/32>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person32> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    32 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure39>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/39> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person39> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/11>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person11> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    11 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure18>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/18> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person18> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-3.managers>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/43723-98378> ;
+        skos:prefLabel     "Band 3.Managers Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-2.professionals>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32793-54654> ;
+        skos:prefLabel     "Band 2.Professionals Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person45>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/45> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure45> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Tony Marriott" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6515" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Technical Adviser (Finance) in Finance and Corporate Services reporting to post 51 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/technical-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person24>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/24> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure24> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/32>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/32> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure47>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Pieter De Waal as Head of Legal Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person47> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/40>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person40> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    40 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/11>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/11> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/19>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person19> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    19 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure26>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/26> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person26> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person32>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/32> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure32> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person11>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/11> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure11> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure4> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/7> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Commercial Assurance Manager (Operational Delivery) in Village and Commercial reporting to post 46 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/commercial-assurance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/40>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/40> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/190000-194999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£190000-£194999"@en ;
+        gov:lowerBound  190000 ;
+        gov:upperBound  194999 .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Includes direct reports SCS1s"@en , "Responsible for overall leadership and management of the ODA, including responsibilities as Accounting Officer"@en ;
+        rdfs:label       "Chief Operating Officer"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person48> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/190000-194999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    48 ;
+        skos:prefLabel   "Chief Operating Officer"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/19>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/19> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/3>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/27>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person27> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    27 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure34>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/34> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person34> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure13>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/13> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person13> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person40>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/40> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure40> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> , <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> , <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-2.professionals> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Senior Project Manager (Programme and Project Management (PPM)) in Village and Commercial reporting to post 49 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person19>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/19> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure19> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/48>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Operating Officer Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:salaryCostOfReports  "780500"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/27>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/27> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure42>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/42> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person42> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/35>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person35> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    35 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/14>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person14> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    14 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure21>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/21> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person21> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/7> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person48>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure48> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Gerry Murphy" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6367" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person27>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/27> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure27> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , rdfs: , qb: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/2> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/35>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/35> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure50>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Gordon Alexander as Head of Programme Assurance" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person50> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/43>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person43> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    43 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/14>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/14> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/22>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person22> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    22 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure29>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/29> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person29> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person35>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/35> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure35> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support Project Support Officer (Programme and Project Management (PPM)) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person14>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/14> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure14> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/7> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure7> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support PA / Team Administrator (Operational Delivery) in Village and Commercial reporting to post 47 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-team-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<mailto:information.officer@london2012.com>
+        a           vcard:Email ;
+        rdfs:label  "information.officer@london2012.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/43>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/43> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Salaries of staff at SCS1 or equivalent are not disclosed. Direct Reports less than 5"@en , "Responsible for financial management of the ODA, to ensure effective use of public funds/alignment with business objectives."@en ;
+        rdfs:label       "Head of Finance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person51> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    51 ;
+        skos:prefLabel   "Head of Finance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/22>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/22> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/6>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/30>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person30> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    30 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure37>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/37> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person37> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure16>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Jim Woolhouse as Project Sponsor - Property" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/16> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person16> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person43>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/43> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure43> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support Finance Support Officer (Finance) in Finance and Corporate Services reporting to post 51 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person22>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/22> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure22> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/43723-98378>
+        a               gov:SalaryRange ;
+        rdfs:label      "£43723 - £98378" ;
+        gov:lowerBound  43723 ;
+        gov:upperBound  98378 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/51>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of Finance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        organogram:salaryCostOfReports  "215968"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/30>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/30> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure45>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Tony Marriott as Senior Finance and Programme Manager" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/45> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person45> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/38>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person38> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    38 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Salaries of staff at SCS1 or equivalent are not disclosed. Post now reports to COO"@en , "Reporting to the Director of Village and Commercial. Taking responsibility for leading the development of design, town planning, regulatory compliance pre construction and through the construction process. Leading the delivery of the Athletes Village to assure product quality of all assets, through the construction process, through the Olympics period, through retrofit and into Legacy completion/handover processes to final disposal. Managing the interface with Triathlon and maximising the development potential of the undeveloped areas left vacant until post Olympics."@en ;
+        rdfs:label       "Project Sponsor - Olympic Village"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person17> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    17 ;
+        skos:prefLabel   "Project Sponsor - Olympic Village"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure24>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/24> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person24> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person51>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure51> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Rob Razzell" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6228" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person30>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/30> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure30> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure2> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/5> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support PA / Team Administrator (Operational Delivery) in Village and Commercial reporting to post 17 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-team-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-1.administrative-support> ;
+        skos:prefLabel     "Band 1.Administrative Support"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/38>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/38> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Salaries of staff at SCS1 or equivalent are not disclosed. Direct Reports less than 5"@en , "Responsible for managing the procurement and commercial  activities of the ODA ensuring that the ODA complies with its statutory obligations and policies. Also provides assurance and professional leadership to a team of procurement and commercial managers and is responsible for ensuring commerciality in activities of the ODA. From 1st October becomes Director of Legal and Commercial and assumes responsibility  for legal services."@en ;
+        rdfs:label       "Head of Commercial"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person46> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    46 ;
+        skos:prefLabel   "Head of Commercial"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/17>
+        a                               qb:Observation ;
+        rdfs:label                      "Project Sponsor - Olympic Village Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        organogram:salaryCostOfReports  "117487"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/25>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person25> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    25 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure32>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/32> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person32> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure11>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/11> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person11> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person38>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/38> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure38> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2.Professionals Communications Manager (Communications) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-2.professionals> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person17>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure17> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:paul.hartmann@london2012.com> ;
+        foaf:name      "Paul Hartmann" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6068" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support PA / Team Administrator (Operational Delivery) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-team-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/46>
+        a                               qb:Observation ;
+        rdfs:label                      "Head of Commercial Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46> ;
+        organogram:salaryCostOfReports  "100100"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure40>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/40> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person40> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/25>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/25> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/9>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person9> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    9 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/33>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person33> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    33 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/12>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person12> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    12 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure19>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/19> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person19> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person46>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure46> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Marc Bryant" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6025" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person25>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/25> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure25> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-2.professionals>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/payband/band-2.professionals> ;
+        skos:prefLabel     "Band 2.Professionals"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/33>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/33> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure48>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Gerry Murphy as Chief Operating Officer" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person48> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/41>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person41> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    41 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/12>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/12> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/20>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person20> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    20 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure27>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/27> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person27> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person33>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/33> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure33> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/salary-range/21862-43723>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21862 - £43723" ;
+        gov:lowerBound  21862 ;
+        gov:upperBound  43723 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person12>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/12> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure12> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure5> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/8> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support Knowledge Information Management Manager (Knowledge and Information Management (KIM)) in Village and Commercial reporting to post 47 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/knowledge-information-management-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/41>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/41> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Includes direct reports SCS1s"@en , "Leading the management of the East Village work programme, commissioned by the ODA, setting clear programme objectives and ensuring delivery to strict timescales and budgets aswell as ensuring commerciality in activities of the ODA."@en ;
+        rdfs:label       "Director of Village and Commercial"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person49> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/190000-194999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS3> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    49 ;
+        skos:prefLabel   "Director of Village and Commercial"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/20>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/20> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/4>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    4 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure35>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/35> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person35> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/28>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person28> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    28 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Village and Commercial"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        skos:prefLabel  "Village and Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure14>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/14> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person14> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person41>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/41> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure41> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support PA / Team Administrator (Operational Delivery) in Village and Commercial reporting to post 49 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-team-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person20>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/20> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure20> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/49>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Village and Commercial Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        organogram:salaryCostOfReports  "600700"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/28>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/28> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure43>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/43> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person43> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/36>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person36> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    36 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure22>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  0.6 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/22> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person22> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/15>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person15> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    15 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure8>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/8> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person49>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/49> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure49> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Mike Cornelius" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> ;
+        foaf:phone     "0203 023 6601" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person28>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/28> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure28> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/3> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/36>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/36> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure51>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Rob Razzell as Head of Finance" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person51> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/44>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person44> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    44 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/15>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/15> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure30>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/30> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person30> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/23>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person23> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    23 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<mailto:paul.hartmann@london2012.com>
+        a           vcard:Email ;
+        rdfs:label  "paul.hartmann@london2012.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person36>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/36> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure36> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Senior HR Manager (Human Resources) in Finance and Corporate Services reporting to post 48 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person15>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/15> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure15> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/8> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure8> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 1.Administrative Support Legal Support Officer (Law) in Village and Commercial reporting to post 47 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-1.administrative-support> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance and Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/50> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/45> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/16> ;
+        skos:prefLabel  "Finance and Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/44>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/44> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/23>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/23> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/7>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    7 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/31>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person31> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    31 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure38>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/38> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person38> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/10>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person10> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    10 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure17>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Paul Hartmann as Project Sponsor - Olympic Village" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person17> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person44>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/44> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure44> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2.Professionals Finance Officer (Finance) in Finance and Corporate Services reporting to post 51 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-2.professionals> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/51> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/finance-and-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person23>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/23> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure23> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/31>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/31> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure46>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Marc Bryant as Head of Commercial" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/46> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person46> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/39>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person39> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    39 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/10>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/10> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/18>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Not Disclosed"@en , "Eliminated Post"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person18> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    18 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure25>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/25> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person25> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person31>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/31> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure31> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person10>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/10> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure10> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure3> ;
+        foaf:mbox      <mailto:information.officer@london2012.com> ;
+        foaf:name      "Eliminated" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/6> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 3.Managers Senior Project Manager (Programme and Project Management (PPM)) in Village and Commercial reporting to post 17 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/olympic-delivery-authority/grade/band-3.managers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/17> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/39>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/39> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/47>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Dual reporting to COO and Director of Village and Commercial, leads the provision of legal services and responsible for delivery of ODA Exit activities and Dissolution Order"@en , "Salaries of staff at SCS1 or equivalent are not disclosed."@en ;
+        rdfs:label       "Head of Legal Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person47> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/village-and-commercial> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    47 ;
+        skos:prefLabel   "Head of Legal Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/48> .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/2>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports/18>
+        a                               qb:Observation ;
+        rdfs:label                      "Not Disclosed Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/18> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/26>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Eliminated Post"@en , "Not Disclosed"@en ;
+        rdfs:label       "Not Disclosed"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person26> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/unit/not-disclosed> , <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    26 ;
+        skos:prefLabel   "Not Disclosed"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure33>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/33> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person33> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/tenure12>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Eliminated as Not Disclosed" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/olympic-delivery-authority/post/12> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority/person12> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/olympic-delivery-authority> .

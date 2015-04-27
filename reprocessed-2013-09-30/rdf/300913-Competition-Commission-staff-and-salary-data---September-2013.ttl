@@ -1,0 +1,2221 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Co-ordinates and leads teams working on investigations, working papers and guidance documents. Acts as Deputy to Chief Legal Adviser. Is responsible for international competition policy development.\""@en , "Own and team salary costs shown under FRGR"@en ;
+        rdfs:label       "Deputy Chief Legal Adviser & Head of International"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FCBE" ;
+        skos:prefLabel   "Deputy Chief Legal Adviser & Head of International"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/18>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FAHO> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person15>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure15> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/9>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Economic Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D PA to Chief Legal Adviser & Legal Team (Operational Delivery) in Professional Groups reporting to post FRGR FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-to-chief-legal-adviser-legal-team> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Inquiry Co-ordinator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FCWA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Financial and Business Adviser (Programme and Project Management (PPM)) in Professional Groups reporting to post GLBE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-and-business-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/salary-range/105000-109999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£105000-£109999"@en ;
+        gov:lowerBound  105000 ;
+        gov:upperBound  109999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure17>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person17> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Economic Analysis" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/42000-63800> ;
+        skos:prefLabel     "Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person23>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure23> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure8> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Manages the team who provide advice and analysis to the Members of the Commission on the operation of markets and competition within them.\""@en , "Own and team salary costs shown under FDGO"@en ;
+        rdfs:label       "Director of Economic Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FRFI" ;
+        skos:prefLabel   "Director of Economic Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Senior Business Adviser (Programme and Project Management (PPM)) in Professional Groups reporting to post FDRO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-business-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FTJA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.83 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C ICT Network and Security Administrator (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-network-and-security-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Economic Adviser (Economics) in Professional Groups reporting to post FRFI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.72 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/13>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Remedies & Business Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-b> ;
+        skos:prefLabel     "Band B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Assistant to Secretariat (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-to-secretariat> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person10>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure10> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Legal Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> ;
+        organogram:salaryCostOfReports  "1089695"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Legal Assistant (Law) in Professional Groups reporting to post GMHA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.94 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D ICT Technical Project Support (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-technical-project-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Facilities Coordinator (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-coordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/21>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GAWR> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure12>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Remedies & Business Analysis" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person12> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "David Saunders as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Provides a commercial, strategic, financial and technical perspective on companies under investigation. Have responsibility for the design and implementation of remedies where the CC has reached an adverse finding.\""@en , "Own and team salary costs shown under FDRO"@en ;
+        rdfs:label       "Director of Remedies & Business Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person12> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GALA" ;
+        skos:prefLabel   "Director of Remedies & Business Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person18>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FAHO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure18> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Policy Adviser (Policy) in Corporate Services & Secretariat reporting to post FJKI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Inquiry Co-ordinator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FTJA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Planning (Planning) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-planning> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Director of Financial and Business Analysis (Programme and Project Management (PPM)) in Professional Groups reporting to post FDRO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/director-of-financial-and-business-analysis> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FMRA"@en , "\"Conducts legal analysis and provides legal advice to the CC, Inquiry Groups and Workstream Groups in connection with investigations, the implementation of remedies, litigation and the wider policy work of the CC.\""@en ;
+        rdfs:label       "Legal Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person22> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GMHA" ;
+        skos:prefLabel   "Legal Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure20>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person20> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20200-29100> ;
+        skos:prefLabel     "Band D Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FMRA"@en , "\"Co-ordinates all aspects of investigations and drafts reports.\""@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person15> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FMBE" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Administrative Services Officer (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrative-services-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D ICT Service Desk Analyst & Procurement Officer (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-service-desk-analyst-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Chief Executive\""@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/145000-149999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FDSA" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Senior ICT Server Infrastructure Administrator (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-ict-server-infrastructure-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser Band A (Economics) in Professional Groups reporting to post FRFI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser-band-a> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/16>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSCA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-e> ;
+        skos:prefLabel     "Band E"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Conducts legal analysis and provides legal advice to the CC, Inquiry Groups and Workstream Groups in connection with investigations, the implementation of remedies, litigation and the wider policy work of the CC.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Legal Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person23> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GSJO" ;
+        skos:prefLabel   "Legal Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Economic Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Deputy Director of Corporate Services (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-director-of-corporate-services> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person13>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure13> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Media Relations Manager (Communications) in Corporate Services & Secretariat reporting to post FJKI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/media-relations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Inquiry Administrator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FCWA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Financial and Business Adviser (Programme and Project Management (PPM)) in Professional Groups reporting to post GALA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-and-business-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GSCA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FMRA"@en , "\"Co-ordinates all aspects of investigations and drafts reports.\""@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person16> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GSCA" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/24>
+        a                               qb:Observation ;
+        rdfs:label                      "Senior Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        organogram:salaryCostOfReports  "1485882"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Corporate Services & Secretariat"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> ;
+        skos:prefLabel  "Corporate Services & Secretariat"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/competition-commission> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Co-ordinates all aspects of investigations and drafts reports.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person19> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FTJA" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Co-ordinates all aspects of investigations and drafts reports.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person17> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GDCO" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure15>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person15> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Chief Legal Adviser & Head of International" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/shadow-band-a> ;
+        skos:prefLabel     "Shadow Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Heads the group which provides legal advice and services to the CC, its officers and members.  Member of Senior Management Team.\""@en ;
+        rdfs:label       "Chief Legal Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/105000-109999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FRGR" ;
+        skos:prefLabel   "Chief Legal Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person21>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GAWR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure21> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Publishing Manager (Communications) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/publishing-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FMBE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B HR Manager (Human Resources) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser (Economics) in Professional Groups reporting to post JKCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/11>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Policy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        organogram:salaryCostOfReports  "180435"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure23>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Legal Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person23> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/salary-range/56300-77300>
+        a               gov:SalaryRange ;
+        rdfs:label      "£56300 - £77300" ;
+        gov:lowerBound  56300 ;
+        gov:upperBound  77300 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Assistant Economist (Economics) in Professional Groups reporting to post GGRE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-economist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> ;
+        organogram:salaryCostOfReports  "746302"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Legal Adviser (Law) in Professional Groups reporting to post GSJO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.83 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C ICT Service Desk Analyst (1st & 2nd line) (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-service-desk-analyst-1st-2nd-line> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/salary-range/20200-29100>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20200 - £29100" ;
+        gov:lowerBound  20200 ;
+        gov:upperBound  29100 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Economics Researcher (Economics) in Professional Groups reporting to post JKCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economics-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/salary-range/130000-134999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£130000-£134999"@en ;
+        gov:lowerBound  130000 ;
+        gov:upperBound  134999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/19>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure10>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Financial and Business Analysis" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person10> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "Daniel Gordon" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FMRA"@en , "\"Co-ordinates all aspects of investigations and drafts reports.\""@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person14> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GPBA" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person16>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSCA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure16> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Paralegal (Law) in Professional Groups reporting to post GMHA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/paralegal> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Inquiry Co-ordinator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FMBE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of Finance and Facilities (Finance) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-finance-and-facilities> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-e> , <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-b> , <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-d> , <http://reference.data.gov.uk/def/public-body/competition-commission/payband/shadow-band-a> , <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-a> , <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-c> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Co-ordinates all aspects of investigations and drafts reports.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person20> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FCWA" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure18>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FAHO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person18> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Professional Groups"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        skos:prefLabel  "Professional Groups"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure8>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Economic Analysis" ;
+        gov:fullTimeEquivalent  0.9 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30800-49300> ;
+        skos:prefLabel     "Band B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person9>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure9> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person24>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure24> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/80>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Statistician (Statisticians) in Professional Groups reporting to post FDGO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.67 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/statistician> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Business Innovation and Skills Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/id/department/bis>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Business Innovation and Skills"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Business Innovation and Skills"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post GDCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B ICT Senior Network and Security Infrastructure Administrator (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-senior-network-and-security-infrastructure-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Economic Adviser (Economics) in Professional Groups reporting to post JKCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/14>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-c> ;
+        skos:prefLabel     "Band C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Business Analyst and Application Developer (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-analyst-and-application-developer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Chief Legal Adviser & Head of International Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person11>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure11> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Legal Researcher (Law) in Professional Groups reporting to post GMHA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Information and Records Officer (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-and-records-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GAWR>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Co-ordinates all aspects of investigations and drafts reports.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person21> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GAWR" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Finance Officer (Finance) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Inquiry Teams"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSCA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GAWR> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> , <http://reference.data.gov.uk/id/public-body/competition-commission/post/FAHO> ;
+        skos:prefLabel  "Inquiry Teams"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/22>
+        a                               qb:Observation ;
+        rdfs:label                      "Legal Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure13>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Remedies & Business Analysis" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person13> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Manages the team who provide advice and analysis to the Members of the Commission on the operation of markets and competition within them.\""@en , "Own and team salary costs shown under FDGO"@en ;
+        rdfs:label       "Director of Economic Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person9> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FKIT" ;
+        skos:prefLabel   "Director of Economic Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Chief Financial and Business Adviser and Head of Remedies" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "Roland Green" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person19>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure19> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Policy Adviser (Policy) in Corporate Services & Secretariat reporting to post FJKI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.89 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Director (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FMRA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Head of Statistics (Statisticians) in Professional Groups reporting to post FDGO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-statistics> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser (Economics) in Professional Groups reporting to post FKIT FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure21>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GAWR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person21> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/salary-range/17200-21800>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17200 - £21800" ;
+        gov:lowerBound  17200 ;
+        gov:upperBound  21800 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-e>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17200-21800> ;
+        skos:prefLabel     "Band E Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Assistant Economist (Economics) in Professional Groups reporting to post FKIT FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-economist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Legal Adviser (Law) in Professional Groups reporting to post FCBE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.22 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Heads team which manages investigations. Member of Senior Management Team.\""@en ;
+        rdfs:label       "Senior Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person24> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FMRA" ;
+        skos:prefLabel   "Senior Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B ICT Server Infrastructure Manager (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-server-infrastructure-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser Band A (Economics) in Professional Groups reporting to post JKCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser-band-a> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FAHO>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Co-ordinates all aspects of investigations and drafts reports.\""@en , "Own and team salary costs shown under FMRA"@en ;
+        rdfs:label       "Inquiry Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person18> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FAHO" ;
+        skos:prefLabel   "Inquiry Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/17>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person14>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure14> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Economic Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D PA in the Secretariat and Economist Group (Operational Delivery) in Corporate Services & Secretariat reporting to post FDGO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-in-the-secretariat-and-economist-group> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Inquiry Administrator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post GALA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FDRO"@en , "\"Provides a commercial, strategic, financial and technical perspective on companies under investigation. Have responsibility for the design and implementation of remedies where the CC has reached an adverse finding.\""@en ;
+        rdfs:label       "Director of Remedies & Business Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person13> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GGRE" ;
+        skos:prefLabel   "Director of Remedies & Business Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Financial and Business Adviser (Programme and Project Management (PPM)) in Professional Groups reporting to post GGRE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/financial-and-business-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GGRE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure16>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSCA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person16> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<mailto:info@cc.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "info@cc.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Corporate Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person22>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure22> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Remedies Coordinator (Programme and Project Management (PPM)) in Professional Groups reporting to post FDRO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.61 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/remedies-coordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FMRA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D HR Officer (Human Resources) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Economic Adviser (Economics) in Professional Groups reporting to post FKIT FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/12>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Remedies & Business Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure24>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Senior Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person24> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-a> ;
+        skos:prefLabel     "Band A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Assistant Economist (Economics) in Professional Groups reporting to post JKCO FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-economist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Financial and Business Adviser and Head of Remedies Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> ;
+        organogram:salaryCostOfReports  "1285473"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Legal Assistant (Law) in Professional Groups reporting to post FCBE FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Heads team which conducts commercial, strategic, financial and technical analysis on companies under investigation. Has responsibility for the design and implementation of remedies where the CC has reached an adverse finding. Member of the Senior Management Team.”"@en ;
+        rdfs:label       "Chief Financial and Business Adviser and Head of Remedies"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1A> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FDRO" ;
+        skos:prefLabel   "Chief Financial and Business Adviser and Head of Remedies"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B ICT Service Desk Team Leader (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-service-desk-team-leader> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Facilities Assistant (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/20>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure11>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Policy" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person11> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/salary-range/42000-63800>
+        a               gov:SalaryRange ;
+        rdfs:label      "£42000 - £63800" ;
+        gov:lowerBound  42000 ;
+        gov:upperBound  63800 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Daniel Gordon as Chief Economic Adviser" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "David Saunders" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/shadow-band-a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/56300-77300> ;
+        skos:prefLabel     "Shadow Band A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person17>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GDCO> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure17> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Planning Assistant (Planning) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/planning-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Inquiry Co-ordinator (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FMRA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-co-ordinator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMRA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Head of HR (Human Resources) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Deputy Head of HR (Human Resources) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-head-of-hr> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure19>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FTJA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person19> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure9>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Economic Analysis" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person9> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/26400-34700> ;
+        skos:prefLabel     "Band C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post GPBA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B ICT Network and Security Manager (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-network-and-security-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Own and team salary costs shown under FDRO"@en , "\"Provides a commercial, strategic, financial and technical perspective on companies under investigation. Have responsibility for the design and implementation of remedies where the CC has reached an adverse finding.\""@en ;
+        rdfs:label       "Director of Financial and Business Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person10> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "GLBE" ;
+        skos:prefLabel   "Director of Financial and Business Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDRO> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/JKCO>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Manages the team who provide advice and analysis to the Members of the Commission on the operation of markets and competition within them.\""@en , "Own and team salary costs shown under FDGO"@en ;
+        rdfs:label       "Director of Economic Analysis"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "JKCO" ;
+        skos:prefLabel   "Director of Economic Analysis"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser Band A (Economics) in Professional Groups reporting to post FKIT FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser-band-a> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "Competition Commission"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/bis> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Competition Commission"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> , <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/15>
+        a                               qb:Observation ;
+        rdfs:label                      "Inquiry Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FMBE> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/26400-34700>
+        a               gov:SalaryRange ;
+        rdfs:label      "£26400 - £34700" ;
+        gov:lowerBound  26400 ;
+        gov:upperBound  34700 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> , <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> , <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> , <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> , <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> , <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        skos:prefLabel      "Department for Business Innovation and Skills Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Heads all operational services, including HR, Finance, Business planning, Facilities, Administration Support, Library Services and Information Services. Additionally, responsible for security, information assurance and acts as the CC's DSO and SIRO. The team provides shared services to a number of other government organisations. Member of Senior Management Team.\""@en ;
+        rdfs:label       "Director of Corporate Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FRLA" ;
+        skos:prefLabel   "Director of Corporate Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Manages the team who provide advice and analysis to the members of the CC on the operation of markets and competition within them. Member of Senior Management Team\""@en ;
+        rdfs:label       "Chief Economic Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/130000-134999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FDGO" ;
+        skos:prefLabel   "Chief Economic Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/competition-commission/payband/band-d> ;
+        skos:prefLabel     "Band D"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/competition-commission/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band D Copy Editor / Graphic Designer (Communications) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.67 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-d> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/copy-editor-graphic-designer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Corporate Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:salaryCostOfReports  "1317936"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person12>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/GALA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure12> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Media Officer (Communications) in Corporate Services & Secretariat reporting to post FJKI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/media-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Information Centre Manager (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-centre-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C Finance Procurement Officer (Finance) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/id/salary-range/145000-149999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£145000-£149999"@en ;
+        gov:lowerBound  145000 ;
+        gov:upperBound  149999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/23>
+        a                               qb:Observation ;
+        rdfs:label                      "Legal Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GSJO> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure14>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Inquiry Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GPBA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person14> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Roland Green as Chief Legal Adviser" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRGR> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/id/salary-range/30800-49300>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30800 - £49300" ;
+        gov:lowerBound  30800 ;
+        gov:upperBound  49300 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCBE> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person20>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure20> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:info@cc.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> ;
+        foaf:phone     "020 7271 0100" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C PS to Chief Executive (Operational Delivery) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ps-to-chief-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Inquiry Manager (Programme and Project Management (PPM)) in Inquiry Teams reporting to post FCWA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/inquiry-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FCWA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/inquiry-teams> .
+
+<http://reference.data.gov.uk/id/public-body/competition-commission/post/FJKI>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"Responsible for the analysis of competition law and policy matters to help influence decision-makers and communicate the CC’s position to external stakeholders. Member of Senior Management Team.\""@en ;
+        rdfs:label       "Director of Policy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person11> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> , <http://reference.data.gov.uk/id/public-body/competition-commission> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "FJKI" ;
+        skos:prefLabel   "Director of Policy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDSA> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C HR Adviser and Payroll Manager (Human Resources) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-adviser-and-payroll-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band A Economic Adviser (Economics) in Professional Groups reporting to post FRFI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economic-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/10>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Financial and Business Analysis Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/GLBE> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/tenure22>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Legal Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/person22> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band B Assistant Economist (Economics) in Professional Groups reporting to post FRFI FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-economist> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRFI> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Economic Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/competition-commission/post/FDGO> ;
+        organogram:salaryCostOfReports  "1906327"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "Shadow Band A Legal Adviser (Law) in Professional Groups reporting to post GMHA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/shadow-band-a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/legal-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/GMHA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "Band C ICT Service Delivery Manager (Information Technology) in Corporate Services & Secretariat reporting to post FRLA FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-service-delivery-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FRLA> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/corporate-services-secretariat> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band E Economics Researcher (Economics) in Professional Groups reporting to post FKIT FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/competition-commission/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/competition-commission/grade/band-e> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/economics-researcher> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/economics> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/competition-commission/post/FKIT> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/competition-commission/unit/professional-groups> .

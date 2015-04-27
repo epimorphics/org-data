@@ -1,0 +1,578 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "EO HR Executive (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0 - £0" ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Revenue & Commercial Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/revenue-commercial-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Production Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/production-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Assistant Accountant (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/assistant-accountant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/85000-89999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£85000-£89999"@en ;
+        gov:lowerBound  85000 ;
+        gov:upperBound  89999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 HR Director (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO Junior ICT Engineer (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-ict-engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Senior AV Technician (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-av-technician> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Business Centre Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-centre-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Mark Taylor as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/aa-ao> ;
+        skos:prefLabel     "AA/AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "EO PA to Chief Executive (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/pa-to-chief-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Commercial Director (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/commercial-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "The Queen Elizabeth II Conference Centre"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        skos:prefLabel  "The Queen Elizabeth II Conference Centre"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO Account Executive (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/account-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/aa-ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "AA/AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Finance Director (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-director> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "The Queen Elizabeth II Conference Centre"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dclg> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "The Queen Elizabeth II Conference Centre"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO ICT Operations Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-operations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "EO AV Technician (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/av-technician> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operations Executive (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Senior Account Manger (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-account-manger> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/seo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-7> ;
+        skos:prefLabel      "Department for Communities and Local Government Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Event Operations Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/event-operations-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Security Inspector (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/security-inspector> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO AV Sales Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/av-sales-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<mailto:mark.taylor@qeiicc.co.uk>
+        a           vcard:Email ;
+        rdfs:label  "mark.taylor@qeiicc.co.uk" .
+
+<http://reference.data.gov.uk/id/department/dclg>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Communities and Local Government"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Communities and Local Government"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Marketing Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/marketing-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Account Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/account-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Senior ICT Engineer (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-ict-engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Communities and Local Government Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Event Manager (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/event-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/eo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/heo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/aa-ao> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/seo> , <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/grade-7> ;
+        skos:prefLabel      "Department for Communities and Local Government Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO Sales & Marketing Administrator (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/sales-marketing-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO AVPM (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/avpm> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Head of Dept AV Tech (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/head-of-dept-av-tech> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The prinicipal purpose of this role is to maintain and develop the commercial success of the Centre with a focus on increasing occupancy and revenue receipts from the hire of conference rooms and ancillary services. This is to be achieved during a period whilst future options for the Centre remain under review.  The Chief Executive will provide vision, direction and leadership. Mark will oversee the formulation and achievement of the Centre's commercial objectives to ensure that the approved targets within the annual Business and Corporate Plan ae met and dividends paid. Mark will be responsible for the overall management and administration of the Centre and act as uts Treasury appointed Accounting Officer. The Chief Executive has a strategic focus, and the role incorporates operational elements as required. Well developed leadership skills will be key to success. Mark is required to work closely with his team to maintain and enhance tha past successful track record of the Centre and to increase occupancy and grow revenues."@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre> , <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/85000-89999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "EO ICT Support Engineer (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/ict-support-engineer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO Credit Control Clerk (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/credit-control-clerk> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO Purchase Ledger (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/purchase-ledger> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Communities and Local Government Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:mark.taylor@qeiicc.co.uk> ;
+        foaf:name      "Mark Taylor" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre> ;
+        foaf:phone     "020 7798 4010" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "AA/AO AV Administrator (Operational Delivery) in The Queen Elizabeth II Conference Centre reporting to post -1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/the-queen-elizabeth-ii-conference-centre/grade/aa-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/av-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/post/-1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/the-queen-elizabeth-ii-conference-centre/unit/the-queen-elizabeth-ii-conference-centre> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Communities and Local Government Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/the-queen-elizabeth-ii-conference-centre/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .

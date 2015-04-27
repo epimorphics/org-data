@@ -1,0 +1,1917 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/9>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Lead on NCAS’ case management and E&SS services which includes responsibility for the teams, functions and service provision within NCAS offices in England, Northern Ireland, and Wales."@en ;
+        rdfs:label       "Associate Director Case Management"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person9> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team> , <http://reference.data.gov.uk/id/public-body/nhs-la> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/110000-114999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    9 ;
+        skos:prefLabel   "Associate Director Case Management"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/73>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B IT Manager (Information Technology) in NCAS Education reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Not In Post (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 IT Support Officer (Law) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8a> ;
+        skos:prefLabel     "Band 8A"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-wales>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Wales"@en ;
+        skos:prefLabel  "NCAS Wales"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14294-17425> ;
+        skos:prefLabel     "Band 2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Case Administrator (Operational Delivery) in FHSAU reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Finance Support Officer (Finance) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/id/salary-range/105000-109999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£105000-£109999"@en ;
+        gov:lowerBound  105000 ;
+        gov:upperBound  109999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:catherine.dixon@nhsla.com> ;
+        foaf:name      "Catherine Dixon" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Case Management (Operational Delivery) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C IT Manager (Information Technology) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/11>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Lead Adviser NCAS will lead and manage one of two teams of advisers and casework support staff relating to organisations based either in the North or South of England."@en ;
+        rdfs:label       "Lead Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person10> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    11 ;
+        skos:prefLabel   "Lead Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> .
+
+<http://reference.data.gov.uk/id/salary-range/120000-124999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£120000-£124999"@en ;
+        gov:lowerBound  120000 ;
+        gov:upperBound  124999 .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/4>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Board member and accounting officer responsible for the strategic and operational management of the NHS LA"@en ;
+        rdfs:label       "Director of Claims"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    4 ;
+        skos:prefLabel   "Director of Claims"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Finance Support Officer (Knowledge and Information Management (KIM)) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "NHS LA"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dh> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "NHS LA"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-safety-learning-and-people> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-evaluation-and-engagement> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-litigation-authority> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-wales> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-nothern-ireland> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure8>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Associate Director Assessment" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/68>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C IT Manager (Information Technology) in NCAS Evaluation and Engagement reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-evaluation-and-engagement> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person13>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/14> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure13> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Finance Support Officer (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/13>
+        a                               qb:Observation ;
+        rdfs:label                      "Lead Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/14> ;
+        organogram:salaryCostOfReports  392969.6 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person9>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure9> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Executive Assistant (Other) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Safety, Learning and People Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        organogram:salaryCostOfReports  144342.4 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-7> ;
+        skos:prefLabel     "Band 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/76>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Case Management (Operational Delivery) in NCAS Wales reporting to post 12 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Senior HR Manager (Finance) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Case Management (Operational Delivery) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 IT Manager (Human Resources) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-5>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21388-27901> ;
+        skos:prefLabel     "Band 5 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Office Manager (Operational Delivery) in FHSAU reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Executive Assistant (Operational Delivery) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "John Mead as Technical Claims Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Risk Manager (Operational Delivery) in NHS LA Safety, Learning and People reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/risk-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-safety-learning-and-people> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:helen.vernon@nhsla.com> ;
+        foaf:name      "Helen Vernon" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/id/salary-range/35000-39999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35000-£39999"@en ;
+        gov:lowerBound  35000 ;
+        gov:upperBound  39999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Case Management (Programme and Project Management (PPM)) in Technical Claims reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-education>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Education"@en ;
+        skos:prefLabel  "NCAS Education"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/id/salary-range/21388-27901>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21388 - £27901" ;
+        gov:lowerBound  21388 ;
+        gov:upperBound  27901 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/14>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Lead Adviser NCAS will lead and manage one of two teams of advisers and casework support staff relating to organisations based either in the North or South of England."@en ;
+        rdfs:label       "Lead Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person13> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    14 ;
+        skos:prefLabel   "Lead Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> .
+
+<http://reference.data.gov.uk/id/salary-range/140000-144999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£140000-£144999"@en ;
+        gov:lowerBound  140000 ;
+        gov:upperBound  144999 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-2> ;
+        skos:prefLabel     "Band 2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure10>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Lead Adviser" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/11> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person10> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/salary-range/110000-114999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£110000-£114999"@en ;
+        gov:lowerBound  110000 ;
+        gov:upperBound  114999 .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/7>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "To direct and lead business support and development for the NCAS division including all services that ensure business continuity, business and information governance, and contractual relationships with suppliers and customers"@en ;
+        rdfs:label       "Associate Director Business planning and Development"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/105000-109999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    7 ;
+        skos:prefLabel   "Associate Director Business planning and Development"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/71>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 IT Manager (Information Technology) in NCAS Education reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 IT Manager (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Clinical Claims"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        skos:prefLabel  "Clinical Claims"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "15"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Associate Director Assessment Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:salaryCostOfReports  "1175984"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-2> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> , <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        skos:prefLabel      "Department of Health Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/79>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Case Management (Operational Delivery) in NCAS Adviser Team reporting to post 14 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/14> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Senior Operational Manager (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Case Management (Operational Delivery) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<mailto:tom.fothergill@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "tom.fothergill@nhsla.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A IT Manager (Finance) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Adviser Team"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/14> , <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> , <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> , <http://reference.data.gov.uk/id/public-body/nhs-la/post/11> ;
+        skos:prefLabel  "NCAS Adviser Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/id/salary-range/14294-17425>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14294 - £17425" ;
+        gov:lowerBound  14294 ;
+        gov:upperBound  17425 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/2>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Director of Finance.  As a Board member resposible for the creation and delivery of strategic direction and objectives of the organisation."@en ;
+        rdfs:label       "Director of Finance"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/145000-149999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Director of Finance"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 IT Support Officer (Operational Delivery) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/department/dh>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department of Health"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department of Health"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person11>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure11> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A IT Support Officer (Information Technology) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Professor Dame Joan Higgins as Chair of the Board." ;
+        gov:fullTimeEquivalent  0.4 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/6> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Administrator (Law) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/11>
+        a                               qb:Observation ;
+        rdfs:label                      "Lead Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> ;
+        organogram:salaryCostOfReports  "60306"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8c>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/54998-67805> ;
+        skos:prefLabel     "Band 8C Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Case Management (Other) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Technical Claims Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        organogram:salaryCostOfReports  493206.95 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-5> ;
+        skos:prefLabel     "Band 5"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure13>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Lead Adviser" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/14> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person13> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/74>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Finance Support Officer (Finance) in NCAS Adviser Team reporting to post 11 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/11> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> .
+
+<http://reference.data.gov.uk/id/salary-range/100000-104999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£100000-£104999"@en ;
+        gov:lowerBound  100000 ;
+        gov:upperBound  104999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Business Manager (Other) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/business-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Case Management (Operational Delivery) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  29.2 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-evaluation-and-engagement>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Evaluation and Engagement"@en ;
+        skos:prefLabel  "NCAS Evaluation and Engagement"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 IT Support Officer (Operational Delivery) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8b> ;
+        skos:prefLabel     "Band 8B"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Case Officer (Medicine) in FHSAU reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/medicine> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Finance Support Officer (Finance) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.4 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Catherine Dixon as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:tom.fothergill@nhsla.com> ;
+        foaf:name      "Tom Fothergill" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Finance Support Officer (Communications) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/salary-range/54998-67805>
+        a               gov:SalaryRange ;
+        rdfs:label      "£54998 - £67805" ;
+        gov:lowerBound  54998 ;
+        gov:upperBound  67805 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/12>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Lead Adviser NCAS will lead and manage one of two teams of advisers and casework support staff relating to organisations based either in the North or South of England."@en ;
+        rdfs:label       "Lead Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person11> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    12 ;
+        skos:prefLabel   "Lead Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> .
+
+<mailto:suzette.woodward@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "suzette.woodward@nhsla.com" .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/5>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Executive Board member and accounting officer responsible for the strategic and operational management of the NHS LA"@en ;
+        rdfs:label       "Director of Safety, Learning and People"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-safety-learning-and-people> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/100000-104999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    5 ;
+        skos:prefLabel   "Director of Safety, Learning and People"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/69>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Office Manager (Other) in NCAS Case Management Team reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure9>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Associate Director Case Management" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person9> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Executive Assistant (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Case Administrator (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Assessment"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        skos:prefLabel  "Assessment"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Chair of the Board. Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/6> ;
+        organogram:salaryCostOfReports  "144999"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NHS LA Finance and IT Directorate"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        skos:prefLabel  "NHS LA Finance and IT Directorate"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/77>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Case Management (Operational Delivery) in NCAS Nothern Ireland reporting to post 13 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-nothern-ireland> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Case Administrator (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Office Manager (Human Resources) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/salary-range/45707-56504>
+        a               gov:SalaryRange ;
+        rdfs:label      "£45707 - £56504" ;
+        gov:lowerBound  45707 ;
+        gov:upperBound  56504 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<mailto:helen.vernon@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "helen.vernon@nhsla.com" .
+
+<mailto:catherine.dixon@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "catherine.dixon@nhsla.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department of Health Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/id/salary-range/30764-40558>
+        a               gov:SalaryRange ;
+        rdfs:label      "£30764 - £40558" ;
+        gov:lowerBound  30764 ;
+        gov:upperBound  40558 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25783-34530> ;
+        skos:prefLabel     "Band 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Finance Support Officer (Operational Delivery) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Finance Support Officer (Finance) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Helen Vernon as Director of Claims" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Not In Post (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/not-in-post> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<mailto:joan.higgins@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "joan.higgins@nhsla.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:suzette.woodward@nhsla.com> ;
+        foaf:name      "Suzette Woodward" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8a>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/39239-47088> ;
+        skos:prefLabel     "Band 8A Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Case Management (Programme and Project Management (PPM)) in Technical Claims reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        organogram:salaryCostOfReports  "1004829"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure11>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Lead Adviser" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person11> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-nothern-ireland>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Nothern Ireland"@en ;
+        skos:prefLabel  "NCAS Nothern Ireland"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/8>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Lead on assessment method development and the development of assessment products, and all aspects of assessment operations. Provide expert advice on handling of assessment cases. Lead on the training, quality assurance and performance management of all contracted assessors (clinical, lay, occupational health and behavioural assessors). Lead quality assurance programmes to maintain and improve the quality of NCAS assessments."@en ;
+        rdfs:label       "Associate Director Assessment"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> , <http://reference.data.gov.uk/id/public-body/nhs-la> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/120000-124999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    8 ;
+        skos:prefLabel   "Associate Director Assessment"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/72>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Programme Manager (Programme and Project Management (PPM)) in NCAS Case Management Team reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Project Manager (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/9>
+        a                               qb:Observation ;
+        rdfs:label                      "Associate Director Case Management Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:salaryCostOfReports  523712.6 .
+
+<mailto:john.mead@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "john.mead@nhsla.com" .
+
+<mailto:generalenquiries@nhsla.com>
+        a           vcard:Email ;
+        rdfs:label  "generalenquiries@nhsla.com" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Office Manager (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/office-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Programme Manager (Finance) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/programme-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department of Health Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-safety-learning-and-people>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NHS LA Safety, Learning and People"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        skos:prefLabel  "NHS LA Safety, Learning and People"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/id/salary-range/18838-22016>
+        a               gov:SalaryRange ;
+        rdfs:label      "£18838 - £22016" ;
+        gov:lowerBound  18838 ;
+        gov:upperBound  22016 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/3>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive Board member and accounting officer responsible for the strategic and operational management of the NHS LA"@en ;
+        rdfs:label       "Technical Claims Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims> , <http://reference.data.gov.uk/id/public-body/nhs-la> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Technical Claims Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Executive Assistant (Social Research) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/social-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Associate Director Business planning and Development" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/67>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Statistician (Statisticians) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/statistician> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/statisticians> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person12>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure12> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 HR Officer (Law) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/12>
+        a                               qb:Observation ;
+        rdfs:label                      "Lead Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> ;
+        organogram:salaryCostOfReports  "79906"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure8> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/medicine> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Case Administrator (Other) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<http://reference.data.gov.uk/id/salary-range/25783-34530>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25783 - £34530" ;
+        gov:lowerBound  25783 ;
+        gov:upperBound  34530 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Claims Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:salaryCostOfReports  4527789.565 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-6> ;
+        skos:prefLabel     "Band 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department of Health Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/75>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Executive Assistant (Operational Delivery) in NCAS Wales reporting to post 12 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/12> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-wales> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 Information Governance (Finance) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-governance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Case Management (Operational Delivery) in Clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  14.05 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Statistician (Operational Delivery) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/statistician> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8c> ;
+        skos:prefLabel     "Band 8C"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/18838-22016> ;
+        skos:prefLabel     "Band 4 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Business Development"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        skos:prefLabel  "NCAS Business Development"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Senior Operational Manager (Operational Delivery) in FHSAU reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C IT Support Officer (Information Technology) in NCAS Evaluation and Engagement reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-evaluation-and-engagement> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Tom Fothergill as Director of Finance" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Administrator (Operational Delivery) in NHS LA Safety, Learning and People reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/administrator> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-safety-learning-and-people> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:john.mead@nhsla.com> ;
+        foaf:name      "John Mead" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Executive Assistant (Programme and Project Management (PPM)) in Technical Claims reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NCAS Case Management Team"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        skos:prefLabel  "NCAS Case Management Team"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/13>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "The Lead Adviser NCAS will lead and manage one of two teams of advisers and casework support staff relating to organisations based either in the North or South of England."@en ;
+        rdfs:label       "Lead Adviser"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person12> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-adviser-team> , <http://reference.data.gov.uk/id/public-body/nhs-la> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/95000-99999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    13 ;
+        skos:prefLabel   "Lead Adviser"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8b> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-7> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-6> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8a> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-5> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-2> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8c> , <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-4> ;
+        skos:prefLabel      "Department of Health Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/salary-range/95000-99999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£95000-£99999"@en ;
+        gov:lowerBound  95000 ;
+        gov:upperBound  99999 .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/6>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Responsible for the effective management of the Board and its business and in ensuring that Board members work together well as a team.  Stregetic oversight of the work of the NHS LA.  Ensures that proper goverancec processes are in place so that there are approriate controls over the expenditure of publi money.  Relationahip with outside bodies."@en ;
+        rdfs:label       "Chair of the Board."@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-litigation-authority> , <http://reference.data.gov.uk/id/public-body/nhs-la> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/35000-39999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6 ;
+        skos:prefLabel   "Chair of the Board."@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/70>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 5 Finance Officer (Finance) in NCAS Case Management Team reporting to post 9 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-5> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/9> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-case-management-team> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Information Governance (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/information-governance> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 6 Case Officer (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Associate Director Business planning and Development Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:salaryCostOfReports  786567.2 .
+
+<http://reference.data.gov.uk/id/salary-range/145000-149999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£145000-£149999"@en ;
+        gov:lowerBound  145000 ;
+        gov:upperBound  149999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/78>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8C Case Management (Operational Delivery) in NCAS Nothern Ireland reporting to post 13 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8c> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-nothern-ireland> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8B Case Officer (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8b> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Case Management (Operational Delivery) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/technical-claims>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Technical Claims"@en , "Technical claims"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/3> ;
+        skos:prefLabel  "Technical Claims"@en , "Technical claims"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 8A Finance Officer (Finance) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-8a> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/30764-40558> ;
+        skos:prefLabel     "Band 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Executive Board member and accounting officer responsible for the strategic and operational management of the NHS LA"@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/nhs-la> , <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-litigation-authority> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/140000-144999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Chief Executive"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/nhs-la/post/6> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Finance Support Officer (Policy) in NHS LA Finance and IT Directorate reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-la-finance-and-it-directorate> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Non-clinical Claims"@en ;
+        skos:prefLabel  "Non-clinical Claims"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 4 Finance Support Officer (Operational Delivery) in NCAS Business Development reporting to post 7 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/7> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/ncas-business-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 7 IT Support Officer (Information Technology) in Assessment reporting to post 8 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/8> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/assessment> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person10>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/11> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure10> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:generalenquiries@nhsla.com> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     2079722999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Suzette Woodward as Director of Safety, Learning and People" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/10>
+        a                               qb:Observation ;
+        rdfs:label                      "Lead Adviser Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/11> ;
+        organogram:salaryCostOfReports  "392970"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/fhsau>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "FHSAU"@en ;
+        skos:prefLabel  "FHSAU"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/nhs-la/post/6> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:joan.higgins@nhsla.com> ;
+        foaf:name      "Professor Dame Joan Higgins" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> ;
+        foaf:phone     "020 7811 2700" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "Band 2 Case Management (Procurement) in Non-clinical Claims reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/case-management> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/nhs-la/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/nhs-la/unit/non-clinical-claims> .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-8b>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/45707-56504> ;
+        skos:prefLabel     "Band 8B Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/39239-47088>
+        a               gov:SalaryRange ;
+        rdfs:label      "£39239 - £47088" ;
+        gov:lowerBound  39239 ;
+        gov:upperBound  47088 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .
+
+<http://reference.data.gov.uk/id/public-body/nhs-la/unit/nhs-litigation-authority>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "NHS Litigation Authority"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/nhs-la/post/6> , <http://reference.data.gov.uk/id/public-body/nhs-la/post/1> ;
+        skos:prefLabel  "NHS Litigation Authority"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/nhs-la> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Finance Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/nhs-la/post/2> ;
+        organogram:salaryCostOfReports  857856.4 .
+
+<http://reference.data.gov.uk/def/public-body/nhs-la/grade/band-4>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/nhs-la/payband/band-4> ;
+        skos:prefLabel     "Band 4"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/nhs-la/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/tenure12>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Lead Adviser" ;
+        gov:fullTimeEquivalent  0.4 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/nhs-la/post/13> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la/person12> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/nhs-la> .

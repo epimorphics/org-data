@@ -1,0 +1,600 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Inspection Support"@en ;
+        skos:prefLabel  "Inspection Support"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Operational Manager (Operational Delivery) in Corporate Services reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.69 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> .
+
+<mailto:N/D>  a     vcard:Email ;
+        rdfs:label  "N/D" .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/audit-research>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Audit & Research"@en ;
+        skos:prefLabel  "Audit & Research"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/id/salary-range/150000-154999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£150000-£154999"@en ;
+        gov:lowerBound  150000 ;
+        gov:upperBound  154999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Manager (Operational Delivery) in Inspection Support reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ps>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/22560-24260> ;
+        skos:prefLabel     "PS Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/id/department/attorney-general>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Attorney General's Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Attorney General's Office"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Deputy Director HMCPSI" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-business-management>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HM Inspectors: Business Management"@en ;
+        skos:prefLabel  "HM Inspectors: Business Management"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Corporate Services"@en ;
+        skos:prefLabel  "Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Inspector of HMCPSI Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        organogram:salaryCostOfReports  "293912"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Manager (Operational Delivery) in Corporate Services reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> .
+
+<mailto:Michael.Fuller@hmcpsi.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "Michael.Fuller@hmcpsi.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Policy Adviser (Policy) in Prosecution & Legal Practice reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/prosecution-legal-practice> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35163-40351> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Operations Support Officer (Operational Delivery) in Inspection Support reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.89 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Michael Fuller as Chief Inspector of HMCPSI" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/salary-range/21210-22440>
+        a               gov:SalaryRange ;
+        rdfs:label      "£21210 - £22440" ;
+        gov:lowerBound  21210 ;
+        gov:upperBound  22440 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-legal>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HM Inspectors: Legal"@en ;
+        skos:prefLabel  "HM Inspectors: Legal"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/salary-range/35163-40351>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35163 - £40351" ;
+        gov:lowerBound  35163 ;
+        gov:upperBound  40351 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g7> ;
+        skos:prefLabel     "G7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-development>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Inspection Development"@en ;
+        skos:prefLabel  "Inspection Development"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Senior Operational Manager (Operational Delivery) in Corporate Services reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-crown-prosecution-service-inspectorate>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "HM Crown Prosecution Service Inspectorate"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        skos:prefLabel  "HM Crown Prosecution Service Inspectorate"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Senior Policy Adviser (Policy) in Prosecution & Legal Practice reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/prosecution-legal-practice> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ao> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g6> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/seo> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g7> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ps> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/heo> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/eo> ;
+        skos:prefLabel      "Attorney General's Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Policy Adviser (Policy) in Inspection Development reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-development> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "G7 Policy Adviser (Policy) in HM Inspectors: Business Management reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-business-management> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g6> ;
+        skos:prefLabel     "G6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/59778-71666>
+        a               gov:SalaryRange ;
+        rdfs:label      "£59778 - £71666" ;
+        gov:lowerBound  59778 ;
+        gov:upperBound  71666 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Manager (Operational Delivery) in Corporate Services reporting to post HM1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Senior Policy Adviser (Policy) in Joint Inspection reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/joint-inspection> .
+
+<http://reference.data.gov.uk/id/salary-range/47557-57018>
+        a               gov:SalaryRange ;
+        rdfs:label      "£47557 - £57018" ;
+        gov:lowerBound  47557 ;
+        gov:upperBound  57018 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/21210-22440> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Senior Policy Adviser (Policy) in HM Inspectors: Legal reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-legal> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/28747-32997> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/24370-27959>
+        a               gov:SalaryRange ;
+        rdfs:label      "£24370 - £27959" ;
+        gov:lowerBound  24370 ;
+        gov:upperBound  27959 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "G6 Senior Policy Adviser (Policy) in HM Inspectors: Business Management reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-business-management> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Deputy Director HMCPSI"@en ;
+        rdfs:label       "Deputy Director HMCPSI"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-crown-prosecution-service-inspectorate> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HM2" ;
+        skos:prefLabel   "Deputy Director HMCPSI"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ps>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/ps> ;
+        skos:prefLabel     "PS"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Manager (Operational Delivery) in Corporate Services reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> .
+
+<http://reference.data.gov.uk/id/salary-range/28747-32997>
+        a               gov:SalaryRange ;
+        rdfs:label      "£28747 - £32997" ;
+        gov:lowerBound  28747 ;
+        gov:upperBound  32997 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/47557-57018> ;
+        skos:prefLabel     "G7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "PS Operations Support Officer (Operational Delivery) in Inspection Support reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ps> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/central-government> , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Attorney General's Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/24370-27959> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:N/D> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> ;
+        foaf:phone     "2072101188"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/seo> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g6> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/g7> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/eo> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ps> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/heo> , <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/ao> ;
+        skos:prefLabel      "Attorney General's Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/joint-inspection>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Joint Inspection"@en ;
+        skos:prefLabel  "Joint Inspection"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Operational Manager (Operational Delivery) in HM Crown Prosecution Service Inspectorate reporting to post HM1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Chief Inspector of HMCPSI"@en , "Public appointment on a fixed salary of £150,000 - not a Civil Servant"@en ;
+        rdfs:label       "Chief Inspector of HMCPSI"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-crown-prosecution-service-inspectorate> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/150000-154999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "HM1" ;
+        skos:prefLabel   "Chief Inspector of HMCPSI"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Policy Adviser (Policy) in Audit & Research reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/audit-research> .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/g6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/59778-71666> ;
+        skos:prefLabel     "G6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Manager (Operational Delivery) in Inspection Support reporting to post HM2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "HM Crown Prosecution Service Inspectorate"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/attorney-general> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "HM Crown Prosecution Service Inspectorate"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/joint-inspection> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/corporate-services> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-legal> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-crown-prosecution-service-inspectorate> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/hm-inspectors-business-management> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/prosecution-legal-practice> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-development> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/audit-research> , <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/inspection-support> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:Michael.Fuller@hmcpsi.gsi.gov.uk> ;
+        foaf:name      "Michael Fuller" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> ;
+        foaf:phone     "2072101188"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/22560-24260>
+        a               gov:SalaryRange ;
+        rdfs:label      "£22560 - £24260" ;
+        gov:lowerBound  22560 ;
+        gov:upperBound  24260 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/unit/prosecution-legal-practice>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Prosecution & Legal Practice"@en ;
+        skos:prefLabel  "Prosecution & Legal Practice"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Deputy Director HMCPSI Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/hm-crown-prosecution-service-inspectorate/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/hm-crown-prosecution-service-inspectorate/post/HM2> ;
+        organogram:salaryCostOfReports  "1174087"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/hm-crown-prosecution-service-inspectorate/grade> .

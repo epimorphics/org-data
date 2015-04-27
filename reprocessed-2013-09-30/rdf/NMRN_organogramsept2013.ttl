@@ -1,0 +1,457 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Curator HMS Victory Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/4> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/17835-20676>
+        a               gov:SalaryRange ;
+        rdfs:label      "£17835 - £20676" ;
+        gov:lowerBound  17835 ;
+        gov:upperBound  20676 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "Finance Assistant Finance Officer (Finance) in National Museum of the Royal Navy reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/finance-assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Strategic Responsibility for all Museums within NMRN Group"@en ;
+        rdfs:label       "Director General"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/100000-104999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Director General"@en .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Financial Controller" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/salary-range/100000-104999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£100000-£104999"@en ;
+        gov:lowerBound  100000 ;
+        gov:upperBound  104999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:john.rees@nmrn.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> ;
+        foaf:phone     "02392 727572" .
+
+<mailto:director-general@nmrn.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "director-general@nmrn.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Project Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/3> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Events Assistant Executive Assistant (Operational Delivery) in National Museum of the Royal Navy reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/events-assistant> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> .
+
+<mailto:john.rees@nmrn.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "john.rees@nmrn.org.uk" .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/finance-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/finance-assistant> ;
+        skos:prefLabel     "Finance Assistant"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Curator HMS Victory" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:giles.gould@nmrn.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> ;
+        foaf:phone     "02392 727583" .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Financial Management across NMRN Group"@en ;
+        rdfs:label       "Financial Controller"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    5 ;
+        skos:prefLabel   "Financial Controller"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Enterprise Manager Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> ;
+        organogram:salaryCostOfReports  "104358"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/department/mod>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Ministry of Defence"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Ministry of Defence"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Victory Guide Executive Assistant (Operational Delivery) in National Museum of the Royal Navy reporting to post 2 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/victory-guide> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/victory-guide> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/events-assistant> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/finance-assistant> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/development-officers> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Project Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "National Museum of the Royal Navy"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/4> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/3> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> ;
+        skos:prefLabel  "National Museum of the Royal Navy"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy>
+        a                     org:Organization , gov:PublicBody ;
+        rdfs:label            "National Museum of the Royal Navy"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/mod> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "National Museum of the Royal Navy"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/policy> ;
+        foaf:mbox      <mailto:director-general@nmrn.org.uk> ;
+        foaf:name      "Professor Dominic Tweddle" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> ;
+        foaf:phone     "02392 727574" .
+
+<http://reference.data.gov.uk/id/salary-range/15000-20000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15000 - £20000" ;
+        gov:lowerBound  15000 ;
+        gov:upperBound  20000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/4>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Project Manages and Curates HMS Victory"@en ;
+        rdfs:label       "Curator HMS Victory"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    4 ;
+        skos:prefLabel   "Curator HMS Victory"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director General Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> ;
+        organogram:salaryCostOfReports  "46586"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/victory-guide>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/17835-20676> ;
+        skos:prefLabel     "Victory Guide Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/finance-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15000-20000> ;
+        skos:prefLabel     "Finance Assistant Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/development-officers>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/development-officers> ;
+        skos:prefLabel     "Development Officers"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/events-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/events-assistant> ;
+        skos:prefLabel     "Events Assistant"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Enterprise Manager" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/salary-range/20000-25000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20000 - £25000" ;
+        gov:lowerBound  20000 ;
+        gov:upperBound  25000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/victory-guide>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/victory-guide> ;
+        skos:prefLabel     "Victory Guide"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade> .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/development-officers>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20000-25000> ;
+        skos:prefLabel     "Development Officers Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Ministry of Defence Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , org: , rdfs: .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/3>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Manages special projects such as HMS Caroline"@en ;
+        rdfs:label       "Project Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Project Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> .
+
+<mailto:andrew.baines@nmrn.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "andrew.baines@nmrn.org.uk" .
+
+<http://reference.data.gov.uk/id/salary-range/14000-20000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14000 - £20000" ;
+        gov:lowerBound  14000 ;
+        gov:upperBound  20000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:martin.race@nmrn.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> ;
+        foaf:phone     "02392 720740" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Professor Dominic Tweddle as Director General" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Financial Controller Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "Development Officers Executive Assistant (Operational Delivery) in National Museum of the Royal Navy reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/development-officers> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/executive-assistant> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> .
+
+<http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/2>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "These grades are not SCS1 posts, some of the posts are not full time and only employed 7 months of the year"@en , "Commercial Development"@en ;
+        rdfs:label       "Enterprise Manager"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy> , <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/unit/national-museum-of-the-royal-navy> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    2 ;
+        skos:prefLabel   "Enterprise Manager"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/1> .
+
+<mailto:martin.race@nmrn.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "martin.race@nmrn.org.uk" .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband/events-assistant>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14000-20000> ;
+        skos:prefLabel     "Events Assistant Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/payband> .
+
+<mailto:giles.gould@nmrn.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "giles.gould@nmrn.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/national-museum-of-the-royal-navy/post/4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        foaf:mbox      <mailto:andrew.baines@nmrn.org.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/national-museum-of-the-royal-navy> ;
+        foaf:phone     "02392 727565" .
+
+<http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/victory-guide> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/events-assistant> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/finance-assistant> , <http://reference.data.gov.uk/def/public-body/national-museum-of-the-royal-navy/grade/development-officers> ;
+        skos:prefLabel      "Ministry of Defence Junior Civil Service Grades"@en .

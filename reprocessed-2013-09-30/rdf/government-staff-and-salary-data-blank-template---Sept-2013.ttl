@@ -1,0 +1,499 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Operational Manager (Operational Delivery) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/10000-20000> ;
+        skos:prefLabel     "5.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/10000-20000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£10000 - £20000" ;
+        gov:lowerBound  10000 ;
+        gov:upperBound  20000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20001-25000> ;
+        skos:prefLabel     "4.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband> .
+
+<http://reference.data.gov.uk/id/department/dcms>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Culture, Media and Sport"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Culture, Media and Sport"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Project Manager (Operational Research) in Curatorial reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/curatorial> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25001-35000> ;
+        skos:prefLabel     "3.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance"@en ;
+        skos:prefLabel  "Finance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/35001-50000> ;
+        skos:prefLabel     "2.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/director>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Director"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        skos:prefLabel  "Director"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Operations Support Officer (Operational Delivery) in Front of house and estates reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.25 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/1.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/50001-60000> ;
+        skos:prefLabel     "1.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Project Manager (Programme and Project Management (PPM)) in Education reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Project Manager (Communications) in Communications reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/communications> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Leads the organisation, management and development of the museum .  Manages staff and finances in order to ensure financial viability and to provide the public with the highest standard of museum services.  Responsible for the implementation of the Corporate Plan. Designated an Accounting Officer by DCMS and answerable on matters relating to expenditure of government grant-in-aid."@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/director> , <http://reference.data.gov.uk/id/public-body/geffrye-museum> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/60000-64999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "G1" ;
+        skos:prefLabel   "Director"@en .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/1.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/2.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Operations Support Officer (Operational Delivery) in Front of house and estates reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates> .
+
+<http://reference.data.gov.uk/id/salary-range/25001-35000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25001 - £35000" ;
+        gov:lowerBound  25001 ;
+        gov:upperBound  35000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , org: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Project Manager (Programme and Project Management (PPM)) in Education reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/education> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Geffrye Museum"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dcms> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Geffrye Museum"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates> , <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/director> , <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/communications> , <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> , <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/curatorial> , <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/education> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/5.0> ;
+        skos:prefLabel     "5.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Communications Support Officer (Communications) in Communications reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/communications> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/4.0> ;
+        skos:prefLabel     "4.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade> .
+
+<mailto:ddewing@geffrye-museum.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "ddewing@geffrye-museum.org.uk" .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/3.0> ;
+        skos:prefLabel     "3.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Operations Support Officer (Operational Delivery) in Front of house and estates reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/1.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/2.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/4.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/3.0> , <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/5.0> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/2.0> ;
+        skos:prefLabel     "2.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/communications>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Communications"@en ;
+        skos:prefLabel  "Communications"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/1.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/geffrye-museum/payband/1.0> ;
+        skos:prefLabel     "1.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/curatorial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Curatorial"@en ;
+        skos:prefLabel  "Curatorial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Project Support Officer (Operational Research) in Curatorial reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/curatorial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:ddewing@geffrye-museum.org.uk> ;
+        foaf:name      "David Dewing" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> ;
+        foaf:phone     "020    7739 9893" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Project Support Officer (Operational Delivery) in Director reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/director> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "David Dewing as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Finance Support Officer (Finance) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Operations Support Officer (Operational Delivery) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.2 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , <http://reference.data.gov.uk/def/organogram> , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 Operational Manager (Operational Delivery) in Communications reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/communications> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 Operations Support Officer (Operational Delivery) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  6.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operations-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/education>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Education"@en ;
+        skos:prefLabel  "Education"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 Finance Officer (Finance) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:salaryCostOfReports  "1185000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/50001-60000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£50001 - £60000" ;
+        gov:lowerBound  50001 ;
+        gov:upperBound  60000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Project Manager (Operational Research) in Curatorial reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  1.5 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/project-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/curatorial> .
+
+<http://reference.data.gov.uk/id/salary-range/35001-50000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£35001 - £50000" ;
+        gov:lowerBound  35001 ;
+        gov:upperBound  50000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "1.0 Operational Manager (Operational Delivery) in Finance reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/1.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/finance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 Operational Manager (Operational Delivery) in Front of house and estates reporting to post G1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/geffrye-museum/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/geffrye-museum/post/G1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates> .
+
+<http://reference.data.gov.uk/id/public-body/geffrye-museum/unit/front-of-house-and-estates>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Front of house and estates"@en ;
+        skos:prefLabel  "Front of house and estates"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/geffrye-museum> .
+
+<http://reference.data.gov.uk/id/salary-range/20001-25000>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20001 - £25000" ;
+        gov:lowerBound  20001 ;
+        gov:upperBound  25000 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/geffrye-museum> .
+
+<http://reference.data.gov.uk/id/salary-range/60000-64999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£60000-£64999"@en ;
+        gov:lowerBound  60000 ;
+        gov:upperBound  64999 .

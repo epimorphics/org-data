@@ -1,0 +1,1812 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Director of Operations (CSN) is accountable for the performance of part of the IPS passport operations and has thematic responsibility for the transformation of the Customer Service Network, which is the public-facing aspect of IPS’ service delivery.\""@en ;
+        rdfs:label       "Director of Operations (Customer Service Network)"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person6> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS22" ;
+        skos:prefLabel   "Director of Operations (Customer Service Network)"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Operational Officer (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  269.7 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po3-ao> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/ao> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/seo> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/aa> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-7> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-6> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po2> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/heo> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/eo> ;
+        skos:prefLabel      "Home Office Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure13>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director Corporate Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person13> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/salary-range/15177-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15177 - £0" ;
+        gov:lowerBound  15177 ;
+        gov:upperBound  0 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Finance and Corporate Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:salaryCostOfReports  "3590000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/59>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Procurement Support Officer (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/38>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Strategy & Communication Manager (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  11.67 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-communication-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Operational Manager (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure8>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "\"Eliminated\" as Director of Integrity and Security" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS13> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person8> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Communications Support (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.97 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/46>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Organisation Transformation Officer (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  40.39 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/organisation-transformation-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "Her Majesty's Passport Office"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/ho> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "Her Majesty's Passport Office"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/ips-commercial-home-office-commercial-policy-assurance-srm> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/general-register-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/project-work> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/identity-and-security> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Operational Manager (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/12>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Organisation Transformation Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:salaryCostOfReports  "4960000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person14>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure14> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/id/salary-range/0-0>
+        a               gov:SalaryRange ;
+        rdfs:label      "£0-£0"@en ;
+        gov:lowerBound  0 ;
+        gov:upperBound  0 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person1> , <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> , <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        void:vocabulary       org: , rdfs: , <http://reference.data.gov.uk/def/central-government> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/54>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) IT Junior Support Officer (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  18.27 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-junior-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/aa>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/14043-15701> ;
+        skos:prefLabel     "AA Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Policy Adviser (Human Resources) in Human Resources reporting to post 1IPS18 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  8.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/policy-adviser> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person8>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS13> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure8> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "\"Eliminated\"" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Finance Officer (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  22.9 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS04>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The primary role of the GRO is to carry out the statutory functions of the Registrar General who is appointed by the Sovereign under the Great Seal of the UK. It was created in 1837 and has evolved over time to meet the challenges set by changes in society.  It oversees the system of civil registration in England and Wales (separate arrangements exist for Scotland and Northern Ireland). Also responsible for carrying out duties given by statute to the Home Secretary.  Ministerial oversight of the GRO is delegated by the Home Secretary to a Parliamentary Under Secretary of State within the Home Office.\""@en ;
+        rdfs:label       "Executive Director General Register Office & Deputy Registrar General"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person11> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/general-register-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS04" ;
+        skos:prefLabel   "Executive Director General Register Office & Deputy Registrar General"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Operations Directorate is responsible for the production of 5.3 million passports, 300,000 identity authentication interviews and 1.6 million birth, death and marriage certificates.The Directorate also provides a Passport Validation Service (PVS) to both public and private sector organisations. This service enables organisations to check the validity of passports presented to them against IPS records.\""@en ;
+        rdfs:label       "Executive Director Operations"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "2IPS08" ;
+        skos:prefLabel   "Executive Director Operations"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure16>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Project Work" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person16> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "\"Eliminated\" as Executive Director Integrity and Security" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Board Secretary (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/board-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/7>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Human Resources & Organisational Development Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:salaryCostOfReports  "980000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/ips-commercial-home-office-commercial-policy-assurance-srm>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "IPS Commercial; Home Office Commercial Policy, Assurance & SRM"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        skos:prefLabel  "IPS Commercial; Home Office Commercial Policy, Assurance & SRM"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/62>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Operational Officer (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/41>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Strategy & Communication Support Officer (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "11"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-communication-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Finance and Performance"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        skos:prefLabel  "Finance and Performance"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  74.39 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Human Resources"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        skos:prefLabel  "Human Resources"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Commercial"@en ;
+        skos:prefLabel  "Commercial"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/general-register-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "General Register Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS04> ;
+        skos:prefLabel  "General Register Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/department/ho>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Home Office"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Home Office"@en .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Organisation Transformation"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        skos:prefLabel  "Organisation Transformation"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po3-ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/16776-17614> ;
+        skos:prefLabel     "PO3 (AO) Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/49>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Estate Planning Executive (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/estate-planning-executive> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure3> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "\"Eliminated\"" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Officer (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  59.52 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/20235-24789>
+        a               gov:SalaryRange ;
+        rdfs:label      "£20235 - £24789" ;
+        gov:lowerBound  20235 ;
+        gov:upperBound  24789 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/15>
+        a                               qb:Observation ;
+        rdfs:label                      "Project Work Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure11>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "\"Eliminated\" as Executive Director General Register Office & Deputy Registrar General" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS04> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person11> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Corporate Strategy"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        skos:prefLabel  "Corporate Strategy"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Operations Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/57>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Procurement Officer (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/16776-17614>
+        a               gov:SalaryRange ;
+        rdfs:label      "£16776 - £17614" ;
+        gov:lowerBound  16776 ;
+        gov:upperBound  17614 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/36>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) HR Officer (Human Resources) in Human Resources reporting to post 1IPS18 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Finance Officer (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  12.73 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-7> ;
+        skos:prefLabel     "Grade 7"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/25297-30989> ;
+        skos:prefLabel     "HEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure6>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Operations (Customer Service Network)" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person6> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Project Work"@en ;
+        rdfs:label       "Project Work"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person16> , <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person15> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/project-work> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPSPROJ" ;
+        skos:prefLabel   "Project Work"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po2>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15177-0> ;
+        skos:prefLabel     "PO2 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Personal Secretary (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/personal-secretary> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/65>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Operational Officer (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  329.98 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/44>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Organisation Transformation Manager (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  24.84 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/organisation-transformation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/heo> ;
+        skos:prefLabel     "HEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "PO2 Junior Operational Support Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po2> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/10>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Corporate Strategy Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:salaryCostOfReports  "3000000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po2>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po2> ;
+        skos:prefLabel     "PO2"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/po3-ao> ;
+        skos:prefLabel     "PO3 (AO)"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person12>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure12> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/other> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/52>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO IT Services manager (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  29.41 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-services-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Junior Operational Support Officer (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  64.38 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person6>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure6> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Director of Applications and Registration is accountable for the transformation and performance of the Application Processing Network and Registration Services.\""@en ;
+        rdfs:label       "Director of Operations (Application Processing and Registration Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS23" ;
+        skos:prefLabel   "Director of Operations (Application Processing and Registration Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Corporate Services Director is accountable for the safe, secure, efficient and effective live running of all IPS passport, civil registration and IT administration systems, ensuring the technology both supports IPS's mission and core objectives, and operates in line with agreed service levels. The postholder is also responsible for Risk/Resilience policy, planning and standards as well as Health & Safety across the Agency. The postholder is responsible for Estates planning and maintenance.\""@en ;
+        rdfs:label       "Director Corporate Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person13> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS02" ;
+        skos:prefLabel   "Director Corporate Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> .
+
+<http://reference.data.gov.uk/id/salary-range/100000-104999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£100000-£104999"@en ;
+        gov:lowerBound  100000 ;
+        gov:upperBound  104999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Finance Manager (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Integrity and Security Directorate supports the secure, efficient and effective delivery of IPS’ business services. The Executive Director of Integrity and Security (EDIS) is accountable for integrity and assurance across the whole Agency, leading on standards, assurance, physical & information security, intelligence and counter fraud policies & investigations, counter terrorism, serious organised crime, national security, technology research and innovation. The EDIS is the primary spokesperson for the integrity and security of all of the work of IPS both inside government, with the media and with relevant special interest groups.\""@en ;
+        rdfs:label       "Executive Director Integrity and Security"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/identity-and-security> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "2IPS06" ;
+        skos:prefLabel   "Executive Director Integrity and Security"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure14>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director Commercial for IPS; Home Office Head of Commercial Policy, Assurance & SRM" ;
+        gov:fullTimeEquivalent  0.1 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person14> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/aa> ;
+        skos:prefLabel     "AA"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Paul Pugh as Chief Executive" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Chief of Staff (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/chief-of-staff> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Operations (Application Processing and Registration Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:salaryCostOfReports  "28360000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/60>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Procurement Officer (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/14043-15701>
+        a               gov:SalaryRange ;
+        rdfs:label      "£14043 - £15701" ;
+        gov:lowerBound  14043 ;
+        gov:upperBound  15701 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/39>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Strategy & Communication Officer (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  23.17 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-strategy-communication-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS10>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Director of Identity Assurance is accountable for the integrity of the UK passport.\""@en ;
+        rdfs:label       "Director of Identity Assurance & Senior Responsible Officer for the Passport Programme"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person9> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/identity-and-security> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS10" ;
+        skos:prefLabel   "Director of Identity Assurance & Senior Responsible Officer for the Passport Programme"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Operational Manager (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/54705-70504> ;
+        skos:prefLabel     "Grade 6 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/25297-30989>
+        a               gov:SalaryRange ;
+        rdfs:label      "£25297 - £30989" ;
+        gov:lowerBound  25297 ;
+        gov:upperBound  30989 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure9>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "\"Eliminated\" as Director of Identity Assurance & Senior Responsible Officer for the Passport Programme" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS10> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person9> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Communications Support Officer (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  2.58 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/47>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Organisation Transformation Support Officer (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  19.39 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/organisation-transformation-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/15386-18657> ;
+        skos:prefLabel     "AO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Human Resources and Organisational Development directorate’s overarching objective is to develop and engage IPS people to drive the delivery of business strategy by making IPS a great place to work. To achieve its vision, HR focusses on: becoming strategic enablers; understanding and consistently delivering superior customer service; enabling people to prosper to achieve organisational capability and their potential; promoting a diverse and inclusive culture with a common understanding of shared goals; and enabling operational excellence by making IPS a place where people want to work at all stages of their career.\""@en ;
+        rdfs:label       "Executive Director Human Resources & Organisational Development"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person7> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS18" ;
+        skos:prefLabel   "Executive Director Human Resources & Organisational Development"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "Paul Pugh" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Operational Manager (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/13>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Corporate Services Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:salaryCostOfReports  "3650000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Finance and Corporate Services Directorate provides: core corporate services to ensure IPS delivers its strategies and operational priorities in a way that is safe, secure, affordable and represents value for money, as well as ensuring risks are understood and managed well. Functional responsibilities include: Finance; IT Operations; Estates; Health and Safety; Identification Technologies; Knowledge and Information Management; Security; Risk; and Assurance. The posholder is also SIRO for IPS and responsible for ensuring the agency complies with legislative requirements on data handling and takes the lead on ensuring the integrity and security of our processes, products and services. \""@en ;
+        rdfs:label       "Executive Director Finance and Corporate Services"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/85000-89999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "2IPS01" ;
+        skos:prefLabel   "Executive Director Finance and Corporate Services"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/project-work>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Project Work"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        skos:prefLabel  "Project Work"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person15>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure15> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/55>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Procurement Manager (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-procurement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/34>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO HR Higher Executiver Officer (Human Resources) in Human Resources reporting to post 1IPS18 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-higher-executiver-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person9>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS10> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure9> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "\"Eliminated\"" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Corporate Strategy function holds IPS responsibility for strategy, policy, communications and marketing across all our products and services.\""@en ;
+        rdfs:label       "Executive Director Corporate Strategy"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person10> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS05" ;
+        skos:prefLabel   "Executive Director Corporate Strategy"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Finance Officer (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "26"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32602-39537> ;
+        skos:prefLabel     "SEO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Alistair Bridges as Executive Director Finance and Corporate Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Communications Manager (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "8"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/8>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Integrity and Security Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS13> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/63>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Operational Officer (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  19.17 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/seo> ;
+        skos:prefLabel     "SEO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/42>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Strategy & Communication Officer (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  3.65 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-strategy-communication-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS13>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "\"The Director of Integrity and Security is accountable for the security and integrity of Passports. This includes (a) in-contract monitoring, (b) setting standards and requirements for large-scale complex & novel procurements and (c) the development of HMG technical services e.g. cryptographical services, which allow electronic product signing and for UK Passports to be read electronically at the border.  The Director of Integrity and Security also has overall responsibility for the effective and efficient management of Security, Information Assurance, Special Projects and Integrity within IPS.\""@en ;
+        rdfs:label       "Director of Integrity and Security"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person8> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/identity-and-security> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS13" ;
+        skos:prefLabel   "Director of Integrity and Security"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Support Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  292.91 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person10>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure10> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/50>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 IT Manager (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  9.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "Alistair Bridges" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Support Officer (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  250.25 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/16>
+        a                               qb:Observation ;
+        rdfs:label                      "Project Work Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure12>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Executive Director Organisation Transformation" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person12> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/id/salary-range/15386-18657>
+        a               gov:SalaryRange ;
+        rdfs:label      "£15386 - £18657" ;
+        gov:lowerBound  15386 ;
+        gov:upperBound  18657 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director Integrity and Security Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/58>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Procurement Officer (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "10"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/37>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Strategy & Communication Manager (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "6"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-strategy-communication-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"Executive Director Commercial is Commercial Lead for IPS and a member of IPS Executive Committee. The postholder is also Home Office lead for Group Supplier Relationship Management; Commercial Policy and Procedure; Commercial Assurance and Commercial Lead for eBorders Programme.\""@en , "Shared resource with Home Office HQ so this post appears on both organograms. Postholder reports to 2FC01. Team salary costs shown in the Home Office organogram."@en ;
+        rdfs:label       "Director Commercial for IPS; Home Office Head of Commercial Policy, Assurance & SRM"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person14> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/ips-commercial-home-office-commercial-policy-assurance-srm> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1FC27" ;
+        skos:prefLabel   "Director Commercial for IPS; Home Office Head of Commercial Policy, Assurance & SRM"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Junior Assistant Finance Officer (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-assistant-finance-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure7>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Executive Director Human Resources & Organisational Development" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person7> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Communications Officer (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "12"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/communications-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/20235-24789> ;
+        skos:prefLabel     "EO Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/66>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Junior Operational Support Officer (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  119.28 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/45>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Organisation Transformation Officer (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  37.2 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-organisation-transformation-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "AA Junior Assistant Operational Support Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  354.99 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-assistant-operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/11>
+        a                               qb:Observation ;
+        rdfs:label                      "Executive Director General Register Office & Deputy Registrar General Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS04> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Director of Corporate Services"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        skos:prefLabel  "Director of Corporate Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/ao>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/ao> ;
+        skos:prefLabel     "AO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> ;
+        skos:prefLabel  "Operations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person13>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure13> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/identity-and-security>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Identity and Security"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS10> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS13> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS06> ;
+        skos:prefLabel  "Identity and Security"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/53>
+        a                              qb:Observation ;
+        rdfs:label                     "EO IT Support Officer (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  39.28 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/it-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 HR Manager (Human Resources) in Human Resources reporting to post 1IPS18 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.81 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person7>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure7> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Finance Manager (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "9"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/finance-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Organisation Transformation function owns all IPS change; it has responsibility for all IPS projects and programmes including the Civil Registration Programme (GRO), the Overseas Integration Programme, the Office Closure programme and the replacement of all core passport infrastructure and systems. All programme management, enterprise architecture, business analysis, business change and testing skilled resource are managed within this function.\""@en ;
+        rdfs:label       "Executive Director Organisation Transformation"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person12> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/0-0> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "1IPS03" ;
+        skos:prefLabel   "Executive Director Organisation Transformation"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/1> ;
+        void:vocabulary       rdfs: , qb: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure15>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Project Work" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person15> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po2> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/aa> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> , <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/ao> ;
+        skos:prefLabel      "Home Office Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "\"Vacant\" as Executive Director Operations" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Senior Communications Manager (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "3"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-communications-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/6>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Operations (Customer Service Network) Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:salaryCostOfReports  "15870000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/61>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Operational Manager (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/32602-39537>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32602 - £39537" ;
+        gov:lowerBound  32602 ;
+        gov:upperBound  39537 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/40>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Strategy & Communication Officer (Planning) in Corporate Strategy reporting to post 1IPS05 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "24"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/strategy-communication-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/corporate-strategy> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Operational Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  25.93 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-7>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/44656-57553> ;
+        skos:prefLabel     "Grade 7 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband> .
+
+<http://reference.data.gov.uk/id/salary-range/44656-57553>
+        a               gov:SalaryRange ;
+        rdfs:label      "£44656 - £57553" ;
+        gov:lowerBound  44656 ;
+        gov:upperBound  57553 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/48>
+        a                              qb:Observation ;
+        rdfs:label                     "PO3 (AO) Junior Organisation Transformation Officer (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/po3-ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-organisation-transformation-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<mailto:hqenquiries@ips.gsi.gov.uk>
+        a           vcard:Email ;
+        rdfs:label  "hqenquiries@ips.gsi.gov.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS08> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "\"Vacant\"" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior Operational Officer (Operational Delivery) in Operations reporting to post 1IPS22 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "20"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS22> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/14>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Commercial for IPS; Home Office Head of Commercial Policy, Assurance & SRM Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:salaryCostOfReports  "12180000"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Chief Executive's Office"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        skos:prefLabel  "Chief Executive's Office"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure10>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Executive Director Corporate Strategy" ;
+        gov:fullTimeEquivalent  0.9 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS05> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person10> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person16>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPSPROJ> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure16> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "N/D" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:salaryCostOfReports  1246608.06 .
+
+<http://reference.data.gov.uk/id/salary-range/85000-89999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£85000-£89999"@en ;
+        gov:lowerBound  85000 ;
+        gov:upperBound  89999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/56>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 7 Procurement manager (Procurement) in Commercial reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-7> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/procurement-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/procurement> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/commercial> .
+
+<http://reference.data.gov.uk/id/salary-range/54705-70504>
+        a               gov:SalaryRange ;
+        rdfs:label      "£54705 - £70504" ;
+        gov:lowerBound  54705 ;
+        gov:upperBound  70504 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/35>
+        a                              qb:Observation ;
+        rdfs:label                     "EO HR Executive Officer (Human Resources) in Human Resources reporting to post 1IPS18 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  4.21 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/hr-executive-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS18> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/human-resources> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Facilities Support Officer (Finance) in Finance and Performance reporting to post 2IPS01 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  25.54 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/facilities-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS01> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/finance-and-performance> .
+
+<http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "\"The Chief Executive has overall responsibility for the delivery of United Kingdom passports and civil registration in England and Wales.\""@en ;
+        rdfs:label       "Chief Executive"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> , <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/100000-104999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    "2IPS10" ;
+        skos:prefLabel   "Chief Executive"@en .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/grade-6> ;
+        skos:prefLabel     "Grade 6"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "N/D as Director of Operations (Application Processing and Registration Services" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "HEO Deputy Head of PCMT (Operational Delivery) in Chief Executive's Office reporting to post 2IPS10 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.83 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/heo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/deputy-head-of-pcmt> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/2IPS10> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/chief-executives-office> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/9>
+        a                               qb:Observation ;
+        rdfs:label                      "Director of Identity Assurance & Senior Responsible Officer for the Passport Programme Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS10> ;
+        organogram:salaryCostOfReports  "0"^^xsd:decimal .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/64>
+        a                              qb:Observation ;
+        rdfs:label                     "EO Operational Support Officer (Operational Delivery) in Operations reporting to post 1FC27 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  108.64 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/operational-support-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1FC27> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/43>
+        a                              qb:Observation ;
+        rdfs:label                     "Grade 6 Senior Organisation Transformation Manager (Planning) in Organisation Transformation reporting to post 1IPS03 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  5.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/grade-6> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-organisation-transformation-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/planning> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS03> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/organisation-transformation> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Home Office Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/salaryCostOfReports/1> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/organogram> , qb: , rdfs: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "AO Junior Operational Officer (Operational Delivery) in Operations reporting to post 1IPS23 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  700.66 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/ao> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/junior-operational-officer> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS23> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/eo>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/payband/eo> ;
+        skos:prefLabel     "EO"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/person11>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS04> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/tenure11> ;
+        foaf:mbox      <mailto:hqenquiries@ips.gsi.gov.uk> ;
+        foaf:name      "\"Eliminated\"" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office> ;
+        foaf:phone     "0207 035 4848 or Minicom 0207 035 4742" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts/51>
+        a                              qb:Observation ;
+        rdfs:label                     "SEO Senior IT Services manager (Information Technology) in Director of Corporate Services reporting to post 1IPS02 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/her-majestys-passport-office/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  23.33 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/her-majestys-passport-office/grade/seo> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/senior-it-services-manager> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/information-technology> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/post/1IPS02> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/her-majestys-passport-office/unit/director-of-corporate-services> .

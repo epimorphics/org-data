@@ -1,0 +1,847 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix at:    <http://environment.data.gov.uk/public-register/def/applicant-type/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix organogram: <http://reference.data.gov.uk/def/organogram/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gov:   <http://reference.data.gov.uk/def/central-government/> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade>
+        a                   void:Dataset , skos:ConceptScheme ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/1.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Grades"@en .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband>
+        a                   skos:ConceptScheme , void:Dataset ;
+        skos:hasTopConcept  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/1.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/3.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/5.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/2.0> , <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/4.0> ;
+        skos:prefLabel      "Department for Culture, Media and Sport Junior Civil Service Paybands"@en .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping>
+        a                     gov:PublicBody , org:Organization ;
+        rdfs:label            "UK Anti-Doping"@en ;
+        gov:parentDepartment  <http://reference.data.gov.uk/id/department/dcms> ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/public-body> ;
+        skos:prefLabel        "UK Anti-Doping"@en ;
+        org:hasUnit           <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> .
+
+<http://reference.data.gov.uk/id/department/dcms>
+        a               org:Organization , gov:PublicBody , gov:Department ;
+        rdfs:label      "Department for Culture, Media and Sport"@en ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/department> ;
+        skos:prefLabel  "Department for Culture, Media and Sport"@en .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/5.0> ;
+        skos:prefLabel     "5.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/32>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Medicine) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/medicine> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person1>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure1> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@ukad.org.uk> ;
+        foaf:name      "Andrew Parkinson" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> ;
+        foaf:phone     2078423450 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/17>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Law) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/4.0> ;
+        skos:prefLabel     "4.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts>
+        a                     void:Dataset , qb:DataSet ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Junior Post FTEs at 2013-09-30 Dataset"@en ;
+        qb:structure          organogram:junior-posts ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/1> ;
+        void:vocabulary       rdfs: , <http://reference.data.gov.uk/def/organogram> , qb: .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Director/Executive responsibilities"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person5> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/65000-69999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    6 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/3.0> ;
+        skos:prefLabel     "3.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/4>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Programme and Project Management (PPM)) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure1>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Andrew Parkinson as Chief Executive Officer" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person1> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/11>
+        a                              qb:Observation ;
+        rdfs:label                     "1.0 BLANK (Communications) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/1.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/24>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Operational Research) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/2.0> ;
+        skos:prefLabel     "2.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/40000-50495>
+        a               gov:SalaryRange ;
+        rdfs:label      "£40000 - £50495" ;
+        gov:lowerBound  40000 ;
+        gov:upperBound  50495 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/1>
+        a                               qb:Observation ;
+        rdfs:label                      "Chief Executive Officer Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> ;
+        organogram:salaryCostOfReports  "285016"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/salary-range/75000-79999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£75000-£79999"@en ;
+        gov:lowerBound  75000 ;
+        gov:upperBound  79999 .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/1.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-grade/Grade> ;
+        <http://reference.data.gov.uk/def/civil-service-payband/payBand>
+                <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/1.0> ;
+        skos:prefLabel     "1.0"@en ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade> .
+
+<http://reference.data.gov.uk/id/salary-range/90000-94999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£90000-£94999"@en ;
+        gov:lowerBound  90000 ;
+        gov:upperBound  94999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/31>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Operational Research) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/id/salary-range/70000-74999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£70000-£74999"@en ;
+        gov:lowerBound  70000 ;
+        gov:upperBound  74999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/9>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Finance) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/16>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Delivery) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "5"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/29>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 BLANK (Operational Research) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Director/Executive responsibilities"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person2> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/75000-79999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    5 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/3>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Human Resources) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/10>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Operational Delivery) in Executive reporting to post 1 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/23>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Delivery) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Executive"@en ;
+        gov:hasPost     <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> ;
+        skos:prefLabel  "Executive"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person5>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure5> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        foaf:mbox      <mailto:info@ukad.org.uk> ;
+        foaf:name      "Vacant" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> ;
+        foaf:phone     "n/a" .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Business Services"@en ;
+        skos:prefLabel  "Business Services"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/30>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 BLANK (Operational Research) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/8>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Finance) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/finance> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure5>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Vacant as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person5> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/15>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Operational Delivery) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/28>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Research) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-research> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/5.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/40000-50495> ;
+        skos:prefLabel     "5.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/5>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:salaryCostOfReports  "273300"^^xsd:decimal .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Director/Executive responsibilities"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person4> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/uk-anti-doping> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/70000-74999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    4 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/2>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Human Resources) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/4.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/32500-40804> ;
+        skos:prefLabel     "4.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/22>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Operational Delivery) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/3.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/27000-33153> ;
+        skos:prefLabel     "3.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person4>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure4> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        foaf:mbox      <mailto:info@ukad.org.uk> ;
+        foaf:name      "Nicole Sapstead" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> ;
+        foaf:phone     2078423450 .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Communications and Education"@en ;
+        skos:prefLabel  "Communications and Education"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/uk-anti-doping> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/2.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/22500-27542> ;
+        skos:prefLabel     "2.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/7>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 BLANK (Knowledge and Information Management (KIM)) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/kim> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure4>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Nicole Sapstead as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person4> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband/1.0>
+        a                  <http://reference.data.gov.uk/def/civil-service-payband/PayBand> ;
+        gov:salaryRange    <http://reference.data.gov.uk/id/salary-range/19000-21422> ;
+        skos:prefLabel     "1.0 Payband@en}" ;
+        skos:topConceptof  <http://reference.data.gov.uk/def/public-body/uk-anti-doping/payband> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/14>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 BLANK (Communications) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.8 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/27>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Medicine) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/medicine> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3>
+        a                gov:SeniorCivilServicePost , gov:CivilServicePost ;
+        rdfs:comment     "Director/Executive responsibilities"@en ;
+        rdfs:label       "Director"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person3> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/65000-69999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS1> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    3 ;
+        skos:prefLabel   "Director"@en ;
+        org:reportsTo    <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/4>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:salaryCostOfReports  537467.09 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/1>
+        a                              qb:Observation ;
+        rdfs:label                     "1.0 BLANK (Human Resources) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  0.6 ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/1.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/human-resources> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Legal"@en ;
+        skos:prefLabel  "Legal"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/21>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Operational Delivery) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person3>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure3> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        foaf:mbox      <mailto:info@ukad.org.uk> ;
+        foaf:name      "Nicola Newman" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> ;
+        foaf:phone     2078423450 .
+
+<http://reference.data.gov.uk/id/salary-range/32500-40804>
+        a               gov:SalaryRange ;
+        rdfs:label      "£32500 - £40804" ;
+        gov:lowerBound  32500 ;
+        gov:upperBound  40804 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/19>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Law) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations>
+        a               org:OrganizationalUnit ;
+        rdfs:label      "Operations"@en ;
+        skos:prefLabel  "Operations"@en ;
+        org:unitOf      <http://reference.data.gov.uk/id/public-body/uk-anti-doping> .
+
+<http://reference.data.gov.uk/id/salary-range/19000-21422>
+        a               gov:SalaryRange ;
+        rdfs:label      "£19000 - £21422" ;
+        gov:lowerBound  19000 ;
+        gov:upperBound  21422 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/6>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Operational Delivery) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure3>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Nicola Newman as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person3> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/id/salary-range/22500-27542>
+        a               gov:SalaryRange ;
+        rdfs:label      "£22500 - £27542" ;
+        gov:lowerBound  22500 ;
+        gov:upperBound  27542 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/13>
+        a                              qb:Observation ;
+        rdfs:label                     "2.0 BLANK (Communications) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/2.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/26>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Delivery) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "2"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/3>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:salaryCostOfReports  331427.48 .
+
+<http://reference.data.gov.uk/id/salary-range/27000-33153>
+        a               gov:SalaryRange ;
+        rdfs:label      "£27000 - £33153" ;
+        gov:lowerBound  27000 ;
+        gov:upperBound  33153 ;
+        <http://reference.data.gov.uk/def/reference/uriSet>
+                <http://reference.data.gov.uk/id/salary-range> ;
+        foaf:page       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/20>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Delivery) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/33>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Operational Delivery) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports>
+        a                     qb:DataSet , void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Salary Cost of Reports at 2013-09-30 Dataset" ;
+        qb:structure          organogram:salary-cost-of-reports ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/1> ;
+        void:vocabulary       qb: , rdfs: , <http://reference.data.gov.uk/def/organogram> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person2>
+        a              foaf:Person ;
+        gov:holdsPost  <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        gov:tenure     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure2> ;
+        <http://reference.data.gov.uk/def/civil-service-profession/profession>
+                <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        foaf:mbox      <mailto:info@ukad.org.uk> ;
+        foaf:name      "Graham Arthur" ;
+        foaf:page      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> ;
+        foaf:phone     2078423450 .
+
+<mailto:info@ukad.org.uk>
+        a           vcard:Email ;
+        rdfs:label  "info@ukad.org.uk" .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/18>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Law) in Legal reporting to post 5 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/law> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/legal> .
+
+<http://reference.data.gov.uk/id/salary-range/65000-69999>
+        a               gov:SalaryRange ;
+        rdfs:label      "£65000-£69999"@en ;
+        gov:lowerBound  65000 ;
+        gov:upperBound  69999 .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/5>
+        a                              qb:Observation ;
+        rdfs:label                     "5.0 BLANK (Programme and Project Management (PPM)) in Business Services reporting to post 6 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/5.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/ppm> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/6> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/business-services> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure2>
+        a                       gov:Tenure , org:Membership ;
+        rdfs:label              "Graham Arthur as Director" ;
+        gov:fullTimeEquivalent  1.0 ;
+        gov:post                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        gov:postHolder          <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person2> ;
+        foaf:page               <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/12>
+        a                              qb:Observation ;
+        rdfs:label                     "4.0 BLANK (Communications) in Communications and Education reporting to post 3 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "1"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/4.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/communications> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/3> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/communications-and-education> .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping>
+        a                     void:Dataset ;
+        dct:license           <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/> ;
+        dct:temporal          <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        dct:title             "Department for Culture, Media and Sport Organogram at 2013-09-30 Dataset"@en ;
+        void:exampleResource  <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/tenure1> , <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person1> ;
+        void:subset           <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> , <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        void:vocabulary       <http://reference.data.gov.uk/def/central-government> , rdfs: , org: .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts/25>
+        a                              qb:Observation ;
+        rdfs:label                     "3.0 BLANK (Operational Delivery) in Operations reporting to post 4 FTE at 2013-09-30"@en ;
+        qb:dataSet                     <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/juniorPosts> ;
+        organogram:date                <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:fullTimeEquivalent  "4"^^xsd:decimal ;
+        organogram:grade               <http://reference.data.gov.uk/def/public-body/uk-anti-doping/grade/3.0> ;
+        organogram:job                 <http://reference.data.gov.uk/def/civil-service-job/blank> ;
+        organogram:profession          <http://reference.data.gov.uk/def/civil-service-profession/operational-delivery> ;
+        organogram:reportingTo         <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/4> ;
+        organogram:unit                <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/operations> .
+
+<http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/1>
+        a                gov:CivilServicePost , gov:SeniorCivilServicePost ;
+        rdfs:comment     "Accounting Officer"@en ;
+        rdfs:label       "Chief Executive Officer"@en ;
+        gov:heldBy       <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/person1> ;
+        gov:postIn       <http://reference.data.gov.uk/id/public-body/uk-anti-doping/unit/executive> , <http://reference.data.gov.uk/id/public-body/uk-anti-doping> ;
+        gov:salaryRange  <http://reference.data.gov.uk/id/salary-range/90000-94999> ;
+        <http://reference.data.gov.uk/def/civil-service-grade/grade>
+                <http://reference.data.gov.uk/def/civil-service-grade/SCS2> ;
+        <http://reference.data.gov.uk/def/civil-service-post-status/postStatus>
+                <http://reference.data.gov.uk/def/civil-service-post-status/current> ;
+        skos:notation    1 ;
+        skos:prefLabel   "Chief Executive Officer"@en .
+
+<http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports/2>
+        a                               qb:Observation ;
+        rdfs:label                      "Director Salary Cost of Reports on 2013-09-30"@en ;
+        qb:dataSet                      <http://reference.data.gov.uk/organogram/2013-09-30/uk-anti-doping/salaryCostOfReports> ;
+        organogram:date                 <http://reference.data.gov.uk/id/day/2013-09-30> ;
+        organogram:post                 <http://reference.data.gov.uk/id/public-body/uk-anti-doping/post/5> ;
+        organogram:salaryCostOfReports  "253875"^^xsd:decimal .
